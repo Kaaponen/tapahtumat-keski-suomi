@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import { dayKey, helsinkiIso, inferYear, isoDate } from '../shared/time';
+import { dayKey, finnishWeekday, helsinkiIso, inferYear, isValidDate, isoDate } from '../shared/time';
 import type { RawEvent, Source } from '../shared/types';
 
 const BASE = 'https://www.jklteatteri.fi';
@@ -9,7 +9,7 @@ export const JKLTEATTERI_LIST_URL = `${BASE}/kaupunginteatteri/ohjelmisto`;
 const SKIP = new Set(['muut-tapahtumat']);
 const SHOW_PATH = /^\/kaupunginteatteri\/ohjelmisto\/([^/]+)\/?$/;
 /** Esityskerran rivi alkaa viikonpäivällä: "pe 25.9. klo 18.30", "ma 16.11.2026 klo 18.30". */
-const LINE = /^(?:ma|ti|ke|to|pe|la|su) (\d{1,2})\.(\d{1,2})\.(\d{4})?/i;
+const LINE = /^(ma|ti|ke|to|pe|la|su) (\d{1,2})\.(\d{1,2})\.(\d{4})?/i;
 /** "klo 18.30", "klo 18", "klo 10–12". */
 const KLO = /klo\s*(\d{1,2})(?:[.:](\d{2}))?(?:\s*[–-]\s*(\d{1,2})(?:[.:](\d{2}))?)?/gi;
 
@@ -52,9 +52,10 @@ export function parseTeatteriShow(html: string, url: string, today: string): Raw
   for (const line of textLines(root.html() ?? '')) {
     const date = line.match(LINE);
     if (!date) continue;
-    const d = Number(date[1]);
-    const m = Number(date[2]);
-    const y = date[3] ? Number(date[3]) : inferYear(m, d, today);
+    const d = Number(date[2]);
+    const m = Number(date[3]);
+    const y = date[4] ? Number(date[4]) : inferYear(m, d, today, finnishWeekday(date[1]));
+    if (!isValidDate(y, m, d)) continue;
     for (const t of line.matchAll(KLO)) {
       const hh = Number(t[1]);
       const mm = Number(t[2] ?? 0);

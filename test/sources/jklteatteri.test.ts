@@ -79,6 +79,17 @@ describe('parseTeatteriShow', () => {
     ]);
   });
 
+  it('mennyt esitys tulkitaan viikonpäivän mukaan menneeksi, ei ensi vuodelle', () => {
+    const html = SHOW.replace('<strong>pe 16.10. </strong>klo 18.30&nbsp;', '<strong>pe 25.9. </strong>klo 18.30&nbsp;');
+    expect(parseTeatteriShow(html, AINO, '2026-12-01')[0].start).toBe('2026-09-25T18:30:00+03:00');
+  });
+
+  it('ohittaa mahdottoman päivämäärän', () => {
+    const html = SHOW.replace('<strong>ke 13.1. </strong>klo 10–12', '<strong>la 31.2. </strong>klo 12');
+    expect(parseTeatteriShow(html, AINO, TODAY).map((e) => e.start)).not.toContainEqual(expect.stringContaining('-02-31'));
+    expect(parseTeatteriShow(html, AINO, TODAY)).toHaveLength(4);
+  });
+
   it('ei palauta mitään ilman otsikkoa', () => {
     expect(parseTeatteriShow('<html><body><div class="main">pe 16.10. klo 18</div></body></html>', AINO, TODAY)).toEqual([]);
   });

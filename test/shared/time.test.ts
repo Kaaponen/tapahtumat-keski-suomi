@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
-  addDays, dayKey, helsinkiIso, inferYear, isDateOnly, isoDate, localTime,
+  addDays, dayKey, finnishWeekday, helsinkiIso, inferYear, isDateOnly, isValidDate, isoDate, localTime,
   lastDayKey, parseDurationMinutes, parseFinnishDate, parseTimes,
 } from '../../src/shared/time';
 
@@ -112,5 +112,31 @@ describe('inferYear', () => {
   it('tammikuussa joulukuun loppu on edellistä vuotta', () => {
     expect(inferYear(12, 28, '2027-01-10')).toBe(2026);
     expect(inferYear(1, 20, '2027-01-10')).toBe(2027);
+  });
+});
+
+describe('inferYear viikonpäivällä', () => {
+  it('mennyt päivä pysyy menneenä, kun viikonpäivä täsmää (ei haamuesitystä ensi vuodelle)', () => {
+    expect(inferYear(9, 25, '2026-12-01', 5)).toBe(2026);
+    expect(inferYear(9, 25, '2026-12-01')).toBe(2027);
+  });
+  it('tuleva päivä löytyy viikonpäivän avulla', () => {
+    expect(inferYear(1, 15, '2026-10-11', 5)).toBe(2027);
+  });
+  it('ristiriitainen viikonpäivä palaa tavalliseen päättelyyn', () => {
+    expect(inferYear(10, 16, '2026-10-11', 0)).toBe(2026);
+  });
+});
+
+describe('finnishWeekday ja isValidDate', () => {
+  it('lyhenne -> viikonpäivän numero (su = 0)', () => {
+    expect(finnishWeekday('pe')).toBe(5);
+    expect(finnishWeekday('Su')).toBe(0);
+    expect(finnishWeekday('xx')).toBeUndefined();
+  });
+  it('tunnistaa mahdottomat päivämäärät', () => {
+    expect(isValidDate(2027, 2, 31)).toBe(false);
+    expect(isValidDate(2027, 13, 1)).toBe(false);
+    expect(isValidDate(2028, 2, 29)).toBe(true);
   });
 });

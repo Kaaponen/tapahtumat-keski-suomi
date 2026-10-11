@@ -77,6 +77,30 @@ describe('parseJelmu', () => {
     expect(events[3].venue).toBeUndefined();
   });
 
+  it('usean esiintyjän otsikko: nimet pilkulla, esiintymisaika pääesiintyjältä', () => {
+    const html = item(`<a href="https://www.jelmu.net/event/vilkkumaa" class="woocommerce-LoopProduct-link">
+      <p class="datetime"><span>la</span><span class="date">7.11.</span></p>
+      <div><h2 class="woocommerce-loop-product__title"><span> Maija Vilkkumaa (20:00) </span> <span> M (19:00) </span></h2>
+      <div><span class="doors">Ovet 18:00</span></div></div></a>`);
+    expect(parseJelmu(html, TODAY)[0]).toMatchObject({
+      title: 'Maija Vilkkumaa, M',
+      start: '2026-11-07T18:00:00+02:00',
+      description: 'Ovet 18:00 · Keikka alkaa 20:00',
+    });
+  });
+
+  it('ohittaa mahdottoman päivän ja hylkää kellonajan 24:00', () => {
+    const bad = item(`<a href="https://www.jelmu.net/event/x" class="woocommerce-LoopProduct-link">
+      <p class="datetime"><span>la</span><span class="date">31.2.</span></p>
+      <div><h2 class="woocommerce-loop-product__title"><span>X (21:00)</span></h2></div></a>`);
+    const late = item(`<a href="https://www.jelmu.net/event/y" class="woocommerce-LoopProduct-link">
+      <p class="datetime"><span>la</span><span class="date">21.11.</span></p>
+      <div><h2 class="woocommerce-loop-product__title"><span>Y (24:00)</span></h2></div></a>`);
+    expect(parseJelmu(bad + late, TODAY)).toEqual([
+      expect.objectContaining({ title: 'Y', start: '2026-11-21', allDay: true }),
+    ]);
+  });
+
   it('ohittaa perutut keikat', () => {
     const html = item(`<a href="https://www.jelmu.net/event/etta" class="woocommerce-LoopProduct-link">
       <p class="datetime"><span>pe</span><span class="date">23.10.</span></p>
@@ -90,7 +114,7 @@ describe('parseJelmu', () => {
     for (const e of events) {
       expect(e.url).toMatch(/^https:\/\/www\.jelmu\.net\/event\//);
       expect(['Lutakko', 'Musta kynnys']).toContain(e.venue);
-      expect(e.title).not.toMatch(/\(\d{1,2}[:.]\d{2}\)$/);
+      expect(e.title).not.toMatch(/\(\d/);
     }
   });
 });

@@ -54,12 +54,32 @@ export function addDays(day: string, n: number): string {
   return new Date(Date.UTC(y, m - 1, d + n)).toISOString().slice(0, 10);
 }
 
+export function isValidDate(y: number, m: number, d: number): boolean {
+  const date = new Date(Date.UTC(y, m - 1, d));
+  return date.getUTCFullYear() === y && date.getUTCMonth() === m - 1 && date.getUTCDate() === d;
+}
+
+const FI_WEEKDAYS = ['su', 'ma', 'ti', 'ke', 'to', 'pe', 'la'];
+
+/** "pe" -> 5 (su = 0, kuten Date.getUTCDay). */
+export function finnishWeekday(s: string): number | undefined {
+  const i = FI_WEEKDAYS.indexOf(s.trim().toLowerCase());
+  return i === -1 ? undefined : i;
+}
+
 /**
- * Vuosi päivämäärälle, jossa sitä ei ole ("16.10."): aikaisin vuosi (edellinen, kuluva, seuraava),
- * jolla päivä on enintään 60 päivää menneisyydessä.
+ * Vuosi päivämäärälle, jossa sitä ei ole ("pe 16.10."). Jos viikonpäivä tunnetaan, valitaan
+ * vuosista (edellinen, kuluva, seuraava) se, jolla viikonpäivä täsmää: näin sivulla yhä näkyvä
+ * mennyt esitys pysyy menneenä. Muuten aikaisin vuosi, jolla päivä on enintään 60 päivää menneisyydessä.
  */
-export function inferYear(m: number, d: number, today: string): number {
+export function inferYear(m: number, d: number, today: string, weekday?: number): number {
   const y = Number(today.slice(0, 4));
+  if (weekday !== undefined) {
+    const match = [y - 1, y, y + 1].find(
+      (year) => isValidDate(year, m, d) && new Date(Date.UTC(year, m - 1, d)).getUTCDay() === weekday,
+    );
+    if (match !== undefined) return match;
+  }
   const cutoff = addDays(today, -60);
   return [y - 1, y].find((year) => isoDate(year, m, d) >= cutoff) ?? y + 1;
 }
