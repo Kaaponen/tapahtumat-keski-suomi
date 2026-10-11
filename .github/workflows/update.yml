@@ -1,0 +1,70 @@
+name: Päivitä ja julkaise
+on:
+  schedule:
+    - cron: '0 3,9,15 * * *' # UTC; Suomessa noin klo 6, 12 ja 18 (talvella tuntia aiemmin)
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - id: run
+        run: npm run scrape
+      - name: Tallenna data repoon
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/events.json data/raw
+          git diff --cached --quiet || git commit -m "data: päivitä tapahtumat"
+          git push
+      - name: Ilmoita toistuvasti epäonnistuvista lähteistä
+        if: steps.run.outputs.failing != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FAILING: ${{ steps.run.outputs.failing }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          for id in $FAILING; do
+            title="Lähde epäonnistuu: $id"
+            existing=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq 'length')
+            if [ "$existing" = "0" ]; then
+              gh issue create --title "$title" --body "Lähde **$id** on epäonnistunut vähintään 3 kertaa peräkkäin. Sivustolla näytetään sen viimeisimmät onnistuneet tiedot. Ajo: $RUN_URL"
+            fi
+          done
+
+  deploy:
+    needs: scrape
+    if: always() && (needs.scrape.result == 'success' || needs.scrape.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: dist }
+      - id: deployment
+        uses: actions/deploy-pages@v4
