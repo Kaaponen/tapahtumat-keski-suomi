@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'preact/hooks';
 import type { Event } from '../../shared/types';
 import { dayKey } from '../../shared/time';
 import type { ListItem } from '../logic/grouping';
-import { formatTime, shortDate } from '../logic/format';
+import { formatTime, seriesHeading, shortDate } from '../logic/format';
 import { AddToCalendar } from './CalendarMenu';
 
 /** Estää taustasivun rullauksen; palauttaa funktion, joka purkaa eston. */
@@ -69,7 +69,7 @@ export function EventDetail({ item, sourceName, onClose }: {
         {e.description && <p class="detail-description">{e.description}</p>}
         {item.series.length > 1 && (
           <div class="detail-series" role="group" aria-labelledby="detail-series-title">
-            <h3 id="detail-series-title">Kaikki esitykset</h3>
+            <h3 id="detail-series-title">{seriesHeading(item.event)}</h3>
             {item.series.map((s) => (
               <button
                 key={s.id}

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Event } from '../../src/shared/types';
-import { dayLabel, formatAge, formatTime, seriesSummary, shortDate } from '../../src/web/logic/format';
+import { dayLabel, formatAge, formatTime, isPerformance, seriesHeading, seriesSummary, shortDate } from '../../src/web/logic/format';
 
 const ev = (p: Partial<Event> & Pick<Event, 'start'>): Event => ({
   id: 'x', title: 'x', allDay: false, url: 'u', categories: [], sources: [], ...p,
@@ -20,9 +20,24 @@ describe('format', () => {
     expect(formatTime(ev({ start: '2026-10-14', allDay: true }))).toBe('Koko päivä');
     expect(formatTime(ev({ start: '2026-10-04', end: '2026-11-01', allDay: true }))).toBe('4.10.–1.11.');
   });
-  it('seriesSummary', () => {
-    expect(seriesSummary([ev({ start: '2026-10-15T19:00:00+03:00' }), ev({ start: '2026-11-30T19:00:00+02:00' })]))
+  it('seriesSummary: esitys', () => {
+    const show = (start: string) => ev({ start, categories: ['Teatteri'] });
+    expect(seriesSummary([show('2026-10-15T19:00:00+03:00'), show('2026-11-30T19:00:00+02:00')]))
       .toBe('2 esitystä 15.10.–30.11.');
+  });
+  it('seriesSummary: muu tapahtuma', () => {
+    const meetup = (start: string) => ev({ start, categories: ['Näyttelyt'] });
+    expect(seriesSummary([meetup('2026-10-15T13:00:00+03:00'), meetup('2026-11-30T13:00:00+02:00')]))
+      .toBe('2 tapahtumaa 15.10.–30.11.');
+  });
+  it('isPerformance ja seriesHeading', () => {
+    expect(isPerformance(['Musiikki'])).toBe(true);
+    expect(isPerformance(['Stand up', 'Muut'])).toBe(true);
+    expect(isPerformance(['Tanssi'])).toBe(true);
+    expect(isPerformance(['Ruoka ja juoma'])).toBe(false);
+    expect(isPerformance([])).toBe(false);
+    expect(seriesHeading(ev({ start: '2026-10-15', categories: ['Teatteri'] }))).toBe('Kaikki esitykset');
+    expect(seriesHeading(ev({ start: '2026-10-15', categories: ['Muut'] }))).toBe('Kaikki tapahtumat');
   });
   it('formatAge', () => {
     const now = new Date('2026-10-14T12:00:00Z');
