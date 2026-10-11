@@ -43,6 +43,28 @@ describe('mergeGroup', () => {
     const a = raw({ source: 'keikkalista', title: 'X', start: '2026-11-20', allDay: true });
     expect(mergeGroup([normalizeEvent(a)])).toMatchObject({ start: '2026-11-20', allDay: true });
   });
+
+  it('teatterin oma lähde voittaa kokoavan kalenterin, osoite täydentyy kalenterista', () => {
+    const kse = raw({
+      source: 'keskisuomievents', title: 'Aino A. -näytelmä Jyväskylän kaupunginteatterissa',
+      start: '2026-10-17T10:00:00.000Z', venue: 'Jyväskylän kaupunginteatteri',
+      address: 'Vapaudenkatu 36, Jyväskylä, Suomi', url: 'https://kse/2',
+    });
+    const th = raw({
+      source: 'jklteatteri', title: 'Aino A.', start: '2026-10-17T13:00:00+03:00',
+      venue: 'Jyväskylän kaupunginteatteri', url: 'https://th/1', ticketUrl: 'https://www.lippu.fi/eventseries/name-1',
+    });
+    expect(mergeGroup([kse, th].map(normalizeEvent))).toMatchObject({
+      title: 'Aino A.',
+      url: 'https://th/1',
+      ticketUrl: 'https://www.lippu.fi/eventseries/name-1',
+      address: 'Vapaudenkatu 36, Jyväskylä, Suomi',
+      sources: [
+        { source: 'jklteatteri', url: 'https://th/1' },
+        { source: 'keskisuomievents', url: 'https://kse/2' },
+      ],
+    });
+  });
 });
 
 describe('stableId', () => {

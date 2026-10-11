@@ -4,7 +4,9 @@ Jyväskylän seudun tapahtumat yhdessä listassa ilman tuplia. Tapahtuman voi li
 
 ## Lähteet
 
-keskisuomievents.fi (sisältää kalenteri.jyvaskyla.fi:n ja visitjyvaskyla.fi:n tapahtumat), paviljonki.fi, peurunka.fi, keikkalista.fi.
+keskisuomievents.fi (sisältää kalenteri.jyvaskyla.fi:n ja visitjyvaskyla.fi:n tapahtumat), paviljonki.fi, peurunka.fi, jelmu.net (Lutakko ja Musta kynnys), jklteatteri.fi (kaupunginteatteri) ja keikkalista.fi.
+
+Ei kerätä: menoinfo (robots.txt kieltää), meteli.net (estää botit), terassikesa.fi (ei rajapintaa), ilokivi.fi (ei tapahtumalistaa). Perustelut: `docs/superpowers/specs/2026-10-11-vaihe2a-lahteet-design.md`.
 
 ## Kehitys
 
