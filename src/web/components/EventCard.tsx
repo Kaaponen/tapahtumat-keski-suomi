@@ -9,7 +9,7 @@ export function EventCard({ item, sourceName, onOpen }: {
 }) {
   const e = item.event;
   return (
-    <article
+    <div
       class="card"
       role="button"
       tabIndex={0}
@@ -31,6 +31,6 @@ export function EventCard({ item, sourceName, onOpen }: {
         </p>
       </div>
       <QuickAddButton event={e} />
-    </article>
+    </div>
   );
 }
