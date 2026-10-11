@@ -57,4 +57,16 @@ export const DEDUPE_CASES: DedupeCase[] = [
     b: raw({ title: 'Peter Pan', start: '2026-11-14T19:00:00+02:00', venue: 'Jyväskylän kaupunginteatteri' }),
     same: false,
   },
+  {
+    name: 'Yleinen nimi (Isänpäivälounas), eri osoitteet ja kaupungit',
+    a: raw({ title: 'Isänpäivälounas', start: '2026-11-08T12:00:00+02:00', venue: 'Jyväskylä', address: 'Hannikaisenkatu 39, Jyväskylä' }),
+    b: raw({ source: 'peurunka', title: 'Isänpäivälounas', start: '2026-11-08T12:00:00+02:00', venue: 'Peurunka – Ravintola', address: 'Peurungantie 85 Laukaa' }),
+    same: false,
+  },
+  {
+    name: 'Yleinen nimi, kaksi eri ravintolaa samassa kaupungissa',
+    a: raw({ title: 'Isänpäivälounas', start: '2026-11-08T12:00:00+02:00', venue: 'Jyväskylä', address: 'Hannikaisenkatu 39, Jyväskylä' }),
+    b: raw({ title: 'Isänpäivälounas Savutuvan Apajalla', start: '2026-11-08T12:30:00+02:00', venue: 'Jyväskylä', address: 'Opinsaunankiuas 1, Jyväskylä, Suomi' }),
+    same: false,
+  },
 ];

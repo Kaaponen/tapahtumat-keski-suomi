@@ -41,3 +41,14 @@ describe('groupDuplicates', () => {
     expect(groupDuplicates(events)).toHaveLength(1);
   });
 });
+
+describe('tyhjät nimet', () => {
+  it('nimeä ilman merkitseviä merkkejä ei yhdistetä', () => {
+    const a = normalizeEvent(raw({ title: 'K18', start: '2026-11-08T12:00:00+02:00' }));
+    const b = normalizeEvent(raw({ title: 'K16', start: '2026-11-08T12:00:00+02:00' }));
+    expect(isSameEvent(a, b)).toBe(false);
+  });
+  it('yhden merkin nimet eivät yhdisty pelkän bigrammityhjyyden takia', () => {
+    expect(titleSimilarity('a', 'b')).toBe(0);
+  });
+});

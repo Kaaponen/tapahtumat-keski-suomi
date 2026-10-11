@@ -5,7 +5,7 @@ const MAX_TIME_DIFF_MIN = 90;
 const MIN_CONTAINED_LENGTH = 4;
 
 function dice<T>(a: T[], b: T[]): number {
-  if (a.length === 0 && b.length === 0) return 1;
+  if (a.length === 0 || b.length === 0) return 0;
   const counts = new Map<T, number>();
   for (const x of a) counts.set(x, (counts.get(x) ?? 0) + 1);
   let overlap = 0;
@@ -41,12 +41,27 @@ function venueCompatible(a: Normalized, b: Normalized): boolean {
   return !a.vKey || !b.vKey || a.vKey === b.vKey;
 }
 
+/** Kadun nimi osoitteen alusta ("Hannikaisenkatu 39, Jyväskylä" -> "hannikaisenkatu"). */
+function streetOf(address?: string): string | undefined {
+  const m = address?.toLowerCase().match(/^\s*([\p{L}-]+)/u);
+  return m?.[1];
+}
+
+/** Osoitteet ristiriidassa vain, kun paikkaa ei voitu tunnistaa kummastakin saman paikan avaimella. */
+function addressCompatible(a: Normalized, b: Normalized): boolean {
+  if (a.vKey && a.vKey === b.vKey) return true;
+  const sa = streetOf(a.address);
+  const sb = streetOf(b.address);
+  return !sa || !sb || sa === sb;
+}
+
 function timeCompatible(a: Normalized, b: Normalized): boolean {
   return !a.time || !b.time || Math.abs(minutes(a.time) - minutes(b.time)) <= MAX_TIME_DIFF_MIN;
 }
 
 export function isSameEvent(a: Normalized, b: Normalized): boolean {
-  if (a.day !== b.day || !venueCompatible(a, b) || !timeCompatible(a, b)) return false;
+  if (!a.nTitle || !b.nTitle) return false;
+  if (a.day !== b.day || !venueCompatible(a, b) || !addressCompatible(a, b) || !timeCompatible(a, b)) return false;
   return titleSimilarity(a.nTitle, b.nTitle) >= SIMILARITY_THRESHOLD || containsWhole(a.nTitle, b.nTitle);
 }
 
@@ -65,7 +80,7 @@ export function groupDuplicates(events: Normalized[]): Normalized[][] {
     const target = groups.find(
       (g) =>
         g[0].day === e.day &&
-        g.every((m) => venueCompatible(m, e) && timeCompatible(m, e)) &&
+        g.every((m) => venueCompatible(m, e) && addressCompatible(m, e) && timeCompatible(m, e)) &&
         g.some((m) => isSameEvent(m, e)),
     );
     if (target) target.push(e);
