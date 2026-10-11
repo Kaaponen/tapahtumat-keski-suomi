@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
-  addDays, dayKey, helsinkiIso, isDateOnly, isoDate, localTime,
+  addDays, dayKey, helsinkiIso, inferYear, isDateOnly, isoDate, localTime,
   lastDayKey, parseDurationMinutes, parseFinnishDate, parseTimes,
 } from '../../src/shared/time';
 
@@ -88,5 +88,29 @@ describe('lastDayKey', () => {
     expect(lastDayKey({ start: '2026-10-12T22:00:00+03:00' })).toBe('2026-10-12');
     expect(lastDayKey({ start: '2026-10-12T22:00:00+03:00', end: '2026-10-12T22:00:00+03:00' })).toBe('2026-10-12');
     expect(lastDayKey({ start: '2026-10-04', end: '2026-11-01', allDay: true })).toBe('2026-11-01');
+  });
+});
+
+describe('inferYear', () => {
+  it('tuleva päivä on kuluvaa vuotta', () => {
+    expect(inferYear(10, 16, '2026-10-11')).toBe(2026);
+  });
+  it('lähimenneisyys pysyy kuluvana vuonna (suodatetaan myöhemmin pois)', () => {
+    expect(inferYear(9, 25, '2026-10-11')).toBe(2026);
+  });
+  it('yli 60 päivää mennyt päivä on ensi vuotta', () => {
+    expect(inferYear(1, 15, '2026-10-11')).toBe(2027);
+  });
+  it('raja: tasan 60 päivää sitten on kuluvaa vuotta, 61 päivää ensi vuotta', () => {
+    expect(inferYear(8, 12, '2026-10-11')).toBe(2026);
+    expect(inferYear(8, 11, '2026-10-11')).toBe(2027);
+  });
+  it('joulukuussa tammikuun päivä on ensi vuotta', () => {
+    expect(inferYear(1, 5, '2026-12-20')).toBe(2027);
+    expect(inferYear(12, 1, '2026-12-20')).toBe(2026);
+  });
+  it('tammikuussa joulukuun loppu on edellistä vuotta', () => {
+    expect(inferYear(12, 28, '2027-01-10')).toBe(2026);
+    expect(inferYear(1, 20, '2027-01-10')).toBe(2027);
   });
 });

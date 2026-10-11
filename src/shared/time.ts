@@ -54,6 +54,16 @@ export function addDays(day: string, n: number): string {
   return new Date(Date.UTC(y, m - 1, d + n)).toISOString().slice(0, 10);
 }
 
+/**
+ * Vuosi päivämäärälle, jossa sitä ei ole ("16.10."): aikaisin vuosi (edellinen, kuluva, seuraava),
+ * jolla päivä on enintään 60 päivää menneisyydessä.
+ */
+export function inferYear(m: number, d: number, today: string): number {
+  const y = Number(today.slice(0, 4));
+  const cutoff = addDays(today, -60);
+  return [y - 1, y].find((year) => isoDate(year, m, d) >= cutoff) ?? y + 1;
+}
+
 export function parseFinnishDate(s: string): { y: number; m: number; d: number } | null {
   const match = s.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
   if (!match) return null;
