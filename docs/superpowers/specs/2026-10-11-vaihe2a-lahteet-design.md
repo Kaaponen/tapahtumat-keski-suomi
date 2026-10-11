@@ -36,11 +36,11 @@ Tiedot on tarkistettu 2026-10-11.
 - **Muunnos RawEventiksi:**
   - `sourceId` on slug.
   - `title` on nimi, josta poistetaan lopun "(HH:MM)".
-  - `start` on päivämäärä (vuosi päätellään, katso alla) ja kellonaika. Kellonaika otetaan nimen sulkeista; jos sitä ei ole, käytetään ovien aukeamisaikaa. Jos kumpaakaan ei ole, tapahtuma on koko päivän (`allDay`).
+  - `start` on päivämäärä (vuosi päätellään, katso alla) ja ovien aukeamisaika. Jos sitä ei ole, käytetään nimen sulkeissa olevaa esiintymisaikaa, ja jos kumpaakaan ei ole, tapahtuma on koko päivän (`allDay`). Ovien aika on ensisijainen, koska Keski-Suomen kalenteri käyttää samoja keikkoja ovien ajalla: esimerkiksi Saimaa 16.10. on siellä klo 19.00 ja Jelmulla "(21:00)". Kahden tunnin ero ylittäisi tuplien tunnistuksen 90 minuutin rajan, ja sama keikka näkyisi kahdesti.
   - `venue` on paikan nimi sellaisenaan, `city` on "Jyväskylä" ja `address` jätetään tyhjäksi.
   - `url` ja `ticketUrl` ovat keikan oma sivu.
   - `image` on listan kuva.
-  - `description` muodostetaan näistä " · "-erottimella: ikäraja, "Ovet HH:MM", hinta ja "Loppuunmyyty" (vain ne, jotka löytyvät).
+  - `description` muodostetaan näistä " · "-erottimella: ikäraja, "Ovet HH:MM", "Keikka alkaa HH:MM" (nimen sulkeista), hinta ja "Loppuunmyyty" (vain ne, jotka löytyvät).
   - `categories` on `['keikat']`, joka vastaa Musiikki-kategoriaa.
 - Rivit, joista puuttuu nimi, linkki tai jäsennettävä päivämäärä, ohitetaan.
 
@@ -52,7 +52,7 @@ Tiedot on tarkistettu 2026-10-11.
   - Jokainen esityssivu haetaan erikseen, eli noin 10 hakua per keruu.
 - **Ohitettavat sivut:** `muut-tapahtumat` on koostesivu, jolla on useita eri tapahtumia yhden otsikon alla, joten sitä ei jäsennetä.
 - **Esityssivu:**
-  - Nimi: `og:title`, esimerkiksi "Aino A."
+  - Nimi: `og:title`, esimerkiksi "Aino A.". Etuliitteet "Vierailu:" ja "Yhteistyö:" poistetaan ("Vierailu: Luolamies" → "Luolamies").
   - Kuvaus: `og:description`
   - Kuva: `og:image`
   - Lippulinkki: ensimmäinen `https://www.lippu.fi/...`-linkki
@@ -61,6 +61,10 @@ Tiedot on tarkistettu 2026-10-11.
   - Säännöllinen lauseke: `^(ma|ti|ke|to|pe|la|su) D.M.[YYYY] klo H[.MM]`.
   - Vuosi otetaan riviltä, jos se on siellä. Muuten se päätellään.
   - Rivit ilman viikonpäivää jätetään pois, esimerkiksi "Teosesittely 17.9. klo 13.00".
+  - Samalla rivillä voi olla useita aikoja ("la 28.11. klo 13.00 ja klo 14.30"), ja jokaisesta tulee oma esityskerta.
+  - Aikaväli ("ke 13.10. klo 10–12") antaa myös päättymisajan.
+  - Rivin loppuosa ("ennakkonäytös", "TÄYNNÄ", "| suuri näyttämö") ei vaikuta tulkintaan.
+  - Sama päivä ja aika kahdesti sivulla tuottaa vain yhden esityskerran.
 - **Muunnos RawEventiksi:** yksi RawEvent per esityskerta.
   - `sourceId` on `<slug>-<YYYY-MM-DD>-<HHMM>`.
   - `venue` on "Jyväskylän kaupunginteatteri" ja `city` on "Jyväskylä".
@@ -71,7 +75,7 @@ Tiedot on tarkistettu 2026-10-11.
 ## Yhteiset muutokset
 
 - **`inferYear(m, d, today)`** tulee tiedostoon `src/shared/time.ts`.
-  - Jos päivämäärä `today`n vuonna on yli 60 päivää menneisyydessä, palautetaan seuraava vuosi. Muuten palautetaan `today`n vuosi.
+  - Valitaan vuosista (edellinen, kuluva, seuraava) aikaisin, jolla päivämäärä on enintään 60 päivää menneisyydessä. Käytännössä: yli 60 päivää mennyt päivä tulkitaan ensi vuodelle, ja tammikuussa joulukuun loppu tulkitaan edelliselle vuodelle.
   - Esimerkki, kun tänään on 11.10.2026: "16.10." → 2026, "25.9." → 2026 ja "15.1." → 2027.
   - `today` annetaan parametrina testattavuuden vuoksi. Lähteet käyttävät nykyhetkeä Helsingin ajassa.
   - Menneet esityskerrat putoavat pois olemassa olevan `filterWindow`-suodatuksen kautta.
@@ -97,7 +101,7 @@ Tiedot on tarkistettu 2026-10-11.
 
 - **Testiaineisto:** kummastakin lähteestä tallennetaan oikea sivu kansioon `test/fixtures/<id>/`. Jelmulta tallennetaan etusivu. Teatterilta tallennetaan ohjelmistosivu ja kaksi esityssivua, joista toisessa on vuosi rivillä ja toisessa ei.
 - **Yksikkötestit:**
-  - `inferYear`: raja 60 päivää sekä vuodenvaihde.
+  - `inferYear`: raja 60 päivää sekä vuodenvaihde molempiin suuntiin. Esimerkiksi tammikuussa "28.12." tulkitaan edelliselle vuodelle (mennyt esitys), ei 11 kuukauden päähän.
   - Jelmun jäsennin: kellonaika nimestä, ovien aukeamisaika varalla, loppuunmyyty, rivin ohitus.
   - Teatterin jäsennin: esityskerrat, rivi ilman viikonpäivää ohitetaan, vuosi rivillä, lippulinkki, `muut-tapahtumat` ohitetaan.
 - **`fetch`-testit:** tehdään valetulla `FetchContext`illa samaan tapaan kuin olemassa olevissa lähteissä. Mukana tapaus, jossa yksi esityssivu epäonnistuu.
