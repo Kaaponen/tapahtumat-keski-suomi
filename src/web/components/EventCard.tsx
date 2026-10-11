@@ -1,7 +1,12 @@
 import type { ListItem } from '../logic/grouping';
 import { formatTime, seriesSummary } from '../logic/format';
 import { QuickAddButton } from './CalendarMenu';
+import { EventImage } from './EventImage';
 
+/**
+ * Kortin nimi on oikea painike, jonka napautusalue venytetään koko kortin kokoiseksi (CSS ::after).
+ * Näin 📅-painike ei ole toisen painikkeen sisällä.
+ */
 export function EventCard({ item, sourceName, onOpen }: {
   item: ListItem;
   sourceName: (id: string) => string;
@@ -9,16 +14,12 @@ export function EventCard({ item, sourceName, onOpen }: {
 }) {
   const e = item.event;
   return (
-    <div
-      class="card"
-      role="button"
-      tabIndex={0}
-      onClick={onOpen}
-      onKeyDown={(k) => k.target === k.currentTarget && k.key === 'Enter' && onOpen()}
-    >
-      {e.image ? <img class="card-image" src={e.image} alt="" loading="lazy" /> : <div class="card-image placeholder" />}
+    <article class="card">
+      <EventImage event={e} class="card-image" lazy />
       <div class="card-body">
-        <h3 class="card-title">{e.title}</h3>
+        <h3 class="card-title">
+          <button type="button" class="card-open" onClick={onOpen}>{e.title}</button>
+        </h3>
         <p class="card-meta">
           {formatTime(e)}
           {e.venue ? ` · ${e.venue}` : ''}
@@ -31,6 +32,6 @@ export function EventCard({ item, sourceName, onOpen }: {
         </p>
       </div>
       <QuickAddButton event={e} />
-    </div>
+    </article>
   );
 }
