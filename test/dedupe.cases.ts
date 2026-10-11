@@ -69,4 +69,34 @@ export const DEDUPE_CASES: DedupeCase[] = [
     b: raw({ title: 'Isänpäivälounas Savutuvan Apajalla', start: '2026-11-08T12:30:00+02:00', venue: 'Jyväskylä', address: 'Opinsaunankiuas 1, Jyväskylä, Suomi' }),
     same: false,
   },
+  {
+    name: 'Jelmun keikka ovien ajalla = Keski-Suomen kalenterin sama keikka',
+    a: raw({ source: 'jelmu', title: 'Saimaa', start: '2026-10-16T19:00:00+03:00', venue: 'Lutakko', city: 'Jyväskylä' }),
+    b: raw({ title: 'Saimaa', start: '2026-10-16T19:00:00+03:00', venue: 'Tanssisali Lutakko', address: 'Lutakonaukio 3' }),
+    same: true,
+  },
+  {
+    name: 'teatterin esitys = Keski-Suomen kalenterin pitkä otsikko',
+    a: raw({ source: 'jklteatteri', title: 'Aino A.', start: '2026-10-17T13:00:00+03:00', venue: 'Jyväskylän kaupunginteatteri' }),
+    b: raw({
+      title: 'Aino A. -näytelmä Jyväskylän kaupunginteatterissa', start: '2026-10-17T10:00:00.000Z',
+      venue: 'Jyväskylän kaupunginteatteri', address: 'Vapaudenkatu 36, Jyväskylä, Suomi',
+    }),
+    same: true,
+  },
+  {
+    name: 'saman teatteriesityksen eri kellonajat ovat eri tapahtumia',
+    a: raw({ source: 'jklteatteri', title: 'Aino A.', start: '2026-10-17T13:00:00+03:00', venue: 'Jyväskylän kaupunginteatteri' }),
+    b: raw({ source: 'jklteatteri', title: 'Aino A.', start: '2026-10-17T18:00:00+03:00', venue: 'Jyväskylän kaupunginteatteri' }),
+    same: false,
+  },
+  {
+    name: 'teatterikierros = Keski-Suomen kalenterin pitkä otsikko',
+    a: raw({ source: 'jklteatteri', title: 'Kurkistus kulisseihin -teatterikierros', start: '2026-10-19T18:00:00+03:00', venue: 'Jyväskylän kaupunginteatteri' }),
+    b: raw({
+      title: 'Kurkistus kulisseihin -teatterikierros Jyväskylän kaupunginteatterissa', start: '2026-10-19T15:00:00.000Z',
+      venue: 'Jyväskylän kaupunginteatteri', address: 'Vapaudenkatu 36, Jyväskylä, Suomi',
+    }),
+    same: true,
+  },
 ];

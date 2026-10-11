@@ -6,7 +6,7 @@ import { groupDuplicates } from './match';
 import { normalizeEvent, type Normalized } from './normalize';
 
 /** Tapahtumapaikkojen omat sivut ensin, kokoavat kalenterit viimeisenä. */
-export const SOURCE_PRIORITY = ['paviljonki', 'peurunka', 'keikkalista', 'keskisuomievents'];
+export const SOURCE_PRIORITY = ['paviljonki', 'peurunka', 'jelmu', 'jklteatteri', 'keikkalista', 'keskisuomievents'];
 
 const rank = (source: string) => {
   const i = SOURCE_PRIORITY.indexOf(source);
