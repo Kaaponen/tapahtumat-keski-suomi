@@ -30,10 +30,22 @@ export function formatTime(e: Event): string {
   return `${hm(e.start)} (päättyy ${shortDate(endDay)})`;
 }
 
+const PERFORMANCE_CATEGORIES = new Set(['Musiikki', 'Teatteri', 'Stand up', 'Tanssi']);
+
+/** Esityksiä ovat konsertit, teatteri, stand up ja tanssi; muut toistuvat ovat "tapahtumia". */
+export function isPerformance(categories: string[]): boolean {
+  return categories.some((c) => PERFORMANCE_CATEGORIES.has(c));
+}
+
 export function seriesSummary(series: Event[]): string {
   const first = dayKey(series[0].start);
   const last = dayKey(series[series.length - 1].start);
-  return `${series.length} esitystä ${shortDate(first)}–${shortDate(last)}`;
+  const noun = isPerformance(series[0].categories) ? 'esitystä' : 'tapahtumaa';
+  return `${series.length} ${noun} ${shortDate(first)}–${shortDate(last)}`;
+}
+
+export function seriesHeading(event: Event): string {
+  return isPerformance(event.categories) ? 'Kaikki esitykset' : 'Kaikki tapahtumat';
 }
 
 export function formatAge(iso: string, now: Date): string {
