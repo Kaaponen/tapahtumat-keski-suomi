@@ -40,11 +40,16 @@ function textLines(html: string): string[] {
 export function parseTeatteriShow(html: string, url: string, today: string): RawEvent[] {
   const $ = cheerio.load(html);
   const meta = (p: string) => $(`meta[property="og:${p}"]`).attr('content')?.trim() || undefined;
-  const title = meta('title')?.replace(/^(vierailu|yhteistyö):\s*/i, '');
+  const slug = new URL(url).pathname.split('/').filter(Boolean).pop()!;
+  // Ohjelmistovalikon linkkiteksti on tarkempi kuin og:title ("Teatterikierrokset" vs.
+  // "Kurkistus kulisseihin -teatterikierros") ja vastaa muiden kalenterien nimiä.
+  const menuName = $(`a[class*="menu__link"][href$="/kaupunginteatteri/ohjelmisto/${slug}"]`).toArray()
+    .map((a) => $(a).text().replace(/\s+/g, ' ').trim())
+    .find(Boolean);
+  const title = (menuName ?? meta('title'))?.replace(/^(vierailu|yhteistyö):\s*/i, '');
   if (!title) return [];
   const main = $('.main').first();
   const root = main.length ? main : $('body');
-  const slug = new URL(url).pathname.split('/').filter(Boolean).pop()!;
   const ticketUrl = root.find('a[href*="lippu.fi"]').first().attr('href') || undefined;
 
   const out: RawEvent[] = [];

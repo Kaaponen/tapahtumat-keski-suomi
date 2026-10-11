@@ -90,4 +90,13 @@ export const DEDUPE_CASES: DedupeCase[] = [
     b: raw({ source: 'jklteatteri', title: 'Aino A.', start: '2026-10-17T18:00:00+03:00', venue: 'Jyväskylän kaupunginteatteri' }),
     same: false,
   },
+  {
+    name: 'teatterikierros = Keski-Suomen kalenterin pitkä otsikko',
+    a: raw({ source: 'jklteatteri', title: 'Kurkistus kulisseihin -teatterikierros', start: '2026-10-19T18:00:00+03:00', venue: 'Jyväskylän kaupunginteatteri' }),
+    b: raw({
+      title: 'Kurkistus kulisseihin -teatterikierros Jyväskylän kaupunginteatterissa', start: '2026-10-19T15:00:00.000Z',
+      venue: 'Jyväskylän kaupunginteatteri', address: 'Vapaudenkatu 36, Jyväskylä, Suomi',
+    }),
+    same: true,
+  },
 ];

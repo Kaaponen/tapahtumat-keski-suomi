@@ -90,6 +90,18 @@ describe('parseTeatteriShow', () => {
     expect(parseTeatteriShow(html, AINO, TODAY)).toHaveLength(4);
   });
 
+  it('käyttää nimenä sivun omaa valikkolinkkiä, ei yleistä otsikkoa', () => {
+    const url = `${BASE}/kurkistus-kulisseihin-teatterikierros`;
+    const html = SHOW
+      .replace('content="Vierailu: Aino A."', 'content="Teatterikierrokset"')
+      .replace('<div class="main main--with-sidebar">', `<div class="main main--with-sidebar"><nav>
+        <a href="/kaupunginteatteri/ohjelmisto/kurkistus-kulisseihin-teatterikierros" class="language-link">FI</a>
+        <a href="/kaupunginteatteri/ohjelmisto/kurkistus-kulisseihin-teatterikierros" class="sidebar-menu__link"><img src="x.jpg"></a>
+        <a href="/kaupunginteatteri/ohjelmisto/kurkistus-kulisseihin-teatterikierros" class="sidebar-menu__link">Kurkistus kulisseihin -teatterikierros</a>
+        <a href="/kaupunginteatteri/ohjelmisto/aino" class="sidebar-menu__link">Aino A.</a></nav>`);
+    expect(parseTeatteriShow(html, url, TODAY)[0].title).toBe('Kurkistus kulisseihin -teatterikierros');
+  });
+
   it('ei palauta mitään ilman otsikkoa', () => {
     expect(parseTeatteriShow('<html><body><div class="main">pe 16.10. klo 18</div></body></html>', AINO, TODAY)).toEqual([]);
   });
@@ -103,6 +115,12 @@ describe('parseTeatteriShow', () => {
     );
     expect(luolamies.length).toBeGreaterThanOrEqual(1);
     expect(luolamies[0].title).toBe('Luolamies');
+    const tour = parseTeatteriShow(
+      readFileSync('test/fixtures/jklteatteri/kurkistus-kulisseihin-teatterikierros.html', 'utf8'),
+      `${BASE}/kurkistus-kulisseihin-teatterikierros`, TODAY,
+    );
+    expect(tour.length).toBeGreaterThanOrEqual(1);
+    expect(tour[0].title).toBe('Kurkistus kulisseihin -teatterikierros');
   });
 });
 
