@@ -1,4 +1,5 @@
 import { createHash } from 'node:crypto';
+import { safeUrl } from '../shared/url';
 import type { Event, RawEvent, SourceLink } from '../shared/types';
 import { categorize } from './categories';
 import { groupDuplicates } from './match';
@@ -20,7 +21,14 @@ export function stableId(e: Normalized): string {
 }
 
 export function mergeGroup(group: Normalized[]): Event {
-  const sorted = [...group].sort((a, b) => rank(a.source) - rank(b.source));
+  const sorted = [...group]
+    .sort((a, b) => rank(a.source) - rank(b.source))
+    .map((e) => ({
+      ...e,
+      url: safeUrl(e.url) as string,
+      ticketUrl: safeUrl(e.ticketUrl),
+      image: safeUrl(e.image),
+    }));
   const primary = sorted[0];
   const timing = sorted.find((e) => e.time !== null) ?? primary;
   const pick = <K extends 'venue' | 'address' | 'city' | 'ticketUrl' | 'image'>(key: K) =>
@@ -32,7 +40,7 @@ export function mergeGroup(group: Normalized[]): Event {
 
   const sources: SourceLink[] = [];
   for (const e of sorted) {
-    if (!sources.some((s) => s.source === e.source && s.url === e.url)) sources.push({ source: e.source, url: e.url });
+    if (e.url && !sources.some((s) => s.source === e.source && s.url === e.url)) sources.push({ source: e.source, url: e.url });
   }
 
   return {
@@ -44,7 +52,7 @@ export function mergeGroup(group: Normalized[]): Event {
     venue: pick('venue'),
     address: pick('address'),
     city: pick('city'),
-    url: primary.url,
+    url: primary.url || sources[0]?.url || '',
     ticketUrl: pick('ticketUrl'),
     image: pick('image'),
     description,
@@ -54,7 +62,13 @@ export function mergeGroup(group: Normalized[]): Event {
 }
 
 export function dedupe(events: RawEvent[]): Event[] {
-  return groupDuplicates(events.map(normalizeEvent))
+  const sorted = groupDuplicates(events.map(normalizeEvent))
     .map(mergeGroup)
     .sort((a, b) => Date.parse(a.start) - Date.parse(b.start) || a.title.localeCompare(b.title, 'fi'));
+  const seen = new Map<string, number>();
+  return sorted.map((e) => {
+    const n = (seen.get(e.id) ?? 0) + 1;
+    seen.set(e.id, n);
+    return n === 1 ? e : { ...e, id: `${e.id}-${n}` };
+  });
 }

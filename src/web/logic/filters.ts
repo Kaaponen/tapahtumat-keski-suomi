@@ -1,4 +1,4 @@
-import { addDays, dayKey } from '../../shared/time';
+import { addDays, dayKey, lastDayKey } from '../../shared/time';
 import type { Event } from '../../shared/types';
 import { weekday } from './format';
 
@@ -54,16 +54,21 @@ export function rangeBounds(f: Filters, today: string): [string, string] | null 
   }
 }
 
+/** "Paviljonki – Encore-sali" -> "Paviljonki" */
+export function mainVenue(venue?: string): string | undefined {
+  return venue?.split(' – ')[0].trim();
+}
+
 export function applyFilters(events: Event[], f: Filters, today: string): Event[] {
   const bounds = rangeBounds(f, today);
   const q = f.q?.trim().toLowerCase();
   return events.filter((e) => {
     const first = dayKey(e.start);
-    const last = e.end ? dayKey(e.end) : first;
+    const last = lastDayKey(e);
     if (last < today) return false;
     if (bounds && (last < bounds[0] || first > bounds[1])) return false;
     if (f.category && !e.categories.includes(f.category)) return false;
-    if (f.venue && e.venue !== f.venue) return false;
+    if (f.venue && mainVenue(e.venue) !== f.venue) return false;
     if (q && ![e.title, e.venue, e.description].some((s) => s?.toLowerCase().includes(q))) return false;
     return true;
   });

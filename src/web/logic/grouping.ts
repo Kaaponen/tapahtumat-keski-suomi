@@ -16,7 +16,8 @@ export interface DayGroup {
   ongoing: ListItem[];
 }
 
-const seriesKey = (e: Event) => `${e.title.trim().toLowerCase()}|${e.venue ?? ''}`;
+const seriesKey = (e: Event) =>
+  `${e.title.trim().toLowerCase()}|${(e.venue ?? e.address ?? e.city ?? '').trim().toLowerCase()}`;
 
 export function buildDayGroups(events: Event[], today: string): DayGroup[] {
   const sorted = [...events].sort((a, b) => Date.parse(a.start) - Date.parse(b.start));

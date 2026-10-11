@@ -1,4 +1,4 @@
-import { addDays, dayKey, isDateOnly, localTime } from '../../shared/time';
+import { addDays, dayKey, isDateOnly, lastDayKey, localTime } from '../../shared/time';
 import type { Event } from '../../shared/types';
 
 const WEEKDAYS = ['Su', 'Ma', 'Ti', 'Ke', 'To', 'Pe', 'La'];
@@ -23,7 +23,7 @@ const hm = (iso: string) => localTime(iso)!.replace(':', '.');
 
 export function formatTime(e: Event): string {
   const startDay = dayKey(e.start);
-  const endDay = e.end ? dayKey(e.end) : startDay;
+  const endDay = lastDayKey(e);
   if (e.allDay) return startDay === endDay ? 'Koko päivä' : `${shortDate(startDay)}–${shortDate(endDay)}`;
   if (!e.end || isDateOnly(e.end)) return hm(e.start);
   if (endDay === startDay) return `${hm(e.start)}–${hm(e.end)}`;

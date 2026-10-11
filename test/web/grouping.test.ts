@@ -58,3 +58,17 @@ describe('limitGroups', () => {
     expect(limitGroups(groups, 2).hasMore).toBe(false);
   });
 });
+
+describe('sarja-avain', () => {
+  it('eri kaupungit eivät yhdisty, saman paikan kirjainkoko ei erota', () => {
+    const g = (events: Event[]) => buildDayGroups(events, TODAY).flatMap((x) => x.items);
+    expect(g([
+      ev({ title: 'Konsertti', city: 'Jyväskylä', start: '2026-10-15T19:00:00+03:00' }),
+      ev({ title: 'Konsertti', city: 'Äänekoski', start: '2026-10-16T19:00:00+03:00' }),
+    ])).toHaveLength(2);
+    expect(g([
+      ev({ title: 'Peter Pan', venue: 'Teatteri', start: '2026-10-15T19:00:00+03:00' }),
+      ev({ title: 'Peter Pan', venue: 'TEATTERI', start: '2026-10-16T19:00:00+03:00' }),
+    ])).toHaveLength(1);
+  });
+});

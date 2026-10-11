@@ -67,3 +67,25 @@ describe('dedupe', () => {
     expect(events[0].sources).toHaveLength(2);
   });
 });
+
+describe('mergeGroup: URL-validointi', () => {
+  it('virheellinen ylemmän prioriteetin ticketUrl ei peitä kelvollista', () => {
+    const pav = raw({ source: 'paviljonki', title: 'X', start: '2026-11-20T19:00:00+02:00', url: 'javascript:alert(1)', ticketUrl: 'Ovelta 30min ennen' });
+    const kse = raw({ source: 'keskisuomievents', title: 'X', start: '2026-11-20T19:00:00+02:00', url: 'https://kse/1', ticketUrl: 'https://lippu.fi/1' });
+    const merged = mergeGroup([pav, kse].map(normalizeEvent));
+    expect(merged.ticketUrl).toBe('https://lippu.fi/1');
+    expect(merged.url).toBe('https://kse/1');
+    expect(merged.sources).toEqual([{ source: 'keskisuomievents', url: 'https://kse/1' }]);
+  });
+});
+
+describe('dedupe: uniikit id:t', () => {
+  it('samalla tiivisteellä olevat yhdistymättömät tapahtumat saavat eri id:t', () => {
+    const a = raw({ source: 'keskisuomievents', title: 'Sama', start: '2026-11-20T19:00:00+02:00', url: 'https://a/1', address: 'Kauppakatu 1' });
+    const b = raw({ source: 'keskisuomievents', title: 'Sama', start: '2026-11-20T19:00:00+02:00', url: 'https://a/2', address: 'Torikatu 2' });
+    const out = dedupe([a, b]);
+    const ids = out.map((e) => e.id);
+    expect(out).toHaveLength(2);
+    expect(new Set(ids).size).toBe(2);
+  });
+});

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   addDays, dayKey, helsinkiIso, isDateOnly, isoDate, localTime,
-  parseDurationMinutes, parseFinnishDate, parseTimes,
+  lastDayKey, parseDurationMinutes, parseFinnishDate, parseTimes,
 } from '../../src/shared/time';
 
 describe('helsinkiIso', () => {
@@ -78,5 +78,15 @@ describe('parseDurationMinutes', () => {
     ['', undefined],
   ])('%s', (input, expected) => {
     expect(parseDurationMinutes(input)).toBe(expected);
+  });
+});
+
+describe('lastDayKey', () => {
+  it('keskiyöhön päättyvä aikatapahtuma jää alkupäivälle', () => {
+    expect(lastDayKey({ start: '2026-10-12T22:00:00+03:00', end: '2026-10-13T00:00:00+03:00' })).toBe('2026-10-12');
+    expect(lastDayKey({ start: '2026-10-12T22:00:00+03:00', end: '2026-10-13T00:30:00+03:00' })).toBe('2026-10-13');
+    expect(lastDayKey({ start: '2026-10-12T22:00:00+03:00' })).toBe('2026-10-12');
+    expect(lastDayKey({ start: '2026-10-12T22:00:00+03:00', end: '2026-10-12T22:00:00+03:00' })).toBe('2026-10-12');
+    expect(lastDayKey({ start: '2026-10-04', end: '2026-11-01', allDay: true })).toBe('2026-11-01');
   });
 });

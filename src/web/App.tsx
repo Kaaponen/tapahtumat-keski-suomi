@@ -6,7 +6,7 @@ import { EventCard } from './components/EventCard';
 import { EventDetail } from './components/EventDetail';
 import { FiltersBar } from './components/FiltersBar';
 import { SourceStatusFooter } from './components/SourceStatusFooter';
-import { applyFilters, filtersFromSearch, filtersToSearch, type Filters } from './logic/filters';
+import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, type Filters } from './logic/filters';
 import { buildDayGroups, limitGroups, type ListItem } from './logic/grouping';
 
 const PAGE_SIZE = 60;
@@ -47,7 +47,10 @@ export function App() {
   }, [data]);
   const venues = useMemo(() => {
     const counts = new Map<string, number>();
-    for (const e of data?.events ?? []) if (e.venue) counts.set(e.venue, (counts.get(e.venue) ?? 0) + 1);
+    for (const e of data?.events ?? []) {
+      const v = mainVenue(e.venue);
+      if (v) counts.set(v, (counts.get(v) ?? 0) + 1);
+    }
     return [...counts.entries()].filter(([, n]) => n >= 3).map(([v]) => v).sort((a, b) => a.localeCompare(b, 'fi'));
   }, [data]);
   const sourceName = (id: string) => data?.sources[id]?.name ?? id;

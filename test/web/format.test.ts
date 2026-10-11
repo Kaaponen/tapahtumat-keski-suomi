@@ -31,3 +31,9 @@ describe('format', () => {
     expect(formatAge('2026-10-12T07:00:00Z', now)).toBe('2 pv sitten');
   });
 });
+
+describe('formatTime keskiyö', () => {
+  it('päättyminen klo 00.00 pysyy samana päivänä', () => {
+    expect(formatTime(ev({ start: '2026-10-12T22:00:00+03:00', end: '2026-10-13T00:00:00+03:00' }))).toBe('22.00–00.00');
+  });
+});

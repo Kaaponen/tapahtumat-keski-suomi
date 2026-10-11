@@ -40,6 +40,15 @@ export function localTime(iso: string): string | null {
   }).format(new Date(iso));
 }
 
+/** Viimeinen paikallinen päivä: keskiyöhön (00:00) päättyvä aikatapahtuma kuuluu edelliselle päivälle. */
+export function lastDayKey(e: { start: string; end?: string; allDay?: boolean }): string {
+  const first = dayKey(e.start);
+  if (!e.end) return first;
+  if (e.allDay || isDateOnly(e.end)) return dayKey(e.end);
+  const last = dayKey(new Date(Date.parse(e.end) - 1).toISOString());
+  return last < first ? first : last;
+}
+
 export function addDays(day: string, n: number): string {
   const [y, m, d] = day.split('-').map(Number);
   return new Date(Date.UTC(y, m - 1, d + n)).toISOString().slice(0, 10);

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Event } from '../../src/shared/types';
-import { applyFilters, filtersFromSearch, filtersToSearch, rangeBounds } from '../../src/web/logic/filters';
+import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, rangeBounds } from '../../src/web/logic/filters';
 
 const ev = (p: Partial<Event> & Pick<Event, 'title' | 'start'>): Event => ({
   id: p.title, allDay: false, url: 'u', categories: ['Muut'], sources: [], ...p,
@@ -47,5 +47,22 @@ describe('applyFilters', () => {
     expect(applyFilters(events, { range: 'all', category: 'Musiikki' }, TODAY).map((e) => e.title)).toEqual(['Rock-ilta']);
     expect(applyFilters(events, { range: 'all', venue: 'Lutakko' }, TODAY).map((e) => e.title)).toEqual(['Rock-ilta']);
     expect(applyFilters(events, { range: 'all', q: 'NÄYTT' }, TODAY).map((e) => e.title)).toEqual(['Näyttely']);
+  });
+});
+
+describe('venue-suodatin', () => {
+  it('päätila kattaa salit', () => {
+    const events = [
+      ev({ title: 'a', venue: 'Paviljonki – Encore-sali', start: '2026-10-15T19:00:00+03:00' }),
+      ev({ title: 'b', venue: 'Paviljonki', start: '2026-10-15T19:00:00+03:00' }),
+      ev({ title: 'c', venue: 'Peurunka', start: '2026-10-15T19:00:00+03:00' }),
+    ];
+    expect(applyFilters(events, { range: 'all', venue: 'Paviljonki' }, TODAY).map((e) => e.title)).toEqual(['a', 'b']);
+    expect(mainVenue('Paviljonki – Encore-sali')).toBe('Paviljonki');
+    expect(mainVenue(undefined)).toBeUndefined();
+  });
+  it('keskiyöhön päättyvä tapahtuma ei ole seuraavan päivän käynnissä', () => {
+    const e = ev({ title: 'y', start: '2026-10-13T22:00:00+03:00', end: '2026-10-14T00:00:00+03:00' });
+    expect(applyFilters([e], { range: 'all' }, TODAY)).toEqual([]);
   });
 });

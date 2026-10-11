@@ -1,5 +1,5 @@
 import { dedupe } from '../dedupe/merge';
-import { addDays, dayKey } from '../shared/time';
+import { addDays, dayKey, lastDayKey } from '../shared/time';
 import type { EventsFile, FetchContext, RawEvent, Source, SourceStatus } from '../shared/types';
 
 export const WINDOW_DAYS = 183;
@@ -18,7 +18,7 @@ export interface RunDeps {
 export function filterWindow(events: RawEvent[], now: Date, days = WINDOW_DAYS): RawEvent[] {
   const today = dayKey(now.toISOString());
   const last = addDays(today, days);
-  return events.filter((e) => dayKey(e.end ?? e.start) >= today && dayKey(e.start) <= last);
+  return events.filter((e) => lastDayKey(e) >= today && dayKey(e.start) <= last);
 }
 
 export async function runScrape(d: RunDeps): Promise<EventsFile> {
