@@ -6,29 +6,59 @@ export function userAgent(): string {
   return `TapahtumatBot/0.1 (+${contact})`;
 }
 
+/** Palvelinvirheet (5xx) ja verkkovirheet ovat usein tilapäisiä – ne yritetään uudelleen. */
+class RetryableError extends Error {}
+
 export function createFetchContext(
-  opts: { delayMs?: number; fetchImpl?: typeof fetch; log?: (m: string) => void } = {},
+  opts: {
+    delayMs?: number;
+    retries?: number;
+    retryDelayMs?: number;
+    fetchImpl?: typeof fetch;
+    log?: (m: string) => void;
+  } = {},
 ): FetchContext {
   const delayMs = opts.delayMs ?? 500;
+  const retries = opts.retries ?? 2;
+  const retryDelayMs = opts.retryDelayMs ?? 3000;
   const fetchImpl = opts.fetchImpl ?? fetch;
+  const log = opts.log ?? ((m: string) => console.log(m));
   const lastByHost = new Map<string, number>();
 
-  async function request(url: string, accept: string): Promise<Response> {
+  async function attempt(url: string, accept: string): Promise<Response> {
     const host = new URL(url).host;
     const wait = (lastByHost.get(host) ?? -Infinity) + delayMs - Date.now();
     if (wait > 0) await new Promise((r) => setTimeout(r, wait));
     lastByHost.set(host, Date.now());
-    const res = await fetchImpl(url, {
-      headers: { 'User-Agent': userAgent(), Accept: accept, 'Accept-Language': 'fi' },
-      signal: AbortSignal.timeout(30_000),
-    });
+    let res: Response;
+    try {
+      res = await fetchImpl(url, {
+        headers: { 'User-Agent': userAgent(), Accept: accept, 'Accept-Language': 'fi' },
+        signal: AbortSignal.timeout(30_000),
+      });
+    } catch (err) {
+      throw new RetryableError(`${(err as Error).message} ${url}`);
+    }
+    if (res.status >= 500) throw new RetryableError(`HTTP ${res.status} ${url}`);
     if (!res.ok) throw new Error(`HTTP ${res.status} ${url}`);
     return res;
+  }
+
+  async function request(url: string, accept: string): Promise<Response> {
+    for (let i = 0; ; i++) {
+      try {
+        return await attempt(url, accept);
+      } catch (err) {
+        if (!(err instanceof RetryableError) || i >= retries) throw err;
+        log(`${err.message} – yritetään uudelleen (${i + 1}/${retries})`);
+        await new Promise((r) => setTimeout(r, retryDelayMs * (i + 1)));
+      }
+    }
   }
 
   return {
     getText: async (url) => (await request(url, 'text/html')).text(),
     getJson: async <T>(url: string) => (await (await request(url, 'application/json')).json()) as T,
-    log: opts.log ?? ((m) => console.log(m)),
+    log,
   };
 }

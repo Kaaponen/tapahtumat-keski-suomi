@@ -25,6 +25,40 @@ describe('createFetchContext', () => {
     await expect(ctx.getText('https://a.example/x')).rejects.toThrow('HTTP 404');
   });
 
+  it('yrittää uudelleen palvelinvirheen (5xx) jälkeen', async () => {
+    const statuses = [500, 503, 200];
+    let n = 0;
+    const impl = (async () => new Response('{"ok":true}', { status: statuses[n++] })) as unknown as typeof fetch;
+    const ctx = createFetchContext({ fetchImpl: impl, delayMs: 0, retryDelayMs: 0, log: () => {} });
+    expect(await ctx.getJson('https://a.example/x')).toEqual({ ok: true });
+    expect(n).toBe(3);
+  });
+
+  it('yrittää uudelleen verkkovirheen jälkeen', async () => {
+    let n = 0;
+    const impl = (async () => {
+      if (n++ === 0) throw new TypeError('fetch failed');
+      return new Response('ok');
+    }) as unknown as typeof fetch;
+    const ctx = createFetchContext({ fetchImpl: impl, delayMs: 0, retryDelayMs: 0, log: () => {} });
+    expect(await ctx.getText('https://a.example/x')).toBe('ok');
+    expect(n).toBe(2);
+  });
+
+  it('luovuttaa, kun uudelleenyritykset loppuvat', async () => {
+    const { calls, impl } = mockFetch(500, 'err');
+    const ctx = createFetchContext({ fetchImpl: impl, delayMs: 0, retryDelayMs: 0, log: () => {} });
+    await expect(ctx.getText('https://a.example/x')).rejects.toThrow('HTTP 500');
+    expect(calls).toHaveLength(3);
+  });
+
+  it('ei yritä uudelleen asiakasvirheellä (4xx)', async () => {
+    const { calls, impl } = mockFetch(404, 'nope');
+    const ctx = createFetchContext({ fetchImpl: impl, delayMs: 0, retryDelayMs: 0, log: () => {} });
+    await expect(ctx.getText('https://a.example/x')).rejects.toThrow('HTTP 404');
+    expect(calls).toHaveLength(1);
+  });
+
   it('pitää tauon saman palvelimen pyyntöjen välillä', async () => {
     const { calls, impl } = mockFetch();
     const ctx = createFetchContext({ fetchImpl: impl, delayMs: 80 });
