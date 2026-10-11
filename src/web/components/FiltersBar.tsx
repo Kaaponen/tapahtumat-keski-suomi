@@ -19,16 +19,18 @@ export function FiltersBar({ filters, onChange, categories, venues }: {
     <div class="filters">
       <input
         type="search"
+        aria-label="Hae tapahtumia"
         placeholder="Hae tapahtumia…"
         value={filters.q ?? ''}
         onInput={(e) => set({ q: e.currentTarget.value || undefined })}
       />
-      <div class="chips">
+      <div class="chips" role="group" aria-label="Aikaväli">
         {RANGES.map(([range, label]) => (
           <button
             key={range}
             type="button"
             class={filters.range === range ? 'chip active' : 'chip'}
+            aria-pressed={filters.range === range}
             onClick={() => set({ range })}
           >
             {label}
@@ -37,17 +39,17 @@ export function FiltersBar({ filters, onChange, categories, venues }: {
       </div>
       {filters.range === 'custom' && (
         <div class="custom-range">
-          <input type="date" value={filters.from ?? ''} onInput={(e) => set({ from: e.currentTarget.value || undefined })} />
-          <span>–</span>
-          <input type="date" value={filters.to ?? ''} onInput={(e) => set({ to: e.currentTarget.value || undefined })} />
+          <input type="date" aria-label="Alkaen" value={filters.from ?? ''} onInput={(e) => set({ from: e.currentTarget.value || undefined })} />
+          <span aria-hidden="true">–</span>
+          <input type="date" aria-label="Päättyen" value={filters.to ?? ''} onInput={(e) => set({ to: e.currentTarget.value || undefined })} />
         </div>
       )}
       <div class="selects">
-        <select value={filters.category ?? ''} onChange={(e) => set({ category: e.currentTarget.value || undefined })}>
+        <select aria-label="Kategoria" value={filters.category ?? ''} onChange={(e) => set({ category: e.currentTarget.value || undefined })}>
           <option value="">Kaikki kategoriat</option>
           {categories.map((c) => <option key={c} value={c}>{c}</option>)}
         </select>
-        <select value={filters.venue ?? ''} onChange={(e) => set({ venue: e.currentTarget.value || undefined })}>
+        <select aria-label="Paikka" value={filters.venue ?? ''} onChange={(e) => set({ venue: e.currentTarget.value || undefined })}>
           <option value="">Kaikki paikat</option>
           {venues.map((v) => <option key={v} value={v}>{v}</option>)}
         </select>
