@@ -11,9 +11,10 @@ export function EventCard({ item, sourceName, onOpen }: {
   return (
     <article
       class="card"
+      role="button"
       tabIndex={0}
       onClick={onOpen}
-      onKeyDown={(k) => k.key === 'Enter' && onOpen()}
+      onKeyDown={(k) => k.target === k.currentTarget && k.key === 'Enter' && onOpen()}
     >
       {e.image ? <img class="card-image" src={e.image} alt="" loading="lazy" /> : <div class="card-image placeholder" />}
       <div class="card-body">
@@ -21,7 +22,7 @@ export function EventCard({ item, sourceName, onOpen }: {
         <p class="card-meta">
           {formatTime(e)}
           {e.venue ? ` · ${e.venue}` : ''}
-          {e.city && e.city !== 'Jyväskylä' ? ` · ${e.city}` : ''}
+          {e.city && (!e.venue || (e.city !== 'Jyväskylä' && e.city !== e.venue)) ? ` · ${e.city}` : ''}
         </p>
         {item.series.length > 1 && <p class="card-series">{seriesSummary(item.series)}</p>}
         <p class="card-tags">

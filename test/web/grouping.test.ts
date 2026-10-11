@@ -14,9 +14,9 @@ describe('buildDayGroups', () => {
       ev({ title: 'Keikka', start: '2026-10-14T20:00:00+03:00' }),
       ev({ title: 'Huominen', start: '2026-10-15T18:00:00+03:00' }),
     ], TODAY);
-    expect(groups.map((g) => [g.label, g.items.map((i) => i.event.title)])).toEqual([
-      ['Tänään', ['Näyttely', 'Keikka']],
-      ['Huomenna', ['Huominen']],
+    expect(groups.map((g) => [g.label, g.items.map((i) => i.event.title), g.ongoing.map((i) => i.event.title)])).toEqual([
+      ['Tänään', ['Keikka'], ['Näyttely']],
+      ['Huomenna', ['Huominen'], []],
     ]);
   });
 
@@ -42,5 +42,19 @@ describe('limitGroups', () => {
     expect(limited.groups.flatMap((g) => g.items).length).toBe(2);
     expect(limited.hasMore).toBe(true);
     expect(limitGroups(groups, 10).hasMore).toBe(false);
+  });
+
+  it('ei laske käynnissä olevia sivurajaan', () => {
+    const groups = buildDayGroups([
+      ev({ title: 'N1', start: '2026-10-01', allDay: true }),
+      ev({ title: 'N2', start: '2026-10-02', allDay: true }),
+      ev({ title: 'A', start: '2026-10-14T18:00:00+03:00' }),
+      ev({ title: 'B', start: '2026-10-15T19:00:00+03:00' }),
+    ], TODAY);
+    const limited = limitGroups(groups, 1);
+    expect(limited.groups[0].ongoing).toHaveLength(2);
+    expect(limited.groups[0].items.map((i) => i.event.title)).toEqual(['A']);
+    expect(limited.hasMore).toBe(true);
+    expect(limitGroups(groups, 2).hasMore).toBe(false);
   });
 });

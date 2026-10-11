@@ -10,7 +10,10 @@ export interface ListItem {
 export interface DayGroup {
   day: string;
   label: string;
+  /** Tapahtumat, jotka alkavat tänä päivänä. */
   items: ListItem[];
+  /** Aiemmin alkaneet, edelleen käynnissä olevat (vain "tänään"-ryhmässä). */
+  ongoing: ListItem[];
 }
 
 const seriesKey = (e: Event) => `${e.title.trim().toLowerCase()}|${e.venue ?? ''}`;
@@ -18,7 +21,7 @@ const seriesKey = (e: Event) => `${e.title.trim().toLowerCase()}|${e.venue ?? ''
 export function buildDayGroups(events: Event[], today: string): DayGroup[] {
   const sorted = [...events].sort((a, b) => Date.parse(a.start) - Date.parse(b.start));
   const seriesByKey = new Map<string, ListItem>();
-  const byDay = new Map<string, ListItem[]>();
+  const byDay = new Map<string, { items: ListItem[]; ongoing: ListItem[] }>();
 
   for (const e of sorted) {
     const key = seriesKey(e);
@@ -31,13 +34,13 @@ export function buildDayGroups(events: Event[], today: string): DayGroup[] {
     seriesByKey.set(key, item);
     const start = dayKey(e.start);
     const day = start < today ? today : start;
-    if (!byDay.has(day)) byDay.set(day, []);
-    byDay.get(day)!.push(item);
+    if (!byDay.has(day)) byDay.set(day, { items: [], ongoing: [] });
+    byDay.get(day)![start < today ? 'ongoing' : 'items'].push(item);
   }
 
   return [...byDay.entries()]
     .sort(([a], [b]) => a.localeCompare(b))
-    .map(([day, items]) => ({ day, label: dayLabel(day, today), items }));
+    .map(([day, { items, ongoing }]) => ({ day, label: dayLabel(day, today), items, ongoing }));
 }
 
 export function limitGroups(groups: DayGroup[], limit: number): { groups: DayGroup[]; hasMore: boolean } {

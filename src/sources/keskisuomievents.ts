@@ -1,3 +1,4 @@
+import { dayKey, localTime } from '../shared/time';
 import { htmlToText } from '../scrape/text';
 import type { RawEvent, Source } from '../shared/types';
 
@@ -29,16 +30,28 @@ export function parseKse(e: LeEvent): RawEvent | null {
   const title = text(e.name);
   if (!title || !e.start_time) return null;
   const categories = (e.keywords ?? []).map((k) => text(k.name)).filter((k): k is string => !!k);
+  const city = text(e.area?.name) ?? text(e.location?.address_locality);
+  let venue = text(e.location?.name);
+  if (venue && city && venue.toLowerCase() === city.toLowerCase()) venue = undefined;
+  let start = e.start_time;
+  let end: string | undefined = e.end_time || undefined;
+  let allDay = false;
+  if (localTime(e.start_time) === '00:00') {
+    allDay = true;
+    start = dayKey(e.start_time);
+    const endDay = end ? dayKey(new Date(Date.parse(end) - 60_000).toISOString()) : undefined;
+    end = endDay && endDay > start ? endDay : undefined;
+  }
   return {
     source: 'keskisuomievents',
     sourceId: e.id,
     title,
-    start: e.start_time,
-    end: e.end_time || undefined,
-    allDay: false,
-    venue: text(e.location?.name),
+    start,
+    end,
+    allDay,
+    venue,
     address: text(e.location?.street_address),
-    city: text(e.area?.name) ?? text(e.location?.address_locality),
+    city,
     url: `https://kalenteri.jyvaskyla.fi/tapahtuma/${e.id}`,
     ticketUrl: text(e.offers?.[0]?.info_url) ?? text(e.info_url),
     image: e.images?.[0]?.url || undefined,

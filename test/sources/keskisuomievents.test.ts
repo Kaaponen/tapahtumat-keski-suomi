@@ -38,6 +38,23 @@ describe('parseKse', () => {
     });
   });
 
+  it('jättää paikan pois, jos se on sama kuin kunta', () => {
+    const r = parseKse({ ...sample, location: { name: { fi: 'Jämsä' } }, area: { name: { fi: 'jämsä' } } });
+    expect(r?.venue).toBeUndefined();
+    expect(r?.city).toBe('jämsä');
+  });
+
+  it('käsittelee 00:00-alkuisen yhden päivän tapahtuman koko päivän tapahtumana', () => {
+    const r = parseKse({ ...sample, start_time: '2026-10-10T21:00:00.000Z', end_time: '2026-10-11T21:00:00.000Z' });
+    expect(r).toMatchObject({ allDay: true, start: '2026-10-11' });
+    expect(r?.end).toBeUndefined();
+  });
+
+  it('käsittelee 00:00-alkuisen usean päivän tapahtuman koko päivän tapahtumana', () => {
+    const r = parseKse({ ...sample, start_time: '2026-10-10T21:00:00.000Z', end_time: '2026-10-13T21:00:00.000Z' });
+    expect(r).toMatchObject({ allDay: true, start: '2026-10-11', end: '2026-10-13' });
+  });
+
   it('käyttää englantia, jos suomenkielinen nimi puuttuu', () => {
     expect(parseKse({ ...sample, name: { fi: '', en: 'Only English' } })?.title).toBe('Only English');
   });

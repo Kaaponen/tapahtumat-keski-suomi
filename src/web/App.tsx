@@ -16,6 +16,7 @@ export function App() {
   const [error, setError] = useState<string | null>(null);
   const [filters, setFilters] = useState<Filters>(() => filtersFromSearch(location.search));
   const [limit, setLimit] = useState(PAGE_SIZE);
+  const [showOngoing, setShowOngoing] = useState(false);
   const [selected, setSelected] = useState<ListItem | null>(null);
   const today = dayKey(new Date().toISOString());
 
@@ -68,6 +69,16 @@ export function App() {
           {g.items.map((item) => (
             <EventCard key={item.event.id} item={item} sourceName={sourceName} onOpen={() => setSelected(item)} />
           ))}
+          {g.ongoing.length > 0 && (
+            <>
+              <button type="button" class="ongoing-toggle" aria-expanded={showOngoing} onClick={() => setShowOngoing((v) => !v)}>
+                {showOngoing ? 'Piilota käynnissä olevat' : `Käynnissä myös ${g.ongoing.length} muuta (näyttelyt ym.)`}
+              </button>
+              {showOngoing && g.ongoing.map((item) => (
+                <EventCard key={item.event.id} item={item} sourceName={sourceName} onOpen={() => setSelected(item)} />
+              ))}
+            </>
+          )}
         </section>
       ))}
       {visible.hasMore && (

@@ -78,3 +78,4 @@ a { color: var(--accent); }
 .footer { margin-top: 40px; font-size: 0.85rem; color: var(--muted); }
 .footer ul { padding-left: 18px; }
 .source-error { color: var(--accent); }
+.ongoing-toggle { display: block; width: 100%; margin-bottom: 8px; padding: 10px 14px; text-align: left; border-radius: 10px; border: 1px dashed var(--border); background: none; color: var(--muted); }
