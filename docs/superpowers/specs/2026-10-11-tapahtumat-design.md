@@ -12,7 +12,7 @@ Web-sovellus, joka kokoaa Jyväskylän seudun tapahtumat useista lähteistä yht
 ### Rajaus
 
 Vaiheeseen 1 kuuluu:
-- Lähteet: keskisuomievents.fi (kattaa myös kalenteri.jyvaskyla.fi), visitjyvaskyla.fi, paviljonki.fi, peurunka.fi, keikkalista.fi
+- Lähteet: keskisuomievents.fi (kattaa myös kalenteri.jyvaskyla.fi ja visitjyvaskyla.fi), paviljonki.fi, peurunka.fi, keikkalista.fi
 - Ajastettu keruu, tuplien yhdistäminen, staattinen web-sivu, kalenteriin lisääminen tapahtuma kerrallaan
 
 Vaiheeseen 1 eivät kuulu:
@@ -26,13 +26,13 @@ Tiedot on tarkistettu 2026-10-11.
 
 | Lähde | Tapa | Huomiot |
 |---|---|---|
-| keskisuomievents.fi | JSON-rajapinta `https://keskisuomievents.fi/api/v1/event?page=N&page_size=…&include=location,area&start=today&super_event_type=umbrella,none` | Linked Events -tyyppinen rajapinta, noin 2 160 tapahtumaa. Kentät `start_time`, `end_time`, `name`, `location`, `keywords`, `images`, `offers`. Sivutus `meta.next`-kentän kautta. kalenteri.jyvaskyla.fi käyttää samaa rajapintaa, joten sitä ei kerätä erikseen. |
-| visitjyvaskyla.fi | WordPress REST `/wp-json/wp/v2/events` + tapahtumasivun HTML | Noin 1 590 tapahtumaa. `acf` on tyhjä, joten päivämäärät ja paikka luetaan tapahtumasivulta (`link`). Haetaan vain sivut, joita ei ole jo välimuistissa (`modified` muuttunut). |
-| paviljonki.fi | WordPress REST `/wp-json/wp/v2/tapahtuma` + tapahtumasivun HTML | Noin 348 tapahtumaa, sama periaate kuin visitjyvaskylässä. Paikka on aina Paviljonki. |
-| peurunka.fi | REST `/wp-json/events/v2/upcoming` | Paikka on aina Peurunka (Laukaa). |
-| keikkalista.fi | `https://www.keikkalista.fi/jyvaskyla`, sivuun upotettu schema.org/Event JSON-LD | Noin 30 keikkaa. |
+| keskisuomievents.fi | JSON-rajapinta `https://keskisuomievents.fi/api/v1/event?page=N&page_size=…&include=location,keywords,area&start=today&super_event_type=umbrella,none` | Linked Events -tyyppinen rajapinta, noin 2 160 tapahtumaa koko Keski-Suomesta. Kentät `start_time`, `end_time` (UTC), `name.fi`, `location.name.fi`, `location.street_address.fi`, `area.name.fi` (kunta), `keywords[].name.fi`, `images[].url`, `offers[].info_url.fi`. Sivutus `meta.next`-kentän kautta. Tapahtuman sivu: `https://kalenteri.jyvaskyla.fi/tapahtuma/<id>`. |
+| visitjyvaskyla.fi | Ei kerätä erikseen | Tapahtumat tulevat samasta keskisuomievents-rajapinnasta (UUID-tunnisteet; 10 tarkistetusta 10 löytyi rajapinnasta). |
+| paviljonki.fi | Listasivun HTML `https://www.paviljonki.fi/tapahtumat-liput/` + tapahtumasivun HTML | Listasivulla on kaikki tulevat tapahtumat (68 kpl, ei sivutusta): `.event-list-item`, nimi ja linkki `.event-details__title a`, päivämäärä `.event-details__meta`, kategoriat `.tag-list-item`, lippulinkki `.event-list-item__tickets a`, kuva `.event-list-item__image img`. Tapahtumasivulla: aika `.icon-link--calender p` ("31.1.2027 klo 16.00"), kesto `.icon-link--clock p` ("noin 2h 15 min"), sali `.icon-link--location a`, kuvaus `.event__main`. |
+| peurunka.fi | REST `/wp-json/events/v2/upcoming` | Lista (52 kpl): `event_title`, `event_link`, `event_start_date`/`event_end_date` ("04.10.2026"), `event_time` vapaata tekstiä ("Ovet 19.30", "18 - 20", tyhjä), `event_place` (esim. "Pub"), `event_category[]`, `event_ticket_link.url`, `event_image`, `event_content` (HTML). |
+| keikkalista.fi | `https://www.keikkalista.fi/jyvaskyla`, sivuun upotettu schema.org JSON-LD (`MusicEvent`) | Noin 30 keikkaa. `startDate` on pelkkä päivämäärä, `location.name`, `location.address.streetAddress`/`addressLocality`. |
 
-Kenttien tarkka muoto tarkistetaan toteutuksen aikana, ja jokaisesta lähteestä tallennetaan esimerkkivastaus testejä varten.
+Lähdetiedot on tarkistettu 2026-10-11. Jokaisesta lähteestä tallennetaan oikea esimerkkivastaus testejä varten.
 
 ## Rakenne
 
@@ -77,7 +77,7 @@ interface RawEvent {
 }
 ```
 
-`FetchContext` tarjoaa kohteliaan `fetch`-kääreen ja edellisen ajon välimuistin. Lähteet eivät tiedä toisistaan mitään.
+`FetchContext` tarjoaa kohteliaan `fetch`-kääreen (`getText`, `getJson`, `log`). Välimuistia ei tarvita, koska raskain lähde (Paviljonki) vaatii vain noin 70 sivuhakua ajoa kohden. Lähteet eivät tiedä toisistaan mitään.
 
 ## Tuplien yhdistäminen
 
@@ -91,15 +91,16 @@ interface RawEvent {
    - jos molemmilla on kellonaika, alkamisajat eroavat enintään 90 minuuttia.
 
    Raja-arvot ovat lähtöarvoja, ja niitä säädetään testiaineiston avulla.
-3. **Ryhmittely:** yhdistetään tapahtumat union-find-rakenteella, jolloin jos A=B ja B=C, kaikki kolme ovat samaa tapahtumaa.
+3. **Ryhmittely:** saman päivän tapahtumat käydään läpi järjestyksessä (kellonajalliset ensin). Tapahtuma liitetään ensimmäiseen ryhmään, jossa se vastaa ainakin yhtä jäsentä ja jonka kaikkien jäsenten paikka ja kellonaika sopivat siihen. Muuten se aloittaa uuden ryhmän. Näin pelkän päivämäärän sisältävä tapahtuma ei liimaa saman päivän kahta eri esitystä (esim. klo 14 ja klo 19) yhteen.
 4. **Yhdistäminen:** jokainen kenttä valitaan parhaasta lähteestä.
    - Kellonaika: tarkin (kellonaika voittaa koko päivän tapahtuman).
    - Kuvaus: pisin.
    - Kuva: ensimmäinen saatavilla oleva lähteiden etusijajärjestyksessä.
    - Lipunmyyntilinkki ja ensisijainen URL: tapahtumapaikan oma sivu (paviljonki, peurunka) ennen kokoavia sivustoja.
    - `sources`: lista `{ source, url }` kaikista yhdistetyistä lähteistä.
-5. **Pysyvä tunniste:** `id = hash(normalisoitu nimi + päiväavain + paikka-avain)`. Käytetään .ics-tiedoston UID-kenttänä ja vaiheessa 2.
-6. **Toistuvat esitykset** säilyvät erillisinä tapahtumina. Käyttöliittymä ryhmittelee saman nimen ja paikan tapahtumat näkymään yhtenä rivinä ("Esitykset 12.10.–30.11.").
+5. **Pysyvä tunniste:** `id = sha1(normalisoitu nimi | päiväavain | kellonaika tai tyhjä | paikka-avain)`, 12 ensimmäistä heksamerkkiä. Kellonaika on mukana, jotta saman päivän kaksi esitystä saavat eri tunnisteen. Käytetään .ics-tiedoston UID-kenttänä ja vaiheessa 2.
+6. **Kategoriat:** lähteiden vapaat kategoriat ja asiasanat muutetaan pieneen kiinteään joukkoon (Musiikki, Teatteri, Stand up, Tanssi, Näyttelyt, Urheilu, Lapset ja perheet, Ruoka ja juoma, Messut, Kurssit ja luennot, Muut), jotta kategoriasuodatin pysyy käyttökelpoisena.
+7. **Toistuvat esitykset** säilyvät erillisinä tapahtumina. Käyttöliittymä ryhmittelee saman nimen ja paikan tapahtumat näkymään yhtenä rivinä ("Esitykset 12.10.–30.11.").
 
 ## Tietomuoto: `events.json`
 
@@ -167,7 +168,7 @@ Lisäksi `data/raw/<lähde>.json` tallentaa jokaisen lähteen edellisen onnistun
 ```
 src/
   shared/types.ts
-  sources/{keskisuomievents,visitjyvaskyla,paviljonki,peurunka,keikkalista}.ts
+  sources/{keskisuomievents,paviljonki,peurunka,keikkalista}.ts
   sources/index.ts
   scrape/{run.ts,http.ts,status.ts}
   dedupe/{normalize.ts,venues.ts,match.ts,merge.ts}
@@ -175,7 +176,7 @@ src/
 data/raw/
 public/events.json
 test/
-.github/workflows/{scrape.yml,deploy.yml,ci.yml}
+.github/workflows/{update.yml,ci.yml}   # update = keruu + julkaisu samassa ajossa
 ```
 
 ## Vaihe 2 (ei toteuteta nyt)
