@@ -1,0 +1,754 @@
+[
+ {
+  "source": "jelmu",
+  "sourceId": "saimaa-2",
+  "title": "Saimaa",
+  "start": "2026-10-16T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/saimaa-2",
+  "ticketUrl": "https://www.jelmu.net/event/saimaa-2",
+  "image": "https://www.jelmu.net/media/saimaa-syksy-2026-pysty-300x300.jpeg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 33,00€ – 40,00€ · Loppuunmyyty",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "viivi-3",
+  "title": "Viivi",
+  "start": "2026-10-17T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/viivi-3",
+  "ticketUrl": "https://www.jelmu.net/event/viivi-3",
+  "image": "https://www.jelmu.net/media/viivi_syksy_pr-scaled-e1778862469162-300x300.jpg",
+  "description": "S · Ovet 19:00 · Keikka alkaa 21:00 · 25,00€ – 33,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-radiopuhelimet-pk-keranen",
+  "title": "Live is Life: Radiopuhelimet, PK Keränen",
+  "start": "2026-10-17T21:00:00+03:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-radiopuhelimet-pk-keranen",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-radiopuhelimet-pk-keranen",
+  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_radiopk-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 15,00€ – 20,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "maija-vilkkumaa-2",
+  "title": "Maija Vilkkumaa, M",
+  "start": "2026-10-22T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/maija-vilkkumaa-2",
+  "ticketUrl": "https://www.jelmu.net/event/maija-vilkkumaa-2",
+  "image": "https://www.jelmu.net/media/tiketti-470x768px-1-300x300.jpg",
+  "description": "K18 · Ovet 18:00 · Keikka alkaa 20:00 · 29,00€ – 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "costi",
+  "title": "Costi, uu$er",
+  "start": "2026-10-23T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/costi",
+  "ticketUrl": "https://www.jelmu.net/event/costi",
+  "image": "https://www.jelmu.net/media/costi_syksy2026_pr_preview-300x300.jpg",
+  "description": "S · Ovet 19:00 · Keikka alkaa 21:00 · 24,50€ – 30,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "black-devils-feat-ile-kallio-janne-louhivuori",
+  "title": "Black Devils feat. Ile Kallio & Janne Louhivuori (Hurriganes Show)",
+  "start": "2026-10-24T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/black-devils-feat-ile-kallio-janne-louhivuori",
+  "ticketUrl": "https://www.jelmu.net/event/black-devils-feat-ile-kallio-janne-louhivuori",
+  "image": "https://www.jelmu.net/media/black_devils_2026-3-3-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 29,00€ – 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-dj-kridlokk-ug-solo-15-v",
+  "title": "Live is Life: DJ Kridlokk – UG Solo 15 v",
+  "start": "2026-10-24T21:00:00+03:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-dj-kridlokk-ug-solo-15-v",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-dj-kridlokk-ug-solo-15-v",
+  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_kridlokk-1-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 18,00€ – 25,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "litku-klemetti-2",
+  "title": "Litku Klemetti, Joku Iiris",
+  "start": "2026-10-30T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/litku-klemetti-2",
+  "ticketUrl": "https://www.jelmu.net/event/litku-klemetti-2",
+  "image": "https://www.jelmu.net/media/litku-klemetti-2026-kuva-aki-roukala2-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 20,00€ – 27,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "insomnium-kaunis-kuolematon",
+  "title": "Insomnium, Kaunis Kuolematon",
+  "start": "2026-10-31T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/insomnium-kaunis-kuolematon",
+  "ticketUrl": "https://www.jelmu.net/event/insomnium-kaunis-kuolematon",
+  "image": "https://www.jelmu.net/media/insomnium_2026_square_-jyvaskyla--300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 29,00€ – 35,00€ · Loppuunmyyty",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-braineaters-plays-misfits",
+  "title": "Live is Life: Braineaters plays Misfits",
+  "start": "2026-10-31T21:00:00+02:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-braineaters-plays-misfits",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-braineaters-plays-misfits",
+  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_braineaters-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 12,00€ – 17,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "amaranthe-se",
+  "title": "Amaranthe (SE), Self Deception (SE), Ankor (ES)",
+  "start": "2026-11-01T18:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/amaranthe-se",
+  "ticketUrl": "https://www.jelmu.net/event/amaranthe-se",
+  "image": "https://www.jelmu.net/media/amaranthe_jyvaskyla_1080x1080-300x300.png",
+  "description": "K18 · Ovet 18:00 · 39,50€ – 54,00€ · Loppuunmyyty",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "helmi-marleena",
+  "title": "helmi marleena, fibi",
+  "start": "2026-11-06T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/helmi-marleena",
+  "ticketUrl": "https://www.jelmu.net/event/helmi-marleena",
+  "image": "https://www.jelmu.net/media/helmi-marleena-kiertue-300x300.jpeg",
+  "description": "S · Ovet 19:00 · Keikka alkaa 21:00 · 15,00€ – 20,00€ · Loppuunmyyty",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "kotiteollisuus-3",
+  "title": "Kotiteollisuus",
+  "start": "2026-11-07T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/kotiteollisuus-3",
+  "ticketUrl": "https://www.jelmu.net/event/kotiteollisuus-3",
+  "image": "https://www.jelmu.net/media/kotiteollisuus_2026-kuva-arkisto-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 25,00€ – 33,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-yona-kadonneet-helmet",
+  "title": "Live is Life: Yona – Kadonneet helmet",
+  "start": "2026-11-07T21:00:00+02:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-yona-kadonneet-helmet",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-yona-kadonneet-helmet",
+  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_yona_susanna-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 24,00€ – 28,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "bess-2",
+  "title": "BESS",
+  "start": "2026-11-11T18:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/bess-2",
+  "ticketUrl": "https://www.jelmu.net/event/bess-2",
+  "image": "https://www.jelmu.net/media/bess_syksy2026_pr1_preview-300x300.jpg",
+  "description": "S · Ovet 18:00 · Keikka alkaa 20:00 · 25,00€ – 33,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "semmarit",
+  "title": "Semmarit",
+  "start": "2026-11-13T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/semmarit",
+  "ticketUrl": "https://www.jelmu.net/event/semmarit",
+  "image": "https://www.jelmu.net/media/semmarit_dosetit_meta_nelio_kuvalla-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 32,00€ – 40,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "napalm-death-campaign-for-musical-destruction-2026",
+  "title": "Napalm Death (UK), Master (US), Brat (US), Goatburner",
+  "start": "2026-11-14T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/napalm-death-campaign-for-musical-destruction-2026",
+  "ticketUrl": "https://www.jelmu.net/event/napalm-death-campaign-for-musical-destruction-2026",
+  "image": "https://www.jelmu.net/media/lutakko-kopio-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · 35,00€ – 42,00€ · Loppuunmyyty",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "dave-lindholm-pepe-ahlqvist-walkin-blues-tour",
+  "title": "Dave Lindholm & Pepe Ahlqvist",
+  "start": "2026-11-18T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/dave-lindholm-pepe-ahlqvist-walkin-blues-tour",
+  "ticketUrl": "https://www.jelmu.net/event/dave-lindholm-pepe-ahlqvist-walkin-blues-tour",
+  "image": "https://www.jelmu.net/media/dave-pepe-300x300.png",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 20:00 · 18,00€ – 25,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "knipi",
+  "title": "Knipi",
+  "start": "2026-11-19T18:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/knipi",
+  "ticketUrl": "https://www.jelmu.net/event/knipi",
+  "image": "https://www.jelmu.net/media/knipi-300x300.jpg",
+  "description": "K18 · Ovet 18:00 · 23,00€ – 30,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "vilma-jaa",
+  "title": "Vilma Jää, hannaeerika",
+  "start": "2026-11-20T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/vilma-jaa",
+  "ticketUrl": "https://www.jelmu.net/event/vilma-jaa",
+  "image": "https://www.jelmu.net/media/vilma_promo-1_web-300x300.jpg",
+  "description": "S · Ovet 19:00 · Keikka alkaa 21:00 · 15,00€ – 20,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "viikate-v30v",
+  "title": "Viikate",
+  "start": "2026-11-21T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/viikate-v30v",
+  "ticketUrl": "https://www.jelmu.net/event/viikate-v30v",
+  "image": "https://www.jelmu.net/media/viikate-v30v-syksy-instagram-1080x1080-1-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 27,00€ – 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-modem-sokar",
+  "title": "Live is Life: Modem, Sokar",
+  "start": "2026-11-21T21:00:00+02:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-modem-sokar",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-modem-sokar",
+  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_modem-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 15,00€ – 20,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "melancholy-mass-jyvaskyla-2026",
+  "title": "Melancholy Mass Jyväskylä 2026",
+  "start": "2026-11-26T18:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/melancholy-mass-jyvaskyla-2026",
+  "ticketUrl": "https://www.jelmu.net/event/melancholy-mass-jyvaskyla-2026",
+  "image": "https://www.jelmu.net/media/melancholy26-square-1080x1080-jkl-300x300.jpg",
+  "description": "K18 · Ovet 18:00 · 37,00€ – 45,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "d1vari-tour-jyvaskyla",
+  "title": "D1VARI TOUR – Jyväskylä",
+  "start": "2026-11-27T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/d1vari-tour-jyvaskyla",
+  "ticketUrl": "https://www.jelmu.net/event/d1vari-tour-jyvaskyla",
+  "image": "https://www.jelmu.net/media/d1vari_jyvaskyla-300x300.jpg",
+  "description": "S · Ovet 19:00 · 17,50€ – 22,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "happoradio",
+  "title": "Happoradio, Auringon Lapset",
+  "start": "2026-11-28T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/happoradio",
+  "ticketUrl": "https://www.jelmu.net/event/happoradio",
+  "image": "https://www.jelmu.net/media/happoradio_2026_1_kuvaaja_tero_ahonen-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 30,00€ – 38,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "anvil-ca-killer-be",
+  "title": "Anvil (CA), Killer (BE)",
+  "start": "2026-12-02T18:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/anvil-ca-killer-be",
+  "ticketUrl": "https://www.jelmu.net/event/anvil-ca-killer-be",
+  "image": "https://www.jelmu.net/media/square-3-300x300.jpg",
+  "description": "K18 · Ovet 18:00 · 25,00€ – 33,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "turmion-katilot-to-s-k18",
+  "title": "Turmion Kätilöt, The Ghoulstars",
+  "start": "2026-12-03T18:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/turmion-katilot-to-s-k18",
+  "ticketUrl": "https://www.jelmu.net/event/turmion-katilot-to-s-k18",
+  "image": "https://www.jelmu.net/media/tk_eventplanssi-300x300.png",
+  "description": "S · Ovet 18:00 · Keikka alkaa 20:00 · 29,00€ – 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "turmion-katilot-pe-k18",
+  "title": "Turmion Kätilöt, The Ghoulstars",
+  "start": "2026-12-04T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/turmion-katilot-pe-k18",
+  "ticketUrl": "https://www.jelmu.net/event/turmion-katilot-pe-k18",
+  "image": "https://www.jelmu.net/media/tk_eventplanssi-300x300.png",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 29,00€ – 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-jaakko-kulta-aaro630-pihalla-la",
+  "title": "Live is Life: Jaakko Kulta, Aaro630, Pihalla (la)",
+  "start": "2026-12-05T21:00:00+02:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-jaakko-kulta-aaro630-pihalla-la",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-jaakko-kulta-aaro630-pihalla-la",
+  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_jaakkokultaaaropihalla-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 25,40€ – 27,40€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "mental-cruelty-de",
+  "title": "Mental Cruelty (DE), Ov Sulfur (US), Extermination Dismemberment (BY), Arcranius (DE)",
+  "start": "2026-12-10T18:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/mental-cruelty-de",
+  "ticketUrl": "https://www.jelmu.net/event/mental-cruelty-de",
+  "image": "https://www.jelmu.net/media/feed-mental-cruelty-jkl-300x300.jpg",
+  "description": "K18 · Ovet 18:00 · 35,00€ – 42,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "von-hertzen-brothers-rarities-25th-anniversary-tour",
+  "title": "Von Hertzen Brothers: Rarities – 25th Anniversary Tour",
+  "start": "2026-12-11T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/von-hertzen-brothers-rarities-25th-anniversary-tour",
+  "ticketUrl": "https://www.jelmu.net/event/von-hertzen-brothers-rarities-25th-anniversary-tour",
+  "image": "https://www.jelmu.net/media/vhb-abc00710-credit-ville-juurikkala-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · 29,00€ – 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "moon-shot-stoned-statues",
+  "title": "Moon Shot, Stoned Statues",
+  "start": "2026-12-12T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/moon-shot-stoned-statues",
+  "ticketUrl": "https://www.jelmu.net/event/moon-shot-stoned-statues",
+  "image": "https://www.jelmu.net/media/moon_shot_promo_2026_reaper_by_laureline_tilkin-3-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 23,00€ – 30,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-kivesveto-go-go-moyhy-veikot",
+  "title": "Live is Life: Kivesveto Go Go, Möyhy-Veikot",
+  "start": "2026-12-12T21:00:00+02:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-kivesveto-go-go-moyhy-veikot",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-kivesveto-go-go-moyhy-veikot",
+  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_kivari-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 15,00€ – 20,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "cledos-closed-rooms-tour-2026",
+  "title": "Cledos, Dw",
+  "start": "2026-12-17T18:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/cledos-closed-rooms-tour-2026",
+  "ticketUrl": "https://www.jelmu.net/event/cledos-closed-rooms-tour-2026",
+  "image": "https://www.jelmu.net/media/promo-still-2-2_preview-300x300.jpg",
+  "description": "S · Ovet 18:00 · Keikka alkaa 20:00 · 25,00€ – 33,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "stam1na-pe-s-k18",
+  "title": "Stam1na",
+  "start": "2026-12-18T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/stam1na-pe-s-k18",
+  "ticketUrl": "https://www.jelmu.net/event/stam1na-pe-s-k18",
+  "image": "https://www.jelmu.net/media/stam1na_dirtyyears_igfeed-300x300.jpg",
+  "description": "S · Ovet 19:00 · Keikka alkaa 21:00 · 30,00€ – 38,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "stam1na-la-k18",
+  "title": "Stam1na",
+  "start": "2026-12-19T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/stam1na-la-k18",
+  "ticketUrl": "https://www.jelmu.net/event/stam1na-la-k18",
+  "image": "https://www.jelmu.net/media/stam1na_dirtyyears_igfeed-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 30,00€ – 38,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-eva-manu",
+  "title": "Live is Life: Eva & Manu",
+  "start": "2026-12-19T21:00:00+02:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-eva-manu",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-eva-manu",
+  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_evamanu-1-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 20,00€ – 28,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "wasted-30v",
+  "title": "Wasted, Abduktio, Kaikki Turhat Haaveet, Nykypost",
+  "start": "2027-01-08T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/wasted-30v",
+  "ticketUrl": "https://www.jelmu.net/event/wasted-30v",
+  "image": "https://www.jelmu.net/media/wasted_lutakko2027_juliste_ig-300x300.jpeg",
+  "description": "K18 · Ovet 19:00 · 18,00€ – 25,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "erja-lyytinen-2",
+  "title": "Erja Lyytinen",
+  "start": "2027-01-09T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/erja-lyytinen-2",
+  "ticketUrl": "https://www.jelmu.net/event/erja-lyytinen-2",
+  "image": "https://www.jelmu.net/media/tayskoko-1-of-1-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 30,00€ – 38,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "are-kriso-eevil-stoo-stepa",
+  "title": "Are & Kriso, Eevil Stöö, Stepa",
+  "start": "2027-01-16T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/are-kriso-eevil-stoo-stepa",
+  "ticketUrl": "https://www.jelmu.net/event/are-kriso-eevil-stoo-stepa",
+  "image": "https://www.jelmu.net/media/lutakko27_arekrisostoostepa_ig-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · 25,00€ – 33,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-whispered",
+  "title": "Live is Life: Whispered",
+  "start": "2027-01-16T21:00:00+02:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-whispered",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-whispered",
+  "image": "https://www.jelmu.net/media/lutakko27_mustakynnys_ig_whispered-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 15,00€ – 20,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "ruoska-king-satan",
+  "title": "Ruoska, King Satan",
+  "start": "2027-01-22T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/ruoska-king-satan",
+  "ticketUrl": "https://www.jelmu.net/event/ruoska-king-satan",
+  "image": "https://www.jelmu.net/media/ruoska_2025_promo4-1-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 19,00€ – 27,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "aatulove-jemina",
+  "title": "Aatulove, Jemina",
+  "start": "2027-01-23T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/aatulove-jemina",
+  "ticketUrl": "https://www.jelmu.net/event/aatulove-jemina",
+  "image": "https://www.jelmu.net/media/lutakko27_aatulovejemina_ig-300x300.jpg",
+  "description": "S · Ovet 19:00 · 15,00€ – 20,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-demonic-death-judge-dome-runner-vvorse",
+  "title": "Live is Life: Demonic Death Judge, Dome Runner, Vvorse",
+  "start": "2027-01-23T21:00:00+02:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-demonic-death-judge-dome-runner-vvorse",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-demonic-death-judge-dome-runner-vvorse",
+  "image": "https://www.jelmu.net/media/lutakko27_mustakynnys_ig_ddj_dome_vvorse-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 15,00€ – 20,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "sara",
+  "title": "Sara",
+  "start": "2027-02-06T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/sara",
+  "ticketUrl": "https://www.jelmu.net/event/sara",
+  "image": "https://www.jelmu.net/media/iu-heiminum_keikkajuliste_1080x1080-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 23,00€ – 30,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "ruusut",
+  "title": "Ruusut",
+  "start": "2027-02-20T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/ruusut",
+  "ticketUrl": "https://www.jelmu.net/event/ruusut",
+  "image": "https://www.jelmu.net/media/ruusut-promo-6-pc-juuli-kangasniemi-1-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · 27,00€ – 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-f",
+  "title": "Live is Life: F",
+  "start": "2027-02-27T21:00:00+02:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-f",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-f",
+  "image": "https://www.jelmu.net/media/lutakko27_mustakynnys_ig_f-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 15,00€ – 20,00€",
+  "categories": [
+   "keikat"
+  ]
+ }
+]
