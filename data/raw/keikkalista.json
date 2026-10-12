@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/rival-tree-kappas-rockneck-jyvaskyla-2026-10-11",
-  "title": "Rival Tree / KAPPAS",
-  "start": "2026-10-11",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/rival-tree-kappas-rockneck-jyvaskyla-2026-10-11",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-10-12",
   "title": "Maanantaijamit",
   "start": "2026-10-12T19:00:00+03:00",
@@ -450,6 +435,21 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/oudokit-nymfiparakiitti-rockneck-jyvaskyla-2026-10-22",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/maija-vilkkumaa-m-lutakko-2026-10-22",
+  "title": "Maija Vilkkumaa + M",
+  "start": "2026-10-22T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/maija-vilkkumaa-m-lutakko-2026-10-22",
+  "image": "https://www.jelmu.net/media/tiketti-470x768px-1-300x300.jpg",
   "categories": [
    "keikat"
   ]
