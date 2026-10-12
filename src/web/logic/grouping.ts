@@ -12,14 +12,15 @@ export interface DayGroup {
   label: string;
   /** Tapahtumat, jotka alkavat tänä päivänä. */
   items: ListItem[];
-  /** Aiemmin alkaneet, edelleen käynnissä olevat (vain "tänään"-ryhmässä). */
+  /** Aiemmin alkaneet, edelleen käynnissä olevat (vain ensimmäisessä ryhmässä). */
   ongoing: ListItem[];
 }
 
 const seriesKey = (e: Event) =>
   `${e.title.trim().toLowerCase()}|${(e.venue ?? e.address ?? e.city ?? '').trim().toLowerCase()}`;
 
-export function buildDayGroups(events: Event[], today: string): DayGroup[] {
+/** `from`: listan ensimmäinen päivä (aikarajauksen alku); sitä ennen alkaneet ovat sen päivän käynnissä olevia. */
+export function buildDayGroups(events: Event[], today: string, from = today): DayGroup[] {
   const sorted = [...events].sort((a, b) => Date.parse(a.start) - Date.parse(b.start));
   const seriesByKey = new Map<string, ListItem>();
   const byDay = new Map<string, { items: ListItem[]; ongoing: ListItem[] }>();
@@ -34,9 +35,9 @@ export function buildDayGroups(events: Event[], today: string): DayGroup[] {
     const item: ListItem = { event: e, series: [e] };
     seriesByKey.set(key, item);
     const start = dayKey(e.start);
-    const day = start < today ? today : start;
+    const day = start < from ? from : start;
     if (!byDay.has(day)) byDay.set(day, { items: [], ongoing: [] });
-    byDay.get(day)![start < today ? 'ongoing' : 'items'].push(item);
+    byDay.get(day)![start < from ? 'ongoing' : 'items'].push(item);
   }
 
   return [...byDay.entries()]

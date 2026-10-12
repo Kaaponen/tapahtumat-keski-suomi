@@ -6,7 +6,7 @@ import { EventCard } from './components/EventCard';
 import { EventDetail } from './components/EventDetail';
 import { FiltersBar } from './components/FiltersBar';
 import { SourceStatusFooter } from './components/SourceStatusFooter';
-import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, type Filters } from './logic/filters';
+import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, rangeBounds, type Filters } from './logic/filters';
 import { buildDayGroups, limitGroups, type ListItem } from './logic/grouping';
 
 const PAGE_SIZE = 60;
@@ -36,10 +36,11 @@ export function App() {
     setLimit(PAGE_SIZE);
   }, [filters]);
 
-  const groups = useMemo(
-    () => (data ? buildDayGroups(applyFilters(data.events, filters, today), today) : []),
-    [data, filters, today],
-  );
+  const groups = useMemo(() => {
+    if (!data) return [];
+    const start = rangeBounds(filters, today)?.[0];
+    return buildDayGroups(applyFilters(data.events, filters, today), today, start && start > today ? start : today);
+  }, [data, filters, today]);
   const visible = useMemo(() => limitGroups(groups, limit), [groups, limit]);
   const categories = useMemo(() => {
     const present = new Set(data?.events.flatMap((e) => e.categories) ?? []);
