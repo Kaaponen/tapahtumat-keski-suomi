@@ -8,6 +8,18 @@ const ev = (p: Partial<Event> & Pick<Event, 'title' | 'start'>): Event => ({
 const TODAY = '2026-10-14';
 
 describe('buildDayGroups', () => {
+  it('aikarajauksessa ennen rajauksen alkua alkaneet kuuluvat ensimmäisen päivän käynnissä oleviin', () => {
+    const groups = buildDayGroups([
+      ev({ title: 'Näyttely', start: '2026-10-01', end: '2026-11-01', allDay: true }),
+      ev({ title: 'Festivaali', start: '2026-10-15T18:00:00+03:00', end: '2026-10-17T23:00:00+03:00' }),
+      ev({ title: 'Lauantai', start: '2026-10-17T20:00:00+03:00' }),
+    ], TODAY, '2026-10-16');
+    expect(groups.map((g) => [g.day, g.items.map((i) => i.event.title), g.ongoing.map((i) => i.event.title)])).toEqual([
+      ['2026-10-16', [], ['Näyttely', 'Festivaali']],
+      ['2026-10-17', ['Lauantai'], []],
+    ]);
+  });
+
   it('ryhmittelee päivittäin ja nostaa käynnissä olevan tapahtuman tähän päivään', () => {
     const groups = buildDayGroups([
       ev({ title: 'Näyttely', start: '2026-10-01', end: '2026-11-01', allDay: true }),
