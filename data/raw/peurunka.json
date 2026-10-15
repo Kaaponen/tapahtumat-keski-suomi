@@ -103,6 +103,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22669",
+  "title": "Karaokeillat",
+  "start": "2026-10-21",
+  "end": "2026-10-24",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-84/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22036",
   "title": "Lasten karaoke",
   "start": "2026-10-21",
@@ -140,21 +155,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22669",
-  "title": "Karaokeillat",
-  "start": "2026-10-21",
-  "end": "2026-10-24",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-84/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "18759",
   "title": "Hurma",
   "start": "2026-10-22T19:30:00+03:00",
@@ -169,6 +169,21 @@
   "categories": [
    "Tanssit"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22267",
+  "title": "Vibe Dance Weekend",
+  "start": "2026-10-23",
+  "end": "2026-10-25",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/vibe-dance-weekend/",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/08/vibe-dance-weekend2.jpg",
+  "description": "Katso lisätiedot järjestäjän sivulta! VIBE DANCE WEEKEND Tervetuloa Peurunkaan tanssikurssille!",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -189,18 +204,22 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22267",
-  "title": "Vibe Dance Weekend",
-  "start": "2026-10-23",
-  "end": "2026-10-25",
-  "allDay": true,
+  "sourceId": "17233",
+  "title": "Kuutamopyöräily – eFatbike-retki",
+  "start": "2026-10-24T19:00:00+03:00",
+  "end": "2026-10-24T22:00:00+03:00",
+  "allDay": false,
   "venue": "Peurunka",
   "address": "Peurungantie 85",
   "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/vibe-dance-weekend/",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/08/vibe-dance-weekend2.jpg",
-  "description": "Katso lisätiedot järjestäjän sivulta! VIBE DANCE WEEKEND Tervetuloa Peurunkaan tanssikurssille!",
-  "categories": []
+  "url": "https://peurunka.fi/kaikki-tapahtumat/kuutamopyoraily-efatbike-retki-2/",
+  "ticketUrl": "https://shop.peurunka.fi/courses/template/1587/?date=2026-10-24T19:00:00.000Z&persons=1&end=2026-11-30&class=203549",
+  "image": "https://peurunka.fi/wp-content/uploads/2025/10/FATBIKE_orig-e1760955834547.jpeg",
+  "description": "Kuutamopyöräily – eFatbike-retki lauantaina 24.10.2026 klo 19.00–22.00 Lähde mukaan talviseen kuutamopyöräilyyn! Ajamme rauhalliseen tahtiin Peurungasta käsin Laukaan kauniissa ympäristössä kohti kotaa tai laavua – pysähdyspaikka valitaan reitin ja sääolosuhteiden mukaan. Matkan varrella nautimme talvisesta luonnosta ja kuutamon tunnelmasta. Pysähdyksellä vietämme noin 45–60 minuuttia tulilla, ja halutessasi voit paistaa makkaraa ja nauttia omia eväitäsi. Ota mukaasi: – omat eväät (halutessasi voit ostaa ne ennen lähtöä Bistrosta) – otsalamppu – huomioliivi, jos löytyy Osallistumismaksu: – Li…",
+  "categories": [
+   "Jäsenpäivä",
+   "Liikunta"
+  ]
  },
  {
   "source": "peurunka",
@@ -269,20 +288,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22262",
-  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
-  "start": "2026-10-30",
-  "end": "2026-11-01",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle/",
-  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "22713",
   "title": "Yölintu ja Kake Randelin",
   "start": "2026-10-30T20:00:00+02:00",
@@ -298,6 +303,20 @@
    "Keikat",
    "Pikkujoulut"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22262",
+  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
+  "start": "2026-10-30",
+  "end": "2026-11-01",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle/",
+  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -517,6 +536,25 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "23258",
+  "title": "Kuutamopyöräily – eFatbike-retki",
+  "start": "2026-11-21T19:00:00+02:00",
+  "end": "2026-11-21T22:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/kuutamopyoraily-efatbike-retki-3/",
+  "ticketUrl": "https://shop.peurunka.fi/courses/template/1587/?date=2026-11-21T19:00:00.000Z&persons=1&end=2026-12-31&class=203550",
+  "image": "https://peurunka.fi/wp-content/uploads/2025/10/FATBIKE_orig-e1760955834547.jpeg",
+  "description": "Kuutamopyöräily – eFatbike-retki lauantaina 21.11.2026 klo 19.00–22.00 Lähde mukaan talviseen kuutamopyöräilyyn! Ajamme rauhalliseen tahtiin Peurungasta käsin Laukaan kauniissa ympäristössä kohti kotaa tai laavua – pysähdyspaikka valitaan reitin ja sääolosuhteiden mukaan. Matkan varrella nautimme talvisesta luonnosta ja kuutamon tunnelmasta. Pysähdyksellä vietämme noin 45–60 minuuttia tulilla, ja halutessasi voit paistaa makkaraa ja nauttia omia eväitäsi. Ota mukaasi: – omat eväät (halutessasi voit ostaa ne ennen lähtöä Bistrosta) – otsalamppu – huomioliivi, jos löytyy Osallistumismaksu: – Li…",
+  "categories": [
+   "Jäsenpäivä",
+   "Liikunta"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22226",
   "title": "Olavi Uusivirta + Mira Luoti",
   "start": "2026-11-21T20:00:00+02:00",
@@ -535,21 +573,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22679",
-  "title": "Karaokeillat",
-  "start": "2026-11-25",
-  "end": "2026-11-28",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-89/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "21725",
   "title": "Christmas Jukebox Show",
   "start": "2026-11-25T19:00:00+02:00",
@@ -565,6 +588,21 @@
    "Pikkujoulut",
    "Ruokatapahtuma"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22679",
+  "title": "Karaokeillat",
+  "start": "2026-11-25",
+  "end": "2026-11-28",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-89/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
  },
  {
   "source": "peurunka",
