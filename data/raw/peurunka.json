@@ -469,6 +469,23 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "23267",
+  "title": "TUTKIMUSSEMINAARI - Kohti toimintakykyistä ikääntymistä",
+  "start": "2026-11-18T12:00:00+02:00",
+  "end": "2026-11-18T15:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Peurunka / Auditorio, Teams",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/tutkimusseminaari-kohti-toimintakykyista-ikaantymista/",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/10/Peurunka-yleinen4.jpg",
+  "description": "TUTKIMUSSEMINAARI – Kohti toimintakykyistä ikääntymistä Tervetuloa Jyväskylän yliopiston ja Kuntoutumis- ja Liikuntasäätiö Peurungan tutkimusyhteistyöseminaariin. Seminaari on tarkoitettu kaikille hyvinvointipalveluiden tutkimuksesta ja kehittämisestä kiinnostuneille. Seminaarissa esitellään JYPE-toimintaa ja rahoitettuja hankkeita. AGENDA Klo 12 kahvi & suolainen klo 12.30 avaussanat Panu Hulkkonen, toiminnanjohtaja Kuntoutumis- ja liikuntasäätiö Peurunka ja Satu Ylitalo, liiketoimintajohtaja Peurunka Oy klo 12.40 Mia Ahinko – Vauhtipyöräharjoittelun adaptaatiot motorisella aivokuorella sekä…",
+  "categories": [
+   "Kuntoutus"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22677",
   "title": "Karaokeillat",
   "start": "2026-11-18",
@@ -606,20 +623,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22264",
-  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
-  "start": "2026-11-27",
-  "end": "2026-11-29",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "19859",
   "title": "Yö + Olli Halonen",
   "start": "2026-11-27T20:00:00+02:00",
@@ -635,6 +638,20 @@
    "Keikat",
    "Pikkujoulut"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22264",
+  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
+  "start": "2026-11-27",
+  "end": "2026-11-29",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -736,21 +753,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22168",
-  "title": "Päiväkaraoke",
-  "start": "2026-12-09T15:00:00+02:00",
-  "end": "2026-12-09T17:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/paivakaraoke-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Paljon toivottu päiväkaraoke! Tervetuloa Pubiin laulamaan karaokea klo 15.00-17.00. Vapaa pääsy!",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "22877",
   "title": "Tanssit: Helena & Duo Sami Soininen",
   "start": "2026-12-09T20:00:00+02:00",
@@ -764,6 +766,21 @@
   "categories": [
    "Tanssit"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22168",
+  "title": "Päiväkaraoke",
+  "start": "2026-12-09T15:00:00+02:00",
+  "end": "2026-12-09T17:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/paivakaraoke-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Paljon toivottu päiväkaraoke! Tervetuloa Pubiin laulamaan karaokea klo 15.00-17.00. Vapaa pääsy!",
+  "categories": []
  },
  {
   "source": "peurunka",
