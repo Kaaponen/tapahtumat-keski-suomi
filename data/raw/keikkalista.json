@@ -1,37 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/l-don-kami-faarao-pirttikangas-kesy-rockneck-jyvaskyla-2026-10-15",
-  "title": "L. Don Ōkami / Faarao Pirttikangas / Kesy",
-  "start": "2026-10-15",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/l-don-kami-faarao-pirttikangas-kesy-rockneck-jyvaskyla-2026-10-15",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/antti-railio-nelja-vuodenaikaa-15-10-jyvaskyla-taulumaen-kirkko-2026-10-15",
-  "title": "ANTTI RAILIO - NELJÄ VUODENAIKAA 15.10. Jyväskylä",
-  "start": "2026-10-15T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Taulumäen kirkko",
-  "address": "Lohikoskentie 2",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/antti-railio-nelja-vuodenaikaa-15-10-jyvaskyla-taulumaen-kirkko-2026-10-15",
-  "ticketUrl": "https://ticketmaster.evyy.net/c/7612088/2038755/23892?u=https%3A%2F%2Fwww.ticketmaster.fi%2Fevent%2Fantti-railio-nelja-vuodenaikaa-lippuja%2F202857838&utm_medium=affiliate",
-  "image": "https://s1.ticketm.net/dam/e/956/bf35519a-5d79-448e-98d3-d797e684b956_RETINA_PORTRAIT_16_9.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/revolution-iholla-dilemma-16-10-2026-revolution-2026-10-16",
   "title": "Revolution Iholla Dilemma 16.10.2026",
   "start": "2026-10-16",
@@ -451,6 +420,36 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/bubble-pop-club-freetime-freetime-2026-10-23",
   "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/4Ad3R6YBqR39eLF7OGOar_?clientId=5574",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/revolution-iholla-vitun-iso-rotsi-23-10-2026-revolution-2026-10-23",
+  "title": "Revolution Iholla Vitun Iso Rotsi 23.10.2026",
+  "start": "2026-10-23",
+  "allDay": true,
+  "venue": "Revolution",
+  "address": "Kauppakatu 30, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/revolution-iholla-vitun-iso-rotsi-23-10-2026-revolution-2026-10-23",
+  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/6g-wYEh8qLXBhQIWPVhcvE?clientId=5574",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/pappilan-murhamysteeri-illalliset-salaperainen-vuo-toivolan-vanha-piha-2026-10-23",
+  "title": "Pappilan murhamysteeri-illalliset: Salaperäinen vuokralainen",
+  "start": "2026-10-23",
+  "allDay": true,
+  "venue": "Toivolan Vanha Piha",
+  "address": "Cygnaeuksenkatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/pappilan-murhamysteeri-illalliset-salaperainen-vuo-toivolan-vanha-piha-2026-10-23",
+  "image": "https://toivolanpiha.fi/wp-content/uploads/2025/06/mysteeri-illalliset-vanha-pappila-750x510.jpg ",
   "categories": [
    "keikat"
   ]
