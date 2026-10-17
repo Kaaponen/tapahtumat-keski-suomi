@@ -1,24 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/benjamin-locker-room-tour-k18/",
-  "title": "Benjamin Locker Room Tour K18",
-  "start": "2026-10-16T20:00:00+03:00",
-  "allDay": false,
-  "venue": "Paviljonki – Paviljonki Klubi",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/benjamin-locker-room-tour-k18/",
-  "ticketUrl": "https://www.lippu.fi/event/benjamin-locker-room-tour-k18-jyvaskylan-paviljonki-paviljonki-klubi-21877067/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/16.10.-benjamin_lockerroomtour_kuva_1080x1080-640x640.jpg",
-  "description": "Benjamin Locker Room Tour 🔥 Viime kesänä näyttävällä festarisetillä ilmiöksi noussut, sekä juuri Helahoito-kesähitin julkaissut Benjamin suuntaa syksyllä odotetulle klubikiertueelle ympäri Suomen. Syksyllä Vain elämää -artistikattauksessa nähtävä artisti käynnistää lokakuussa uransa tähän asti suurimman ja näyttävimmän kokonaisuuden, Locker Room Tourin, joka vie Benjaminin yli 10 paikkakunnalle ympäri Suomen. Kiertue lupaa kuumaa energiaa, visuaalisesti näyttävän livekokemuksen ja täysin uudelle tasolle nostetun show’n. Benjamin on vakiinnuttanut asemansa yhtenä kotimaisen popin kiinnostavim…",
-  "categories": [
-   "Konsertit",
-   "Paviljonki Klubi"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/viiden-tahden-kiertue/",
   "title": "Viiden tähden -kiertue",
   "start": "2026-10-17T19:00:00+03:00",

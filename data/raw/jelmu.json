@@ -1,22 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "saimaa-2",
-  "title": "Saimaa",
-  "start": "2026-10-16T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/saimaa-2",
-  "ticketUrl": "https://www.jelmu.net/event/saimaa-2",
-  "image": "https://www.jelmu.net/media/saimaa-syksy-2026-pysty-300x300.jpeg",
-  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 33,00€ – 40,00€Hintaluokka: 33,00€ - 40,00€ · Loppuunmyyty",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "viivi-3",
   "title": "Viivi",
   "start": "2026-10-17T19:00:00+03:00",

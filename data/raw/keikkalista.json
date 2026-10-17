@@ -1,144 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/revolution-iholla-dilemma-16-10-2026-revolution-2026-10-16",
-  "title": "Revolution Iholla Dilemma 16.10.2026",
-  "start": "2026-10-16",
-  "allDay": true,
-  "venue": "Revolution",
-  "address": "Kauppakatu 30, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/revolution-iholla-dilemma-16-10-2026-revolution-2026-10-16",
-  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/BvVGfmoBqJqBU3y-G7ZbaX?clientId=5574",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/sataman-viilun-retrodisco-16-10-sataman-viilu-2026-10-16",
-  "title": "Sataman Viilun retrodisco 16.10.",
-  "start": "2026-10-16",
-  "allDay": true,
-  "venue": "Sataman Viilu",
-  "address": "Satamakatu 10, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/sataman-viilun-retrodisco-16-10-sataman-viilu-2026-10-16",
-  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/6TGedLBRqWCBIeCwr-QVbn?clientId=5574",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/rca-finland-presents-kramsu-roots-alakulttuuritalo-kramsu-2026-10-16",
-  "title": "RCA Finland presents: Kramsu Roots",
-  "start": "2026-10-16",
-  "allDay": true,
-  "venue": "Alakulttuuritalo Kramsu",
-  "address": "Kramsunkatu 5, päärakennus, 40600 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/rca-finland-presents-kramsu-roots-alakulttuuritalo-kramsu-2026-10-16",
-  "image": "https://www.ylakulttuuri.fi/wp-content/uploads/2026/09/2026-10-16-Kramsu-Roots2-768x512.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/the-manjester-project-plays-bruce-dickinson-rockneck-jyvaskyla-2026-10-16",
-  "title": "The Manjester Project plays Bruce Dickinson",
-  "start": "2026-10-16",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/the-manjester-project-plays-bruce-dickinson-rockneck-jyvaskyla-2026-10-16",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/laura-moisio-aina-jossain-muualla-ravintola-poppari-2026-10-16",
-  "title": "Laura Moisio - Aina jossain muualla",
-  "start": "2026-10-16T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/laura-moisio-aina-jossain-muualla-ravintola-poppari-2026-10-16",
-  "ticketUrl": "https://www.tiketti.fi/laura-moisio-aina-jossain-muualla-poppari-jyvaskyla-lippuja/118420",
-  "image": "http://ravintolapoppari.fi/wp-content/uploads/laura-moisio-kuva-tero-ahonen.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/saimaa-lutakko-2026-10-16",
-  "title": "Saimaa",
-  "start": "2026-10-16T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/saimaa-lutakko-2026-10-16",
-  "image": "https://www.jelmu.net/media/saimaa-syksy-2026-pysty-300x300.jpeg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/benjamin-locker-room-tour-k18-paviljonki-jyvaskyla-2026-10-16",
-  "title": "Benjamin Locker Room Tour K18",
-  "start": "2026-10-16T20:00:00+03:00",
-  "allDay": false,
-  "venue": "Paviljonki Jyväskylä",
-  "address": "Lutakonaukio 12, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/benjamin-locker-room-tour-k18-paviljonki-jyvaskyla-2026-10-16",
-  "ticketUrl": "https://www.lippu.fi/event/benjamin-locker-room-tour-k18-jyvaskylan-paviljonki-paviljonki-klubi-21877067/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/benjamin_lrt_1240x480-1.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/herra-ylppo-freetime-freetime-2026-10-16",
-  "title": "Herra Ylppö @ Freetime",
-  "start": "2026-10-16T22:00:00+03:00",
-  "allDay": false,
-  "venue": "Freetime",
-  "address": "Kauppakatu 30, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/herra-ylppo-freetime-freetime-2026-10-16",
-  "ticketUrl": "https://www.tiketti.fi/herra-ylppo-freetime-jyvaskyla-lippuja/120585",
-  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/882D6vVeKkWAr6N3M-GzFw?clientId=5574",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/saija-vaisanen-duo-harry-s-jyvaskyla-2026-10-16",
-  "title": "Saija Väisänen Duo",
-  "start": "2026-10-16T23:00:00+03:00",
-  "allDay": false,
-  "venue": "Harry's Jyväskylä",
-  "address": "Kauppakatu 41, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/saija-vaisanen-duo-harry-s-jyvaskyla-2026-10-16",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b151ee1368eadbdc35bd1fa02a795102840f150/logo-jyvaskyla-harrys.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/dingo-ennakkoliput-myynnissa-nyt-lippu-fi-london-2026-10-17",
   "title": "Dingo – Ennakkoliput myynnissä NYT @lippu.fi",
   "start": "2026-10-17",
@@ -238,6 +100,20 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/jess-by-the-lake-ravintola-poppari-2026-10-17",
   "image": "http://ravintolapoppari.fi/wp-content/uploads/jbtl_hoyry.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/pasi-ja-anssi-urkan-baari-2026-10-17",
+  "title": "Pasi ja Anssi",
+  "start": "2026-10-17T22:30:00+03:00",
+  "allDay": false,
+  "venue": "Urkan Baari",
+  "address": "Savonmäentie 9, 40800 Vaajakoski",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/pasi-ja-anssi-urkan-baari-2026-10-17",
   "categories": [
    "keikat"
   ]
@@ -450,6 +326,127 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/pappilan-murhamysteeri-illalliset-salaperainen-vuo-toivolan-vanha-piha-2026-10-23",
   "image": "https://toivolanpiha.fi/wp-content/uploads/2025/06/mysteeri-illalliset-vanha-pappila-750x510.jpg ",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/costi-uu-er-lutakko-2026-10-23",
+  "title": "Costi + uu$er",
+  "start": "2026-10-23T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/costi-uu-er-lutakko-2026-10-23",
+  "image": "https://www.jelmu.net/media/costi_syksy2026_pr_preview-300x300.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/enemies-everywhere-lastout-rockneck-jyvaskyla-2026-10-23",
+  "title": "Enemies Everywhere / Lastout",
+  "start": "2026-10-23T20:00:00+03:00",
+  "allDay": false,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/enemies-everywhere-lastout-rockneck-jyvaskyla-2026-10-23",
+  "ticketUrl": "https://www.tiketti.fi/enemies-everywhere-lastout-rockneck-jyvaskyla-lippuja/120047",
+  "image": "https://www.tiketti.fi/kuvat/EV120047_7_768x470_enemieseverywhere_tekstitn_kuva_3742x2105.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/room-full-of-hendrix-60-years-of-jimi-hendrix-ravintola-poppari-2026-10-23",
+  "title": "Room Full Of Hendrix - 60 Years Of Jimi Hendrix",
+  "start": "2026-10-23T22:30:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/room-full-of-hendrix-60-years-of-jimi-hendrix-ravintola-poppari-2026-10-23",
+  "ticketUrl": "https://www.tiketti.fi/room-full-of-hendrix-60-years-of-jimi-hendrix-poppari-lippuja/112262",
+  "image": "http://ravintolapoppari.fi/wp-content/uploads/room.-full-of-hendrix.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/janita-osku-harry-s-jyvaskyla-2026-10-23",
+  "title": "Janita & Osku",
+  "start": "2026-10-23T23:00:00+03:00",
+  "allDay": false,
+  "venue": "Harry's Jyväskylä",
+  "address": "Kauppakatu 41, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/janita-osku-harry-s-jyvaskyla-2026-10-23",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b151ee1368eadbdc35bd1fa02a795102840f150/logo-jyvaskyla-harrys.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/esc-live-lytta-tohtori-getto-club-escape-2026-10-24",
+  "title": "ESC Live: LYTTÄ & TOHTORI GETTO",
+  "start": "2026-10-24",
+  "allDay": true,
+  "venue": "Club Escape",
+  "address": "Kauppakatu 32, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/esc-live-lytta-tohtori-getto-club-escape-2026-10-24",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/sukiko-esittaa-wombscape-jap-chemical-burn-off-the-alakulttuuritalo-kramsu-2026-10-24",
+  "title": "Sukiko esittää: Wombscape (JAP), Chemical Burn, Off the Grid ja Nikama",
+  "start": "2026-10-24",
+  "allDay": true,
+  "venue": "Alakulttuuritalo Kramsu",
+  "address": "Kramsunkatu 5, päärakennus, 40600 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/sukiko-esittaa-wombscape-jap-chemical-burn-off-the-alakulttuuritalo-kramsu-2026-10-24",
+  "image": "https://www.ylakulttuuri.fi/wp-content/uploads/2026/10/2026-10-24-tapahtuma-768x768.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/mika-fiilis-vain-parasta-suomimusaa-london-2026-10-24",
+  "title": "Mikä Fiilis vain parasta suomimusaa",
+  "start": "2026-10-24",
+  "allDay": true,
+  "venue": "London",
+  "address": "Puistokatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/mika-fiilis-vain-parasta-suomimusaa-london-2026-10-24",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/pretty-little-ditties-plays-rhcp-rockneck-jyvaskyla-2026-10-24",
+  "title": "Pretty Little Ditties plays RHCP",
+  "start": "2026-10-24",
+  "allDay": true,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/pretty-little-ditties-plays-rhcp-rockneck-jyvaskyla-2026-10-24",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
   "categories": [
    "keikat"
   ]
