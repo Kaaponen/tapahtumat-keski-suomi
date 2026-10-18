@@ -1,24 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/viiden-tahden-kiertue/",
-  "title": "Viiden tähden -kiertue",
-  "start": "2026-10-17T19:00:00+03:00",
-  "end": "2026-10-17T18:15:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/viiden-tahden-kiertue/",
-  "ticketUrl": "https://www.lippu.fi/event/viiden-tahden-kiertue-paviljonki-21340476/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/1080x1080-3-640x640.jpg",
-  "description": "VIIDEN TÄHDEN -KIERTUE: Marion Rung, Meiju Suvas, Virve Rosti, Ami Aspelund ja Anja Niskanen Viisi suomalaisen iskelmämusiikin kestotähteä yhdistää voimansa ja lähtee lokakuussa mittavalle kiertueelle ympäri Suomen. Tällä Viiden tähden –kiertueella lavalle nousee nimensä mukaisesti viisi huippuartistia: Marion Rung, Meiju Suvas, Virve Rosti, Ami Aspelund ja Anja Niskanen. Heitä säestää kapellimestari Esa Niemisen johtama orkesteri. Kiertueella kuullaan artistien hittejä vuosikymmenten varrelta, mutta luvassa on myös yllätyksiä ja versioita, joita on suunniteltu vain tätä kiertuetta varten. –…",
-  "categories": [
-   "Konsertit"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-red-nose-company-soivan-suomen-historia/",
   "title": "Jyväskylä Sinfonia & Red Nose Company: Soivan Suomen historia",
   "start": "2026-10-21T18:00:00+03:00",

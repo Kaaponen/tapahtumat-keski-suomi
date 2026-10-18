@@ -1,38 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "viivi-3",
-  "title": "Viivi",
-  "start": "2026-10-17T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/viivi-3",
-  "ticketUrl": "https://www.jelmu.net/event/viivi-3",
-  "image": "https://www.jelmu.net/media/viivi_syksy_pr-scaled-e1778862469162-300x300.jpg",
-  "description": "S · Ovet 19:00 · Keikka alkaa 21:00 · 25,00€ – 33,00€Hintaluokka: 25,00€ - 33,00€ · Loppuunmyyty",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
-  "sourceId": "live-is-life-radiopuhelimet-pk-keranen",
-  "title": "Live is Life: Radiopuhelimet, PK Keränen",
-  "start": "2026-10-17T21:00:00+03:00",
-  "allDay": false,
-  "venue": "Musta kynnys",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/live-is-life-radiopuhelimet-pk-keranen",
-  "ticketUrl": "https://www.jelmu.net/event/live-is-life-radiopuhelimet-pk-keranen",
-  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_radiopk-300x300.jpg",
-  "description": "K18 · Ovet 21:00 · 15,00€ – 20,00€Hintaluokka: 15,00€ - 20,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "maija-vilkkumaa-2",
   "title": "Maija Vilkkumaa, M",
   "start": "2026-10-22T18:00:00+03:00",
