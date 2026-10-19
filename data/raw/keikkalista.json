@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/new-wave-of-finnish-heavy-metal-everlore-the-reali-rockneck-jyvaskyla-2026-10-18",
-  "title": "New Wave Of Finnish Heavy Metal: Everlore, The Reality Machine & ARMED",
-  "start": "2026-10-18",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/new-wave-of-finnish-heavy-metal-everlore-the-reali-rockneck-jyvaskyla-2026-10-18",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/tandem-ajelu-19-10-2026-keski-suomen-ravirata-oy-2026-10-19",
   "title": "Tandem -ajelu 19.10.2026",
   "start": "2026-10-19T17:00:00+03:00",
@@ -449,6 +434,21 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/timetiistai-freetime-freetime-2026-10-27",
   "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/6TCM6AwBKdCAwNGpb94z87?clientId=5574",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/gradian-laulajat-vanhassa-pappilassa-toivolan-vanha-piha-2026-10-27",
+  "title": "Gradian laulajat Vanhassa Pappilassa",
+  "start": "2026-10-27",
+  "allDay": true,
+  "venue": "Toivolan Vanha Piha",
+  "address": "Cygnaeuksenkatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/gradian-laulajat-vanhassa-pappilassa-toivolan-vanha-piha-2026-10-27",
+  "image": "https://toivolanpiha.fi/wp-content/uploads/2026/09/pexels-damianscarlassa-16963920-tanja-salonen-750x500.jpg ",
   "categories": [
    "keikat"
   ]
