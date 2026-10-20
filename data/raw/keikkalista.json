@@ -16,6 +16,21 @@
  },
  {
   "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/paleface-ja-laulava-unioni-vakiopaine-2026-10-21",
+  "title": "Paleface ja Laulava Unioni",
+  "start": "2026-10-21T16:00:00+03:00",
+  "allDay": false,
+  "venue": "Vakiopaine",
+  "address": "Kauppakatu 6, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/paleface-ja-laulava-unioni-vakiopaine-2026-10-21",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-red-nose-company-soivan-suomen--paviljonki-jyvaskyla-2026-10-21",
   "title": "Jyväskylä Sinfonia & Red Nose Company: Soivan Suomen historia",
   "start": "2026-10-21T18:00:00+03:00",
@@ -41,6 +56,21 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/keskiviikkojamit-ravintola-poppari-2026-10-21",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/paleface-ja-laulava-unioni-klo-19-30-vakiopaine-2026-10-21",
+  "title": "Paleface ja Laulava Unioni (klo 19:30)",
+  "start": "2026-10-21T19:30:00+03:00",
+  "allDay": false,
+  "venue": "Vakiopaine",
+  "address": "Kauppakatu 6, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/paleface-ja-laulava-unioni-klo-19-30-vakiopaine-2026-10-21",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
   "categories": [
    "keikat"
   ]
@@ -334,6 +364,21 @@
  },
  {
   "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/liisa-akimof-vakiopaine-2026-10-25",
+  "title": "Liisa Akimof",
+  "start": "2026-10-25T15:00:00+03:00",
+  "allDay": false,
+  "venue": "Vakiopaine",
+  "address": "Kauppakatu 6, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/liisa-akimof-vakiopaine-2026-10-25",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-10-26",
   "title": "Maanantaijamit",
   "start": "2026-10-26T19:00:00+03:00",
@@ -403,50 +448,6 @@
   "url": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-verdin-requiem-paviljonki-jyvaskyla-2026-10-29",
   "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-verdin-requiem-paviljonki-21618677/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/29.10.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/pauli-hanhiniemen-perunateatteri-ravintola-sohwi-2026-10-29",
-  "title": "Pauli Hanhiniemen Perunateatteri",
-  "start": "2026-10-29T21:00:00+03:00",
-  "allDay": false,
-  "venue": "Ravintola Sohwi",
-  "address": "Vaasankatu 21, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/pauli-hanhiniemen-perunateatteri-ravintola-sohwi-2026-10-29",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/esc-live-olga-club-escape-2026-10-30",
-  "title": "ESC Live: OLGA",
-  "start": "2026-10-30",
-  "allDay": true,
-  "venue": "Club Escape",
-  "address": "Kauppakatu 32, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/esc-live-olga-club-escape-2026-10-30",
-  "image": "https://i.scdn.co/image/ab6761610000e5eb536ba5f115eb31b48e7d54f3",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/turvavali-rockneck-jyvaskyla-2026-10-30",
-  "title": "Turvaväli",
-  "start": "2026-10-30",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/turvavali-rockneck-jyvaskyla-2026-10-30",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
   "categories": [
    "keikat"
   ]
