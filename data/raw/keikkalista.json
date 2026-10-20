@@ -1,37 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/tandem-ajelu-19-10-2026-keski-suomen-ravirata-oy-2026-10-19",
-  "title": "Tandem -ajelu 19.10.2026",
-  "start": "2026-10-19T17:00:00+03:00",
-  "allDay": false,
-  "venue": "Keski-Suomen Ravirata Oy",
-  "address": "Vesangantie 24, 40630 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/tandem-ajelu-19-10-2026-keski-suomen-ravirata-oy-2026-10-19",
-  "ticketUrl": "https://events.liveto.io/events/tandem-ajelu-19102026",
-  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/9a89c03e307bd0243e4bca24dd3c15eb7d5de83ea1ecd357b0735303fb320066.jpeg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-10-19",
-  "title": "Maanantaijamit",
-  "start": "2026-10-19T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-10-19",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/syystunnelma-konsertti-toivolan-vanha-piha-2026-10-20",
   "title": "Syystunnelma Konsertti",
   "start": "2026-10-20",
@@ -448,6 +417,36 @@
   "address": "Vaasankatu 21, 40100 Jyväskylä",
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/pauli-hanhiniemen-perunateatteri-ravintola-sohwi-2026-10-29",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/esc-live-olga-club-escape-2026-10-30",
+  "title": "ESC Live: OLGA",
+  "start": "2026-10-30",
+  "allDay": true,
+  "venue": "Club Escape",
+  "address": "Kauppakatu 32, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/esc-live-olga-club-escape-2026-10-30",
+  "image": "https://i.scdn.co/image/ab6761610000e5eb536ba5f115eb31b48e7d54f3",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/turvavali-rockneck-jyvaskyla-2026-10-30",
+  "title": "Turvaväli",
+  "start": "2026-10-30",
+  "allDay": true,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/turvavali-rockneck-jyvaskyla-2026-10-30",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
   "categories": [
    "keikat"
   ]
