@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/syystunnelma-konsertti-toivolan-vanha-piha-2026-10-20",
-  "title": "Syystunnelma Konsertti",
-  "start": "2026-10-20",
-  "allDay": true,
-  "venue": "Toivolan Vanha Piha",
-  "address": "Cygnaeuksenkatu 2, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/syystunnelma-konsertti-toivolan-vanha-piha-2026-10-20",
-  "image": "https://toivolanpiha.fi/wp-content/uploads/2026/04/SYYSTUNNELMA-pysty.jpeg ",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/paleface-ja-laulava-unioni-vakiopaine-2026-10-21",
   "title": "Paleface ja Laulava Unioni",
   "start": "2026-10-21T16:00:00+03:00",
@@ -448,6 +433,20 @@
   "url": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-verdin-requiem-paviljonki-jyvaskyla-2026-10-29",
   "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-verdin-requiem-paviljonki-21618677/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/29.10.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/pauli-hanhiniemen-perunateatteri-ravintola-sohwi-2026-10-29",
+  "title": "Pauli Hanhiniemen Perunateatteri",
+  "start": "2026-10-29T21:00:00+03:00",
+  "allDay": false,
+  "venue": "Ravintola Sohwi",
+  "address": "Vaasankatu 21, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/pauli-hanhiniemen-perunateatteri-ravintola-sohwi-2026-10-29",
   "categories": [
    "keikat"
   ]
