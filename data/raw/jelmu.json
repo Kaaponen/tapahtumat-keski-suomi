@@ -417,6 +417,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "jytaa-ja-iskelmaa-3",
+  "title": "JYTÄÄ JA ISKELMÄÄ",
+  "start": "2026-12-05T21:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/jytaa-ja-iskelmaa-3",
+  "ticketUrl": "https://www.jelmu.net/event/jytaa-ja-iskelmaa-3",
+  "image": "https://www.jelmu.net/media/lutakko26_jytaajaiskelmaa_ig-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 0,00€ – 12,00€Hintaluokka: 0,00€ - 12,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "mental-cruelty-de",
   "title": "Mental Cruelty (DE), Ov Sulfur (US), Extermination Dismemberment (BY), Arcranius (DE)",
   "start": "2026-12-10T18:00:00+02:00",
