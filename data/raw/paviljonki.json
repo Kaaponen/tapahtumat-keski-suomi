@@ -1,23 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-red-nose-company-soivan-suomen-historia/",
-  "title": "Jyväskylä Sinfonia & Red Nose Company: Soivan Suomen historia",
-  "start": "2026-10-21T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-red-nose-company-soivan-suomen-historia/",
-  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-red-nose-company-soivan-suomen-historia-paviljonki-21618676/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/21.10-640x640.jpg",
-  "description": "Antti Tikkanen, musiikinjohto ja viulu Red Nose Company: Timo Ruuskanen & Tuukka Vasama Lähde Red Nose Companyn matkaan läpi Soivan Suomen historian! Vauhdikas tarinallinen konsertti tuo yhteen teatterin huipputekijät ja orkesterimusiikin parhaat palat. Orkesteria johtaa Meta4-yhtyeestäkin tuttu viulisti Antti Tikkanen. Soivan Suomen historia on ainutlaatuinen aikamatka, joka käy läpi orkesterimusiikin historian Suomessa 1700-luvulta tähän päivään. Vauhdikas kokonaisuus nostaa kuuluisien säveltäjien lisäksi valokeilaan myös harvemmin kuultuja helmiä meiltä ja muualta. Konsertti avaa hauskalla…",
-  "categories": [
-   "Konsertit"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/keski-suomen-taloyhtiopaiva-2026/",
   "title": "Keski-Suomen Taloyhtiöpäivä 2026",
   "start": "2026-10-22T12:00:00+03:00",

@@ -69,28 +69,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "23224",
-  "title": "Webinaari: Työhyvinvoinnista kuntoutukseen – miten tunnistaa tuen tarve ja löytää oikea ratkaisu?",
-  "start": "2026-10-21T09:00:00+03:00",
-  "end": "2026-10-21T10:00:00+03:00",
-  "allDay": false,
-  "venue": "Peurunka – Teams",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/webinaari-tyohyvinvoinnista-kuntoutukseen-miten-tunnistaa-tuen-tarve-ja-loytaa-oikea-ratkaisu/",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/10/AdobeStock_2064769104.jpeg",
-  "description": "Työkyvyn haasteet näkyvät työpaikoilla monin tavoin: jaksamisen vaikeuksina, pitkittyneinä tuki- ja liikuntaelinvaivoina, sairauspoissaoloina, työn kuormittavuuden lisääntymisenä tai tilanteina, joissa työntekijä ei enää palaudu entiseen tapaan. Kaikki työkyvyn haasteet eivät vaadi kuntoutusta – mutta liian myöhään ei kannata odottaa. Työkyvyn tukeminen ei ole yksi palvelu tai yksi ratkaisu. Joskus tarvitaan pieniä muutoksia ja arjen tukea, joskus tavoitteellista valmennusta. Toisinaan taas moniammatillinen kuntoutus on oikea askel. Pohdimme webinaarissa mm. Kenelle KIILA-kuntoutus sopii ja m…",
-  "categories": [
-   "Esihenkilöt",
-   "Johtaminen",
-   "Kuntoutus",
-   "Työhyvinvointi",
-   "Työkyky",
-   "Yrityksille"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "18759",
   "title": "Hurma",
   "start": "2026-10-22T19:30:00+03:00",
@@ -140,6 +118,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22015",
+  "title": "Pirttijoki",
+  "start": "2026-10-24T21:00:00+03:00",
+  "allDay": false,
+  "venue": "Peurunka – Ravintola",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/22015/",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/07/humppajokelaasia_2-1536x1920-1-e1784800508552.jpeg",
+  "categories": [
+   "Tanssit"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "17233",
   "title": "Kuutamopyöräily – eFatbike-retki",
   "start": "2026-10-24T19:00:00+03:00",
@@ -159,18 +152,18 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22015",
-  "title": "Pirttijoki",
-  "start": "2026-10-24T21:00:00+03:00",
-  "allDay": false,
-  "venue": "Peurunka – Ravintola",
+  "sourceId": "22671",
+  "title": "Karaokeillat",
+  "start": "2026-10-28",
+  "end": "2026-10-31",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
   "address": "Peurungantie 85",
   "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/22015/",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/07/humppajokelaasia_2-1536x1920-1-e1784800508552.jpeg",
-  "categories": [
-   "Tanssit"
-  ]
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-85/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -188,21 +181,6 @@
   "categories": [
    "Kylpylä"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22671",
-  "title": "Karaokeillat",
-  "start": "2026-10-28",
-  "end": "2026-10-31",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-85/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
  },
  {
   "source": "peurunka",
@@ -489,24 +467,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22226",
-  "title": "Olavi Uusivirta + Mira Luoti",
-  "start": "2026-11-21T20:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/olavi-uusivirta-mira-luoti/",
-  "ticketUrl": "https://www.ticketmaster.fi/event/92202385",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/08/Olavi-Uusivirta-Mira-Luoti4.jpg",
-  "description": "OLAVI UUSIVIRTA + MIRA LUOTI PEURUNKA AREENALLA LA 21.11.2026! Ihastuttava Olavi Uusivirta valtaa Peurunka Areenan huikealla lavakarismallaan. Mukana tunnelmaa luomassa myös ihana Mira Luoti! Liput 39 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 17.30 Narikka aukeaa hotellin aulassa Klo 20.30 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, matkakeskus20:05 Laukaa, linja-autoasema20:15 Peurunka01:00 paluu samaa reittiä hotellin vastaanoton edestä. Bussi ajaa Jyväskylässä reittiä Puistokatu,…",
-  "categories": [
-   "Keikat",
-   "Pikkujoulut"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "23258",
   "title": "Kuutamopyöräily – eFatbike-retki",
   "start": "2026-11-21T19:00:00+02:00",
@@ -522,6 +482,24 @@
   "categories": [
    "Jäsenpäivä",
    "Liikunta"
+  ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22226",
+  "title": "Olavi Uusivirta + Mira Luoti",
+  "start": "2026-11-21T20:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Peurunka Areena",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/olavi-uusivirta-mira-luoti/",
+  "ticketUrl": "https://www.ticketmaster.fi/event/92202385",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/08/Olavi-Uusivirta-Mira-Luoti4.jpg",
+  "description": "OLAVI UUSIVIRTA + MIRA LUOTI PEURUNKA AREENALLA LA 21.11.2026! Ihastuttava Olavi Uusivirta valtaa Peurunka Areenan huikealla lavakarismallaan. Mukana tunnelmaa luomassa myös ihana Mira Luoti! Liput 39 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 17.30 Narikka aukeaa hotellin aulassa Klo 20.30 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, matkakeskus20:05 Laukaa, linja-autoasema20:15 Peurunka01:00 paluu samaa reittiä hotellin vastaanoton edestä. Bussi ajaa Jyväskylässä reittiä Puistokatu,…",
+  "categories": [
+   "Keikat",
+   "Pikkujoulut"
   ]
  },
  {
@@ -706,6 +684,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22683",
+  "title": "Karaokeillat",
+  "start": "2026-12-09",
+  "end": "2026-12-12",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-91/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22877",
   "title": "Tanssit: Helena & Duo Sami Soininen",
   "start": "2026-12-09T20:00:00+02:00",
@@ -719,21 +712,6 @@
   "categories": [
    "Tanssit"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22683",
-  "title": "Karaokeillat",
-  "start": "2026-12-09",
-  "end": "2026-12-12",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-91/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
  },
  {
   "source": "peurunka",
