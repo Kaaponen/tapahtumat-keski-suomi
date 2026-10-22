@@ -811,6 +811,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/arttu-wiskari-suomi-finland-prkl-konserttisalikiertue/",
+  "title": "ARTTU WISKARI – Suomi Finland PRKL -konserttisalikiertue",
+  "start": "2027-01-23T19:00:00+02:00",
+  "end": "2027-01-23T19:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/arttu-wiskari-suomi-finland-prkl-konserttisalikiertue/",
+  "ticketUrl": "https://www.lippu.fi/event/arttu-wiskari-suomi-finland-prkl-paviljonki-22321882/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/1080x1080_arttu-wiskari-nelio-jyvaskyla-640x640.jpg",
+  "description": "ARTTU WISKARI – Suomi Finland PRKL -konserttisalikiertue Viime vuodet klubeilla ja festivaaleilla keikkaillut Arttu Wiskari suuntaa tammikuussa pitkän tauon jälkeen konserttisalikiertueelle. Suomi Finland prkl -konserttisalikiertue juhlistaa Wiskarin 27.11.2026 ilmestyvää samannimistä albumia. Levy sisältää vahvan nimikappakeeln lisäksi ennen julkaisemattomia biisejä sekä jo kultaa ja platinaa striimanneet hitit Elämän kova koulu, Monaco ja AAAA. Suomi Finland prkl -kiertueen konserteissa on luvassa poikkeuksellisen kattava valikoima lauluja Wiskarin uran varrelta. – Vaikka kiertue kantaakin…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/kolmas-nainen-hyvaa-ja-kaunista-k18/",
   "title": "Kolmas Nainen: Hyvää ja kaunista K18",
   "start": "2027-01-29T19:00:00+02:00",
