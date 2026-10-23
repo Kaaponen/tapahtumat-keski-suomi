@@ -734,5 +734,21 @@
   "categories": [
    "keikat"
   ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "vesterinen-yhtyeineen-paluu-lutakkoon-pe",
+  "title": "Vesterinen Yhtyeineen",
+  "start": "2027-03-19T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/vesterinen-yhtyeineen-paluu-lutakkoon-pe",
+  "ticketUrl": "https://www.jelmu.net/event/vesterinen-yhtyeineen-paluu-lutakkoon-pe",
+  "image": "https://www.jelmu.net/media/jyvaskyla_vy_kevat_2027_1080x1080-300x300.png",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 35,40€ – 37,40€Hintaluokka: 35,40€ - 37,40€",
+  "categories": [
+   "keikat"
+  ]
  }
 ]

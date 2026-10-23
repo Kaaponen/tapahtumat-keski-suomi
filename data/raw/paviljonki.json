@@ -258,7 +258,7 @@
   "url": "https://www.paviljonki.fi/tapahtuma/herrasmiehet-lavalla/",
   "ticketUrl": "https://www.lippu.fi/event/herrasmiehet-lavalla-paviljonki-21616875/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/hml-jyvaskyla-sivusto-nelio-640x640.jpg",
-  "description": "Herrasmiehet lavalla -konsertti kokoaa iskelmälegendat yhteen! Mittava konsertti kokoaa kuusi suomalaisen iskelmämusiikin legendaa samalle lavalle 12. marraskuuta. Herrasmiehet lavalla -konsertissa nähdään Pasi Kaunisto, Erkki Liikanen, Danny, Eino Grön, Sakari Kuosmanen ja Eikka Eronen. Orkesterin kapellimestarina toimii Jari Puhakka, ja konsertin juontaa Markku Veijalainen. Odotettavissa on ikivihreitä kappaleita vuosien varrelta, sekä ainutlaatuisia yhteisesiintymisiä, joita voi nähdä vain tällä kiertueella. Kiertueen artistit odottavat syksyä jo innolla. Myynnissä myös VIP-paketti 99,90 €…",
+  "description": "Herrasmiehet lavalla -konsertti kokoaa iskelmälegendat yhteen! Mittava konsertti kokoaa kuusi suomalaisen iskelmämusiikin legendaa samalle lavalle 12. marraskuuta. Herrasmiehet lavalla -konsertissa nähdään Pasi Kaunisto, Erkki Liikanen, Danny, Eino Grön, Sakari Kuosmanen ja Eikka Eronen. Orkesterin kapellimestarina toimii Jari Puhakka, ja konsertin juontaa Markku Veijalainen. Odotettavissa on ikivihreitä kappaleita vuosien varrelta, sekä ainutlaatuisia yhteisesiintymisiä, joita voi nähdä vain tällä kiertueella. Kiertueen artistit odottavat syksyä jo innolla. Ryhmävaraukset (yli 10 hlöä) Lippu…",
   "categories": [
    "Konsertit"
   ]
@@ -791,6 +791,23 @@
   "description": "Sanat – Vesala feat. UMO Helsinki Jazz Orchestra Kapellimestari Jukka Eskola UMO Helsinki Jazz Orchestra yhdistää voimansa Paula Vesalan kanssa ainutlaatuisessa Sanat-erikoiskonsertissa, jossa Vesala laulaa Vesalaa! Pääosa ohjelmistosta koostuu Paula Vesalan muille artisteille kirjoittamasta musiikista, jota hän ei normaalisti itse esitä. Konsertissa kuullaan rakastetun lauluntekijän kynästä syntyneitä hittejä – kuten Johanna Kurkelan Rakkauslaulu, Kaija Koon Nää yöt ei anna armoo ja Katri Ylanderin Mansikkamäki – uudelleensyntyneinä jazzsovituksina. Yleisöä hemmotellaan myös muutamilla harve…",
   "categories": [
    "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/keski-suomen-yrittajajuhla/",
+  "title": "Keski-Suomen Yrittäjäjuhla",
+  "start": "2027-01-23T17:30:00+02:00",
+  "allDay": false,
+  "venue": "Paviljonki",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/keski-suomen-yrittajajuhla/",
+  "ticketUrl": "https://events.liveto.io/events/keski-suomen-yrittajajuhla-2027",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/yrittajajuhla-2026-9646-640x640.jpg",
+  "description": "Keski-Suomen Yrittäjäjuhla kokoaa kaikki yrittäjät ja ystävät yhteen Paviljonkiin! Teemana on rohkeus, grrr-rauhh! #yrittäjätirti Juhla on avoin kaikille Keski-Suomen alueen yrittäjille ja ystäville. Illalliskortit myynnissä nyt Early bird hintaan 112 € + alv. Hinta voimassa 3.11.2026 asti – Saatavilla rajoitetun ajan tai niin kauan kuin riittää! Hinta sisältää juhlan viralliset ja viihdeohjelmat, tervetulojuoman ja -maljan sekä runsaan buffet-illallisen ruokajuomineen (16 cl puna- tai valkoviiniä). Juomista on saatavilla alkoholiton vaihtoehto. Ilmoitathan toiveen alkoholittomista juomista e…",
+  "categories": [
+   "Muut tapahtumat"
   ]
  },
  {
