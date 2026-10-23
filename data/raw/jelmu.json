@@ -1,22 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "maija-vilkkumaa-2",
-  "title": "Maija Vilkkumaa, M",
-  "start": "2026-10-22T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/maija-vilkkumaa-2",
-  "ticketUrl": "https://www.jelmu.net/event/maija-vilkkumaa-2",
-  "image": "https://www.jelmu.net/media/tiketti-470x768px-1-300x300.jpg",
-  "description": "K18 · Ovet 18:00 · Keikka alkaa 20:00 · 29,00€ – 35,00€Hintaluokka: 29,00€ - 35,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "costi",
   "title": "Costi, uu$er",
   "start": "2026-10-23T19:00:00+03:00",

@@ -1,51 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/oudokit-nymfiparakiitti-rockneck-jyvaskyla-2026-10-22",
-  "title": "Oudokit / Nymfiparakiitti",
-  "start": "2026-10-22",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/oudokit-nymfiparakiitti-rockneck-jyvaskyla-2026-10-22",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/maija-vilkkumaa-m-lutakko-2026-10-22",
-  "title": "Maija Vilkkumaa + M",
-  "start": "2026-10-22T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/maija-vilkkumaa-m-lutakko-2026-10-22",
-  "image": "https://www.jelmu.net/media/tiketti-470x768px-1-300x300.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/jazz-jkl-live-pepa-paivinen-peacepipe-ravintola-poppari-2026-10-22",
-  "title": "Jazz Jkl Live: Pepa Päivinen Peacepipe",
-  "start": "2026-10-22T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/jazz-jkl-live-pepa-paivinen-peacepipe-ravintola-poppari-2026-10-22",
-  "image": "http://ravintolapoppari.fi/wp-content/uploads/pape.png.jpeg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/pappilan-murhamysteeri-illalliset-salaperainen-vuo-toivolan-vanha-piha-2026-10-23",
   "title": "Pappilan murhamysteeri-illalliset: Salaperäinen vuokralainen",
   "start": "2026-10-23",
@@ -446,6 +401,51 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/litku-klemetti-joku-iiris-lutakko-2026-10-30",
   "image": "https://www.jelmu.net/media/litku-klemetti-2026-kuva-aki-roukala2-300x300.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/pirjo-lehti-retrobois-ravintola-poppari-2026-10-30",
+  "title": "Pirjo Lehti & Retrobois",
+  "start": "2026-10-30T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/pirjo-lehti-retrobois-ravintola-poppari-2026-10-30",
+  "image": "http://ravintolapoppari.fi/wp-content/uploads/PirjoLehti_AinoAkti_Retrobois_1200x628px_1200-x-628.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/halloween-party-telaketju-london-2026-10-31",
+  "title": "Halloween Party – Telaketju",
+  "start": "2026-10-31",
+  "allDay": true,
+  "venue": "London",
+  "address": "Puistokatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/halloween-party-telaketju-london-2026-10-31",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/seppo-alvari-the-hikers-rockneck-jyvaskyla-2026-10-31",
+  "title": "Seppo Alvari & The Hikers",
+  "start": "2026-10-31",
+  "allDay": true,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/seppo-alvari-the-hikers-rockneck-jyvaskyla-2026-10-31",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
   "categories": [
    "keikat"
   ]
