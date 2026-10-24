@@ -69,21 +69,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22015",
-  "title": "Pirttijoki",
-  "start": "2026-10-24T21:00:00+03:00",
-  "allDay": false,
-  "venue": "Peurunka – Ravintola",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/22015/",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/07/humppajokelaasia_2-1536x1920-1-e1784800508552.jpeg",
-  "categories": [
-   "Tanssit"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "17233",
   "title": "Kuutamopyöräily – eFatbike-retki",
   "start": "2026-10-24T19:00:00+03:00",
@@ -103,18 +88,18 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22671",
-  "title": "Karaokeillat",
-  "start": "2026-10-28",
-  "end": "2026-10-31",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
+  "sourceId": "22015",
+  "title": "Pirttijoki",
+  "start": "2026-10-24T21:00:00+03:00",
+  "allDay": false,
+  "venue": "Peurunka – Ravintola",
   "address": "Peurungantie 85",
   "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-85/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
+  "url": "https://peurunka.fi/kaikki-tapahtumat/22015/",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/07/humppajokelaasia_2-1536x1920-1-e1784800508552.jpeg",
+  "categories": [
+   "Tanssit"
+  ]
  },
  {
   "source": "peurunka",
@@ -132,6 +117,21 @@
   "categories": [
    "Kylpylä"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22671",
+  "title": "Karaokeillat",
+  "start": "2026-10-28",
+  "end": "2026-10-31",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-85/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -153,6 +153,20 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22262",
+  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
+  "start": "2026-10-30",
+  "end": "2026-11-01",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle/",
+  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22713",
   "title": "Yölintu ja Kake Randelin",
   "start": "2026-10-30T20:00:00+02:00",
@@ -168,20 +182,6 @@
    "Keikat",
    "Pikkujoulut"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22262",
-  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
-  "start": "2026-10-30",
-  "end": "2026-11-01",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle/",
-  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
-  "categories": []
  },
  {
   "source": "peurunka",
@@ -698,6 +698,19 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "23013",
+  "title": "Uusi vuosi kylpylässä",
+  "start": "2026-12-31",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/uusi-vuosi-kylpylassa-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/08/Peurunka-seniorit6.jpg",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22915",
   "title": "Gebardi",
   "start": "2026-12-31T22:00:00+02:00",
@@ -708,19 +721,6 @@
   "url": "https://peurunka.fi/kaikki-tapahtumat/gebardi/",
   "image": "https://peurunka.fi/wp-content/uploads/2026/09/gebardi.jpg",
   "description": "Uudenvuodenaattona ravintolassa esiintyy bilebändi Gebardi! Showtime klo 22.00 Liput 15 € / majoittujille vapaa pääsy! ”GEBARDI on eläin! Se pyydystää saaliinsa viihdyttämällä ja kiihdyttämällä tämän puolustuskyvyttömään olotilaan, tartuttaakseen tähän sitten täpläkuumeen. Tartunnan oireita ovat tanssijalan vastustamaton vipatus, herkeämätön hymy, useimmiten suoranainen hurmio. Gebardin pyydystyskeinoina ovat mm. discoklassikot, tuoreempi suomipoppirokki, finnhitit, vanha kunnon rock´n´roll-rypistys, herkät hitaat – sekä vastustamaton pilke silmäkulmassa! Gebardi Behmeällä Beellä on BileBändi…",
-  "categories": []
- },
- {
-  "source": "peurunka",
-  "sourceId": "23013",
-  "title": "Uusi vuosi kylpylässä",
-  "start": "2026-12-31",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/uusi-vuosi-kylpylassa-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/08/Peurunka-seniorit6.jpg",
   "categories": []
  },
  {
