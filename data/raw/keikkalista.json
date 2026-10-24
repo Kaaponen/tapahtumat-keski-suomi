@@ -1,83 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/pappilan-murhamysteeri-illalliset-salaperainen-vuo-toivolan-vanha-piha-2026-10-23",
-  "title": "Pappilan murhamysteeri-illalliset: Salaperäinen vuokralainen",
-  "start": "2026-10-23",
-  "allDay": true,
-  "venue": "Toivolan Vanha Piha",
-  "address": "Cygnaeuksenkatu 2, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/pappilan-murhamysteeri-illalliset-salaperainen-vuo-toivolan-vanha-piha-2026-10-23",
-  "image": "https://toivolanpiha.fi/wp-content/uploads/2025/06/mysteeri-illalliset-vanha-pappila-750x510.jpg ",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/costi-uu-er-lutakko-2026-10-23",
-  "title": "Costi + uu$er",
-  "start": "2026-10-23T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/costi-uu-er-lutakko-2026-10-23",
-  "image": "https://www.jelmu.net/media/costi_syksy2026_pr_preview-300x300.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/enemies-everywhere-lastout-rockneck-jyvaskyla-2026-10-23",
-  "title": "Enemies Everywhere / Lastout",
-  "start": "2026-10-23T20:00:00+03:00",
-  "allDay": false,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/enemies-everywhere-lastout-rockneck-jyvaskyla-2026-10-23",
-  "ticketUrl": "https://www.tiketti.fi/enemies-everywhere-lastout-rockneck-jyvaskyla-lippuja/120047",
-  "image": "https://www.tiketti.fi/kuvat/EV120047_7_768x470_enemieseverywhere_tekstitn_kuva_3742x2105.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/room-full-of-hendrix-60-years-of-jimi-hendrix-ravintola-poppari-2026-10-23",
-  "title": "Room Full Of Hendrix - 60 Years Of Jimi Hendrix",
-  "start": "2026-10-23T22:30:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/room-full-of-hendrix-60-years-of-jimi-hendrix-ravintola-poppari-2026-10-23",
-  "ticketUrl": "https://www.tiketti.fi/room-full-of-hendrix-60-years-of-jimi-hendrix-poppari-lippuja/112262",
-  "image": "http://ravintolapoppari.fi/wp-content/uploads/room.-full-of-hendrix.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/janita-osku-harry-s-jyvaskyla-2026-10-23",
-  "title": "Janita & Osku",
-  "start": "2026-10-23T23:00:00+03:00",
-  "allDay": false,
-  "venue": "Harry's Jyväskylä",
-  "address": "Kauppakatu 41, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/janita-osku-harry-s-jyvaskyla-2026-10-23",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b151ee1368eadbdc35bd1fa02a795102840f150/logo-jyvaskyla-harrys.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/esc-live-lytta-tohtori-getto-club-escape-2026-10-24",
   "title": "ESC Live: LYTTÄ & TOHTORI GETTO",
   "start": "2026-10-24",
@@ -446,6 +369,82 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/seppo-alvari-the-hikers-rockneck-jyvaskyla-2026-10-31",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/insomnium-kaunis-kuolematon-lutakko-2026-10-31",
+  "title": "Insomnium + Kaunis Kuolematon",
+  "start": "2026-10-31T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/insomnium-kaunis-kuolematon-lutakko-2026-10-31",
+  "image": "https://www.jelmu.net/media/insomnium_2026_square_-jyvaskyla--300x300.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/halloween-special-akseli-hiltunen-pelko-1tipe-ravintola-poppari-2026-10-31",
+  "title": "HALLOWEEN SPECIAL: Akseli Hiltunen + Pelko + 1Tipe",
+  "start": "2026-10-31T21:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/halloween-special-akseli-hiltunen-pelko-1tipe-ravintola-poppari-2026-10-31",
+  "image": "http://ravintolapoppari.fi/wp-content/uploads/Akseli-Hiltunen-Kanssaloisaktivistit-Promokuva-2026-Utu-Liimatainen.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/braineaters-plays-misfits-dj-t-fast-willie-rame-musta-kynnys-2026-10-31",
+  "title": "BRAINEATERS PLAYS MISFITS, DJ:t Fast Willie & Räme",
+  "start": "2026-10-31T22:00:00+03:00",
+  "allDay": false,
+  "venue": "Musta Kynnys",
+  "address": "Hannikaisenkatu 16, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/braineaters-plays-misfits-dj-t-fast-willie-rame-musta-kynnys-2026-10-31",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBandXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--76a68f3b5b101ddfe11e00fd8b731816b0ec9b85/logo-jyvaskyla-mustakynnys.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/jba-n-vs-kataja-basket-gradia-viitaniemi-d-sali-2026-11-01",
+  "title": "JBA N vs Kataja Basket",
+  "start": "2026-11-01T15:00:00+03:00",
+  "allDay": false,
+  "venue": "Gradia Viitaniemi D-sali",
+  "address": "40720 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/jba-n-vs-kataja-basket-gradia-viitaniemi-d-sali-2026-11-01",
+  "ticketUrl": "https://events.liveto.io/events/jba-n-vs-team-lemkem-2",
+  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/2ef682c94bb7b4bd9b821b1f07a576086d8168e2bae354b87a39b0a4be226699.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/amaranthe-se-self-deception-se-ankor-es-lutakko-2026-11-01",
+  "title": "Amaranthe (SE) Self Deception (SE) Ankor (ES)",
+  "start": "2026-11-01T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/amaranthe-se-self-deception-se-ankor-es-lutakko-2026-11-01",
+  "image": "https://www.jelmu.net/media/amaranthe_jyvaskyla_1080x1080-300x300.png",
   "categories": [
    "keikat"
   ]

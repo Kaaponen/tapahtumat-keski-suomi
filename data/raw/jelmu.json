@@ -1,22 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "costi",
-  "title": "Costi, uu$er",
-  "start": "2026-10-23T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/costi",
-  "ticketUrl": "https://www.jelmu.net/event/costi",
-  "image": "https://www.jelmu.net/media/costi_syksy2026_pr_preview-300x300.jpg",
-  "description": "S · Ovet 19:00 · Keikka alkaa 21:00 · 24,50€ – 30,00€Hintaluokka: 24,50€ - 30,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "black-devils-feat-ile-kallio-janne-louhivuori",
   "title": "Black Devils feat. Ile Kallio & Janne Louhivuori (Hurriganes Show)",
   "start": "2026-10-24T19:00:00+03:00",

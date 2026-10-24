@@ -69,23 +69,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "19441",
-  "title": "Haloo Helsinki! + Rebekka Holi",
-  "start": "2026-10-23T20:00:00+03:00",
-  "allDay": false,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/haloo-helsinki-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/05/haloo-helsinki4.jpg",
-  "description": "HALOO HELSINKI! + REBEKKA HOLI PEURUNKA AREENALLA PE 23.10.2026! Peurunka Areenan aiemminkin loppuunmyynyt Haloo Helsinki! saapuu jälleen polkaisemaan Peurungan vuoden 2026 pikkujoulukauden käyntiin! Nämä liput viedään käsistä, joten kannattaa olla ajoissa liikkeellä! Mukana tunnelmaa nostattamassa Rebekka Holi. LOPPUUNMYYTY! K18 LET’S GO! Klo 17.30 Narikka aukeaa hotellin aulassa Klo 20.30 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Rebekka Holi Klo 22.30 Haloo Helsinki! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, matkakeskus20:05 Laukaa, linja-a…",
-  "categories": [
-   "Keikat",
-   "Pikkujoulut"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "22015",
   "title": "Pirttijoki",
   "start": "2026-10-24T21:00:00+03:00",
@@ -120,6 +103,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22671",
+  "title": "Karaokeillat",
+  "start": "2026-10-28",
+  "end": "2026-10-31",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-85/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "16024",
   "title": "Kauhujen kylpylä",
   "start": "2026-10-28",
@@ -134,21 +132,6 @@
   "categories": [
    "Kylpylä"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22671",
-  "title": "Karaokeillat",
-  "start": "2026-10-28",
-  "end": "2026-10-31",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-85/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
  },
  {
   "source": "peurunka",
@@ -170,20 +153,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22262",
-  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
-  "start": "2026-10-30",
-  "end": "2026-11-01",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle/",
-  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "22713",
   "title": "Yölintu ja Kake Randelin",
   "start": "2026-10-30T20:00:00+02:00",
@@ -199,6 +168,20 @@
    "Keikat",
    "Pikkujoulut"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22262",
+  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
+  "start": "2026-10-30",
+  "end": "2026-11-01",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle/",
+  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -472,6 +455,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22679",
+  "title": "Karaokeillat",
+  "start": "2026-11-25",
+  "end": "2026-11-28",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-89/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "21725",
   "title": "Christmas Jukebox Show",
   "start": "2026-11-25T19:00:00+02:00",
@@ -487,21 +485,6 @@
    "Pikkujoulut",
    "Ruokatapahtuma"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22679",
-  "title": "Karaokeillat",
-  "start": "2026-11-25",
-  "end": "2026-11-28",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-89/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
  },
  {
   "source": "peurunka",
