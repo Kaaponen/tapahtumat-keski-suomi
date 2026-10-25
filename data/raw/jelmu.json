@@ -1,38 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "black-devils-feat-ile-kallio-janne-louhivuori",
-  "title": "Black Devils feat. Ile Kallio & Janne Louhivuori (Hurriganes Show)",
-  "start": "2026-10-24T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/black-devils-feat-ile-kallio-janne-louhivuori",
-  "ticketUrl": "https://www.jelmu.net/event/black-devils-feat-ile-kallio-janne-louhivuori",
-  "image": "https://www.jelmu.net/media/black_devils_2026-3-3-300x300.jpg",
-  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 29,00€ – 35,00€Hintaluokka: 29,00€ - 35,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
-  "sourceId": "live-is-life-dj-kridlokk-ug-solo-15-v",
-  "title": "Live is Life: DJ Kridlokk – UG Solo 15 v",
-  "start": "2026-10-24T21:00:00+03:00",
-  "allDay": false,
-  "venue": "Musta kynnys",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/live-is-life-dj-kridlokk-ug-solo-15-v",
-  "ticketUrl": "https://www.jelmu.net/event/live-is-life-dj-kridlokk-ug-solo-15-v",
-  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_kridlokk-1-300x300.jpg",
-  "description": "K18 · Ovet 21:00 · 18,00€ – 25,00€Hintaluokka: 18,00€ - 25,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "litku-klemetti-2",
   "title": "Litku Klemetti, Joku Iiris",
   "start": "2026-10-30T19:00:00+02:00",

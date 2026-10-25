@@ -1,156 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/esc-live-lytta-tohtori-getto-club-escape-2026-10-24",
-  "title": "ESC Live: LYTTÄ & TOHTORI GETTO",
-  "start": "2026-10-24",
-  "allDay": true,
-  "venue": "Club Escape",
-  "address": "Kauppakatu 32, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/esc-live-lytta-tohtori-getto-club-escape-2026-10-24",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/mika-fiilis-vain-parasta-suomimusaa-london-2026-10-24",
-  "title": "Mikä Fiilis vain parasta suomimusaa",
-  "start": "2026-10-24",
-  "allDay": true,
-  "venue": "London",
-  "address": "Puistokatu 2, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/mika-fiilis-vain-parasta-suomimusaa-london-2026-10-24",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/pretty-little-ditties-plays-rhcp-rockneck-jyvaskyla-2026-10-24",
-  "title": "Pretty Little Ditties plays RHCP",
-  "start": "2026-10-24",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/pretty-little-ditties-plays-rhcp-rockneck-jyvaskyla-2026-10-24",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/sukiko-esittaa-wombscape-jap-chemical-burn-off-the-alakulttuuritalo-kramsu-2026-10-24",
-  "title": "Sukiko esittää: Wombscape (JAP), Chemical Burn, Off the Grid ja Nikama",
-  "start": "2026-10-24",
-  "allDay": true,
-  "venue": "Alakulttuuritalo Kramsu",
-  "address": "Kramsunkatu 5, päärakennus, 40600 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/sukiko-esittaa-wombscape-jap-chemical-burn-off-the-alakulttuuritalo-kramsu-2026-10-24",
-  "image": "https://www.ylakulttuuri.fi/wp-content/uploads/2026/10/2026-10-24-tapahtuma-768x768.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/raparperitaivas-toivolan-vanha-piha-2026-10-24",
-  "title": "Raparperitaivas",
-  "start": "2026-10-24",
-  "allDay": true,
-  "venue": "Toivolan Vanha Piha",
-  "address": "Cygnaeuksenkatu 2, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/raparperitaivas-toivolan-vanha-piha-2026-10-24",
-  "image": "https://toivolanpiha.fi/wp-content/uploads/2026/05/Raparperitaivas-750x750.png ",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/laura-haimila-ursula-herlin-pari-juttuu-ravintola-poppari-2026-10-24",
-  "title": "Laura Haimila & Ursula Herlin: Pari juttuu",
-  "start": "2026-10-24T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/laura-haimila-ursula-herlin-pari-juttuu-ravintola-poppari-2026-10-24",
-  "image": "http://ravintolapoppari.fi/wp-content/uploads/Pari-Juttua-banneri.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/black-devils-feat-ile-kallio-janne-louhivuori-hurr-lutakko-2026-10-24",
-  "title": "Black Devils feat. Ile Kallio & Janne Louhivuori (Hurriganes Show)",
-  "start": "2026-10-24T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/black-devils-feat-ile-kallio-janne-louhivuori-hurr-lutakko-2026-10-24",
-  "image": "https://www.jelmu.net/media/black_devils_2026-3-3-300x300.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/dj-kridlokk-ug-solo-15v-dj-joniveli-musta-kynnys-2026-10-24",
-  "title": "DJ KRIDLOKK-UG SOLO 15v, DJ Joniveli",
-  "start": "2026-10-24T22:00:00+03:00",
-  "allDay": false,
-  "venue": "Musta Kynnys",
-  "address": "Hannikaisenkatu 16, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/dj-kridlokk-ug-solo-15v-dj-joniveli-musta-kynnys-2026-10-24",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBandXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--76a68f3b5b101ddfe11e00fd8b731816b0ec9b85/logo-jyvaskyla-mustakynnys.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/katri-ylander-laulut-20-vuoden-varrelta-ravintola-poppari-2026-10-24",
-  "title": "Katri Ylander - Laulut 20 Vuoden Varrelta",
-  "start": "2026-10-24T22:30:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/katri-ylander-laulut-20-vuoden-varrelta-ravintola-poppari-2026-10-24",
-  "ticketUrl": "https://www.tiketti.fi/katri-ylander-poppari-jyvaskyla-lippuja/119808",
-  "image": "http://ravintolapoppari.fi/wp-content/uploads/Katri-Ylander-20v.-juhlakonsertit-promo-_-pysty.jpeg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/janita-osku-harry-s-jyvaskyla-2026-10-24",
-  "title": "Janita & Osku",
-  "start": "2026-10-24T23:00:00+03:00",
-  "allDay": false,
-  "venue": "Harry's Jyväskylä",
-  "address": "Kauppakatu 41, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/janita-osku-harry-s-jyvaskyla-2026-10-24",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b151ee1368eadbdc35bd1fa02a795102840f150/logo-jyvaskyla-harrys.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/19-25-10-rauhanviikko-kramsulla-alakulttuuritalo-kramsu-2026-10-25",
   "title": "19.-25.10. | Rauhanviikko Kramsulla",
   "start": "2026-10-25",
@@ -445,6 +295,158 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/amaranthe-se-self-deception-se-ankor-es-lutakko-2026-11-01",
   "image": "https://www.jelmu.net/media/amaranthe_jyvaskyla_1080x1080-300x300.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-02",
+  "title": "Maanantaijamit",
+  "start": "2026-11-02T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-02",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/visa-vakiopaine-2026-11-03",
+  "title": "Visa",
+  "start": "2026-11-03T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Vakiopaine",
+  "address": "Kauppakatu 6, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/visa-vakiopaine-2026-11-03",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/granfelt-nikku-classic-guitar-rock-ravintola-poppari-2026-11-04",
+  "title": "Granfelt & Nikku Classic Guitar Rock",
+  "start": "2026-11-04T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/granfelt-nikku-classic-guitar-rock-ravintola-poppari-2026-11-04",
+  "image": "http://ravintolapoppari.fi/wp-content/uploads/Tavastia-backstage-1.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/inariveljet-vakiopaine-2026-11-05",
+  "title": "Inariveljet",
+  "start": "2026-11-05T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Vakiopaine",
+  "address": "Kauppakatu 6, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/inariveljet-vakiopaine-2026-11-05",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/eemelin-pelto-rockneck-jyvaskyla-2026-11-06",
+  "title": "Eemelin Pelto",
+  "start": "2026-11-06",
+  "allDay": true,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/eemelin-pelto-rockneck-jyvaskyla-2026-11-06",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/pyhalehma-italansi-vakiopaine-2026-11-06",
+  "title": "Pyhälehmä, Itälänsi",
+  "start": "2026-11-06T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Vakiopaine",
+  "address": "Kauppakatu 6, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/pyhalehma-italansi-vakiopaine-2026-11-06",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/klamydia-ohelanaukeella-ohelanaukee-2026-11-06",
+  "title": "Klamydia Ohelanaukeella",
+  "start": "2026-11-06T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Ohelanaukee",
+  "address": "Petäjävedentie 1348, 41860 Tikkala",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/klamydia-ohelanaukeella-ohelanaukee-2026-11-06",
+  "ticketUrl": "https://www.tiketti.fi/klamydia-ohelanaukeella-ohelanaukee-jyvaskyla-lippuja/120877",
+  "image": "https://www.tiketti.fi/kuvat/EV120877_7_768x470_.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/jenni-vartiainen-vedenalaista-konserttisalikiertue-paviljonki-jyvaskyla-2026-11-06",
+  "title": "Jenni Vartiainen – Vedenalaista-konserttisalikiertue 2026",
+  "start": "2026-11-06T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Paviljonki Jyväskylä",
+  "address": "Lutakonaukio 12, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/jenni-vartiainen-vedenalaista-konserttisalikiertue-paviljonki-jyvaskyla-2026-11-06",
+  "ticketUrl": "https://www.lippu.fi/event/name-21582036",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/jkl_jennivartiainen_vedenalaista_1080x1080px.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/helmi-marleena-fibi-lutakko-2026-11-06",
+  "title": "helmi marleena + fibi",
+  "start": "2026-11-06T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/helmi-marleena-fibi-lutakko-2026-11-06",
+  "image": "https://www.jelmu.net/media/helmi-marleena-kiertue-300x300.jpeg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/musaklubi-ravintola-poppari-2026-11-06",
+  "title": "Musaklubi",
+  "start": "2026-11-06T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/musaklubi-ravintola-poppari-2026-11-06",
+  "image": "http://ravintolapoppari.fi/wp-content/uploads/Poppari-event-40.png",
   "categories": [
    "keikat"
   ]
