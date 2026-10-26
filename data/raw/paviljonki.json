@@ -1,24 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/joutsenlampi/",
-  "title": "Joutsenlampi",
-  "start": "2026-10-25T19:00:00+02:00",
-  "end": "2026-10-25T19:45:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/joutsenlampi/",
-  "ticketUrl": "https://www.lippu.fi/event/joutsenlampi-paviljonki-21438718/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/sl-uk-1080-x-1080-only-title-640x640.jpg",
-  "description": "Joutsenlampi BRITISH FESTIVAL BALLET esittää: ”JOUTSENLAMPI”: Suurenmoinen ja unohtumaton versio tästä legendaarisesta baletista. British Festival Balletin Joutsenlampi on paljon muutakin kuin tanssiesitys; se on näyttävä ja häikäisevä versio, joka ilahduttaa niin klassisen baletin puristeja kuin aloittelevia katsojia. Tanssijoiden esityksen rikkeettömän laadun ja erinomaisen taiteellisen ohjauksen ansiosta tämä mestariteos herää henkiin häkellyttävän kauniissa muodossa. Tämä on ennennäkemätön tilaisuus löytää tai nähdä uudelleen tämä legendaarinen baletti moitteettoman laadukkaassa esitykses…",
-  "categories": [
-   "Muu viihde"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-verdin-requiem/",
   "title": "Jyväskylä Sinfonia: Verdin Requiem",
   "start": "2026-10-29T18:00:00+02:00",
