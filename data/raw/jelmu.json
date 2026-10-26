@@ -702,5 +702,21 @@
   "categories": [
    "keikat"
   ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "lytta-tohtori-getto",
+  "title": "Lyttä & Tohtori Getto",
+  "start": "2027-05-05T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/lytta-tohtori-getto",
+  "ticketUrl": "https://www.jelmu.net/event/lytta-tohtori-getto",
+  "image": "https://www.jelmu.net/media/ltg-10-300x300.jpg",
+  "description": "S · Ovet 19:00 · Keikka alkaa 21:00 · 24,00€ – 30,00€Hintaluokka: 24,00€ - 30,00€",
+  "categories": [
+   "keikat"
+  ]
  }
 ]
