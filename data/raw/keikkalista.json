@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-10-26",
-  "title": "Maanantaijamit",
-  "start": "2026-10-26T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-10-26",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/gradian-laulajat-vanhassa-pappilassa-toivolan-vanha-piha-2026-10-27",
   "title": "Gradian laulajat Vanhassa Pappilassa",
   "start": "2026-10-27",
@@ -448,6 +433,21 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/metallipikkujoulut-nameles-veil-of-desolation-ja-n-rockneck-jyvaskyla-2026-11-07",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/lempeyden-keidas-paivaretriitti-alakulttuuritalo-kramsu-2026-11-07",
+  "title": "Lempeyden keidas -päiväretriitti",
+  "start": "2026-11-07",
+  "allDay": true,
+  "venue": "Alakulttuuritalo Kramsu",
+  "address": "Kramsunkatu 5, päärakennus, 40600 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/lempeyden-keidas-paivaretriitti-alakulttuuritalo-kramsu-2026-11-07",
+  "image": "https://www.ylakulttuuri.fi/wp-content/uploads/2026/10/2026-11-07-tapahtuma-768x549.jpg",
   "categories": [
    "keikat"
   ]
