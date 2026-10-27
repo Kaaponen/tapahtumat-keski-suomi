@@ -1026,6 +1026,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/sgt-peppers-60-years-the-beatles-tribute-show/",
+  "title": "Sgt. Pepper’s 60 Years: The Beatles Tribute Show",
+  "start": "2027-04-23T19:00:00+03:00",
+  "end": "2027-04-23T18:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/sgt-peppers-60-years-the-beatles-tribute-show/",
+  "ticketUrl": "https://www.lippu.fi/event/sgt-peppers-60-years-the-beatles-tribute-show-paviljonki-22337642/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/beatles_tribuutti_kevat_2027_jyvaskyla_1080x1080-640x640.png",
+  "description": "Sgt. Pepper’s 60 Years: The Beatles Tribute Show Esiintyjä: Jiri Nikkinen, Nina Tapio & Penny Lane Band The Beatlesin musiikkia juhlitaan isosti Suomen parhaissa konserttisaleissa keväällä 2027 60 vuotta täyttävän Sgt. Pepper’s Lonely Hearts Club Band -albumin kunniaksi. Luvassa on populaarikulttuurin yhden ikonisimman levyn kappaleiden lisäksi monipuolinen kattaus myös muita Beatles-klassikoita eri aikakausilta. Solisteina Sgt. Pepper’s 60 Years: The Beatles Tribute Show -kiertueella toimivat Jiri Nikkinen ja Nina Tapio. Säestyksestä vastaa rumpali Antti ”Letku” Lehtisen johtama Penny Lane B…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/frozen-1-2-musiikkishow-jaalla/",
   "title": "FROZEN 1 & 2 – MUSIIKKISHOW JÄÄLLÄ",
   "start": "2027-04-26T17:00:00+03:00",

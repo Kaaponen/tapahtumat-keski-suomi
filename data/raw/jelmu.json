@@ -689,6 +689,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "huora-lahiobotox",
+  "title": "Huora, Lähiöbotox",
+  "start": "2027-03-06T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/huora-lahiobotox",
+  "ticketUrl": "https://www.jelmu.net/event/huora-lahiobotox",
+  "image": "https://www.jelmu.net/media/lutakko27_huorabotox_ig-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 27,00€ – 35,00€Hintaluokka: 27,00€ - 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "vesterinen-yhtyeineen-paluu-lutakkoon-pe",
   "title": "Vesterinen Yhtyeineen",
   "start": "2027-03-19T19:00:00+02:00",
