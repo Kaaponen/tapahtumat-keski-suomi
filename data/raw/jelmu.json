@@ -721,6 +721,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "noora-louhimo",
+  "title": "Noora Louhimo",
+  "start": "2027-03-20T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/noora-louhimo",
+  "ticketUrl": "https://www.jelmu.net/event/noora-louhimo",
+  "image": "https://www.jelmu.net/media/tiketti_nooralouhimotour2027_tapahtumasivu_tapahtumakuva-300x300.png",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 30,00€ – 38,00€Hintaluokka: 30,00€ - 38,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "lytta-tohtori-getto",
   "title": "Lyttä & Tohtori Getto",
   "start": "2027-05-05T19:00:00+03:00",
