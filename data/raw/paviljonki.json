@@ -1080,6 +1080,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/baritonit-paviljongissa-kivivuori-sereno-pelkonen-rusanen-konttinen/",
+  "title": "Baritonit Paviljongissa: Kivivuori Sereno, Pelkonen, Rusanen & Konttinen",
+  "start": "2027-05-08T18:00:00+03:00",
+  "end": "2027-05-08T17:15:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/baritonit-paviljongissa-kivivuori-sereno-pelkonen-rusanen-konttinen/",
+  "ticketUrl": "https://www.lippu.fi/event/baritonit-paviljongissa-paviljonki-22353527/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/baritonit_finlandia_1080x1080-640x640.jpg",
+  "description": "Baritonit Paviljongissa Äitienpäivän aaton kunniaksi Paviljongissa on luvassa todella sykähdyttävä ja sydämellinen konsertti. Suosikkibaritonit Aarne Pelkonen, Gabriel Kivivuori Sereno, Ville Rusanen sekä Keski-Suomen oma poika, Pylkönmäeltä kotoisin oleva Mikael Konttinen ovat yhdistäneet voimansa ja laatineet sekä monipuolisen että viihdyttävän ohjelman. Konsertissa kuullaan kotimaisia klassikoita kuten Kullanmurunen, Romanssi ja Myrskyluodon Maija. Kansainvälisen viihdemusiikin helmistä mainittakoon Puhu hiljaa rakkaudesta, Music of the night (Phantom of the Opera), Caruso (Italian yössä),…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://yhdyskuntatekniikka.fi/fi",
   "title": "Yhdyskuntatekniikka 2027",
   "start": "2027-05-12",
