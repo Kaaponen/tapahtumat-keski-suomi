@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/keskiviikkojamit-ravintola-poppari-2026-10-28",
-  "title": "Keskiviikkojamit",
-  "start": "2026-10-28T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/keskiviikkojamit-ravintola-poppari-2026-10-28",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-verdin-requiem-paviljonki-jyvaskyla-2026-10-29",
   "title": "Jyväskylä Sinfonia: Verdin Requiem",
   "start": "2026-10-29T18:00:00+03:00",
@@ -449,6 +434,22 @@
   "url": "https://www.keikkalista.fi/keikat/muumit-pyrstotahtea-etsimassa-paviljonki-jyvaskyla-2026-11-07",
   "ticketUrl": "https://www.lippu.fi/event/muumit-pyrstoetaehteae-etsimaessae-paviljonki-21623635/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/muumit-1080x1080-1.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/antti-autio-haahuillen-k18-paviljonki-jyvaskyla-2026-11-07",
+  "title": "Antti Autio – Haahuillen K18",
+  "start": "2026-11-07T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Paviljonki Jyväskylä",
+  "address": "Lutakonaukio 12, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/antti-autio-haahuillen-k18-paviljonki-jyvaskyla-2026-11-07",
+  "ticketUrl": "https://www.lippu.fi/event/antti-autio-haahuillen-k18-jyvaeskylaen-paviljonki-paviljonki-klubi-21685444/ ",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/antti_autio_1080x1080.png",
   "categories": [
    "keikat"
   ]
