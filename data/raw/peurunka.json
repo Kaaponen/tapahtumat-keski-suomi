@@ -118,6 +118,20 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "23332",
+  "title": "Luontokuvailta: Kuutamoseikkailu",
+  "start": "2026-11-04T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Peurunka, Auditorio",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/luontokuvailta-kuusi-vuodenaikaa-kilpisjarvella/",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/10/001.jpg",
+  "description": "Jonni Saaren valokuvia ja tarinoita: Kuutamoseikkailu Keskiviikko 4.11. klo 19.00 Kuvia myös myytävänä. Pääsymaksu: 2 € (käteinen / MobilePay)",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22673",
   "title": "Karaokeillat",
   "start": "2026-11-04",
@@ -333,6 +347,24 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22226",
+  "title": "Olavi Uusivirta + Mira Luoti",
+  "start": "2026-11-21T20:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Peurunka Areena",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/olavi-uusivirta-mira-luoti/",
+  "ticketUrl": "https://www.ticketmaster.fi/event/92202385",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/08/Olavi-Uusivirta-Mira-Luoti4.jpg",
+  "description": "OLAVI UUSIVIRTA + MIRA LUOTI PEURUNKA AREENALLA LA 21.11.2026! Ihastuttava Olavi Uusivirta valtaa Peurunka Areenan huikealla lavakarismallaan. Mukana tunnelmaa luomassa myös ihana Mira Luoti! Liput 39 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 17.30 Narikka aukeaa hotellin aulassa Klo 20.30 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, matkakeskus20:05 Laukaa, linja-autoasema20:15 Peurunka01:00 paluu samaa reittiä hotellin vastaanoton edestä. Bussi ajaa Jyväskylässä reittiä Puistokatu,…",
+  "categories": [
+   "Keikat",
+   "Pikkujoulut"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "23258",
   "title": "Kuutamopyöräily – eFatbike-retki",
   "start": "2026-11-21T19:00:00+02:00",
@@ -348,24 +380,6 @@
   "categories": [
    "Jäsenpäivä",
    "Liikunta"
-  ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22226",
-  "title": "Olavi Uusivirta + Mira Luoti",
-  "start": "2026-11-21T20:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/olavi-uusivirta-mira-luoti/",
-  "ticketUrl": "https://www.ticketmaster.fi/event/92202385",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/08/Olavi-Uusivirta-Mira-Luoti4.jpg",
-  "description": "OLAVI UUSIVIRTA + MIRA LUOTI PEURUNKA AREENALLA LA 21.11.2026! Ihastuttava Olavi Uusivirta valtaa Peurunka Areenan huikealla lavakarismallaan. Mukana tunnelmaa luomassa myös ihana Mira Luoti! Liput 39 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 17.30 Narikka aukeaa hotellin aulassa Klo 20.30 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, matkakeskus20:05 Laukaa, linja-autoasema20:15 Peurunka01:00 paluu samaa reittiä hotellin vastaanoton edestä. Bussi ajaa Jyväskylässä reittiä Puistokatu,…",
-  "categories": [
-   "Keikat",
-   "Pikkujoulut"
   ]
  },
  {
@@ -402,20 +416,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22264",
-  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
-  "start": "2026-11-27",
-  "end": "2026-11-29",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "19859",
   "title": "Yö + Olli Halonen",
   "start": "2026-11-27T20:00:00+02:00",
@@ -431,6 +431,20 @@
    "Keikat",
    "Pikkujoulut"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22264",
+  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
+  "start": "2026-11-27",
+  "end": "2026-11-29",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
+  "categories": []
  },
  {
   "source": "peurunka",
