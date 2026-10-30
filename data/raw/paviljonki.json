@@ -1,23 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-verdin-requiem/",
-  "title": "Jyväskylä Sinfonia: Verdin Requiem",
-  "start": "2026-10-29T18:00:00+02:00",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-verdin-requiem/",
-  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-verdin-requiem-paviljonki-21618677/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/29.10-640x640.jpg",
-  "description": "Jyväskylä Sinfonia & Oulu Sinfonia Pablo Mielgo, kapellimestari Marjukka Tepponen, sopraano Melissa Zgouriri, altto Markus Nykänen, tenori Matti Turunen, basso Jyväskylän oopperakuoro, valm. Rita Varonen Giuseppe Verdi: Requiem ”Vihan päivä, kauhun päivä!” Bassorumpujen piiskaamat koko orkesterin iskut eivät jätä mitään epäselväksi: tuomiopäivä tulee, oletko valmis? Italialaisten kansallissankari Giuseppe Verdi halusi kunnioittaa kirjailija Alessandro Manzonin muistoa, ja Verdin tulkinta roomalaiskatolisesta kuolinmessusta sai kriitikot kauhistelemaan sitä ”oopperaksi messukasukassa”. Mitä mu…",
-  "categories": [
-   "Konsertit"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/uskomaton-halloween-taikashow-2/",
   "title": "PERUTTU: Uskomaton Halloween Taikashow",
   "start": "2026-10-30T19:00:00+02:00",

@@ -1,36 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-verdin-requiem-paviljonki-jyvaskyla-2026-10-29",
-  "title": "Jyväskylä Sinfonia: Verdin Requiem",
-  "start": "2026-10-29T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Paviljonki Jyväskylä",
-  "address": "Lutakonaukio 12, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-verdin-requiem-paviljonki-jyvaskyla-2026-10-29",
-  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-verdin-requiem-paviljonki-21618677/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/29.10.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/pauli-hanhiniemen-perunateatteri-ravintola-sohwi-2026-10-29",
-  "title": "Pauli Hanhiniemen Perunateatteri",
-  "start": "2026-10-29T21:00:00+03:00",
-  "allDay": false,
-  "venue": "Ravintola Sohwi",
-  "address": "Vaasankatu 21, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/pauli-hanhiniemen-perunateatteri-ravintola-sohwi-2026-10-29",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/esc-live-olga-club-escape-2026-10-30",
   "title": "ESC Live: OLGA",
   "start": "2026-10-30",
@@ -450,6 +420,37 @@
   "url": "https://www.keikkalista.fi/keikat/antti-autio-haahuillen-k18-paviljonki-jyvaskyla-2026-11-07",
   "ticketUrl": "https://www.lippu.fi/event/antti-autio-haahuillen-k18-jyvaeskylaen-paviljonki-paviljonki-klubi-21685444/ ",
   "image": "https://www.paviljonki.fi/wp-content/uploads/antti_autio_1080x1080.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/mikko-toyssy-aarne-pelkonen-teemu-roivainen-klassi-paviljonki-jyvaskyla-2026-11-07",
+  "title": "Mikko Töyssy, Aarne Pelkonen, Teemu Roivainen – Klassikoiden Aika",
+  "start": "2026-11-07T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Paviljonki Jyväskylä",
+  "address": "Lutakonaukio 12, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/mikko-toyssy-aarne-pelkonen-teemu-roivainen-klassi-paviljonki-jyvaskyla-2026-11-07",
+  "ticketUrl": "https://www.lippu.fi/event/name-21654660",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/mikkoaarneteemu_bg-scaled.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/kotiteollisuus-lutakko-2026-11-07",
+  "title": "Kotiteollisuus",
+  "start": "2026-11-07T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/kotiteollisuus-lutakko-2026-11-07",
+  "image": "https://www.jelmu.net/media/kotiteollisuus_2026-kuva-arkisto-300x300.jpg",
   "categories": [
    "keikat"
   ]
