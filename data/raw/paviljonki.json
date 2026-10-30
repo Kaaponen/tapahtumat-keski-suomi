@@ -670,6 +670,22 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskylan-rompepaiva/",
+  "title": "Jyväskylän Rompepäivä 2027",
+  "start": "2027-01-09T08:00:00+02:00",
+  "allDay": false,
+  "venue": "Paviljonki",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskylan-rompepaiva/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/rompemainos2027-640x640.jpg",
+  "description": "Moottoripyöräilyyn liittyvä erikoistapahtuma! Perinteinen moottoripyörien, mopojen ja osien myynti- ja ostotapahtuma. Alue myös harrasteautojen osille. Jyväskylän Rompepäivä avaa taas totuttuun tapaan moottoripyöräilyvuoden lauantaina 9.1.2027 Paviljongissa.",
+  "categories": [
+   "Muut tapahtumat"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/lords-of-the-sound-the-music-of-hans-zimmer/",
   "title": "Lords of the Sound – The Music of Hans Zimmer",
   "start": "2027-01-19T19:00:00+02:00",
@@ -969,6 +985,38 @@
   "description": "The Rock Orchestra By Candlelight The Rock Orchestrasta on tullut maailmanlaajuinen ilmiö, joka on viihdyttänyt yli 1 000 000 katsojaa ympäri maailmaa ja noussut ensimmäisellä albumillaan rock- ja metallilistojen ykköseksi. Nyt he palaavat Eurooppaan tarjoamaan upean spektaakkelin. The Rock Orchestra on jatkuvasti vaihtuva kokoonpano, joka koostuu joistakin maailman parhaista muusikoista ja laulajista. He tuovat legendaariseen rockiin ja metalliin kauniin synkkää energiaa. Ohjelmistossa musiikkia artisteilta kuten: Metallica, The Cranberries, Linkin Park, AC/DC, Evanescence, Rolling Stones, S…",
   "categories": [
    "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskylan-hyvinvointimessut/",
+  "title": "Jyväskylän Hyvinvointimessut",
+  "start": "2027-04-10",
+  "allDay": true,
+  "venue": "Paviljonki",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskylan-hyvinvointimessut/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/jkl-hyvinvointi-640x640.jpg",
+  "description": "Jyväskylän Hyvinvointimessut tarjoaa vinkkejä kaikille hyvinvoinnista, kauneudesta, terveydestä ja liikunnasta kiinnostuneille. Messuilla on mahdollista saada alan asiantuntijoiden neuvoja hyvinvoinnin edistämiseen sekä tutustua alan yrittäjiin ja tuotteisiin. Messuilla kohtaavat hyvinvoinnista kiinnostuneet messukävijät ja alan yritykset, Hemmottele itseäsi – lähde ihastuttaville Hyvinvointimessuille. Hyvinvointimessujen lisäksi pääset myös samaan aikaan järjestettäville Kädentaitomessuille. Sisäänkäynti messuille Lutakonaukion pääovi. Avoinna: Lauantai 10-17 ja Sunnuntai 10–16 Järjestäjä: M…",
+  "categories": [
+   "Messut"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskylan-kadentaitomessut/",
+  "title": "Jyväskylän Kädentaitomessut",
+  "start": "2027-04-10",
+  "allDay": true,
+  "venue": "Paviljonki",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskylan-kadentaitomessut/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/lankapalmikot-640x640.jpg",
+  "description": "Jyväskylän Kädentaitomessuilla yhdistyy hyvä suunnittelu, aidot materiaalit ja tekemisen taito. Kotimaiset kädentaitajat tarjoavat laadukkaita koriste- ja käyttöesineitä, yksilöllisiä vaatteita ja asusteita aikuisille ja lapsille, sekä paljon muuta. Messuilla voit hankkia myös tarvikkeita ja työvälineitä. Ihastu työnäytöksistä, näe ja koe. Jyväskylän Kädentaitomessuilla myös oppilaitokset esittävät osaamistaan. Tervetuloa Käsityömessuille! Kädentaitomessujen lisäksi pääset myös samaan aikaan järjestettäville Hyvinvointimessuille. Sisäänkäynti messuille Lutakonaukion pääovi. Avoinna: Lauantai…",
+  "categories": [
+   "Messut"
   ]
  },
  {
