@@ -1,22 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "litku-klemetti-2",
-  "title": "Litku Klemetti, Joku Iiris",
-  "start": "2026-10-30T19:00:00+02:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/litku-klemetti-2",
-  "ticketUrl": "https://www.jelmu.net/event/litku-klemetti-2",
-  "image": "https://www.jelmu.net/media/litku-klemetti-2026-kuva-aki-roukala2-300x300.jpg",
-  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 20,00€ – 27,00€Hintaluokka: 20,00€ - 27,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "insomnium-kaunis-kuolematon",
   "title": "Insomnium, Kaunis Kuolematon",
   "start": "2026-10-31T19:00:00+02:00",
