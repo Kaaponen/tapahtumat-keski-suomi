@@ -1,81 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/halloween-party-telaketju-london-2026-10-31",
-  "title": "Halloween Party – Telaketju",
-  "start": "2026-10-31",
-  "allDay": true,
-  "venue": "London",
-  "address": "Puistokatu 2, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/halloween-party-telaketju-london-2026-10-31",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/seppo-alvari-the-hikers-rockneck-jyvaskyla-2026-10-31",
-  "title": "Seppo Alvari & The Hikers",
-  "start": "2026-10-31",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/seppo-alvari-the-hikers-rockneck-jyvaskyla-2026-10-31",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/insomnium-kaunis-kuolematon-lutakko-2026-10-31",
-  "title": "Insomnium + Kaunis Kuolematon",
-  "start": "2026-10-31T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/insomnium-kaunis-kuolematon-lutakko-2026-10-31",
-  "image": "https://www.jelmu.net/media/insomnium_2026_square_-jyvaskyla--300x300.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/halloween-special-akseli-hiltunen-pelko-1tipe-ravintola-poppari-2026-10-31",
-  "title": "HALLOWEEN SPECIAL: Akseli Hiltunen + Pelko + 1Tipe",
-  "start": "2026-10-31T21:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/halloween-special-akseli-hiltunen-pelko-1tipe-ravintola-poppari-2026-10-31",
-  "image": "http://ravintolapoppari.fi/wp-content/uploads/Akseli-Hiltunen-Kanssaloisaktivistit-Promokuva-2026-Utu-Liimatainen.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/braineaters-plays-misfits-dj-t-fast-willie-rame-musta-kynnys-2026-10-31",
-  "title": "BRAINEATERS PLAYS MISFITS, DJ:t Fast Willie & Räme",
-  "start": "2026-10-31T22:00:00+03:00",
-  "allDay": false,
-  "venue": "Musta Kynnys",
-  "address": "Hannikaisenkatu 16, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/braineaters-plays-misfits-dj-t-fast-willie-rame-musta-kynnys-2026-10-31",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBandXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--76a68f3b5b101ddfe11e00fd8b731816b0ec9b85/logo-jyvaskyla-mustakynnys.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/jba-n-vs-kataja-basket-gradia-viitaniemi-d-sali-2026-11-01",
   "title": "JBA N vs Kataja Basket",
   "start": "2026-11-01T15:00:00+03:00",
@@ -451,6 +376,85 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/bess-lutakko-2026-11-11",
   "image": "https://www.jelmu.net/media/bess_syksy2026_pr1_preview-300x300.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/jenni-mustajarvi-ravintola-poppari-2026-11-11",
+  "title": "Jenni Mustajärvi",
+  "start": "2026-11-11T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/jenni-mustajarvi-ravintola-poppari-2026-11-11",
+  "ticketUrl": "https://www.tiketti.fi/jenni-mustajarvi-poppari-jyvaskyla-lippuja/120797",
+  "image": "http://ravintolapoppari.fi/wp-content/uploads/TeeSeSelvaksiPysty-678x1024-1.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/edgars-rubens-slackbird-vakiopaine-2026-11-11",
+  "title": "Edgars Rubens, Slackbird",
+  "start": "2026-11-11T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Vakiopaine",
+  "address": "Kauppakatu 6, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/edgars-rubens-slackbird-vakiopaine-2026-11-11",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-12-11-2026-tapahtumakeskus-helmi-2026-11-12",
+  "title": "Oletko jyvällä? -lastenmusikaali 12.11.2026",
+  "start": "2026-11-12T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Tapahtumakeskus Helmi",
+  "address": "Okkerinkatu 2, 40700 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-12-11-2026-tapahtumakeskus-helmi-2026-11-12",
+  "ticketUrl": "https://events.liveto.io/events/oletko-jyvalla-lastenmusikaali",
+  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/e275390861294822c4de12881b3b127f43d1c16f1d331b9945aa8c2180ae326a.jpeg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/yle-livena-yle-live-paviljonki-jyvaskyla-2026-11-12",
+  "title": "Yle livenä – Yle live",
+  "start": "2026-11-12T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Paviljonki Jyväskylä",
+  "address": "Lutakonaukio 12, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/yle-livena-yle-live-paviljonki-jyvaskyla-2026-11-12",
+  "ticketUrl": "https://www.lippu.fi/artist/jyvaskylan-messut/yle-livenae-yle-live-4245381/ ",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/ylelivena_nelio_jyvaskyla.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/herrasmiehet-lavalla-paviljonki-jyvaskyla-2026-11-12",
+  "title": "Herrasmiehet Lavalla",
+  "start": "2026-11-12T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Paviljonki Jyväskylä",
+  "address": "Lutakonaukio 12, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/herrasmiehet-lavalla-paviljonki-jyvaskyla-2026-11-12",
+  "ticketUrl": "https://www.lippu.fi/event/herrasmiehet-lavalla-paviljonki-21616875/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/hml-jyvaskyla-sivusto-nelio.jpg",
   "categories": [
    "keikat"
   ]

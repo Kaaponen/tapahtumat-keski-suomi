@@ -1,38 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "insomnium-kaunis-kuolematon",
-  "title": "Insomnium, Kaunis Kuolematon",
-  "start": "2026-10-31T19:00:00+02:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/insomnium-kaunis-kuolematon",
-  "ticketUrl": "https://www.jelmu.net/event/insomnium-kaunis-kuolematon",
-  "image": "https://www.jelmu.net/media/insomnium_2026_square_-jyvaskyla--300x300.jpg",
-  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 29,00€ – 35,00€Hintaluokka: 29,00€ - 35,00€ · Loppuunmyyty",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
-  "sourceId": "live-is-life-braineaters-plays-misfits",
-  "title": "Live is Life: Braineaters plays Misfits",
-  "start": "2026-10-31T21:00:00+02:00",
-  "allDay": false,
-  "venue": "Musta kynnys",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/live-is-life-braineaters-plays-misfits",
-  "ticketUrl": "https://www.jelmu.net/event/live-is-life-braineaters-plays-misfits",
-  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_braineaters-300x300.jpg",
-  "description": "K18 · Ovet 21:00 · 12,00€ – 17,00€Hintaluokka: 12,00€ - 17,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "amaranthe-se",
   "title": "Amaranthe (SE), Self Deception (SE), Ankor (ES)",
   "start": "2026-11-01T18:00:00+02:00",

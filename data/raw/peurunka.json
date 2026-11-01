@@ -18,21 +18,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22671",
-  "title": "Karaokeillat",
-  "start": "2026-10-28",
-  "end": "2026-10-31",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-85/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "16024",
   "title": "Kauhujen kylpylä",
   "start": "2026-10-28",
@@ -61,24 +46,6 @@
   "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle/",
   "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
   "categories": []
- },
- {
-  "source": "peurunka",
-  "sourceId": "19757",
-  "title": "Komiat ja Kake Randelin",
-  "start": "2026-10-31T20:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/komiat-ja-kake-randelin/",
-  "ticketUrl": "https://www.ticketmaster.fi/event/78403178",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/05/komiat-kake-randelin4.jpg",
-  "description": "KOMIAT JA KAKE RANDELIN PEURUNKA AREENALLA LA 31.10.2026! Kaksi Peurunka Areenan suosikkia saapuvat yhdessä keikalle lokakuun lopussa – nappaa äkkiä lippusi! Nämä eivät kauaa kestä! LIPUT MYYNNISSÄ NYT! Liput 44 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 17.30 Narikka aukeaa hotellin aulassa Klo 20.30 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, matkakeskus20:05 Laukaa, linja-autoasema20:15 Peurunka01:00 paluu samaa reittiä hotellin vastaanoton edestä. Bussi ajaa Jyväskylässä reittiä P…",
-  "categories": [
-   "Keikat",
-   "Pikkujoulut"
-  ]
  },
  {
   "source": "peurunka",
@@ -178,21 +145,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22166",
-  "title": "Päiväkaraoke",
-  "start": "2026-11-11T15:00:00+02:00",
-  "end": "2026-11-11T17:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/paivakaraoke/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Paljon toivottu päiväkaraoke! Tervetuloa Pubiin laulamaan karaokea klo 15.00-17.00. Vapaa pääsy!",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "22675",
   "title": "Karaokeillat",
   "start": "2026-11-11",
@@ -204,6 +156,21 @@
   "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-87/",
   "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
   "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22166",
+  "title": "Päiväkaraoke",
+  "start": "2026-11-11T15:00:00+02:00",
+  "end": "2026-11-11T17:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/paivakaraoke/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Paljon toivottu päiväkaraoke! Tervetuloa Pubiin laulamaan karaokea klo 15.00-17.00. Vapaa pääsy!",
   "categories": []
  },
  {
@@ -380,6 +347,20 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22264",
+  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
+  "start": "2026-11-27",
+  "end": "2026-11-29",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "19859",
   "title": "Yö + Olli Halonen",
   "start": "2026-11-27T20:00:00+02:00",
@@ -395,20 +376,6 @@
    "Keikat",
    "Pikkujoulut"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22264",
-  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
-  "start": "2026-11-27",
-  "end": "2026-11-29",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
-  "categories": []
  },
  {
   "source": "peurunka",
