@@ -609,6 +609,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "dynazty-se",
+  "title": "Dynazty (SE)",
+  "start": "2027-02-26T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/dynazty-se",
+  "ticketUrl": "https://www.jelmu.net/event/dynazty-se",
+  "image": "https://www.jelmu.net/media/dynazty_fb_event_jyvaskyla-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 29,00€ – 35,00€Hintaluokka: 29,00€ - 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "live-is-life-f",
   "title": "Live is Life: F",
   "start": "2027-02-27T21:00:00+02:00",
@@ -667,6 +683,22 @@
   "ticketUrl": "https://www.jelmu.net/event/noora-louhimo",
   "image": "https://www.jelmu.net/media/tiketti_nooralouhimotour2027_tapahtumasivu_tapahtumakuva-300x300.png",
   "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 30,00€ – 38,00€Hintaluokka: 30,00€ - 38,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "live-is-life-lasten-hautausmaa",
+  "title": "Live is Life: Lasten Hautausmaa",
+  "start": "2027-03-20T21:00:00+02:00",
+  "allDay": false,
+  "venue": "Musta kynnys",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/live-is-life-lasten-hautausmaa",
+  "ticketUrl": "https://www.jelmu.net/event/live-is-life-lasten-hautausmaa",
+  "image": "https://www.jelmu.net/media/lutakko27_mustakynnys_ig_lastenhautausmaa_hh-300x300.jpg",
+  "description": "K18 · Ovet 21:00 · 24,00€ – 30,00€Hintaluokka: 24,00€ - 30,00€",
   "categories": [
    "keikat"
   ]

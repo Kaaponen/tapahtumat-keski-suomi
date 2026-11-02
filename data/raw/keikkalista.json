@@ -16,6 +16,21 @@
  },
  {
   "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/pappila-soi-konserttisarja-toivolan-vanha-piha-2026-11-03",
+  "title": "Pappila soi -konserttisarja",
+  "start": "2026-11-03",
+  "allDay": true,
+  "venue": "Toivolan Vanha Piha",
+  "address": "Cygnaeuksenkatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/pappila-soi-konserttisarja-toivolan-vanha-piha-2026-11-03",
+  "image": "https://toivolanpiha.fi/wp-content/uploads/2026/10/Pappila-soi-fullHD-PNG-01-Outi-Jussila-750x422.png ",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/visa-vakiopaine-2026-11-03",
   "title": "Visa",
   "start": "2026-11-03T18:00:00+03:00",
@@ -107,22 +122,6 @@
  },
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/jenni-vartiainen-vedenalaista-konserttisalikiertue-paviljonki-jyvaskyla-2026-11-06",
-  "title": "Jenni Vartiainen – Vedenalaista-konserttisalikiertue 2026",
-  "start": "2026-11-06T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Paviljonki Jyväskylä",
-  "address": "Lutakonaukio 12, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/jenni-vartiainen-vedenalaista-konserttisalikiertue-paviljonki-jyvaskyla-2026-11-06",
-  "ticketUrl": "https://www.lippu.fi/event/name-21582036",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/jkl_jennivartiainen_vedenalaista_1080x1080px.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/helmi-marleena-fibi-lutakko-2026-11-06",
   "title": "helmi marleena + fibi",
   "start": "2026-11-06T19:00:00+03:00",
@@ -169,6 +168,21 @@
  },
  {
   "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/saana-shot-c-mon-harry-s-jyvaskyla-2026-11-06",
+  "title": "Saana & Shot C’mon",
+  "start": "2026-11-06T23:00:00+03:00",
+  "allDay": false,
+  "venue": "Harry's Jyväskylä",
+  "address": "Kauppakatu 41, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/saana-shot-c-mon-harry-s-jyvaskyla-2026-11-06",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b151ee1368eadbdc35bd1fa02a795102840f150/logo-jyvaskyla-harrys.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/metallipikkujoulut-nameles-veil-of-desolation-ja-n-rockneck-jyvaskyla-2026-11-07",
   "title": "Metallipikkujoulut Nameles, Veil of Desolation ja Negaatio",
   "start": "2026-11-07",
@@ -178,21 +192,6 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/metallipikkujoulut-nameles-veil-of-desolation-ja-n-rockneck-jyvaskyla-2026-11-07",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/lempeyden-keidas-paivaretriitti-alakulttuuritalo-kramsu-2026-11-07",
-  "title": "Lempeyden keidas -päiväretriitti",
-  "start": "2026-11-07",
-  "allDay": true,
-  "venue": "Alakulttuuritalo Kramsu",
-  "address": "Kramsunkatu 5, päärakennus, 40600 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/lempeyden-keidas-paivaretriitti-alakulttuuritalo-kramsu-2026-11-07",
-  "image": "https://www.ylakulttuuri.fi/wp-content/uploads/2026/10/2026-11-07-tapahtuma-768x549.jpg",
   "categories": [
    "keikat"
   ]
@@ -291,14 +290,14 @@
  },
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/yona-kadonneet-helmet-dj-yellow-snow-musta-kynnys-2026-11-07",
-  "title": "YONA – KADONNEET HELMET, DJ Yellow Snow",
-  "start": "2026-11-07T22:00:00+03:00",
+  "sourceId": "https://www.keikkalista.fi/keikat/yona-kadonneet-helmet-susanna-leppanen-dj-yellow-s-musta-kynnys-2026-11-07",
+  "title": "YONA – KADONNEET HELMET, SUSANNA LEPPÄNEN, DJ Yellow Snow",
+  "start": "2026-11-07T21:30:00+03:00",
   "allDay": false,
   "venue": "Musta Kynnys",
   "address": "Hannikaisenkatu 16, 40100 Jyväskylä",
   "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/yona-kadonneet-helmet-dj-yellow-snow-musta-kynnys-2026-11-07",
+  "url": "https://www.keikkalista.fi/keikat/yona-kadonneet-helmet-susanna-leppanen-dj-yellow-s-musta-kynnys-2026-11-07",
   "image": "https://i.scdn.co/image/ab6761610000e5ebcc52c1949b3c9a7ab20e2656",
   "categories": [
    "keikat"
@@ -315,6 +314,21 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/the-heels-ravintola-poppari-2026-11-07",
   "image": "http://ravintolapoppari.fi/wp-content/uploads/The-Heels-2025-016.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/saana-shot-c-mon-harry-s-jyvaskyla-2026-11-07",
+  "title": "Saana & Shot C’mon",
+  "start": "2026-11-07T23:00:00+03:00",
+  "allDay": false,
+  "venue": "Harry's Jyväskylä",
+  "address": "Kauppakatu 41, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/saana-shot-c-mon-harry-s-jyvaskyla-2026-11-07",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b151ee1368eadbdc35bd1fa02a795102840f150/logo-jyvaskyla-harrys.png",
   "categories": [
    "keikat"
   ]
@@ -382,6 +396,21 @@
  },
  {
   "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/pepita-vanni-passipilli-sanni-mantyranta-rockneck-jyvaskyla-2026-11-12",
+  "title": "Pepita Vanni / Pässipilli / Sanni Mäntyranta",
+  "start": "2026-11-12",
+  "allDay": true,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/pepita-vanni-passipilli-sanni-mantyranta-rockneck-jyvaskyla-2026-11-12",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-12-11-2026-tapahtumakeskus-helmi-2026-11-12",
   "title": "Oletko jyvällä? -lastenmusikaali 12.11.2026",
   "start": "2026-11-12T18:00:00+03:00",
@@ -424,36 +453,6 @@
   "url": "https://www.keikkalista.fi/keikat/herrasmiehet-lavalla-paviljonki-jyvaskyla-2026-11-12",
   "ticketUrl": "https://www.lippu.fi/event/herrasmiehet-lavalla-paviljonki-21616875/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/hml-jyvaskyla-sivusto-nelio.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/beatwave-london-2026-11-13",
-  "title": "Beatwave",
-  "start": "2026-11-13",
-  "allDay": true,
-  "venue": "London",
-  "address": "Puistokatu 2, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/beatwave-london-2026-11-13",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/no-human-contact-neljakymmenta-vuotta-tuomiota-rockneck-jyvaskyla-2026-11-13",
-  "title": "”No Human Contact”, ”Neljäkymmentä vuotta tuomiota”",
-  "start": "2026-11-13",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/no-human-contact-neljakymmenta-vuotta-tuomiota-rockneck-jyvaskyla-2026-11-13",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
   "categories": [
    "keikat"
   ]
