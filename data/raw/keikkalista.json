@@ -1,37 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/jba-n-vs-kataja-basket-gradia-viitaniemi-d-sali-2026-11-01",
-  "title": "JBA N vs Kataja Basket",
-  "start": "2026-11-01T15:00:00+03:00",
-  "allDay": false,
-  "venue": "Gradia Viitaniemi D-sali",
-  "address": "40720 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/jba-n-vs-kataja-basket-gradia-viitaniemi-d-sali-2026-11-01",
-  "ticketUrl": "https://events.liveto.io/events/jba-n-vs-team-lemkem-2",
-  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/2ef682c94bb7b4bd9b821b1f07a576086d8168e2bae354b87a39b0a4be226699.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/amaranthe-se-self-deception-se-ankor-es-lutakko-2026-11-01",
-  "title": "Amaranthe (SE) Self Deception (SE) Ankor (ES)",
-  "start": "2026-11-01T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/amaranthe-se-self-deception-se-ankor-es-lutakko-2026-11-01",
-  "image": "https://www.jelmu.net/media/amaranthe_jyvaskyla_1080x1080-300x300.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-02",
   "title": "Maanantaijamit",
   "start": "2026-11-02T19:00:00+03:00",
@@ -455,6 +424,36 @@
   "url": "https://www.keikkalista.fi/keikat/herrasmiehet-lavalla-paviljonki-jyvaskyla-2026-11-12",
   "ticketUrl": "https://www.lippu.fi/event/herrasmiehet-lavalla-paviljonki-21616875/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/hml-jyvaskyla-sivusto-nelio.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/beatwave-london-2026-11-13",
+  "title": "Beatwave",
+  "start": "2026-11-13",
+  "allDay": true,
+  "venue": "London",
+  "address": "Puistokatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/beatwave-london-2026-11-13",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/no-human-contact-neljakymmenta-vuotta-tuomiota-rockneck-jyvaskyla-2026-11-13",
+  "title": "”No Human Contact”, ”Neljäkymmentä vuotta tuomiota”",
+  "start": "2026-11-13",
+  "allDay": true,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/no-human-contact-neljakymmenta-vuotta-tuomiota-rockneck-jyvaskyla-2026-11-13",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
   "categories": [
    "keikat"
   ]

@@ -1,22 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "amaranthe-se",
-  "title": "Amaranthe (SE), Self Deception (SE), Ankor (ES)",
-  "start": "2026-11-01T18:00:00+02:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/amaranthe-se",
-  "ticketUrl": "https://www.jelmu.net/event/amaranthe-se",
-  "image": "https://www.jelmu.net/media/amaranthe_jyvaskyla_1080x1080-300x300.png",
-  "description": "K18 · Ovet 18:00 · Keikka alkaa 20:45 · 39,50€ – 54,00€Hintaluokka: 39,50€ - 54,00€ · Loppuunmyyty",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "helmi-marleena",
   "title": "helmi marleena, fibi",
   "start": "2026-11-06T19:00:00+02:00",

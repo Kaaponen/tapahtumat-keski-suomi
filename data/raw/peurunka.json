@@ -1,54 +1,6 @@
 [
  {
   "source": "peurunka",
-  "sourceId": "22644",
-  "title": "Taidenäyttely: What We Found sekä vitriininäyttely Ylisestä aliseen",
-  "start": "2026-10-04",
-  "end": "2026-11-01",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/taidenayttely-what-we-found-seka-ylisesta-aliseen/",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/08/531b9b1b-218a-4bd2-b8cb-149a8e2bd7ac.jpg",
-  "description": "What We Found – The G Lab Taidenäyttely Peurungan tiloissa 4.10.-1.11..2026 21 taiteilijaa – 14 eri maasta. The G Lab on kansainvälinen tila, vapaalle luovalle ilmaisulle. Taiteen tekemisen moninaisuus ilman sääntöjä, sekä kannustava ilmapiiri on ryhmälle keskeistä. Yhteiset keskustelut ja harjoitteet inspiroivat kunkin tapaa tehdä, haastaen ja laajentaen omaa ilmaisua. Pyrimme tilaan joka mahdollistaa tutkimisen ja epätäydellisyyden. Toistemme työskentelyn seuraaminen on innostavaa ja positiivisen sekä inspiroivan ilmapiirin vaaliminen on meille oleellinen arvo. Karhu Delgado Ylisestä alisee…",
-  "categories": [
-   "Taide"
-  ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "16024",
-  "title": "Kauhujen kylpylä",
-  "start": "2026-10-28",
-  "end": "2026-11-01",
-  "allDay": true,
-  "venue": "Peurunka – Kylpylä",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/kauhujen-kylpyla-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2025/09/kauhujen_kylpyla_vaaka-26.jpg",
-  "description": "Kauhujen Kylpylä – Uskallatko kohdata pelkosi? Syksy tuo tullessaan jotain aivan erityistä Peurungan kylpylään – pimeyden laskeutuessa kylpylämme muuttuu kauhujen valtakunnaksi. Milloin? Ke 28.10. klo 16 alkaen – Su 1.11. Kammottava tunnelma Kylpylässä näet mm. luurankoja, kurpitsoja, verisiä ikkunoita, hämähäkkien seittejä ja teemaan pukeutuneita hahmoja. Punainen tunnelmavalaistus ja teemaan sopivat äänet tuovat jännitystä sopivasti, muttei liikaa. Koristeita pääsee ihailemaan keskiviikosta sunnuntai-iltaan. Äänet ja valot ovat päällä ke-su klo 16 alkaen aina kylpylän sulkemisaikaan saakka.…",
-  "categories": [
-   "Kylpylä"
-  ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22262",
-  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
-  "start": "2026-10-30",
-  "end": "2026-11-01",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle/",
-  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "23332",
   "title": "Luontokuvailta: Kuutamoseikkailu",
   "start": "2026-11-04T19:00:00+02:00",
@@ -278,6 +230,24 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22226",
+  "title": "Olavi Uusivirta + Mira Luoti",
+  "start": "2026-11-21T20:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Peurunka Areena",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/olavi-uusivirta-mira-luoti/",
+  "ticketUrl": "https://www.ticketmaster.fi/event/92202385",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/08/Olavi-Uusivirta-Mira-Luoti4.jpg",
+  "description": "OLAVI UUSIVIRTA + MIRA LUOTI PEURUNKA AREENALLA LA 21.11.2026! Ihastuttava Olavi Uusivirta valtaa Peurunka Areenan huikealla lavakarismallaan. Mukana tunnelmaa luomassa myös ihana Mira Luoti! Liput 39 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 17.30 Narikka aukeaa hotellin aulassa Klo 20.30 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, matkakeskus20:05 Laukaa, linja-autoasema20:15 Peurunka01:00 paluu samaa reittiä hotellin vastaanoton edestä. Bussi ajaa Jyväskylässä reittiä Puistokatu,…",
+  "categories": [
+   "Keikat",
+   "Pikkujoulut"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "23258",
   "title": "Kuutamopyöräily – eFatbike-retki",
   "start": "2026-11-21T19:00:00+02:00",
@@ -293,24 +263,6 @@
   "categories": [
    "Jäsenpäivä",
    "Liikunta"
-  ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22226",
-  "title": "Olavi Uusivirta + Mira Luoti",
-  "start": "2026-11-21T20:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/olavi-uusivirta-mira-luoti/",
-  "ticketUrl": "https://www.ticketmaster.fi/event/92202385",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/08/Olavi-Uusivirta-Mira-Luoti4.jpg",
-  "description": "OLAVI UUSIVIRTA + MIRA LUOTI PEURUNKA AREENALLA LA 21.11.2026! Ihastuttava Olavi Uusivirta valtaa Peurunka Areenan huikealla lavakarismallaan. Mukana tunnelmaa luomassa myös ihana Mira Luoti! Liput 39 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 17.30 Narikka aukeaa hotellin aulassa Klo 20.30 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, matkakeskus20:05 Laukaa, linja-autoasema20:15 Peurunka01:00 paluu samaa reittiä hotellin vastaanoton edestä. Bussi ajaa Jyväskylässä reittiä Puistokatu,…",
-  "categories": [
-   "Keikat",
-   "Pikkujoulut"
   ]
  },
  {
@@ -347,20 +299,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22264",
-  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
-  "start": "2026-11-27",
-  "end": "2026-11-29",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "19859",
   "title": "Yö + Olli Halonen",
   "start": "2026-11-27T20:00:00+02:00",
@@ -376,6 +314,20 @@
    "Keikat",
    "Pikkujoulut"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22264",
+  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
+  "start": "2026-11-27",
+  "end": "2026-11-29",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -462,6 +414,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22168",
+  "title": "Päiväkaraoke",
+  "start": "2026-12-09T15:00:00+02:00",
+  "end": "2026-12-09T17:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/paivakaraoke-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Paljon toivottu päiväkaraoke! Tervetuloa Pubiin laulamaan karaokea klo 15.00-17.00. Vapaa pääsy!",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22683",
   "title": "Karaokeillat",
   "start": "2026-12-09",
@@ -490,21 +457,6 @@
   "categories": [
    "Tanssit"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22168",
-  "title": "Päiväkaraoke",
-  "start": "2026-12-09T15:00:00+02:00",
-  "end": "2026-12-09T17:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/paivakaraoke-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Paljon toivottu päiväkaraoke! Tervetuloa Pubiin laulamaan karaokea klo 15.00-17.00. Vapaa pääsy!",
-  "categories": []
  },
  {
   "source": "peurunka",
@@ -540,6 +492,19 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "23013",
+  "title": "Uusi vuosi kylpylässä",
+  "start": "2026-12-31",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/uusi-vuosi-kylpylassa-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/08/Peurunka-seniorit6.jpg",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22915",
   "title": "Gebardi",
   "start": "2026-12-31T22:00:00+02:00",
@@ -550,19 +515,6 @@
   "url": "https://peurunka.fi/kaikki-tapahtumat/gebardi/",
   "image": "https://peurunka.fi/wp-content/uploads/2026/09/gebardi.jpg",
   "description": "Uudenvuodenaattona ravintolassa esiintyy bilebändi Gebardi! Showtime klo 22.00 Liput 15 € / majoittujille vapaa pääsy! ”GEBARDI on eläin! Se pyydystää saaliinsa viihdyttämällä ja kiihdyttämällä tämän puolustuskyvyttömään olotilaan, tartuttaakseen tähän sitten täpläkuumeen. Tartunnan oireita ovat tanssijalan vastustamaton vipatus, herkeämätön hymy, useimmiten suoranainen hurmio. Gebardin pyydystyskeinoina ovat mm. discoklassikot, tuoreempi suomipoppirokki, finnhitit, vanha kunnon rock´n´roll-rypistys, herkät hitaat – sekä vastustamaton pilke silmäkulmassa! Gebardi Behmeällä Beellä on BileBändi…",
-  "categories": []
- },
- {
-  "source": "peurunka",
-  "sourceId": "23013",
-  "title": "Uusi vuosi kylpylässä",
-  "start": "2026-12-31",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/uusi-vuosi-kylpylassa-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/08/Peurunka-seniorit6.jpg",
   "categories": []
  },
  {
