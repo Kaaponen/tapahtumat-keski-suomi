@@ -3150,5 +3150,21 @@
   "categories": [
    "teatteri"
   ]
+ },
+ {
+  "source": "jklteatteri",
+  "sourceId": "vierailu-juoksuhaudantie-2027-02-16-1830",
+  "title": "Juoksuhaudantie",
+  "start": "2027-02-16T18:30:00+02:00",
+  "allDay": false,
+  "venue": "Jyväskylän kaupunginteatteri",
+  "city": "Jyväskylä",
+  "url": "https://www.jklteatteri.fi/kaupunginteatteri/ohjelmisto/vierailu-juoksuhaudantie",
+  "ticketUrl": "https://jyvaskyla.lippu.fi/webshop/webticket/seatmap?eventId=4194&el=true",
+  "image": "https://www.jklteatteri.fi/sites/default/files/2026-10/rednose_company_2000_x_1000_px_.jpg",
+  "description": "Huippukoomikot Timo Ruuskanen ja Tuukka Vasama ovat kiertäneet Suomea vuodesta 2014 tällä kulttimaineeseen nousseella esityksellä. Juoksuhaudantie on hurmannut sekä kriitikot että monenikäiset yleisöt.",
+  "categories": [
+   "teatteri"
+  ]
  }
 ]
