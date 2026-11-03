@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-02",
-  "title": "Maanantaijamit",
-  "start": "2026-11-02T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-02",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/pappila-soi-konserttisarja-toivolan-vanha-piha-2026-11-03",
   "title": "Pappila soi -konserttisarja",
   "start": "2026-11-03",
@@ -453,6 +438,21 @@
   "url": "https://www.keikkalista.fi/keikat/herrasmiehet-lavalla-paviljonki-jyvaskyla-2026-11-12",
   "ticketUrl": "https://www.lippu.fi/event/herrasmiehet-lavalla-paviljonki-21616875/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/hml-jyvaskyla-sivusto-nelio.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/varjot-vayla-ja-viimeiset-alakulttuuritalo-kramsu-2026-11-13",
+  "title": "Varjot, Väylä ja Viimeiset",
+  "start": "2026-11-13",
+  "allDay": true,
+  "venue": "Alakulttuuritalo Kramsu",
+  "address": "Kramsunkatu 5, päärakennus, 40600 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/varjot-vayla-ja-viimeiset-alakulttuuritalo-kramsu-2026-11-13",
+  "image": "https://www.ylakulttuuri.fi/wp-content/uploads/2026/10/2026-11-13-tapahtuma-768x1086.jpg",
   "categories": [
    "keikat"
   ]
