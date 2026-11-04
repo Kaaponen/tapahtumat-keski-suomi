@@ -1,6 +1,23 @@
 [
  {
   "source": "peurunka",
+  "sourceId": "22644",
+  "title": "Taidenäyttely: Rosoa ja romantiikkaa sekä vitriininäyttely Ylisestä aliseen",
+  "start": "2026-11-03",
+  "end": "2026-11-28",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/taidenayttely-rosoa-ja-romantiikkaa-seka-ylisesta-aliseen/",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/08/minja_r_shakespearen_ruusut26.jpg",
+  "description": "Minja Revonkorpi | Rosoa ja romantiikkaa Taidenäyttely Peurungan tiloissa 3.-28.11.-2026 ”Olen jyväskyläläinen kuvataiteilija, kuvataiteen opettaja ja graafinen suunnittelija. Maalaan rehevästi ja ekspressivisesti, tosin joukkoon mahtuu muutama yksityiskohtaisemmallakin tekniikalla tehty teos. Teoksissani on aina värikkyyttä, herkkyyttä sekä voimaa samanaikaisesti. Marraskuun näyttelyn aiheisiin on tullut mukaan maagisuutta ja eläimiä, hieman tummiakin sävyjä. Minua viehättää rosoinen romantiikka, ja se saattaa töistänikin näkyä. Juon myös paljon kahvia, joten jättiläiskahvikuppeja olen tykän…",
+  "categories": [
+   "Taide"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "17295",
   "title": "Sauna + talvipulahdus",
   "start": "2026-11-04T17:00:00+02:00",
@@ -133,21 +150,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22675",
-  "title": "Karaokeillat",
-  "start": "2026-11-11",
-  "end": "2026-11-14",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-87/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "23422",
   "title": "Sauna + talvipulahdus",
   "start": "2026-11-11T17:00:00+02:00",
@@ -163,6 +165,21 @@
   "categories": [
    "Liikunta"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22675",
+  "title": "Karaokeillat",
+  "start": "2026-11-11",
+  "end": "2026-11-14",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-87/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -284,25 +301,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "23258",
-  "title": "Kuutamopyöräily – eFatbike-retki",
-  "start": "2026-11-21T19:00:00+02:00",
-  "end": "2026-11-21T22:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/kuutamopyoraily-efatbike-retki-3/",
-  "ticketUrl": "https://shop.peurunka.fi/courses/template/1587/?date=2026-11-21T19:00:00.000Z&persons=1&end=2026-12-31&class=203550",
-  "image": "https://peurunka.fi/wp-content/uploads/2025/10/FATBIKE_orig-e1760955834547.jpeg",
-  "description": "Kuutamopyöräily – eFatbike-retki lauantaina 21.11.2026 klo 19.00–22.00 Lähde mukaan talviseen kuutamopyöräilyyn! Ajamme rauhalliseen tahtiin Peurungasta käsin Laukaan kauniissa ympäristössä kohti kotaa tai laavua – pysähdyspaikka valitaan reitin ja sääolosuhteiden mukaan. Matkan varrella nautimme talvisesta luonnosta ja kuutamon tunnelmasta. Pysähdyksellä vietämme noin 45–60 minuuttia tulilla, ja halutessasi voit paistaa makkaraa ja nauttia omia eväitäsi. Ota mukaasi: – omat eväät (halutessasi voit ostaa ne ennen lähtöä Bistrosta) – otsalamppu – huomioliivi, jos löytyy Osallistumismaksu: – Li…",
-  "categories": [
-   "Jäsenpäivä",
-   "Liikunta"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "22226",
   "title": "Olavi Uusivirta + Mira Luoti",
   "start": "2026-11-21T20:00:00+02:00",
@@ -321,18 +319,22 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22679",
-  "title": "Karaokeillat",
-  "start": "2026-11-25",
-  "end": "2026-11-28",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
+  "sourceId": "23258",
+  "title": "Kuutamopyöräily – eFatbike-retki",
+  "start": "2026-11-21T19:00:00+02:00",
+  "end": "2026-11-21T22:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka",
   "address": "Peurungantie 85",
   "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-89/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
+  "url": "https://peurunka.fi/kaikki-tapahtumat/kuutamopyoraily-efatbike-retki-3/",
+  "ticketUrl": "https://shop.peurunka.fi/courses/template/1587/?date=2026-11-21T19:00:00.000Z&persons=1&end=2026-12-31&class=203550",
+  "image": "https://peurunka.fi/wp-content/uploads/2025/10/FATBIKE_orig-e1760955834547.jpeg",
+  "description": "Kuutamopyöräily – eFatbike-retki lauantaina 21.11.2026 klo 19.00–22.00 Lähde mukaan talviseen kuutamopyöräilyyn! Ajamme rauhalliseen tahtiin Peurungasta käsin Laukaan kauniissa ympäristössä kohti kotaa tai laavua – pysähdyspaikka valitaan reitin ja sääolosuhteiden mukaan. Matkan varrella nautimme talvisesta luonnosta ja kuutamon tunnelmasta. Pysähdyksellä vietämme noin 45–60 minuuttia tulilla, ja halutessasi voit paistaa makkaraa ja nauttia omia eväitäsi. Ota mukaasi: – omat eväät (halutessasi voit ostaa ne ennen lähtöä Bistrosta) – otsalamppu – huomioliivi, jos löytyy Osallistumismaksu: – Li…",
+  "categories": [
+   "Jäsenpäivä",
+   "Liikunta"
+  ]
  },
  {
   "source": "peurunka",
@@ -354,6 +356,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22679",
+  "title": "Karaokeillat",
+  "start": "2026-11-25",
+  "end": "2026-11-28",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-89/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "18777",
   "title": "Jarkko Yli-Sikkilä & Soiva Orkesteri",
   "start": "2026-11-26T19:30:00+02:00",
@@ -368,6 +385,20 @@
   "categories": [
    "Tanssit"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22264",
+  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
+  "start": "2026-11-27",
+  "end": "2026-11-29",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -386,20 +417,6 @@
    "Keikat",
    "Pikkujoulut"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22264",
-  "title": "Lempeää Valoa: Joogaa ja Äänimaljoja – Sinulle",
-  "start": "2026-11-27",
-  "end": "2026-11-29",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/lempeaa-valoa-joogaa-ja-aanimaljoja-sinulle-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2025/08/Peuruna-aanimalja12.jpg",
-  "categories": []
  },
  {
   "source": "peurunka",
@@ -522,6 +539,22 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22877",
+  "title": "Tanssit: Helena & Duo Sami Soininen",
+  "start": "2026-12-09T20:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Ravintola",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/tanssit-helena-duo-sami-soininen/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/02/Helena-vaaka.jpg",
+  "description": "Tanssit ravintolassa klo 20.00 alkaen Pääsolistina Helena Lerkkanen säestäjänään duo Sami Soininen. Vapaa pääsy! Tanssimme tuttujen sävelmien tahtiin: valssia, humppaa, tangoa ja muita suosikkirytmejä. Tanssittamassa meillä on Helena, jonka lämmin ääni ja välitön esiintyminen saavat yleisössä tanssijalat vipattamaan. Helena on nouseva tanssi-iskelmän tulkitsija, joka on hurmannut yleisönsä ympäri Suomen iloisella otteellaan. Helena esittää aitoa perinteistä suomalaista tanssimusiikkia, joka takaa viihtymisen tanssilattialla.",
+  "categories": [
+   "Tanssit"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "23431",
   "title": "Sauna + talvipulahdus",
   "start": "2026-12-09T17:00:00+02:00",
@@ -536,22 +569,6 @@
   "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
   "categories": [
    "Liikunta"
-  ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22877",
-  "title": "Tanssit: Helena & Duo Sami Soininen",
-  "start": "2026-12-09T20:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Ravintola",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/tanssit-helena-duo-sami-soininen/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/02/Helena-vaaka.jpg",
-  "description": "Tanssit ravintolassa klo 20.00 alkaen Pääsolistina Helena Lerkkanen säestäjänään duo Sami Soininen. Vapaa pääsy! Tanssimme tuttujen sävelmien tahtiin: valssia, humppaa, tangoa ja muita suosikkirytmejä. Tanssittamassa meillä on Helena, jonka lämmin ääni ja välitön esiintyminen saavat yleisössä tanssijalat vipattamaan. Helena on nouseva tanssi-iskelmän tulkitsija, joka on hurmannut yleisönsä ympäri Suomen iloisella otteellaan. Helena esittää aitoa perinteistä suomalaista tanssimusiikkia, joka takaa viihtymisen tanssilattialla.",
-  "categories": [
-   "Tanssit"
   ]
  },
  {
@@ -749,6 +766,20 @@
   "url": "https://peurunka.fi/kaikki-tapahtumat/gebardi/",
   "image": "https://peurunka.fi/wp-content/uploads/2026/09/gebardi.jpg",
   "description": "Uudenvuodenaattona ravintolassa esiintyy bilebändi Gebardi! Showtime klo 22.00 Liput 15 € / majoittujille vapaa pääsy! ”GEBARDI on eläin! Se pyydystää saaliinsa viihdyttämällä ja kiihdyttämällä tämän puolustuskyvyttömään olotilaan, tartuttaakseen tähän sitten täpläkuumeen. Tartunnan oireita ovat tanssijalan vastustamaton vipatus, herkeämätön hymy, useimmiten suoranainen hurmio. Gebardin pyydystyskeinoina ovat mm. discoklassikot, tuoreempi suomipoppirokki, finnhitit, vanha kunnon rock´n´roll-rypistys, herkät hitaat – sekä vastustamaton pilke silmäkulmassa! Gebardi Behmeällä Beellä on BileBändi…",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "17601",
+  "title": "Joogaloma – Wellness&Weekend",
+  "start": "2027-01-22",
+  "end": "2027-01-24",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/joogaloma-wellnessweekend/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/02/Joogaviikonloppu-Peurunka.jpg",
   "categories": []
  },
  {
