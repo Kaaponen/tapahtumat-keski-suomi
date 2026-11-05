@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/granfelt-nikku-classic-guitar-rock-ravintola-poppari-2026-11-04",
-  "title": "Granfelt & Nikku Classic Guitar Rock",
-  "start": "2026-11-04T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/granfelt-nikku-classic-guitar-rock-ravintola-poppari-2026-11-04",
-  "image": "http://ravintolapoppari.fi/wp-content/uploads/Tavastia-backstage-1.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/inariveljet-vakiopaine-2026-11-05",
   "title": "Inariveljet",
   "start": "2026-11-05T19:00:00+03:00",
@@ -453,6 +438,22 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/no-human-contact-neljakymmenta-vuotta-tuomiota-rockneck-jyvaskyla-2026-11-13",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-13-11-2026-tapahtumakeskus-helmi-2026-11-13",
+  "title": "Oletko jyvällä? -lastenmusikaali 13.11.2026",
+  "start": "2026-11-13T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Tapahtumakeskus Helmi",
+  "address": "Okkerinkatu 2, 40700 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-13-11-2026-tapahtumakeskus-helmi-2026-11-13",
+  "ticketUrl": "https://events.liveto.io/events/oletko-jyvalla-lastenmusikaali-13112026",
+  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/e275390861294822c4de12881b3b127f43d1c16f1d331b9945aa8c2180ae326a.jpeg",
   "categories": [
    "keikat"
   ]
