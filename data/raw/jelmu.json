@@ -705,6 +705,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "j-karjalainen-juhlakevat-2027",
+  "title": "J.Karjalainen",
+  "start": "2027-04-10T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/j-karjalainen-juhlakevat-2027",
+  "ticketUrl": "https://www.jelmu.net/event/j-karjalainen-juhlakevat-2027",
+  "image": "https://www.jelmu.net/media/jkarjalainen_juhlakevat2027_1080x1080px_preview-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 39,00€ – 49,00€Hintaluokka: 39,00€ - 49,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "lytta-tohtori-getto",
   "title": "Lyttä & Tohtori Getto",
   "start": "2027-05-05T19:00:00+03:00",
@@ -715,6 +731,22 @@
   "ticketUrl": "https://www.jelmu.net/event/lytta-tohtori-getto",
   "image": "https://www.jelmu.net/media/ltg-10-300x300.jpg",
   "description": "S · Ovet 19:00 · Keikka alkaa 21:00 · 24,00€ – 30,00€Hintaluokka: 24,00€ - 30,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
+  "sourceId": "pohjola-heavy-jazz-group",
+  "title": "Pohjola Heavy Jazz Group",
+  "start": "2027-10-13T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/pohjola-heavy-jazz-group",
+  "ticketUrl": "https://www.jelmu.net/event/pohjola-heavy-jazz-group",
+  "image": "https://www.jelmu.net/media/pohjola-heavy-jazz-group_3-kuva-jori-huhtala-300x300.jpg",
+  "description": "K18 · Ovet 18:00 · 35,00€ – 45,00€Hintaluokka: 35,00€ - 45,00€",
   "categories": [
    "keikat"
   ]
