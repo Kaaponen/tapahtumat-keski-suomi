@@ -1,40 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://paviljonki.fi/messut/finnmateria/",
-  "title": "FinnMateria 2026",
-  "start": "2026-11-04",
-  "allDay": true,
-  "venue": "Paviljonki",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://paviljonki.fi/messut/finnmateria/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/fm2026-1080x1080-px-640x640.png",
-  "description": "Pohjoismaiden johtava kaivosteollisuuden ja teollisen kiertotalouden ammattitapahtuma järjestetään 4.-5.11.2026 messu- ja tapahtumakeskus Paviljongissa, Jyväskylässä. Vuonna 2026 FinnMateria-messut laajentuvat kattamaan epäorgaanisen materiaalin koko elinkaaren, aina kaivostoiminnasta, jalostukseen ja kierrätykseen. Tapahtuma esittelee uusinta teknologiaa ja tarjoaa alustan alan ammattilaisille tavata kasvokkain. FinnMateria tarjoaa ennätyksellisen laajan ja kansainvälisen katsauksen alan tulevaisuuteen. Mukana on yli 190 näytteilleasettajaa. Ohjelma kattaa alan tärkeimmät teemat ja näkökulma…",
-  "categories": [
-   "Messut"
-  ]
- },
- {
-  "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/miljoonasade-40-vuotta-lapsuuden-sankarit-juhlakiertue/",
-  "title": "Miljoonasade 40 vuotta: Lapsuuden sankarit -juhlakiertue",
-  "start": "2026-11-05T19:00:00+02:00",
-  "end": "2026-11-05T19:30:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/miljoonasade-40-vuotta-lapsuuden-sankarit-juhlakiertue/",
-  "ticketUrl": "https://www.lippu.fi/event/name-21390601",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/ms40-jyvaskyla-1080-x-1080-1-1-640x640.jpg",
-  "description": "Miljoonasade 40 vuotta: Lapsuuden sankarit -juhlakiertue Miljoonasade juhlistaa upeaa 40-vuotista taivaltaan yhtyeen ensimmäisellä koko Suomen kattavalla konserttisalikiertueella. Kiertue rantautuu Jyväskylän Paviljonkiin torstaina 5.11.2026. “Hyvä lauluteksti on kuin sade. Se yllättää, virkistää ja puskee mutavyöryt liikkeelle. Tärkeintä on kuitenkin sateen ääni.” – Heikki Salo Miljoonasateen 40. juhlavuosi huipentuu syksyllä 2026 läpi Suomen kulkevaan Lapsuuden sankarit -juhlakiertueeseen. Nyt on aika koota tarttuvin ja koskettavin Miljoonasade-ohjelmisto ja esittää sitä täydellä sydämellä…",
-  "categories": [
-   "Konsertit"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/jenni-vartiainen-vedenalaista-konserttisalikiertue-2026/",
   "title": "Jenni Vartiainen – Vedenalaista-konserttisalikiertue 2026",
   "start": "2026-11-06T19:00:00+02:00",

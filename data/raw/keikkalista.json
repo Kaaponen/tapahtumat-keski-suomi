@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/inariveljet-vakiopaine-2026-11-05",
-  "title": "Inariveljet",
-  "start": "2026-11-05T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Vakiopaine",
-  "address": "Kauppakatu 6, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/inariveljet-vakiopaine-2026-11-05",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/eemelin-pelto-rockneck-jyvaskyla-2026-11-06",
   "title": "Eemelin Pelto",
   "start": "2026-11-06",
@@ -454,6 +439,21 @@
   "url": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-13-11-2026-tapahtumakeskus-helmi-2026-11-13",
   "ticketUrl": "https://events.liveto.io/events/oletko-jyvalla-lastenmusikaali-13112026",
   "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/e275390861294822c4de12881b3b127f43d1c16f1d331b9945aa8c2180ae326a.jpeg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/semmarit-lutakko-2026-11-13",
+  "title": "Semmarit",
+  "start": "2026-11-13T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/semmarit-lutakko-2026-11-13",
+  "image": "https://www.jelmu.net/media/semmarit_dosetit_meta_nelio_kuvalla-300x300.jpg",
   "categories": [
    "keikat"
   ]
