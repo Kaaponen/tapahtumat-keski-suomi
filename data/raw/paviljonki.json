@@ -1,24 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/jenni-vartiainen-vedenalaista-konserttisalikiertue-2026/",
-  "title": "Jenni Vartiainen – Vedenalaista-konserttisalikiertue 2026",
-  "start": "2026-11-06T19:00:00+02:00",
-  "end": "2026-11-06T19:30:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/jenni-vartiainen-vedenalaista-konserttisalikiertue-2026/",
-  "ticketUrl": "https://www.lippu.fi/event/name-21582036",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/jkl_jennivartiainen_vedenalaista_1080x1080px-640x640.png",
-  "description": "Jenni Vartiainen – Vedenalaista-konserttisalikiertue 2026 Suomenkielisen popmusiikin supertähti Jenni Vartiainen lähtee syksyllä 2026 kattavalle Vedenalaista-konserttisalikiertueelle. Tulevalla kiertueella Vartiainen palaa multi-instrumentaalisen livekokoonpanon kanssa musiikkinsa juurille. Konserteissa esitetään koskettavia sovituksia vanhoista kappaleista sekä tunnetuimmista hiteistä. – Vedenalaista-konserttisalikiertueella haluan palata sinne mistä kaikki lähti. Vedenalaista oli ensimmäinen laulu, jonka kirjoitin eikä ilman sitä olisi syntynyt muitakaan lauluja. Tällä kiertueella haluan lä…",
-  "categories": [
-   "Konsertit"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/muumit-pyrstotahtea-etsimassa/",
   "title": "MUUMIT Pyrstötähteä etsimässä",
   "start": "2026-11-07T12:00:00+02:00",

@@ -1,22 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "helmi-marleena",
-  "title": "helmi marleena, fibi",
-  "start": "2026-11-06T19:00:00+02:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/helmi-marleena",
-  "ticketUrl": "https://www.jelmu.net/event/helmi-marleena",
-  "image": "https://www.jelmu.net/media/helmi-marleena-kiertue-300x300.jpeg",
-  "description": "S · Ovet 19:00 · Keikka alkaa 21:00 · 15,00€ – 20,00€Hintaluokka: 15,00€ - 20,00€ · Loppuunmyyty",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "kotiteollisuus-3",
   "title": "Kotiteollisuus",
   "start": "2026-11-07T19:00:00+02:00",
