@@ -1,38 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "kotiteollisuus-3",
-  "title": "Kotiteollisuus",
-  "start": "2026-11-07T19:00:00+02:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/kotiteollisuus-3",
-  "ticketUrl": "https://www.jelmu.net/event/kotiteollisuus-3",
-  "image": "https://www.jelmu.net/media/kotiteollisuus_2026-kuva-arkisto-300x300.jpg",
-  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 25,00€ – 33,00€Hintaluokka: 25,00€ - 33,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
-  "sourceId": "live-is-life-yona-kadonneet-helmet",
-  "title": "Live is Life: Yona – Kadonneet helmet",
-  "start": "2026-11-07T21:00:00+02:00",
-  "allDay": false,
-  "venue": "Musta kynnys",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/live-is-life-yona-kadonneet-helmet",
-  "ticketUrl": "https://www.jelmu.net/event/live-is-life-yona-kadonneet-helmet",
-  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_yona_susanna-300x300.jpg",
-  "description": "K18 · Ovet 21:00 · 24,00€ – 28,00€Hintaluokka: 24,00€ - 28,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "bess-2",
   "title": "BESS",
   "start": "2026-11-11T18:00:00+02:00",

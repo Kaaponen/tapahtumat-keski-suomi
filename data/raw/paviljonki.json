@@ -1,61 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/muumit-pyrstotahtea-etsimassa/",
-  "title": "MUUMIT Pyrstötähteä etsimässä",
-  "start": "2026-11-07T12:00:00+02:00",
-  "end": "2026-11-07T11:00:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/muumit-pyrstotahtea-etsimassa/",
-  "ticketUrl": "https://www.lippu.fi/event/muumit-pyrstoetaehteae-etsimaessae-paviljonki-21623635/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/muumit-1080x1080-1-640x640.jpg",
-  "description": "MUUMIT Pyrstötähteä etsimässä Sony Music tuo tutut muumihahmot uuden musiikin ja näyttämön äärelle: syyskuussa ilmestyy uusi muumialbumi, joka saa rinnalleen musiikkiteatterimuotoisen live-esityksen Pyrstötähteä etsimässä. Henna Tanskasen käsikirjoittama ja ohjaama esitys tuo tarinan eläväksi laulun, näyttelijäntyön ja visuaalisen kerronnan keinoin. Teos saa ensi-iltansa 29.9. ja jatkaa kiertävänä esityksenä ympäri Suomen. Muumipeikko ja pyrstötähti -romaaniin (Kometjakten, 1946) perustuva esitys keskittyy teemoihin, jotka ovat keskeisiä Tove Janssonin alkuperäisissä tarinoissa: ystävyyteen,…",
-  "categories": [
-   "Konsertit"
-  ]
- },
- {
-  "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/mikko-toyssy-aarne-pelkonen-teemu-roivainen-klassikoiden-aika/",
-  "title": "MIKKO TÖYSSY, AARNE PELKONEN, TEEMU ROIVAINEN – KLASSIKOIDEN AIKA",
-  "start": "2026-11-07T19:00:00+02:00",
-  "end": "2026-11-07T19:00:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/mikko-toyssy-aarne-pelkonen-teemu-roivainen-klassikoiden-aika/",
-  "ticketUrl": "https://www.lippu.fi/event/name-21654660",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/mikkoaarneteemu_bg-640x640.jpg",
-  "description": "MIKKO TÖYSSY, AARNE PELKONEN, TEEMU ROIVAINEN – KLASSIKOIDEN AIKA Mitä tapahtuu, kun kolme rautaista ammattilaista eri musiikillisista maailmoista lyö hynttyyt yhteen? Konserttisalikiertue tuo samalle konserttilavalle Tangokuninkaanakin tutuksi tulleen iskelmälaulaja Teemu Roivaisen, oopperalavojen magneetin ja Sibelius-laulukilpailun voittajan, baritoni Aarne Pelkosen sekä monitaiturin, näyttelijä-laulaja Mikko Töyssyn. Luvassa on ilta, jossa genrerajat murtuvat ja suuret tunteet ottavat vallan. Konserttilavat täyttyvät poikkeuksellisesta äänestä ja karismasta, kun Teemu Roivainen, Aarne Pel…",
-  "categories": [
-   "Konsertit"
-  ]
- },
- {
-  "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/antti-autio-haahuillen-k18/",
-  "title": "Antti Autio – Haahuillen K18",
-  "start": "2026-11-07T19:00:00+02:00",
-  "end": "2026-11-07T19:00:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Paviljonki Klubi",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/antti-autio-haahuillen-k18/",
-  "ticketUrl": "https://www.lippu.fi/event/antti-autio-haahuillen-k18-jyvaeskylaen-paviljonki-paviljonki-klubi-21685444/ ",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/antti_autio_1080x1080-640x640.png",
-  "description": "Antti Autio – Haahuillen Antti Autio syksyllä erikoiskiertueelle – Haahuillen-konserttisalikiertue tuo kuulijat lähemmäksi laulujen syntyhetkiä Suomen rakastetuimpiin laulaja-lauluntekijöihin kuuluva Antti Autio tekee yhtyeensä kanssa syksyllä Haahuillen -konserttisalikiertueen. Konsertit jatkavat alkuvuonna julkaistua Tie on maalattu maahan -albumin kiertuetta uudella syväluotaavalla tavalla. Albumin syntyä ja teemoja lähestytään vuorovaikutuksessa ja jutustellen yleisön kanssa. Illan aikana kuullaan tietysti myös vanhempaa tuotantoa, kuten kaikkien tuntemat ja miljoonia striimanneet Pihkass…",
-  "categories": [
-   "Konsertit",
-   "Paviljonki Klubi"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/keikarit-ensimmainen-jaahyvaiskiertue-k18/",
   "title": "Keikarit – ensimmäinen jäähyväiskiertue K18",
   "start": "2026-11-11T19:00:00+02:00",
