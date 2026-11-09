@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/isanpaivabrunssi-revolution-2026-11-08",
-  "title": "Isänpäiväbrunssi",
-  "start": "2026-11-08",
-  "allDay": true,
-  "venue": "Revolution",
-  "address": "Kauppakatu 30, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/isanpaivabrunssi-revolution-2026-11-08",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa29XIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fb1d21bbf86ea1e1b0b517bf2357ecc7a884d090/logo-jyvaskyla-revolution.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-09",
   "title": "Maanantaijamit",
   "start": "2026-11-09T19:00:00+03:00",
@@ -452,6 +437,21 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/midweek-metal-mayhem-cardinal-fleet-boneset-rockneck-jyvaskyla-2026-11-18",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/dave-lindholm-pepe-ahlqvist-lutakko-2026-11-18",
+  "title": "Dave Lindholm & Pepe Ahlqvist",
+  "start": "2026-11-18T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/dave-lindholm-pepe-ahlqvist-lutakko-2026-11-18",
+  "image": "https://www.jelmu.net/media/dave-pepe-300x300.png",
   "categories": [
    "keikat"
   ]
