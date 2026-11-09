@@ -563,16 +563,15 @@
  },
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/hamara-mma-x-paviljonki/",
+  "sourceId": "https://www.hamaramma.fi/",
   "title": "Hamara MMA x Paviljonki",
   "start": "2027-01-16",
   "allDay": true,
   "venue": "Paviljonki",
   "address": "Lutakonaukio 12",
   "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/hamara-mma-x-paviljonki/",
+  "url": "https://www.hamaramma.fi/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/vapaaottelu-1080x1080.jpg-640x640.jpg",
-  "description": "Hamara MMA tuo vapaaottelun Paviljonkiin! Tammikuussa nähdään Paviljongissa jotain aivan uutta, kun tarjoilemme yhteistyössä Jyväskyläläiselle yleisölle ensimmäistä kertaa vapaaottelua! Liput tulossa myyntiin maanantaina 9.11. klo 10 paviljonki.fi | lippu.fi Vapaaottelu eli MMA on yksi maailman nopeimmin kasvaneista urheilulajeista, jossa yhdistyvät useiden kamppailulajien parhaat puolet. Otteluissa mitataan niin urheilijoiden fyysistä suorituskykyä, teknistä osaamista kuin henkistä kanttiakin, kun häkissä päästään näkemään paitsi räjähtävää pystyottelua myös teknistä mattokamppailua. Paviljo…",
   "categories": [
    "Muut tapahtumat"
   ]
