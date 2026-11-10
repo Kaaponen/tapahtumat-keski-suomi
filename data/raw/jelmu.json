@@ -657,6 +657,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "antti-autio-3",
+  "title": "Antti Autio",
+  "start": "2027-03-25T18:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/antti-autio-3",
+  "ticketUrl": "https://www.jelmu.net/event/antti-autio-3",
+  "image": "https://www.jelmu.net/media/antti-autio-9795-kuva-tero-ahonen-01-300x300.jpg",
+  "description": "S · Ovet 18:00 · Keikka alkaa 20:00 · 23,00€ – 30,00€Hintaluokka: 23,00€ - 30,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "j-karjalainen-juhlakevat-2027",
   "title": "J.Karjalainen",
   "start": "2027-04-10T19:00:00+03:00",

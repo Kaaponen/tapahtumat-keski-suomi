@@ -12,7 +12,7 @@
   "url": "https://www.paviljonki.fi/tapahtuma/keikarit-ensimmainen-jaahyvaiskiertue-k18/",
   "ticketUrl": "https://www.lippu.fi/event/name-21619647",
   "image": "https://www.paviljonki.fi/wp-content/uploads/1080x1080px-kopio-640x640.jpg",
-  "description": "Keikarit – ensimmäinen jäähyväiskiertue Rakastetusta Sami & Jorma -podcastistaankin tunnetut Sami Sykkö ja Jorma Uotinen palaavat livelavoille! Syntisen hauskat iltamat jatkavat siitä, mihin kaksikon viimevuotinen Keikarit-kiertue jäi. Täysin uudistuneen shown teemana ovat seitsemän kuolemansyntiä, eivätkä Keikarit kaihda niistä yhtäkään. Ylpeys, kateus, ahneus, viha, laiskuus, ylensyönti ja himo pääsevät sensuroimattomaan tarkasteluun niin muodin, tyylin, kulttuurin kuin elämän itsensä näkökulmasta. Näitä teemoja Keikarit käsittelevät hilpeän kevyellä ja koskettavan syvällisellä tyylillään –…",
+  "description": "Keikarit – ensimmäinen jäähyväiskiertue Rakastetusta Sami & Jorma –podcastistaankin tunnetut Sami Sykkö ja Jorma Uotinen palaavat livelavoille! Syntisen hauskat iltamat jatkavat siitä, mihin kaksikon viimevuotinen Keikarit-kiertue jäi. Täysin uudistuneen shown teemana ovat seitsemän kuolemansyntiä, eivätkä Keikarit kaihda niistä yhtäkään. Ylpeys, kateus, ahneus, viha, laiskuus, ylensyönti ja himo pääsevät sensuroimattomaan tarkasteluun niin muodin, tyylin, kulttuurin kuin elämän itsensä näkökulmasta. Näitä teemoja Keikarit käsittelevät hilpeän kevyellä ja koskettavan syvällisellä tyylillään –…",
   "categories": [
    "Muu viihde"
   ]
@@ -822,6 +822,24 @@
   "ticketUrl": "https://www.lippu.fi/event/club-for-five-ja-ilmavoimien-big-band-pave-paviljonki-21905303/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/cff_ibb_pave_1080x1080px-kaunologo-640x640.jpg",
   "description": "Club for Five ja Ilmavoimien Big Band: Pave! Kapellimestarina Ville Paakkunainen Pave Maijasen musiikki elää ja hengittää uudessa valossa Club For Fiven ja Ilmavoimien Big Bandin ainutlaatuisessa yhteiskonsertissa. Ikoniset kappaleet, kuten Lähtisitkö, Jano ja Elämän nälkä, saavat uuden ja raikkaan muodon kun lauluyhtye ja big band yhdistävät voimansa. Big band -sovitukset antavat Paven tunnetuille kappaleille uuden ulottuvuuden tuoden niihin syvyyttä, rikasta dynamiikkaa ja rytmivoimaa. Samalla lauluyhtyeen herkät sävyt ja virtuoosimainen taituruus herättävät musiikin vivahteet henkiin. Pave…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/emma-matilda-akustinen-konserttisalikiertue-2027/",
+  "title": "emma & matilda – Akustinen Konserttisalikiertue 2027",
+  "start": "2027-03-19T19:00:00+02:00",
+  "end": "2027-03-19T19:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/emma-matilda-akustinen-konserttisalikiertue-2027/",
+  "ticketUrl": "https://www.lippu.fi/event/emma-matilda-akustinen-konserttisalikiertue-2027-paviljonki-22371683/ ",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/em_konserttikiertue2027_paviljonki_1080x1080_preview-640x640.jpg",
+  "description": "emma & matilda – Akustinen Konserttisalikiertue 2027 Suomen suosituimpiin yhtyeisiin lukeutuva emma & matilda nähdään maaliskuussa 2027 viidessä upeassa konserttisalissa. Kevään akustinen konserttisalikiertue tuo duon rakastetuimmat laulut lavalle uusina, riisuttuina ja herkkinä akustisina versioina. Poikkeuksellisen intiimillä ja tunnelmallisella kiertueella duon rinnalla lavalle nousee kitaristi, sellisti ja pianisti. Akustiset sovitukset antavat tilaa kaksikon lauluharmonioille ja rehellisille, kipeitäkin aiheita kauniisti käsitteleville teksteille. Kolminkertaisesti Emma-palkittu duo nous…",
   "categories": [
    "Konsertit"
   ]
