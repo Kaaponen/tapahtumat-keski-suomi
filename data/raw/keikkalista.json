@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-09",
-  "title": "Maanantaijamit",
-  "start": "2026-11-09T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-09",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/bess-lutakko-2026-11-11",
   "title": "BESS",
   "start": "2026-11-11T18:00:00+03:00",
@@ -452,6 +437,21 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/dave-lindholm-pepe-ahlqvist-lutakko-2026-11-18",
   "image": "https://www.jelmu.net/media/dave-pepe-300x300.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/keskiviikkojamit-ravintola-poppari-2026-11-18",
+  "title": "Keskiviikkojamit",
+  "start": "2026-11-18T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/keskiviikkojamit-ravintola-poppari-2026-11-18",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
   "categories": [
    "keikat"
   ]
