@@ -183,24 +183,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22226",
-  "title": "Olavi Uusivirta + Mira Luoti",
-  "start": "2026-11-21T20:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/olavi-uusivirta-mira-luoti/",
-  "ticketUrl": "https://www.ticketmaster.fi/event/92202385",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/08/Olavi-Uusivirta-Mira-Luoti4.jpg",
-  "description": "OLAVI UUSIVIRTA + MIRA LUOTI PEURUNKA AREENALLA LA 21.11.2026! Ihastuttava Olavi Uusivirta valtaa Peurunka Areenan huikealla lavakarismallaan. Mukana tunnelmaa luomassa myös ihana Mira Luoti! Liput 39 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 16-03 Pub avoinna Klo 17.30 Narikka aukeaa hotellin aulassa Klo 18-20.30 Pikkujoulubuffet ravintolassa Klo 20.30-02 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, matkakeskus20:05 Laukaa, linja-autoasema20:15 Peurunka01:00 paluu samaa reittiä hotel…",
-  "categories": [
-   "Keikat",
-   "Pikkujoulut"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "23258",
   "title": "Kuutamopyöräily – eFatbike-retki",
   "start": "2026-11-21T19:00:00+02:00",
@@ -220,20 +202,20 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "23424",
-  "title": "Sauna + talvipulahdus",
-  "start": "2026-11-25T17:00:00+02:00",
-  "end": "2026-11-25T20:15:00+02:00",
+  "sourceId": "22226",
+  "title": "Olavi Uusivirta + Mira Luoti",
+  "start": "2026-11-21T20:00:00+02:00",
   "allDay": false,
-  "venue": "Peurunka – Rantasauna",
+  "venue": "Peurunka – Peurunka Areena",
   "address": "Peurungantie 85",
   "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-2/",
-  "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
-  "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/olavi-uusivirta-mira-luoti/",
+  "ticketUrl": "https://www.ticketmaster.fi/event/92202385",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/08/Olavi-Uusivirta-Mira-Luoti4.jpg",
+  "description": "OLAVI UUSIVIRTA + MIRA LUOTI PEURUNKA AREENALLA LA 21.11.2026! Ihastuttava Olavi Uusivirta valtaa Peurunka Areenan huikealla lavakarismallaan. Mukana tunnelmaa luomassa myös ihana Mira Luoti! Liput 39 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 16-03 Pub avoinna Klo 17.30 Narikka aukeaa hotellin aulassa Klo 18-20.30 Pikkujoulubuffet ravintolassa Klo 20.30-02 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, matkakeskus20:05 Laukaa, linja-autoasema20:15 Peurunka01:00 paluu samaa reittiä hotel…",
   "categories": [
-   "Liikunta"
+   "Keikat",
+   "Pikkujoulut"
   ]
  },
  {
@@ -250,6 +232,24 @@
   "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
   "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
   "categories": []
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "23424",
+  "title": "Sauna + talvipulahdus",
+  "start": "2026-11-25T17:00:00+02:00",
+  "end": "2026-11-25T20:15:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Rantasauna",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-2/",
+  "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
+  "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
+  "categories": [
+   "Liikunta"
+  ]
  },
  {
   "source": "peurunka",
@@ -302,6 +302,24 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "23426",
+  "title": "Sauna + talvipulahdus",
+  "start": "2026-11-28T17:00:00+02:00",
+  "end": "2026-11-28T20:15:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Rantasauna",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-3/",
+  "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
+  "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
+  "categories": [
+   "Liikunta"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "21261",
   "title": "Popeda ja Dingo",
   "start": "2026-11-28T20:00:00+02:00",
@@ -320,15 +338,15 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "23426",
+  "sourceId": "23428",
   "title": "Sauna + talvipulahdus",
-  "start": "2026-11-28T17:00:00+02:00",
-  "end": "2026-11-28T20:15:00+02:00",
+  "start": "2026-12-02T17:00:00+02:00",
+  "end": "2026-12-02T20:15:00+02:00",
   "allDay": false,
   "venue": "Peurunka – Rantasauna",
   "address": "Peurungantie 85",
   "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-3/",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-4/",
   "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
   "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
   "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
@@ -350,24 +368,6 @@
   "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
   "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
   "categories": []
- },
- {
-  "source": "peurunka",
-  "sourceId": "23428",
-  "title": "Sauna + talvipulahdus",
-  "start": "2026-12-02T17:00:00+02:00",
-  "end": "2026-12-02T20:15:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Rantasauna",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-4/",
-  "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
-  "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
-  "categories": [
-   "Liikunta"
-  ]
  },
  {
   "source": "peurunka",
@@ -436,22 +436,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22877",
-  "title": "Tanssit: Helena & Duo Sami Soininen",
-  "start": "2026-12-09T20:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Ravintola",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/tanssit-helena-duo-sami-soininen/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/02/Helena-vaaka.jpg",
-  "description": "Tanssit ravintolassa klo 20.00 alkaen Pääsolistina Helena Lerkkanen säestäjänään duo Sami Soininen. Vapaa pääsy! Tanssimme tuttujen sävelmien tahtiin: valssia, humppaa, tangoa ja muita suosikkirytmejä. Tanssittamassa meillä on Helena, jonka lämmin ääni ja välitön esiintyminen saavat yleisössä tanssijalat vipattamaan. Helena on nouseva tanssi-iskelmän tulkitsija, joka on hurmannut yleisönsä ympäri Suomen iloisella otteellaan. Helena esittää aitoa perinteistä suomalaista tanssimusiikkia, joka takaa viihtymisen tanssilattialla.",
-  "categories": [
-   "Tanssit"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "23431",
   "title": "Sauna + talvipulahdus",
   "start": "2026-12-09T17:00:00+02:00",
@@ -466,6 +450,22 @@
   "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
   "categories": [
    "Liikunta"
+  ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22877",
+  "title": "Tanssit: Helena & Duo Sami Soininen",
+  "start": "2026-12-09T20:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Ravintola",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/tanssit-helena-duo-sami-soininen/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/02/Helena-vaaka.jpg",
+  "description": "Tanssit ravintolassa klo 20.00 alkaen Pääsolistina Helena Lerkkanen säestäjänään duo Sami Soininen. Vapaa pääsy! Tanssimme tuttujen sävelmien tahtiin: valssia, humppaa, tangoa ja muita suosikkirytmejä. Tanssittamassa meillä on Helena, jonka lämmin ääni ja välitön esiintyminen saavat yleisössä tanssijalat vipattamaan. Helena on nouseva tanssi-iskelmän tulkitsija, joka on hurmannut yleisönsä ympäri Suomen iloisella otteellaan. Helena esittää aitoa perinteistä suomalaista tanssimusiikkia, joka takaa viihtymisen tanssilattialla.",
+  "categories": [
+   "Tanssit"
   ]
  },
  {
@@ -520,6 +520,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22685",
+  "title": "Karaokeillat",
+  "start": "2026-12-16",
+  "end": "2026-12-19",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-92/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "23433",
   "title": "Sauna + talvipulahdus",
   "start": "2026-12-16T17:00:00+02:00",
@@ -535,21 +550,6 @@
   "categories": [
    "Liikunta"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22685",
-  "title": "Karaokeillat",
-  "start": "2026-12-16",
-  "end": "2026-12-19",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-92/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
  },
  {
   "source": "peurunka",
@@ -625,19 +625,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "23013",
-  "title": "Uusi vuosi kylpylässä",
-  "start": "2026-12-31",
-  "allDay": true,
-  "venue": "Peurunka",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/uusi-vuosi-kylpylassa-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/08/Peurunka-seniorit6.jpg",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "22915",
   "title": "Gebardi",
   "start": "2026-12-31T22:00:00+02:00",
@@ -648,6 +635,19 @@
   "url": "https://peurunka.fi/kaikki-tapahtumat/gebardi/",
   "image": "https://peurunka.fi/wp-content/uploads/2026/09/gebardi.jpg",
   "description": "Uudenvuodenaattona ravintolassa esiintyy bilebändi Gebardi! Showtime klo 22.00 Liput 15 € / majoittujille vapaa pääsy! ”GEBARDI on eläin! Se pyydystää saaliinsa viihdyttämällä ja kiihdyttämällä tämän puolustuskyvyttömään olotilaan, tartuttaakseen tähän sitten täpläkuumeen. Tartunnan oireita ovat tanssijalan vastustamaton vipatus, herkeämätön hymy, useimmiten suoranainen hurmio. Gebardin pyydystyskeinoina ovat mm. discoklassikot, tuoreempi suomipoppirokki, finnhitit, vanha kunnon rock´n´roll-rypistys, herkät hitaat – sekä vastustamaton pilke silmäkulmassa! Gebardi Behmeällä Beellä on BileBändi…",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "23013",
+  "title": "Uusi vuosi kylpylässä",
+  "start": "2026-12-31",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/uusi-vuosi-kylpylassa-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/08/Peurunka-seniorit6.jpg",
   "categories": []
  },
  {
@@ -663,6 +663,22 @@
   "url": "https://peurunka.fi/kaikki-tapahtumat/joogaloma-wellnessweekend/",
   "image": "https://peurunka.fi/wp-content/uploads/2024/02/Joogaviikonloppu-Peurunka.jpg",
   "categories": []
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "23591",
+  "title": "Peurunka Dance -tanssileiri",
+  "start": "2027-02-12",
+  "end": "2027-02-14",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/peurunka-dance-tanssileiri/",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/11/PD27__1080x1920_vaaka.jpg",
+  "categories": [
+   "Tanssit"
+  ]
  },
  {
   "source": "peurunka",
