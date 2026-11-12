@@ -1,22 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "bess-2",
-  "title": "BESS",
-  "start": "2026-11-11T18:00:00+02:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/bess-2",
-  "ticketUrl": "https://www.jelmu.net/event/bess-2",
-  "image": "https://www.jelmu.net/media/bess_syksy2026_pr1_preview-300x300.jpg",
-  "description": "S · Ovet 18:00 · Keikka alkaa 20:00 · 25,00€ – 33,00€Hintaluokka: 25,00€ - 33,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "semmarit",
   "title": "Semmarit",
   "start": "2026-11-13T19:00:00+02:00",
@@ -42,7 +26,7 @@
   "url": "https://www.jelmu.net/event/napalm-death-campaign-for-musical-destruction-2026",
   "ticketUrl": "https://www.jelmu.net/event/napalm-death-campaign-for-musical-destruction-2026",
   "image": "https://www.jelmu.net/media/lutakko-kopio-300x300.jpg",
-  "description": "K18 · Ovet 19:00 · 35,00€ – 42,00€Hintaluokka: 35,00€ - 42,00€ · Loppuunmyyty",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 22:30 · 35,00€ – 42,00€Hintaluokka: 35,00€ - 42,00€ · Loppuunmyyty",
   "categories": [
    "keikat"
   ]
@@ -554,7 +538,7 @@
   "url": "https://www.jelmu.net/event/ruusut",
   "ticketUrl": "https://www.jelmu.net/event/ruusut",
   "image": "https://www.jelmu.net/media/ruusut-promo-6-pc-juuli-kangasniemi-1-300x300.jpg",
-  "description": "K18 · Ovet 19:00 · 27,00€ – 35,00€Hintaluokka: 27,00€ - 35,00€",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 27,00€ – 35,00€Hintaluokka: 27,00€ - 35,00€",
   "categories": [
    "keikat"
   ]

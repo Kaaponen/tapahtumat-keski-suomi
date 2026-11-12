@@ -1,52 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/bess-lutakko-2026-11-11",
-  "title": "BESS",
-  "start": "2026-11-11T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/bess-lutakko-2026-11-11",
-  "image": "https://www.jelmu.net/media/bess_syksy2026_pr1_preview-300x300.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/jenni-mustajarvi-ravintola-poppari-2026-11-11",
-  "title": "Jenni Mustajärvi",
-  "start": "2026-11-11T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/jenni-mustajarvi-ravintola-poppari-2026-11-11",
-  "ticketUrl": "https://www.tiketti.fi/jenni-mustajarvi-poppari-jyvaskyla-lippuja/120797",
-  "image": "http://ravintolapoppari.fi/wp-content/uploads/TeeSeSelvaksiPysty-678x1024-1.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/edgars-rubens-slackbird-vakiopaine-2026-11-11",
-  "title": "Edgars Rubens, Slackbird",
-  "start": "2026-11-11T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Vakiopaine",
-  "address": "Kauppakatu 6, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/edgars-rubens-slackbird-vakiopaine-2026-11-11",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/pepita-vanni-passipilli-sanni-mantyranta-rockneck-jyvaskyla-2026-11-12",
   "title": "Pepita Vanni / Pässipilli / Sanni Mäntyranta",
   "start": "2026-11-12",
@@ -452,6 +406,52 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/keskiviikkojamit-ravintola-poppari-2026-11-18",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-nollasta-sataan-jousten-ilta-paviljonki-jyvaskyla-2026-11-19",
+  "title": "Jyväskylä Sinfonia: Nollasta sataan – jousten ilta",
+  "start": "2026-11-19T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Paviljonki Jyväskylä",
+  "address": "Lutakonaukio 12, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-nollasta-sataan-jousten-ilta-paviljonki-jyvaskyla-2026-11-19",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-nollasta-sataan-jousten-ilta-paviljonki-21618678/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/19.11.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/knipi-nicholas-francett-lutakko-2026-11-19",
+  "title": "Knipi + Nicholas Francett",
+  "start": "2026-11-19T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/knipi-nicholas-francett-lutakko-2026-11-19",
+  "image": "https://www.jelmu.net/media/knipi-300x300.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/covers-lovers-london-2026-11-20",
+  "title": "Covers & Lovers",
+  "start": "2026-11-20",
+  "allDay": true,
+  "venue": "London",
+  "address": "Puistokatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/covers-lovers-london-2026-11-20",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
   "categories": [
    "keikat"
   ]
