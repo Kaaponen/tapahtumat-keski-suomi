@@ -673,6 +673,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "vesala",
+  "title": "Vesala",
+  "start": "2027-04-01T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/vesala",
+  "ticketUrl": "https://www.jelmu.net/event/vesala",
+  "image": "https://www.jelmu.net/media/vesala_promo_aaronsirainenfelixbardy_oct26_001_preview-300x300.jpg",
+  "description": "K18 · Ovet 18:00 · Keikka alkaa 20:00 · 39,00€ – 49,00€Hintaluokka: 39,00€ - 49,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "j-karjalainen-juhlakevat-2027",
   "title": "J.Karjalainen",
   "start": "2027-04-10T19:00:00+03:00",
