@@ -1,69 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/pepita-vanni-passipilli-sanni-mantyranta-rockneck-jyvaskyla-2026-11-12",
-  "title": "Pepita Vanni / Pässipilli / Sanni Mäntyranta",
-  "start": "2026-11-12",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/pepita-vanni-passipilli-sanni-mantyranta-rockneck-jyvaskyla-2026-11-12",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-12-11-2026-tapahtumakeskus-helmi-2026-11-12",
-  "title": "Oletko jyvällä? -lastenmusikaali 12.11.2026",
-  "start": "2026-11-12T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Tapahtumakeskus Helmi",
-  "address": "Okkerinkatu 2, 40700 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-12-11-2026-tapahtumakeskus-helmi-2026-11-12",
-  "ticketUrl": "https://events.liveto.io/events/oletko-jyvalla-lastenmusikaali",
-  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/e275390861294822c4de12881b3b127f43d1c16f1d331b9945aa8c2180ae326a.jpeg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/yle-livena-yle-live-paviljonki-jyvaskyla-2026-11-12",
-  "title": "Yle livenä – Yle live",
-  "start": "2026-11-12T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Paviljonki Jyväskylä",
-  "address": "Lutakonaukio 12, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/yle-livena-yle-live-paviljonki-jyvaskyla-2026-11-12",
-  "ticketUrl": "https://www.lippu.fi/artist/jyvaskylan-messut/yle-livenae-yle-live-4245381/ ",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/ylelivena_nelio_jyvaskyla.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/herrasmiehet-lavalla-paviljonki-jyvaskyla-2026-11-12",
-  "title": "Herrasmiehet Lavalla",
-  "start": "2026-11-12T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Paviljonki Jyväskylä",
-  "address": "Lutakonaukio 12, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/herrasmiehet-lavalla-paviljonki-jyvaskyla-2026-11-12",
-  "ticketUrl": "https://www.lippu.fi/event/herrasmiehet-lavalla-paviljonki-21616875/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/hml-jyvaskyla-sivusto-nelio.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/varjot-vayla-ja-viimeiset-alakulttuuritalo-kramsu-2026-11-13",
   "title": "Varjot, Väylä ja Viimeiset",
   "start": "2026-11-13",
@@ -452,6 +389,66 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/covers-lovers-london-2026-11-20",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/marksmen-rockneck-jyvaskyla-2026-11-20",
+  "title": "Marksmen",
+  "start": "2026-11-20",
+  "allDay": true,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/marksmen-rockneck-jyvaskyla-2026-11-20",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/lauluja-kai-joidenkin-paivakirjoista-toivolan-vanha-piha-2026-11-20",
+  "title": "Lauluja (kai joidenkin) päiväkirjoista",
+  "start": "2026-11-20",
+  "allDay": true,
+  "venue": "Toivolan Vanha Piha",
+  "address": "Cygnaeuksenkatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/lauluja-kai-joidenkin-paivakirjoista-toivolan-vanha-piha-2026-11-20",
+  "image": "https://toivolanpiha.fi/wp-content/uploads/2026/10/Lauluja-kai-joidenkin-paivakirjoista-600x750.png ",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/momo-dw-revolution-2026-11-20",
+  "title": "MOMO & DW",
+  "start": "2026-11-20",
+  "allDay": true,
+  "venue": "Revolution",
+  "address": "Kauppakatu 30, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/momo-dw-revolution-2026-11-20",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa29XIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fb1d21bbf86ea1e1b0b517bf2357ecc7a884d090/logo-jyvaskyla-revolution.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/poppari-goes-iskelma-suomijatsikot-ira-kaspi-ja-el-ravintola-poppari-2026-11-20",
+  "title": "Poppari goes iskelmä: Suomijatsikot – Ira Kaspi ja Eliina Taal",
+  "start": "2026-11-20T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/poppari-goes-iskelma-suomijatsikot-ira-kaspi-ja-el-ravintola-poppari-2026-11-20",
+  "image": "http://ravintolapoppari.fi/wp-content/uploads/Tammela_Ira_Eliisa_1200x628px_1200-x-628.jpg",
   "categories": [
    "keikat"
   ]

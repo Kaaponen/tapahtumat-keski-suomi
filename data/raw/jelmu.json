@@ -529,6 +529,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "drink-floyd-plays-pink-floyd",
+  "title": "Drink Floyd plays Pink Floyd",
+  "start": "2027-02-11T18:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/drink-floyd-plays-pink-floyd",
+  "ticketUrl": "https://www.jelmu.net/event/drink-floyd-plays-pink-floyd",
+  "image": "https://www.jelmu.net/media/df-on-tour-2027-promo8-scaled-1-300x300.jpg",
+  "description": "K18 · Ovet 18:00 · 25,00€ – 32,00€Hintaluokka: 25,00€ - 32,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "ruusut",
   "title": "Ruusut",
   "start": "2027-02-20T19:00:00+02:00",

@@ -47,24 +47,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "18627",
-  "title": "The Italian Tenors",
-  "start": "2026-11-12T19:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/the-italian-tenors/",
-  "ticketUrl": "https://www.ticketmaster.fi/event/708582818",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/03/Bannerit25.jpg",
-  "description": "The Italian Tenors: italialaisten huipputenorien konsertti Peurungassa Kolme italialaista huipputenoria saapuu Suomeen marraskuussa ja yksi konserteista kuullaan Peurunka Areenalla Laukaassa torstaina 12.11.2026 The Italian Tenors -trion muodostavat: ✨ oopperatalojen päärooleista tunnettu Evans Tonon ✨ säveltäjä ja laulaja Luca Sala ✨ Euroopan ooppera- ja musiikkiteattereissa esiintynyt lyyrinen tenori Bruno Almeida Konsertissa kuullaan rakastettuja italialaisia klassikoita ja ikivihreitä sävelmiä, kuten Caruso, Volare, Time to Say Goodbye ja O Sole Mio. Tenoreita säestää heidän italialainen…",
-  "categories": [
-   "Ruokatapahtuma",
-   "Yrityksille"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "21264",
   "title": "Neljä Ruusua + Technicolour",
   "start": "2026-11-13T20:00:00+02:00",
@@ -83,21 +65,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22677",
-  "title": "Karaokeillat",
-  "start": "2026-11-18",
-  "end": "2026-11-21",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-88/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "23267",
   "title": "TUTKIMUSSEMINAARI - Kohti toimintakykyistä ikääntymistä",
   "start": "2026-11-18T12:00:00+02:00",
@@ -112,6 +79,21 @@
   "categories": [
    "Kuntoutus"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22677",
+  "title": "Karaokeillat",
+  "start": "2026-11-18",
+  "end": "2026-11-21",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-88/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -187,6 +169,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22679",
+  "title": "Karaokeillat",
+  "start": "2026-11-25",
+  "end": "2026-11-28",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-89/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "23424",
   "title": "Sauna + talvipulahdus",
   "start": "2026-11-25T17:00:00+02:00",
@@ -202,21 +199,6 @@
   "categories": [
    "Liikunta"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22679",
-  "title": "Karaokeillat",
-  "start": "2026-11-25",
-  "end": "2026-11-28",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-89/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
  },
  {
   "source": "peurunka",
@@ -269,24 +251,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "21261",
-  "title": "Popeda ja Dingo",
-  "start": "2026-11-28T20:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/popeda-ja-dingo/",
-  "ticketUrl": "https://www.ticketmaster.fi/event/135485315",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/06/popeda-dingo4.jpg",
-  "description": "POPEDA JA DINGO PEURUNKA AREENALLA LA 28.11.2026! Laitetaas klassikot raikaamaan Peurunka Areenalla marraskuun viimeisenä viikonloppuna, kun esiintymään saapuu samana iltana kaksi kovaa – Popeda ja Dingo! Voiko olla parempaa kuumimpaan pikkujouluaikaan! LIPUT MYYNNISSÄ NYT! Liput 35 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 16-03 Pub avoinna Klo 17.30 Narikka aukeaa hotellin aulassa Klo 18-20.30 Pikkujoulubuffet ravintolassa Klo 20.30-02 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, ma…",
-  "categories": [
-   "Keikat",
-   "Pikkujoulut"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "23426",
   "title": "Sauna + talvipulahdus",
   "start": "2026-11-28T17:00:00+02:00",
@@ -301,6 +265,24 @@
   "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
   "categories": [
    "Liikunta"
+  ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "21261",
+  "title": "Popeda ja Dingo",
+  "start": "2026-11-28T20:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Peurunka Areena",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/popeda-ja-dingo/",
+  "ticketUrl": "https://www.ticketmaster.fi/event/135485315",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/06/popeda-dingo4.jpg",
+  "description": "POPEDA JA DINGO PEURUNKA AREENALLA LA 28.11.2026! Laitetaas klassikot raikaamaan Peurunka Areenalla marraskuun viimeisenä viikonloppuna, kun esiintymään saapuu samana iltana kaksi kovaa – Popeda ja Dingo! Voiko olla parempaa kuumimpaan pikkujouluaikaan! LIPUT MYYNNISSÄ NYT! Liput 35 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 16-03 Pub avoinna Klo 17.30 Narikka aukeaa hotellin aulassa Klo 18-20.30 Pikkujoulubuffet ravintolassa Klo 20.30-02 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, ma…",
+  "categories": [
+   "Keikat",
+   "Pikkujoulut"
   ]
  },
  {
@@ -388,6 +370,24 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "23431",
+  "title": "Sauna + talvipulahdus",
+  "start": "2026-12-09T17:00:00+02:00",
+  "end": "2026-12-09T20:15:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Rantasauna",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-5/",
+  "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
+  "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
+  "categories": [
+   "Liikunta"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22168",
   "title": "Päiväkaraoke",
   "start": "2026-12-09T15:00:00+02:00",
@@ -434,24 +434,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "23431",
-  "title": "Sauna + talvipulahdus",
-  "start": "2026-12-09T17:00:00+02:00",
-  "end": "2026-12-09T20:15:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Rantasauna",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-5/",
-  "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
-  "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
-  "categories": [
-   "Liikunta"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "23019",
   "title": "Joululounas 2026",
   "start": "2026-12-10",
@@ -487,6 +469,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22685",
+  "title": "Karaokeillat",
+  "start": "2026-12-16",
+  "end": "2026-12-19",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-92/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "23433",
   "title": "Sauna + talvipulahdus",
   "start": "2026-12-16T17:00:00+02:00",
@@ -502,21 +499,6 @@
   "categories": [
    "Liikunta"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22685",
-  "title": "Karaokeillat",
-  "start": "2026-12-16",
-  "end": "2026-12-19",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-92/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
  },
  {
   "source": "peurunka",

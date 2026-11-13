@@ -1,42 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/herrasmiehet-lavalla/",
-  "title": "Herrasmiehet Lavalla",
-  "start": "2026-11-12T19:00:00+02:00",
-  "end": "2026-11-12T19:30:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/herrasmiehet-lavalla/",
-  "ticketUrl": "https://www.lippu.fi/event/herrasmiehet-lavalla-paviljonki-21616875/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/hml-jyvaskyla-sivusto-nelio-640x640.jpg",
-  "description": "Herrasmiehet lavalla -konsertti kokoaa iskelmälegendat yhteen! Mittava konsertti kokoaa kuusi suomalaisen iskelmämusiikin legendaa samalle lavalle 12. marraskuuta. Herrasmiehet lavalla -konsertissa nähdään Pasi Kaunisto, Erkki Liikanen, Danny, Eino Grön, Sakari Kuosmanen ja Eikka Eronen. Orkesterin kapellimestarina toimii Jari Puhakka, ja konsertin juontaa Markku Veijalainen. Odotettavissa on ikivihreitä kappaleita vuosien varrelta, sekä ainutlaatuisia yhteisesiintymisiä, joita voi nähdä vain tällä kiertueella. Kiertueen artistit odottavat syksyä jo innolla. Ryhmävaraukset (yli 10 hlöä) Lippu…",
-  "categories": [
-   "Konsertit"
-  ]
- },
- {
-  "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/yle-livena-yle-live/",
-  "title": "Yle livenä – Yle live",
-  "start": "2026-11-12T19:00:00+02:00",
-  "end": "2026-11-12T18:00:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Event",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/yle-livena-yle-live/",
-  "ticketUrl": "https://www.lippu.fi/artist/jyvaskylan-messut/yle-livenae-yle-live-4245381/ ",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/ylelivena_nelio_jyvaskyla-640x640.jpg",
-  "description": "Yle livenä – Yle live Yle livenä: huligaaneja, julkkiksia ja kiltin tytön supervoima Missä menee raja jalkapallohuligaanin ja intohimoisen fanin välillä? Miten rakennamme sisältöä ja julkkiksia sosiaaliseen mediaan? Mikä on uutinen – ja kenellä on oikeus määritellä se? Miltä näyttää työpäivä Donald Trumpin Valkoisessa talossa? Onko kiltteys uusi supervoima? Vastaus muun muassa näihin kysymyksiin saadaan, kun Jyväskylän Paviljongin lavalle nousee kahdeksan Ylen toimittajaa (Aino “Aikku” Silkelä, Mikael Salmelainen, Pyry Vaismaa, Jenni Matikainen, Charlotte Lindberg, Ilmari Reunamäki, Saku Mann…",
-  "categories": [
-   "Muu viihde"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/tip-tap-stand-up-enemman-kuin-pikkujoulushow-k18/",
   "title": "Tip Tap Stand Up: Enemmän kuin pikkujoulushow K18",
   "start": "2026-11-13T19:00:00+02:00",
