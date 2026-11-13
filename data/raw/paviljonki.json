@@ -370,17 +370,15 @@
  {
   "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/jannan-joulu/",
-  "title": "Jannan Joulu",
+  "title": "PERUTTU: Jannan Joulu",
   "start": "2026-12-12T19:00:00+02:00",
-  "end": "2026-12-12T19:00:00.000Z",
   "allDay": false,
   "venue": "Paviljonki – Paviljonki Klubi",
   "address": "Lutakonaukio 12",
   "city": "Jyväskylä",
   "url": "https://www.paviljonki.fi/tapahtuma/jannan-joulu/",
-  "ticketUrl": "https://www.lippu.fi/event/jannan-joulu-jyvaeskylaen-paviljonki-paviljonki-klubi-22079155/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/jannan_joulu_2026_jyvaskyla_1080x1350px-kopio-640x640.png",
-  "description": "Jannan Joulu Janna julkaisee uutta joulumusiikkia ja lähtee sen myötä kiertueelle! Tunnelmallinen joulukonsertti täyttää Jyväskylän Paviljonki Klubin lauantaina 12. joulukuuta. Jannan jo perinteeksi muodostunut JANNAN JOULU -kiertue palaa uudistuneena joulukuussa 2026. Tänä vuonna elegantti kokonaisuus laajenee, kun Janna julkaisee uutta joulumusiikkia. Kiertueella Jannan rinnalla soittaa Leri Leskisen orkesteri. Kirkoissa ja konserttisaleissa kulkevan kiertueen ohjelmistossa kohtaavat rakastetut joululaulut, uudet kappaleet ja yllätykselliset musiikilliset kohtaamiset. Lähes kahden vuosikymm…",
+  "description": "Jannan joulu -konsertti lauantaina 12.12.2026 Jyväskylän Paviljonki Klubilla on valitettavasti peruttu Jannan Joulu Janna julkaisee uutta joulumusiikkia ja lähtee sen myötä kiertueelle! Tunnelmallinen joulukonsertti täyttää Jyväskylän Paviljonki Klubin lauantaina 12. joulukuuta. Jannan jo perinteeksi muodostunut JANNAN JOULU -kiertue palaa uudistuneena joulukuussa 2026. Tänä vuonna elegantti kokonaisuus laajenee, kun Janna julkaisee uutta joulumusiikkia. Kiertueella Jannan rinnalla soittaa Leri Leskisen orkesteri. Kirkoissa ja konserttisaleissa kulkevan kiertueen ohjelmistossa kohtaavat rakas…",
   "categories": [
    "Konsertit",
    "Paviljonki Klubi"
@@ -829,6 +827,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/gaala-liveshow/",
+  "title": "Gaala Liveshow",
+  "start": "2027-04-09T19:00:00+03:00",
+  "end": "2027-04-09T17:45:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/gaala-liveshow/",
+  "ticketUrl": "https://www.lippu.fi/event/gaalaliveshow-paviljonki-22400810/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/1080x1080px-640x640.png",
+  "description": "Gaala Liveshow Huippusuosittu Gaala-podcast nousee Paviljongin näyttämölle koko illan liveshow’lla, joka juhlistaa elämää ja ystävyyttä! Show’n tähtinä säkenöivät rakastetut ystävykset Hennariikka Laaksola, Thelma Siberg ja Valtteri Lehtinen. Illan aikana kuullaan hersyvimmät keskustelut kiusallisista tilanteista tunteikkaimpiin hetkiin. Tyylilleen uskollisesti Gaala jakaa palkintoja mitä yllättävimmissä kategorioissa, ja saattaapa joku yleisön joukostakin päätyä pystin saajaksi! Kunniavieraana lavalle nousee Gaala-podcastin arvoisa alkuperäisjäsen – Amelie Blauberg! Tervetuloa nauttimaan ill…",
+  "categories": [
+   "Muu viihde"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskylan-hyvinvointimessut/",
   "title": "Jyväskylän Hyvinvointimessut",
   "start": "2027-04-10",
@@ -980,6 +996,24 @@
   "image": "https://www.paviljonki.fi/wp-content/uploads/yt27-1080x1080-1-640x640.png",
   "categories": [
    "Messut"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/semmarit-dosetit-sekasin-konserttitaloissa/",
+  "title": "Semmarit – Dosetit sekasin konserttitaloissa",
+  "start": "2027-05-21T19:00:00+03:00",
+  "end": "2027-05-21T18:15:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/semmarit-dosetit-sekasin-konserttitaloissa/",
+  "ticketUrl": "https://www.lippu.fi/event/semmarit-dosetit-sekasin-konserttisaleissa-paviljonki-22393150/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/semmarit_dosetit_sekasin_21052027_1080x1080-640x640.jpg",
+  "description": "Dosetit sekasin konserttisaleissa – Semmareilta lääkkeet keväthuuman lietsomiseen Syksyn -26 riehakkaalla klubisetillään yleisönsä valloittanut Semmarit siirtyy keväällä konserttisaleihin. Lavalle nousee mieskuoro, joka ei ole koskaan oikein osannut olla vain mieskuoro. Maailma tuntuu olevan sekasin ja Semmareillakin on dosetit sekasin. Onneksi semmaridosetti on täynnä paitsi ilopillereitä, myös ajattelua ja tunteita vahvistavia tabletteja sekä luonnollisesti hyvää tarkoittavia placebo-voiteita. Dosetit sekasin konserttisaleissa -kiertueella päästään maistelemaan täysin upouusia herkkuja, sek…",
+  "categories": [
+   "Konsertit"
   ]
  },
  {
