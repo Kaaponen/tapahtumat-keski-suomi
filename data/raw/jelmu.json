@@ -1,22 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "semmarit",
-  "title": "Semmarit",
-  "start": "2026-11-13T19:00:00+02:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/semmarit",
-  "ticketUrl": "https://www.jelmu.net/event/semmarit",
-  "image": "https://www.jelmu.net/media/semmarit_dosetit_meta_nelio_kuvalla-300x300.jpg",
-  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 32,00€ – 40,00€Hintaluokka: 32,00€ - 40,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "napalm-death-campaign-for-musical-destruction-2026",
   "title": "Napalm Death (UK), Master (US), Brat (US), Goatburner",
   "start": "2026-11-14T19:00:00+02:00",

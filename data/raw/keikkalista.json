@@ -1,112 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/varjot-vayla-ja-viimeiset-alakulttuuritalo-kramsu-2026-11-13",
-  "title": "Varjot, Väylä ja Viimeiset",
-  "start": "2026-11-13",
-  "allDay": true,
-  "venue": "Alakulttuuritalo Kramsu",
-  "address": "Kramsunkatu 5, päärakennus, 40600 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/varjot-vayla-ja-viimeiset-alakulttuuritalo-kramsu-2026-11-13",
-  "image": "https://www.ylakulttuuri.fi/wp-content/uploads/2026/10/2026-11-13-tapahtuma-768x1086.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/beatwave-london-2026-11-13",
-  "title": "Beatwave",
-  "start": "2026-11-13",
-  "allDay": true,
-  "venue": "London",
-  "address": "Puistokatu 2, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/beatwave-london-2026-11-13",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/no-human-contact-neljakymmenta-vuotta-tuomiota-rockneck-jyvaskyla-2026-11-13",
-  "title": "”No Human Contact”, ”Neljäkymmentä vuotta tuomiota”",
-  "start": "2026-11-13",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/no-human-contact-neljakymmenta-vuotta-tuomiota-rockneck-jyvaskyla-2026-11-13",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/tohtori-getto-revolution-2026-11-13",
-  "title": "Tohtori Getto",
-  "start": "2026-11-13",
-  "allDay": true,
-  "venue": "Revolution",
-  "address": "Kauppakatu 30, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/tohtori-getto-revolution-2026-11-13",
-  "image": "https://i.scdn.co/image/ab6761610000e5ebd49904bec1583093e7e123c6",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-13-11-2026-tapahtumakeskus-helmi-2026-11-13",
-  "title": "Oletko jyvällä? -lastenmusikaali 13.11.2026",
-  "start": "2026-11-13T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Tapahtumakeskus Helmi",
-  "address": "Okkerinkatu 2, 40700 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-13-11-2026-tapahtumakeskus-helmi-2026-11-13",
-  "ticketUrl": "https://events.liveto.io/events/oletko-jyvalla-lastenmusikaali-13112026",
-  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/e275390861294822c4de12881b3b127f43d1c16f1d331b9945aa8c2180ae326a.jpeg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/semmarit-lutakko-2026-11-13",
-  "title": "Semmarit",
-  "start": "2026-11-13T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/semmarit-lutakko-2026-11-13",
-  "image": "https://www.jelmu.net/media/semmarit_dosetit_meta_nelio_kuvalla-300x300.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/los-astronauts-harry-s-jyvaskyla-2026-11-13",
-  "title": "Los Astronauts",
-  "start": "2026-11-13T23:00:00+03:00",
-  "allDay": false,
-  "venue": "Harry's Jyväskylä",
-  "address": "Kauppakatu 41, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/los-astronauts-harry-s-jyvaskyla-2026-11-13",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b151ee1368eadbdc35bd1fa02a795102840f150/logo-jyvaskyla-harrys.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/beatwave-london-2026-11-14",
   "title": "Beatwave",
   "start": "2026-11-14",
@@ -449,6 +343,111 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/poppari-goes-iskelma-suomijatsikot-ira-kaspi-ja-el-ravintola-poppari-2026-11-20",
   "image": "http://ravintolapoppari.fi/wp-content/uploads/Tammela_Ira_Eliisa_1200x628px_1200-x-628.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/vilma-jaa-hannaeerika-lutakko-2026-11-20",
+  "title": "Vilma Jää + hannaeerika",
+  "start": "2026-11-20T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/vilma-jaa-hannaeerika-lutakko-2026-11-20",
+  "image": "https://www.jelmu.net/media/vilma_promo-1_web-300x300.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/amuri-vakiopaine-2026-11-20",
+  "title": "Amuri",
+  "start": "2026-11-20T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Vakiopaine",
+  "address": "Kauppakatu 6, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/amuri-vakiopaine-2026-11-20",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/kiirush-rush-tribuutti-ravintola-poppari-2026-11-20",
+  "title": "Kiirush: Rush-tribuutti",
+  "start": "2026-11-20T22:30:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/kiirush-rush-tribuutti-ravintola-poppari-2026-11-20",
+  "image": "http://ravintolapoppari.fi/wp-content/uploads/Kiirush_Poppari_20.11.2026.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/timo-haikarainen-band-harry-s-jyvaskyla-2026-11-20",
+  "title": "Timo Haikarainen band",
+  "start": "2026-11-20T23:00:00+03:00",
+  "allDay": false,
+  "venue": "Harry's Jyväskylä",
+  "address": "Kauppakatu 41, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/timo-haikarainen-band-harry-s-jyvaskyla-2026-11-20",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b151ee1368eadbdc35bd1fa02a795102840f150/logo-jyvaskyla-harrys.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/surukivi-kollektiivi-presents-kylla-koira-koiran-t-alakulttuuritalo-kramsu-2026-11-21",
+  "title": "Surukivi Kollektiivi presents: Kyllä koira koiran tuntee",
+  "start": "2026-11-21",
+  "allDay": true,
+  "venue": "Alakulttuuritalo Kramsu",
+  "address": "Kramsunkatu 5, päärakennus, 40600 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/surukivi-kollektiivi-presents-kylla-koira-koiran-t-alakulttuuritalo-kramsu-2026-11-21",
+  "image": "https://www.ylakulttuuri.fi/wp-content/uploads/2026/10/2026-11-21-tapahtuma-768x402.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/k40-disco-klo-19-23-by-dj-t-ile-max-liput-ennakkoo-london-2026-11-21",
+  "title": "K40 Disco klo 19-23 by Dj:t Ile & Max – Liput ennakkoon myy Lippu.fi",
+  "start": "2026-11-21",
+  "allDay": true,
+  "venue": "London",
+  "address": "Puistokatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/k40-disco-klo-19-23-by-dj-t-ile-max-liput-ennakkoo-london-2026-11-21",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/covers-lovers-london-2026-11-21",
+  "title": "Covers & Lovers",
+  "start": "2026-11-21",
+  "allDay": true,
+  "venue": "London",
+  "address": "Puistokatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/covers-lovers-london-2026-11-21",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
   "categories": [
    "keikat"
   ]
