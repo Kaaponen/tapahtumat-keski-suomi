@@ -18,18 +18,20 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22675",
-  "title": "Karaokeillat",
-  "start": "2026-11-11",
-  "end": "2026-11-14",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
+  "sourceId": "23267",
+  "title": "TUTKIMUSSEMINAARI - Kohti toimintakykyistä ikääntymistä",
+  "start": "2026-11-18T12:00:00+02:00",
+  "end": "2026-11-18T15:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Peurunka / Auditorio, Teams",
   "address": "Peurungantie 85",
   "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-87/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
+  "url": "https://peurunka.fi/kaikki-tapahtumat/tutkimusseminaari-kohti-toimintakykyista-ikaantymista/",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/10/Peurunka-yleinen4.jpg",
+  "description": "TUTKIMUSSEMINAARI – Kohti toimintakykyistä ikääntymistä Tervetuloa Jyväskylän yliopiston ja Kuntoutumis- ja Liikuntasäätiö Peurungan tutkimusyhteistyöseminaariin. Seminaari on tarkoitettu kaikille hyvinvointipalveluiden tutkimuksesta ja kehittämisestä kiinnostuneille. Seminaarissa esitellään JYPE-toimintaa ja rahoitettuja hankkeita. AGENDA Klo 12 kahvi & suolainen klo 12.30 avaussanat Panu Hulkkonen, toiminnanjohtaja Kuntoutumis- ja liikuntasäätiö Peurunka ja Satu Ylitalo, liiketoimintajohtaja Peurunka Oy klo 12.40 Mia Ahinko – Vauhtipyöräharjoittelun adaptaatiot motorisella aivokuorella sekä…",
+  "categories": [
+   "Kuntoutus"
+  ]
  },
  {
   "source": "peurunka",
@@ -45,23 +47,6 @@
   "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
   "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
   "categories": []
- },
- {
-  "source": "peurunka",
-  "sourceId": "23267",
-  "title": "TUTKIMUSSEMINAARI - Kohti toimintakykyistä ikääntymistä",
-  "start": "2026-11-18T12:00:00+02:00",
-  "end": "2026-11-18T15:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Peurunka / Auditorio, Teams",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/tutkimusseminaari-kohti-toimintakykyista-ikaantymista/",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/10/Peurunka-yleinen4.jpg",
-  "description": "TUTKIMUSSEMINAARI – Kohti toimintakykyistä ikääntymistä Tervetuloa Jyväskylän yliopiston ja Kuntoutumis- ja Liikuntasäätiö Peurungan tutkimusyhteistyöseminaariin. Seminaari on tarkoitettu kaikille hyvinvointipalveluiden tutkimuksesta ja kehittämisestä kiinnostuneille. Seminaarissa esitellään JYPE-toimintaa ja rahoitettuja hankkeita. AGENDA Klo 12 kahvi & suolainen klo 12.30 avaussanat Panu Hulkkonen, toiminnanjohtaja Kuntoutumis- ja liikuntasäätiö Peurunka ja Satu Ylitalo, liiketoimintajohtaja Peurunka Oy klo 12.40 Mia Ahinko – Vauhtipyöräharjoittelun adaptaatiot motorisella aivokuorella sekä…",
-  "categories": [
-   "Kuntoutus"
-  ]
  },
  {
   "source": "peurunka",
@@ -255,6 +240,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22681",
+  "title": "Karaokeillat",
+  "start": "2026-12-02",
+  "end": "2026-12-05",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-90/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "23428",
   "title": "Sauna + talvipulahdus",
   "start": "2026-12-02T17:00:00+02:00",
@@ -270,21 +270,6 @@
   "categories": [
    "Liikunta"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22681",
-  "title": "Karaokeillat",
-  "start": "2026-12-02",
-  "end": "2026-12-05",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-90/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
  },
  {
   "source": "peurunka",

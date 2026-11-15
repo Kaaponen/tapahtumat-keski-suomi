@@ -1,157 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/beatwave-london-2026-11-14",
-  "title": "Beatwave",
-  "start": "2026-11-14",
-  "allDay": true,
-  "venue": "London",
-  "address": "Puistokatu 2, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/beatwave-london-2026-11-14",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/lepotila-rockneck-jyvaskyla-2026-11-14",
-  "title": "Lepotila",
-  "start": "2026-11-14",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/lepotila-rockneck-jyvaskyla-2026-11-14",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/petri-nygard-urkan-baari-2026-11-14",
-  "title": "Petri Nygård",
-  "start": "2026-11-14",
-  "allDay": true,
-  "venue": "Urkan Baari",
-  "address": "Savonmäentie 9, 40800 Vaajakoski",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/petri-nygard-urkan-baari-2026-11-14",
-  "image": "https://i.scdn.co/image/ab6761610000e5eb11e270c98f5e5c832d73231c",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/afu-ra-usa-loasteeze-revolution-2026-11-14",
-  "title": "Afu-Ra (USA), Loasteeze",
-  "start": "2026-11-14",
-  "allDay": true,
-  "venue": "Revolution",
-  "address": "Kauppakatu 30, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/afu-ra-usa-loasteeze-revolution-2026-11-14",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa29XIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fb1d21bbf86ea1e1b0b517bf2357ecc7a884d090/logo-jyvaskyla-revolution.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-14-11-2026-tapahtumakeskus-helmi-2026-11-14",
-  "title": "Oletko jyvällä? -lastenmusikaali 14.11.2026",
-  "start": "2026-11-14T15:00:00+03:00",
-  "allDay": false,
-  "venue": "Tapahtumakeskus Helmi",
-  "address": "Okkerinkatu 2, 40700 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-14-11-2026-tapahtumakeskus-helmi-2026-11-14",
-  "ticketUrl": "https://events.liveto.io/events/oletko-jyvalla-lastenmusikaali-14112026",
-  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/e275390861294822c4de12881b3b127f43d1c16f1d331b9945aa8c2180ae326a.jpeg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/jazz-jkl-live-verneri-pohjola-tuomo-prattala-ravintola-poppari-2026-11-14",
-  "title": "Jazz Jkl Live: Verneri Pohjola & Tuomo Prättälä",
-  "start": "2026-11-14T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/jazz-jkl-live-verneri-pohjola-tuomo-prattala-ravintola-poppari-2026-11-14",
-  "image": "http://ravintolapoppari.fi/wp-content/uploads/jaa-tuomo.png.jpeg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/kaamanen-soundsystem-sanoen-vakiopaine-2026-11-14",
-  "title": "Kaamanen Soundsystem, Sanoen",
-  "start": "2026-11-14T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Vakiopaine",
-  "address": "Kauppakatu 6, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/kaamanen-soundsystem-sanoen-vakiopaine-2026-11-14",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/napalm-death-uk-master-us-brat-us-goatburner-lutakko-2026-11-14",
-  "title": "Napalm Death (UK) Master (US) Brat (US) Goatburner",
-  "start": "2026-11-14T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/napalm-death-uk-master-us-brat-us-goatburner-lutakko-2026-11-14",
-  "image": "https://www.jelmu.net/media/lutakko-kopio-300x300.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/masterpiece-orchestra-elton-john-tribuuttikonsertt-ravintola-poppari-2026-11-14",
-  "title": "MASTERPIECE ORCHESTRA: Elton John tribuuttikonsertti",
-  "start": "2026-11-14T21:30:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/masterpiece-orchestra-elton-john-tribuuttikonsertt-ravintola-poppari-2026-11-14",
-  "image": "http://ravintolapoppari.fi/wp-content/uploads/MasterpieceOrchestra-@vahatalophotography-LeeviVahatalo-1-of-1.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/los-astronauts-harry-s-jyvaskyla-2026-11-14",
-  "title": "Los Astronauts",
-  "start": "2026-11-14T23:00:00+03:00",
-  "allDay": false,
-  "venue": "Harry's Jyväskylä",
-  "address": "Kauppakatu 41, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/los-astronauts-harry-s-jyvaskyla-2026-11-14",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b151ee1368eadbdc35bd1fa02a795102840f150/logo-jyvaskyla-harrys.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-15-11-2026-tapahtumakeskus-helmi-2026-11-15",
   "title": "Oletko jyvällä? -lastenmusikaali 15.11.2026",
   "start": "2026-11-15T15:00:00+03:00",
@@ -448,6 +297,156 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/covers-lovers-london-2026-11-21",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/coverretout-rockneck-jyvaskyla-2026-11-21",
+  "title": "Coverretout",
+  "start": "2026-11-21",
+  "allDay": true,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/coverretout-rockneck-jyvaskyla-2026-11-21",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-21-11-2026-tapahtumakeskus-helmi-2026-11-21",
+  "title": "Oletko jyvällä? -lastenmusikaali 21.11.2026",
+  "start": "2026-11-21T15:00:00+03:00",
+  "allDay": false,
+  "venue": "Tapahtumakeskus Helmi",
+  "address": "Okkerinkatu 2, 40700 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/oletko-jyvalla-lastenmusikaali-21-11-2026-tapahtumakeskus-helmi-2026-11-21",
+  "ticketUrl": "https://events.liveto.io/events/oletko-jyvalla-lastenmusikaali-21112026",
+  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/e275390861294822c4de12881b3b127f43d1c16f1d331b9945aa8c2180ae326a.jpeg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/viikate-kantalasyndrooma-lutakko-2026-11-21",
+  "title": "Viikate + KantalaSyndrooma",
+  "start": "2026-11-21T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/viikate-kantalasyndrooma-lutakko-2026-11-21",
+  "image": "https://www.jelmu.net/media/viikate-v30v-syksy-instagram-1080x1080-1-300x300.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/heavy-metal-thunderstrike-vol-16-ravintola-poppari-2026-11-21",
+  "title": "Heavy Metal Thunderstrike vol 16.",
+  "start": "2026-11-21T21:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/heavy-metal-thunderstrike-vol-16-ravintola-poppari-2026-11-21",
+  "image": "http://ravintolapoppari.fi/wp-content/uploads/DB-Promo.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/modem-sokar-dj-art-dictator-musta-kynnys-2026-11-21",
+  "title": "MODEM, SOKAR, DJ Art Dictator",
+  "start": "2026-11-21T21:30:00+03:00",
+  "allDay": false,
+  "venue": "Musta Kynnys",
+  "address": "Hannikaisenkatu 16, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/modem-sokar-dj-art-dictator-musta-kynnys-2026-11-21",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBandXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--76a68f3b5b101ddfe11e00fd8b731816b0ec9b85/logo-jyvaskyla-mustakynnys.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/timo-haikarainen-band-harry-s-jyvaskyla-2026-11-21",
+  "title": "Timo Haikarainen band",
+  "start": "2026-11-21T23:00:00+03:00",
+  "allDay": false,
+  "venue": "Harry's Jyväskylä",
+  "address": "Kauppakatu 41, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/timo-haikarainen-band-harry-s-jyvaskyla-2026-11-21",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b151ee1368eadbdc35bd1fa02a795102840f150/logo-jyvaskyla-harrys.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/monna-kamu-eero-ojanen-vakiopaine-2026-11-22",
+  "title": "Monna Kamu, Eero Ojanen",
+  "start": "2026-11-22T15:00:00+03:00",
+  "allDay": false,
+  "venue": "Vakiopaine",
+  "address": "Kauppakatu 6, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/monna-kamu-eero-ojanen-vakiopaine-2026-11-22",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-23",
+  "title": "Maanantaijamit",
+  "start": "2026-11-23T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-23",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/tuomas-paukku-kulttuuritalo-villa-rana-2026-11-24",
+  "title": "Tuomas Paukku",
+  "start": "2026-11-24T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Kulttuuritalo Villa Rana",
+  "address": "Seminaarinkatu 13, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/tuomas-paukku-kulttuuritalo-villa-rana-2026-11-24",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/rapneck-lady-manhatta-kuntopiiri-mc-juge-jokeri-mi-rockneck-jyvaskyla-2026-11-25",
+  "title": "RapNeck: Lady Manhatta, Kuntopiiri, Mc Juge, Jokeri, Mikko Mato",
+  "start": "2026-11-25",
+  "allDay": true,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/rapneck-lady-manhatta-kuntopiiri-mc-juge-jokeri-mi-rockneck-jyvaskyla-2026-11-25",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
   "categories": [
    "keikat"
   ]
