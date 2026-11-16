@@ -272,6 +272,22 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/itsenaisyyspaivan-juhla/",
+  "title": "Itsenäisyyspäivän juhla",
+  "start": "2026-12-06T12:00:00+02:00",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/itsenaisyyspaivan-juhla/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/ip-juhla640x640.png",
+  "description": "ITSENÄISYYSPÄIVÄN 6.12.2026 OHJELMA JYVÄSKYLÄSSÄ Itsenäisyyspäivän juhlatilaisuudet Itsenäisyyspäivää juhlistetaan Jyväskylän kaupungin, Jyväskylän varuskunnan ja Jyväskylän seurakunnan tilaisuuksissa. Itsenäisyyspäivän juhlajumalanpalvelus järjestetään Taulumäen kirkossa klo 10.00 (Lohikoskentie 2). Jumalanpalvelusta voi seurata myös suorana verkossa osoitteessa www.jyvaskylanseurakunta.fi. Seppeltenlaskutilaisuus on vanhan hautausmaan sankarihaudalla klo 11.30 (Puistokatu). Itsenäisyyspäivän juhla Paviljongissa klo 13.00 Juhlan tervehdyspuheenvuoron pitää Ilmasotakoulun johtaja eversti Vill…",
+  "categories": [
+   "Muut tapahtumat"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/sami-hedberg-lupa-nauraa-k18/",
   "title": "Sami Hedberg – Lupa nauraa K18",
   "start": "2026-12-11T18:00:00+02:00",
@@ -698,6 +714,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/asla-jo-baby-gay-tour/",
+  "title": "Asla Jo – Baby Gay Tour K18",
+  "start": "2027-03-06T19:00:00+02:00",
+  "end": "2027-03-06T18:50:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Paviljonki Klubi",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/asla-jo-baby-gay-tour/",
+  "ticketUrl": "https://www.lippu.fi/event/asla-jo-baby-gay-tour-jyvaskylan-paviljonki-paviljonki-klubi-22406372/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/1080x1080px-asla-jo-baby-gay-640x640.png",
+  "description": "Asla Jo – Baby Gay Tour Asla Jon Baby Gay -konserttisalikiertue saapuu Paviljonki Klubille 6. maaliskuuta! Kulttisuosioon noussut lauluntekijä Asla Jo tekee ensimmäisen konserttisalikiertueensa maaliskuussa 2027. Baby Gay -konsertit ovat Asla Jo:n & sisarusten luoma ainutkertainen atmosfäärinen musiikkikokonaisuus, joka tuo Asla Jo:n aseista riisuvat lyriikat ja kipeän kauniin sielunmaiseman aivan lähelle kuulijaa. Konserteissa kuullaan tunteita herättävillä jousisovituksilla mm. artistin ensimmäisiä julkaisuja, Papin tytär -levyn lauluja ja ensiesityksiä tulevan levyn julkaisemattomista laul…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/club-for-five-ilmavoimien-big-band-pave/",
   "title": "Club For Five & Ilmavoimien Big Band: Pave!",
   "start": "2027-03-12T19:00:00+02:00",
@@ -790,7 +824,7 @@
   "sourceId": "https://www.paviljonki.fi/tapahtuma/gaala-liveshow/",
   "title": "Gaala Liveshow",
   "start": "2027-04-09T19:00:00+03:00",
-  "end": "2027-04-09T17:45:00.000Z",
+  "end": "2027-04-09T18:00:00.000Z",
   "allDay": false,
   "venue": "Paviljonki – Encore-sali",
   "address": "Lutakonaukio 12",

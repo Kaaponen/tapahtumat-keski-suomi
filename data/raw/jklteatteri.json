@@ -2961,38 +2961,6 @@
  },
  {
   "source": "jklteatteri",
-  "sourceId": "vierailu-voi-luoja-2026-11-13-1300",
-  "title": "Voi Luoja!",
-  "start": "2026-11-13T13:00:00+02:00",
-  "allDay": false,
-  "venue": "Jyväskylän kaupunginteatteri",
-  "city": "Jyväskylä",
-  "url": "https://www.jklteatteri.fi/kaupunginteatteri/ohjelmisto/vierailu-voi-luoja",
-  "ticketUrl": "https://jyvaskyla.lippu.fi/webshop/webticket/shop?production=427",
-  "image": "https://www.jklteatteri.fi/sites/default/files/2026-08/53649159693_dbb4120c0b_b.jpg",
-  "description": "Voi Luoja on suorasanainen, yllättävä ja älykäs komedia ennakkoluuloista, uskosta ja ihmisyydestä. Kun Jumala hakeutuu terapiaan, syntyy ainutlaatuinen kohtaaminen modernin psykologin kanssa – kuka lopulta ymmärtää ketä? Mustaa huumoria ja oivalluksia täynnä oleva esitys kuljettaa katsojan tämän ajan kysymyksistä Raamatun tarinoihin.",
-  "categories": [
-   "teatteri"
-  ]
- },
- {
-  "source": "jklteatteri",
-  "sourceId": "vierailu-voi-luoja-2026-11-13-1830",
-  "title": "Voi Luoja!",
-  "start": "2026-11-13T18:30:00+02:00",
-  "allDay": false,
-  "venue": "Jyväskylän kaupunginteatteri",
-  "city": "Jyväskylä",
-  "url": "https://www.jklteatteri.fi/kaupunginteatteri/ohjelmisto/vierailu-voi-luoja",
-  "ticketUrl": "https://jyvaskyla.lippu.fi/webshop/webticket/shop?production=427",
-  "image": "https://www.jklteatteri.fi/sites/default/files/2026-08/53649159693_dbb4120c0b_b.jpg",
-  "description": "Voi Luoja on suorasanainen, yllättävä ja älykäs komedia ennakkoluuloista, uskosta ja ihmisyydestä. Kun Jumala hakeutuu terapiaan, syntyy ainutlaatuinen kohtaaminen modernin psykologin kanssa – kuka lopulta ymmärtää ketä? Mustaa huumoria ja oivalluksia täynnä oleva esitys kuljettaa katsojan tämän ajan kysymyksistä Raamatun tarinoihin.",
-  "categories": [
-   "teatteri"
-  ]
- },
- {
-  "source": "jklteatteri",
   "sourceId": "yhteistyo-maija-poppanen-tanssisatu-2026-11-28-1300",
   "title": "Maija Poppanen -tanssisatu",
   "start": "2026-11-28T13:00:00+02:00",
