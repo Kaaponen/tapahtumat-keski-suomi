@@ -545,6 +545,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "mouhous-alles-supa-tour-2027-s",
+  "title": "Mouhous",
+  "start": "2027-02-27T16:30:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/mouhous-alles-supa-tour-2027-s",
+  "ticketUrl": "https://www.jelmu.net/event/mouhous-alles-supa-tour-2027-s",
+  "image": "https://www.jelmu.net/media/mouhous_allessupa_pr_preview-300x300.jpg",
+  "description": "S · Ovet 16:30 · Keikka alkaa 18:00 · 25,00€ – 33,00€Hintaluokka: 25,00€ - 33,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "mouhous-alles-supa-tour-2027-k18",
   "title": "Mouhous – Alles Supa Tour 2027 (K18)",
   "start": "2027-02-27T20:00:00+02:00",
