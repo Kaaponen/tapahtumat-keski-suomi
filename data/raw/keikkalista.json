@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-16",
-  "title": "Maanantaijamit",
-  "start": "2026-11-16T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-16",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/midweek-metal-mayhem-cardinal-fleet-boneset-rockneck-jyvaskyla-2026-11-18",
   "title": "Midweek Metal Mayhem: Cardinal Fleet / Boneset",
   "start": "2026-11-18",
@@ -447,6 +432,22 @@
   "url": "https://www.keikkalista.fi/keikat/younghearted-joulukiertue-taulumaen-kirkko-2026-11-26",
   "ticketUrl": "https://ticketmaster.evyy.net/c/7612088/2038755/23892?u=https%3A%2F%2Fwww.ticketmaster.fi%2Fevent%2Fyounghearted-joulukiertue-lippuja%2F630429586&utm_medium=affiliate",
   "image": "https://s1.ticketm.net/dam/e/0a5/57810b33-cd8e-4cc8-a07f-747fe5ec60a5_RETINA_PORTRAIT_16_9.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-ihme-ja-kumma-lauletaan-yhdessa-paviljonki-jyvaskyla-2026-11-26",
+  "title": "Jyväskylä Sinfonia: Ihme ja kumma – lauletaan yhdessä!",
+  "start": "2026-11-26T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Paviljonki Jyväskylä",
+  "address": "Lutakonaukio 12, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-ihme-ja-kumma-lauletaan-yhdessa-paviljonki-jyvaskyla-2026-11-26",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-ihme-ja-kumma-lauletaan-yhdessa-paviljonki-21618682/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/26.11.jpg",
   "categories": [
    "keikat"
   ]
