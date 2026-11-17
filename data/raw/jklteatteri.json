@@ -1537,6 +1537,22 @@
  },
  {
   "source": "jklteatteri",
+  "sourceId": "liisa-ihmemaassa-2027-01-02-1300",
+  "title": "Liisa Ihmemaassa",
+  "start": "2027-01-02T13:00:00+02:00",
+  "allDay": false,
+  "venue": "Jyväskylän kaupunginteatteri",
+  "city": "Jyväskylä",
+  "url": "https://www.jklteatteri.fi/kaupunginteatteri/ohjelmisto/liisa-ihmemaassa",
+  "ticketUrl": "https://jyvaskyla.lippu.fi/webshop/webticket/shop?production=464",
+  "image": "https://www.jklteatteri.fi/sites/default/files/2026-06/banneri.jpg",
+  "description": "Seuraa valkoista jänistä ja astu kaninkoloon! Aivan tavallisena arki-iltana Liisa kohtaa yllättäen puhuvan jäniksen. Liisa humpsahtaa kaninkoloon ja päätyy fantastiseen satumaailmaan. Ihmemaassa kaikki on mahdollista. Kuten se että Liisa kasvaa, kutistuu ja monistuu. Ihmemaassa Liisa kohtaa puhuvia kukkia, ihmeellisen Irvikissan ja Hassun Hatuntekijän. Lopulta Liisan on pelastettava Ihmemaa pahan Herttakuningatteren hirmuvallalta.",
+  "categories": [
+   "teatteri"
+  ]
+ },
+ {
+  "source": "jklteatteri",
   "sourceId": "liisa-ihmemaassa-2027-01-09-1300",
   "title": "Liisa Ihmemaassa",
   "start": "2027-01-09T13:00:00+02:00",

@@ -1,6 +1,21 @@
 [
  {
   "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/timetiistai-freetime-freetime-2026-11-17",
+  "title": "TimeTiistai @Freetime",
+  "start": "2026-11-17",
+  "allDay": true,
+  "venue": "Freetime",
+  "address": "Kauppakatu 30, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/timetiistai-freetime-freetime-2026-11-17",
+  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/6TCM6AwBKdCAwNGpb94z87?clientId=5574",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/midweek-metal-mayhem-cardinal-fleet-boneset-rockneck-jyvaskyla-2026-11-18",
   "title": "Midweek Metal Mayhem: Cardinal Fleet / Boneset",
   "start": "2026-11-18",
@@ -77,6 +92,21 @@
  },
  {
   "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/revolution-iholla-momo-dw-20-11-2026-revolution-2026-11-20",
+  "title": "Revolution Iholla MOMO & DW 20.11.2026",
+  "start": "2026-11-20",
+  "allDay": true,
+  "venue": "Revolution",
+  "address": "Kauppakatu 30, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/revolution-iholla-momo-dw-20-11-2026-revolution-2026-11-20",
+  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/A7JW3RJcKjCBtiBuvuBk5t?clientId=5574",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/covers-lovers-london-2026-11-20",
   "title": "Covers & Lovers",
   "start": "2026-11-20",
@@ -101,36 +131,6 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/marksmen-rockneck-jyvaskyla-2026-11-20",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/lauluja-kai-joidenkin-paivakirjoista-toivolan-vanha-piha-2026-11-20",
-  "title": "Lauluja (kai joidenkin) päiväkirjoista",
-  "start": "2026-11-20",
-  "allDay": true,
-  "venue": "Toivolan Vanha Piha",
-  "address": "Cygnaeuksenkatu 2, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/lauluja-kai-joidenkin-paivakirjoista-toivolan-vanha-piha-2026-11-20",
-  "image": "https://toivolanpiha.fi/wp-content/uploads/2026/10/Lauluja-kai-joidenkin-paivakirjoista-600x750.png ",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/momo-dw-revolution-2026-11-20",
-  "title": "MOMO & DW",
-  "start": "2026-11-20",
-  "allDay": true,
-  "venue": "Revolution",
-  "address": "Kauppakatu 30, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/momo-dw-revolution-2026-11-20",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa29XIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fb1d21bbf86ea1e1b0b517bf2357ecc7a884d090/logo-jyvaskyla-revolution.png",
   "categories": [
    "keikat"
   ]
@@ -227,14 +227,14 @@
  },
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/k40-disco-klo-19-23-by-dj-t-ile-max-liput-ennakkoo-london-2026-11-21",
-  "title": "K40 Disco klo 19-23 by Dj:t Ile & Max – Liput ennakkoon myy Lippu.fi",
+  "sourceId": "https://www.keikkalista.fi/keikat/k40-disco-klo-19-23-by-dj-t-yani-max-liput-ennakko-london-2026-11-21",
+  "title": "K40 Disco klo 19-23 by Dj:t Yani & Max – Liput ennakkoon myy Lippu.fi",
   "start": "2026-11-21",
   "allDay": true,
   "venue": "London",
   "address": "Puistokatu 2, 40100 Jyväskylä",
   "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/k40-disco-klo-19-23-by-dj-t-ile-max-liput-ennakkoo-london-2026-11-21",
+  "url": "https://www.keikkalista.fi/keikat/k40-disco-klo-19-23-by-dj-t-yani-max-liput-ennakko-london-2026-11-21",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
   "categories": [
    "keikat"
@@ -303,14 +303,14 @@
  },
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/heavy-metal-thunderstrike-vol-16-ravintola-poppari-2026-11-21",
-  "title": "Heavy Metal Thunderstrike vol 16.",
+  "sourceId": "https://www.keikkalista.fi/keikat/heavy-metal-thunderstrike-vol-17-ravintola-poppari-2026-11-21",
+  "title": "Heavy Metal Thunderstrike vol. 17",
   "start": "2026-11-21T21:00:00+03:00",
   "allDay": false,
   "venue": "Poppari",
   "address": "Puistokatu 2-4",
   "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/heavy-metal-thunderstrike-vol-16-ravintola-poppari-2026-11-21",
+  "url": "https://www.keikkalista.fi/keikat/heavy-metal-thunderstrike-vol-17-ravintola-poppari-2026-11-21",
   "image": "http://ravintolapoppari.fi/wp-content/uploads/DB-Promo.png",
   "categories": [
    "keikat"
@@ -348,6 +348,22 @@
  },
  {
   "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/jba-n-vs-team-lemkem-gradia-viitaniemi-d-sali-2026-11-22",
+  "title": "JBA N vs Team Lemkem",
+  "start": "2026-11-22T12:00:00+03:00",
+  "allDay": false,
+  "venue": "Gradia Viitaniemi D-sali",
+  "address": "40720 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/jba-n-vs-team-lemkem-gradia-viitaniemi-d-sali-2026-11-22",
+  "ticketUrl": "https://events.liveto.io/events/jba-n-vs-team-lemkem-3",
+  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/2ef682c94bb7b4bd9b821b1f07a576086d8168e2bae354b87a39b0a4be226699.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/monna-kamu-eero-ojanen-vakiopaine-2026-11-22",
   "title": "Monna Kamu, Eero Ojanen",
   "start": "2026-11-22T15:00:00+03:00",
@@ -372,6 +388,21 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-23",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/timetiistai-freetime-freetime-2026-11-24",
+  "title": "TimeTiistai@ Freetime",
+  "start": "2026-11-24",
+  "allDay": true,
+  "venue": "Freetime",
+  "address": "Kauppakatu 30, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/timetiistai-freetime-freetime-2026-11-24",
+  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/1_0XQfjW46J8e2tZjwPSVa?clientId=5574",
   "categories": [
    "keikat"
   ]
@@ -416,38 +447,6 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/keskiviikkojamit-ravintola-poppari-2026-11-25",
   "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/younghearted-joulukiertue-taulumaen-kirkko-2026-11-26",
-  "title": "Younghearted - Joulukiertue",
-  "start": "2026-11-26T17:30:00+03:00",
-  "allDay": false,
-  "venue": "Taulumäen kirkko",
-  "address": "Lohikoskentie 2",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/younghearted-joulukiertue-taulumaen-kirkko-2026-11-26",
-  "ticketUrl": "https://ticketmaster.evyy.net/c/7612088/2038755/23892?u=https%3A%2F%2Fwww.ticketmaster.fi%2Fevent%2Fyounghearted-joulukiertue-lippuja%2F630429586&utm_medium=affiliate",
-  "image": "https://s1.ticketm.net/dam/e/0a5/57810b33-cd8e-4cc8-a07f-747fe5ec60a5_RETINA_PORTRAIT_16_9.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-ihme-ja-kumma-lauletaan-yhdessa-paviljonki-jyvaskyla-2026-11-26",
-  "title": "Jyväskylä Sinfonia: Ihme ja kumma – lauletaan yhdessä!",
-  "start": "2026-11-26T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Paviljonki Jyväskylä",
-  "address": "Lutakonaukio 12, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-ihme-ja-kumma-lauletaan-yhdessa-paviljonki-jyvaskyla-2026-11-26",
-  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-ihme-ja-kumma-lauletaan-yhdessa-paviljonki-21618682/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/26.11.jpg",
   "categories": [
    "keikat"
   ]
