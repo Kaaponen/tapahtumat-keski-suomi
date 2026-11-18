@@ -677,5 +677,19 @@
   "categories": [
    "Keikat"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "23787",
+  "title": "Peurunka Triathlon 2027",
+  "start": "2027-08-28",
+  "allDay": true,
+  "venue": "Peurunka",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/peurunka-triathlon-2027/",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/11/Touho-Hakkinen-24377-1.jpg",
+  "description": "Kisasivulle",
+  "categories": []
  }
 ]

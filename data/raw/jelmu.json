@@ -705,6 +705,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "mariska-2",
+  "title": "Mariska",
+  "start": "2027-05-01T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/mariska-2",
+  "ticketUrl": "https://www.jelmu.net/event/mariska-2",
+  "image": "https://www.jelmu.net/media/mariska-1080x1080-1-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 27,00€ – 35,00€Hintaluokka: 27,00€ - 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "lytta-tohtori-getto",
   "title": "Lyttä & Tohtori Getto",
   "start": "2027-05-05T19:00:00+03:00",
