@@ -678,6 +678,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/mestarit-lavalla-puhkupillien-ja-kipinat-kuoron-yhteiskonsertti/",
+  "title": "Mestarit lavalla – Puhkupillien ja Kipinät-kuoron yhteiskonsertti",
+  "start": "2027-02-13T19:00:00+02:00",
+  "end": "2027-02-13T19:15:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/mestarit-lavalla-puhkupillien-ja-kipinat-kuoron-yhteiskonsertti/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskylan-paviljonki-mestarit-lavalla-puhkupillien-ja-kipinat-kuoron-yhteiskonsertti-paviljonki-22431964/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/nelio_1080x1080px-640x640.png",
+  "description": "Mestarit lavalla – Puhkupillien ja Kipinät-kuoron yhteiskonsertti Flash! Bam! Mestarit lavalla – Kipinät & Puhkupillit Kun Kipinät-kuoro ja Puhkupillit kohtaavat, luvassa on ilta täynnä energiaa, elämyksiä ja yhdessä tekemisen riemua! Mestarit lavalla -konsertti tuo Paviljongin lavalle kaksi paikallista helmeä, joiden voima syntyy yhteisestä intohimosta musiikkiin. Luvassa on vauhtia ja jylhää sointia – musiikkia, joka koskettaa ja saa tanssijalan vipattamaan. Kipinät on jyväskyläläinen rytmimusiikkiin ja improvisaatioon keskittyvä popkuoro, jota johtaa Kaisa Halmemies. Kipinät on tunnettu va…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/timo-kotipelto-jarkko-ahola-voices-unleashed/",
   "title": "Timo Kotipelto & Jarkko Ahola – Voices Unleashed",
   "start": "2027-02-20T19:00:00+02:00",
@@ -734,7 +752,7 @@
  {
   "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/asla-jo-baby-gay-tour/",
-  "title": "Asla Jo – Baby Gay Tour K18",
+  "title": "Asla Jo – Baby Gay Tour S/K18",
   "start": "2027-03-06T19:00:00+02:00",
   "end": "2027-03-06T18:50:00.000Z",
   "allDay": false,
