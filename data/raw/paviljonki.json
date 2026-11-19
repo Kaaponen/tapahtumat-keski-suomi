@@ -696,6 +696,25 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jonna-tervomaa-k18/",
+  "title": "Jonna Tervomaa K18",
+  "start": "2027-02-20T19:00:00+02:00",
+  "end": "2027-02-20T19:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Paviljonki Klubi",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jonna-tervomaa-k18/",
+  "ticketUrl": "https://www.lippu.fi/event/jonna-tervomaa-jyvaeskylaen-paviljonki-paviljonki-klubi-22420111/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/paviljonkiklubi_tervomaa_1080x1080-640x640.png",
+  "description": "JONNA TERVOMAA K18 Jonna Tervomaa lähtee helmi–maaliskuussa 2027 upealle Talvehtijat-klubikiertueelle vahvana ja vapauksia ottavana. ”Musaklubit on parasta. Minä ja musiikki ollaan niissä ehkä kaikkein parhaimmillaan”, kommentoi Jonna tulevia keikkojaan. ”Mahtavaa päästä ihmisten luokse” hän jatkaa. Keikat hellivät meitä talvehtijoita, musadiggareita ja tietysti Tervomaan musiikin mukana eläneitä. Keikoilla kuullaan myös uutta musiikkia. HUOM! Ethän kuvaa esitystä; täyden elämyksen saamiseksi konsertti on puhelimeton. Jonnan uusi yhtye hioutui viime vuonna konserttisaleilla ja festivaaleilla…",
+  "categories": [
+   "Konsertit",
+   "Paviljonki Klubi"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/the-69-eyes-tour-acustica-2027/",
   "title": "The 69 Eyes – Tour Acustica 2027",
   "start": "2027-03-06T19:00:00+02:00",
@@ -747,6 +766,25 @@
   "description": "Club for Five ja Ilmavoimien Big Band: Pave! Kapellimestarina Ville Paakkunainen Pave Maijasen musiikki elää ja hengittää uudessa valossa Club For Fiven ja Ilmavoimien Big Bandin ainutlaatuisessa yhteiskonsertissa. Ikoniset kappaleet, kuten Lähtisitkö, Jano ja Elämän nälkä, saavat uuden ja raikkaan muodon kun lauluyhtye ja big band yhdistävät voimansa. Big band -sovitukset antavat Paven tunnetuille kappaleille uuden ulottuvuuden tuoden niihin syvyyttä, rikasta dynamiikkaa ja rytmivoimaa. Samalla lauluyhtyeen herkät sävyt ja virtuoosimainen taituruus herättävät musiikin vivahteet henkiin. Pave…",
   "categories": [
    "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/laura-voutilainen-kerran-kevaalla-2-k18/",
+  "title": "Laura Voutilainen – Kerran keväällä 2 K18",
+  "start": "2027-03-12T19:00:00+02:00",
+  "end": "2027-03-12T19:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Paviljonki Klubi",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/laura-voutilainen-kerran-kevaalla-2-k18/",
+  "ticketUrl": "https://www.lippu.fi/event/laura-voutilainen-kerran-kevaeaellae-2-jyvaeskylaen-paviljonki-paviljonki-klubi-22426234/ ",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/promokuva-1080x1080px-paviljonki-640x640.jpg",
+  "description": "Laura Voutilainen – Kerran keväällä 2 UUSI KEVÄT. UUSI KIERTUE. UUSI LUKU. Yksi kevät ei riittänyt! Laura Voutilainen ja Pete Nikkinen palaavat keväällä 2027 konserttilavoille Kerran Keväällä 2 -kiertueen merkeissä. Edellinen kiertue hurmasi yleisön ympäri Suomen, ja lukuisat konsertit myytiin loppuun. Lämmin vastaanotto ja yleisön innostus saivat kaksikon palaamaan jälleen yhteiselle kiertueelle. Luvassa on tuttuun tapaan rakastettuja lauluja, uusia musiikillisia yllätyksiä ja ennen kaikkea Lauran ainutlaatuista läsnäoloa. Kaksiosaisessa konsertissa kuljetaan herkistä hetkistä hersyvään iloo…",
+  "categories": [
+   "Konsertit",
+   "Paviljonki Klubi"
   ]
  },
  {
