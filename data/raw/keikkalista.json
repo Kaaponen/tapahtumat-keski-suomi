@@ -1,51 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/midweek-metal-mayhem-cardinal-fleet-boneset-rockneck-jyvaskyla-2026-11-18",
-  "title": "Midweek Metal Mayhem: Cardinal Fleet / Boneset",
-  "start": "2026-11-18",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/midweek-metal-mayhem-cardinal-fleet-boneset-rockneck-jyvaskyla-2026-11-18",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/dave-lindholm-pepe-ahlqvist-lutakko-2026-11-18",
-  "title": "Dave Lindholm & Pepe Ahlqvist",
-  "start": "2026-11-18T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/dave-lindholm-pepe-ahlqvist-lutakko-2026-11-18",
-  "image": "https://www.jelmu.net/media/dave-pepe-300x300.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/keskiviikkojamit-ravintola-poppari-2026-11-18",
-  "title": "Keskiviikkojamit",
-  "start": "2026-11-18T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/keskiviikkojamit-ravintola-poppari-2026-11-18",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-nollasta-sataan-jousten-ilta-paviljonki-jyvaskyla-2026-11-19",
   "title": "Jyväskylä Sinfonia: Nollasta sataan – jousten ilta",
   "start": "2026-11-19T18:00:00+03:00",
@@ -448,6 +403,52 @@
   "url": "https://www.keikkalista.fi/keikat/younghearted-joulukiertue-taulumaen-kirkko-2026-11-26",
   "ticketUrl": "https://ticketmaster.evyy.net/c/7612088/2038755/23892?u=https%3A%2F%2Fwww.ticketmaster.fi%2Fevent%2Fyounghearted-joulukiertue-lippuja%2F630429586&utm_medium=affiliate",
   "image": "https://s1.ticketm.net/dam/e/0a5/57810b33-cd8e-4cc8-a07f-747fe5ec60a5_RETINA_PORTRAIT_16_9.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-ihme-ja-kumma-lauletaan-yhdessa-paviljonki-jyvaskyla-2026-11-26",
+  "title": "Jyväskylä Sinfonia: Ihme ja kumma – lauletaan yhdessä!",
+  "start": "2026-11-26T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Paviljonki Jyväskylä",
+  "address": "Lutakonaukio 12, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-ihme-ja-kumma-lauletaan-yhdessa-paviljonki-jyvaskyla-2026-11-26",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-ihme-ja-kumma-lauletaan-yhdessa-paviljonki-21618682/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/26.11.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/melancholy-mass-jyvaskyla-2026-lutakko-2026-11-26",
+  "title": "Melancholy Mass Jyväskylä 2026",
+  "start": "2026-11-26T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/melancholy-mass-jyvaskyla-2026-lutakko-2026-11-26",
+  "image": "https://www.jelmu.net/media/melancholy26-square-1080x1080-jkl-300x300.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/bubble-pop-club-freetime-freetime-2026-11-27",
+  "title": "Bubble Pop Club @ Freetime",
+  "start": "2026-11-27",
+  "allDay": true,
+  "venue": "Freetime",
+  "address": "Kauppakatu 30, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/bubble-pop-club-freetime-freetime-2026-11-27",
+  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/4Ad3R6YBqR39eLF7OGOar_?clientId=5574",
   "categories": [
    "keikat"
   ]
