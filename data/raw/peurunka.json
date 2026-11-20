@@ -139,7 +139,7 @@
  {
   "source": "peurunka",
   "sourceId": "19859",
-  "title": "Yö + Olli Halonen",
+  "title": "Yö + Olli Halonen + Jonna Tervomaa Duo",
   "start": "2026-11-27T20:00:00+02:00",
   "allDay": false,
   "venue": "Peurunka – Peurunka Areena",
@@ -147,8 +147,8 @@
   "city": "Laukaa",
   "url": "https://peurunka.fi/kaikki-tapahtumat/yo-olli-halonen-2/",
   "ticketUrl": "https://www.ticketmaster.fi/event/1849956696",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/05/yo-ja-olli-halonen4.jpg",
-  "description": "YÖ + OLLI HALONEN PEURUNKA AREENALLA PE 27.11.2026! Kuumimpaan pikkujoulusesonkiin marraskuun loppuun saamme Peurunka Areenalle vieraaksi Yön ja Olli Halosen – lippukauppa tulee käymään kuumana! LIPUT MYYNNISSÄ NYT! Liput 35 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 16-02 Pub avoinna Klo 17.30 Narikka aukeaa hotellin aulassa Klo 18-20.30 Pikkujoulubuffet ravintolassa Klo 20.30-02 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Show time! BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin aikataulu:19:30 Jyväskylä, matkakeskus20:05 Laukaa, linja-autoasema20:15 Peurunka01:00 p…",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/05/yo-ja-olli-halonen-jonna-tervomaa4.jpg",
+  "description": "YÖ + OLLI HALONEN + JONNA TERVOMAA DUO PEURUNKA AREENALLA PE 27.11.2026! Kuumimpaan pikkujoulusesonkiin marraskuun loppuun saamme Peurunka Areenalle vieraaksi Yön, Olli Halosen sekä Jonna Tervomaa Duo:n – lippukauppa tulee käymään kuumana! LIPUT MYYNNISSÄ NYT! Liput 35 € Ticketmasterista Osta liput täältä! LET’S GO! Klo 16-02 Pub avoinna Klo 17.30 Narikka aukeaa hotellin aulassa Klo 18-20.30 Pikkujoulubuffet ravintolassa Klo 20.30-02 Etkot ja jatkot Bistrossa Klo 20 Ovet, Peurunka Areena Klo 21 Jonna Tervomaa Duo Klo 22 Olli Halonen Klo 23.30 Yö BILEBUSSI JYVÄSKYLÄSTÄ PEURUNKAAN Bilebussin ai…",
   "categories": [
    "Keikat",
    "Pikkujoulut"
@@ -206,21 +206,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22681",
-  "title": "Karaokeillat",
-  "start": "2026-12-02",
-  "end": "2026-12-05",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-90/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "23428",
   "title": "Sauna + talvipulahdus",
   "start": "2026-12-02T17:00:00+02:00",
@@ -236,6 +221,21 @@
   "categories": [
    "Liikunta"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22681",
+  "title": "Karaokeillat",
+  "start": "2026-12-02",
+  "end": "2026-12-05",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-90/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -289,21 +289,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22683",
-  "title": "Karaokeillat",
-  "start": "2026-12-09",
-  "end": "2026-12-12",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-91/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
- },
- {
-  "source": "peurunka",
   "sourceId": "22168",
   "title": "Päiväkaraoke",
   "start": "2026-12-09T15:00:00+02:00",
@@ -316,22 +301,6 @@
   "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
   "description": "Paljon toivottu päiväkaraoke! Tervetuloa Pubiin laulamaan karaokea klo 15.00-17.00. Vapaa pääsy!",
   "categories": []
- },
- {
-  "source": "peurunka",
-  "sourceId": "22877",
-  "title": "Tanssit: Helena & Duo Sami Soininen",
-  "start": "2026-12-09T20:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Ravintola",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/tanssit-helena-duo-sami-soininen/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/02/Helena-vaaka.jpg",
-  "description": "Tanssit ravintolassa klo 20.00 alkaen Pääsolistina Helena Lerkkanen säestäjänään duo Sami Soininen. Vapaa pääsy! Tanssimme tuttujen sävelmien tahtiin: valssia, humppaa, tangoa ja muita suosikkirytmejä. Tanssittamassa meillä on Helena, jonka lämmin ääni ja välitön esiintyminen saavat yleisössä tanssijalat vipattamaan. Helena on nouseva tanssi-iskelmän tulkitsija, joka on hurmannut yleisönsä ympäri Suomen iloisella otteellaan. Helena esittää aitoa perinteistä suomalaista tanssimusiikkia, joka takaa viihtymisen tanssilattialla.",
-  "categories": [
-   "Tanssit"
-  ]
  },
  {
   "source": "peurunka",
@@ -349,6 +318,37 @@
   "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
   "categories": [
    "Liikunta"
+  ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22683",
+  "title": "Karaokeillat",
+  "start": "2026-12-09",
+  "end": "2026-12-12",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-91/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22877",
+  "title": "Tanssit: Helena & Duo Sami Soininen",
+  "start": "2026-12-09T20:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Ravintola",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/tanssit-helena-duo-sami-soininen/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/02/Helena-vaaka.jpg",
+  "description": "Tanssit ravintolassa klo 20.00 alkaen Pääsolistina Helena Lerkkanen säestäjänään duo Sami Soininen. Vapaa pääsy! Tanssimme tuttujen sävelmien tahtiin: valssia, humppaa, tangoa ja muita suosikkirytmejä. Tanssittamassa meillä on Helena, jonka lämmin ääni ja välitön esiintyminen saavat yleisössä tanssijalat vipattamaan. Helena on nouseva tanssi-iskelmän tulkitsija, joka on hurmannut yleisönsä ympäri Suomen iloisella otteellaan. Helena esittää aitoa perinteistä suomalaista tanssimusiikkia, joka takaa viihtymisen tanssilattialla.",
+  "categories": [
+   "Tanssit"
   ]
  },
  {
@@ -457,6 +457,23 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "17308",
+  "title": "Touhu & Temmellys",
+  "start": "2026-12-26",
+  "end": "2027-01-06",
+  "allDay": true,
+  "venue": "Peurunka – Peurunka Areena",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/touhu-temmellys-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/01/Lapst-Touhu-ja-temmellys.png",
+  "description": "Suuri leikkitila perheen pienimmille. Perheen pienimmille suunnattu Touhu ja Temmellys avoinna välipäivinä! Avoinna: Touhu&Temmellys avoinna hotellissa majoittuville 26.12.2026-6.1.2027 klo 12.00-18.00. Paikka: Peurunka Areena Pomppulinna Tasapainorata Värityskuvia Heittopiste Keppihevoset Lapset ovat vanhempien vastuulla, emme vastaa tapaturmista! Huomioithan myös pienet touhuajat: isompi väistää pienempää! Lapsia ei saa jättää yksin.",
+  "categories": [
+   "Perheille"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22036",
   "title": "Lasten karaoke",
   "start": "2026-12-26",
@@ -486,23 +503,6 @@
   "description": "Savusauna, rantasauna & talvipulahdus Koe virkistävä, perinteinen sauna- ja avantoelämys — talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sisältää ranta- ja savusaunan käytön sekä mahdollisuuden käydä avannossa. 🕔 valittuina lauantaina klo 16–20.15 💶 15 € / 2 h, jäsenille –20 % 🧖 Sekasauna, yhteiset pesutilat, omat pukeutumistilat miehille ja naisille 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yksin! Varaa vuoro! Huom! Keskiviikko…",
   "categories": [
    "Liikunta"
-  ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "17308",
-  "title": "Touhu & Temmellys",
-  "start": "2026-12-26",
-  "end": "2027-01-06",
-  "allDay": true,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/touhu-temmellys-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/01/Lapst-Touhu-ja-temmellys.png",
-  "description": "Suuri leikkitila perheen pienimmille. Perheen pienimmille suunnattu Touhu ja Temmellys avoinna välipäivinä! Avoinna: Touhu&Temmellys avoinna hotellissa majoittuville 26.12.2026-6.1.2027 klo 12.00-18.00. Paikka: Peurunka Areena Pomppulinna Tasapainorata Värityskuvia Heittopiste Keppihevoset Lapset ovat vanhempien vastuulla, emme vastaa tapaturmista! Huomioithan myös pienet touhuajat: isompi väistää pienempää! Lapsia ei saa jättää yksin.",
-  "categories": [
-   "Perheille"
   ]
  },
  {
