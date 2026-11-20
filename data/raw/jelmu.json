@@ -1,22 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "knipi",
-  "title": "Knipi, Nicholas Francett",
-  "start": "2026-11-19T18:00:00+02:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/knipi",
-  "ticketUrl": "https://www.jelmu.net/event/knipi",
-  "image": "https://www.jelmu.net/media/knipi-300x300.jpg",
-  "description": "K18 · Ovet 18:00 · Keikka alkaa 20:00 · 23,00€ – 30,00€Hintaluokka: 23,00€ - 30,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "vilma-jaa",
   "title": "Vilma Jää, hannaeerika",
   "start": "2026-11-20T19:00:00+02:00",

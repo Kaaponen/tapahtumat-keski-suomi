@@ -33,23 +33,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "18774",
-  "title": "Keiski & ENO",
-  "start": "2026-11-19T19:30:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/keiski-eno-2/",
-  "ticketUrl": "https://www.ticketmaster.fi/event/1581696368",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/03/keiski.jpg",
-  "description": "TORSTAITANSSIT PEURUNKA AREENALLA Torstaitanssit : Keiski & ENO Tanssit Peurunka Areenalla to 19.11.2026 Ovet auki klo 19.30 Tanssit alkaa klo 20.00 Tanssit K18 Liput 20 € ja majoittuville asiakkaille 15 €. MAJOITUS & TANSSILIPUT Jää yöksi! Nauti hotelliyöstä, kylpylästä ja kuntosaleista, aamiaisesta sekä tietenkin tansseista. Varaa majoitus, ja lisää tanssiliput kätevästi varaukselle lisäpalveluna. Huone- ja hintatyypistä riippuen myös kylpylän ja kuntosalien käyttö sekä aamiainen sisältyvät hintaan. Tutustu lisää: peurunka.fi/ravintolat/peurungan-tanssit/",
-  "categories": [
-   "Tanssit"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "19839",
   "title": "Eläkeläiset ja Steve 'n' Seagulls",
   "start": "2026-11-20T20:00:00+02:00",
@@ -105,6 +88,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22679",
+  "title": "Karaokeillat",
+  "start": "2026-11-25",
+  "end": "2026-11-28",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-89/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "23424",
   "title": "Sauna + talvipulahdus",
   "start": "2026-11-25T17:00:00+02:00",
@@ -120,21 +118,6 @@
   "categories": [
    "Liikunta"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22679",
-  "title": "Karaokeillat",
-  "start": "2026-11-25",
-  "end": "2026-11-28",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-89/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
  },
  {
   "source": "peurunka",
@@ -336,6 +319,22 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22877",
+  "title": "Tanssit: Helena & Duo Sami Soininen",
+  "start": "2026-12-09T20:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Ravintola",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/tanssit-helena-duo-sami-soininen/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/02/Helena-vaaka.jpg",
+  "description": "Tanssit ravintolassa klo 20.00 alkaen Pääsolistina Helena Lerkkanen säestäjänään duo Sami Soininen. Vapaa pääsy! Tanssimme tuttujen sävelmien tahtiin: valssia, humppaa, tangoa ja muita suosikkirytmejä. Tanssittamassa meillä on Helena, jonka lämmin ääni ja välitön esiintyminen saavat yleisössä tanssijalat vipattamaan. Helena on nouseva tanssi-iskelmän tulkitsija, joka on hurmannut yleisönsä ympäri Suomen iloisella otteellaan. Helena esittää aitoa perinteistä suomalaista tanssimusiikkia, joka takaa viihtymisen tanssilattialla.",
+  "categories": [
+   "Tanssit"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "23431",
   "title": "Sauna + talvipulahdus",
   "start": "2026-12-09T17:00:00+02:00",
@@ -350,22 +349,6 @@
   "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
   "categories": [
    "Liikunta"
-  ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22877",
-  "title": "Tanssit: Helena & Duo Sami Soininen",
-  "start": "2026-12-09T20:00:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Ravintola",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/tanssit-helena-duo-sami-soininen/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/02/Helena-vaaka.jpg",
-  "description": "Tanssit ravintolassa klo 20.00 alkaen Pääsolistina Helena Lerkkanen säestäjänään duo Sami Soininen. Vapaa pääsy! Tanssimme tuttujen sävelmien tahtiin: valssia, humppaa, tangoa ja muita suosikkirytmejä. Tanssittamassa meillä on Helena, jonka lämmin ääni ja välitön esiintyminen saavat yleisössä tanssijalat vipattamaan. Helena on nouseva tanssi-iskelmän tulkitsija, joka on hurmannut yleisönsä ympäri Suomen iloisella otteellaan. Helena esittää aitoa perinteistä suomalaista tanssimusiikkia, joka takaa viihtymisen tanssilattialla.",
-  "categories": [
-   "Tanssit"
   ]
  },
  {

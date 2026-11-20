@@ -1,23 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-nollasta-sataan-jousten-ilta/",
-  "title": "Jyväskylä Sinfonia: Nollasta sataan – jousten ilta",
-  "start": "2026-11-19T18:00:00+02:00",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-nollasta-sataan-jousten-ilta/",
-  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-nollasta-sataan-jousten-ilta-paviljonki-21618678/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/19.11-640x640.jpg",
-  "description": "Lorenzo Passerini, kapellimestari Grigory Tsyganov, alttoviulu Suomalaisen musiikkikampuksen orkesterit: Minijouset, Juniorijouset, Siltajouset & Campus Sinfonietta Arvo Pärt: Summa Simone Piraino: Iam et nondum, kantaesitys Arvo Pärt: Fratres Ralph Vaughan Williams: Fantasia Thomas Tallisin teemasta Ralph Vaughan Williams: Concerto Grosso Kukaan meistä ei jaksa eikä kestä arjen ja kiireen jatkuvaa oravanpyörää loputtomiin. Tuntuuko pää niin täydeltä, ettei mitään uutta informaatiota mahdu enää sisään? Eivätkö ylikuormittuneet aistit jaksa enää yhtään mitään? Ei hätää: tervetuloa tähän konser…",
-  "categories": [
-   "Konsertit"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://paviljonki.fi/messut/jklviinimessut",
   "title": "Jyväskylän Viinimessut",
   "start": "2026-11-20",

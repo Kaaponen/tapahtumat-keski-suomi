@@ -1,37 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-nollasta-sataan-jousten-ilta-paviljonki-jyvaskyla-2026-11-19",
-  "title": "Jyväskylä Sinfonia: Nollasta sataan – jousten ilta",
-  "start": "2026-11-19T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Paviljonki Jyväskylä",
-  "address": "Lutakonaukio 12, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/jyvaskyla-sinfonia-nollasta-sataan-jousten-ilta-paviljonki-jyvaskyla-2026-11-19",
-  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-nollasta-sataan-jousten-ilta-paviljonki-21618678/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/19.11.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/knipi-nicholas-francett-lutakko-2026-11-19",
-  "title": "Knipi + Nicholas Francett",
-  "start": "2026-11-19T18:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/knipi-nicholas-francett-lutakko-2026-11-19",
-  "image": "https://www.jelmu.net/media/knipi-300x300.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/revolution-iholla-momo-dw-20-11-2026-revolution-2026-11-20",
   "title": "Revolution Iholla MOMO & DW 20.11.2026",
   "start": "2026-11-20",
@@ -449,6 +418,36 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/bubble-pop-club-freetime-freetime-2026-11-27",
   "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/4Ad3R6YBqR39eLF7OGOar_?clientId=5574",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/revolution-iholla-paka-27-11-2026-revolution-2026-11-27",
+  "title": "Revolution Iholla Päkä 27.11.2026",
+  "start": "2026-11-27",
+  "allDay": true,
+  "venue": "Revolution",
+  "address": "Kauppakatu 30, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/revolution-iholla-paka-27-11-2026-revolution-2026-11-27",
+  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/Fk0Tq9V2KbsApGUcxs_9xW?clientId=5574",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/paka-revolution-2026-11-27",
+  "title": "Päkä",
+  "start": "2026-11-27",
+  "allDay": true,
+  "venue": "Revolution",
+  "address": "Kauppakatu 30, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/paka-revolution-2026-11-27",
+  "image": "https://i.scdn.co/image/ab6761610000e5ebe70064d373426208bd1fa5c6",
   "categories": [
    "keikat"
   ]
