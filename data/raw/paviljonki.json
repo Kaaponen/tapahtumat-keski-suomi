@@ -17,26 +17,6 @@
  },
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/parasta-ennen-k18/",
-  "title": "Parasta ennen K18",
-  "start": "2026-11-20T18:00:00+02:00",
-  "end": "2026-11-20T18:00:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/parasta-ennen-k18/",
-  "ticketUrl": "https://www.lippu.fi/event/ilmari-saarelainen-parasta-ennen-k18-paviljonki-22055379/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/parasta-ennen-1080x1080-1-640x640.jpg",
-  "description": "PARASTA ENNEN K18 Roolissa Ilmari Saarelainen Käsikirjoitus Krister Classon Suomennos André Wickström Ohjaus Riku Suokas Superhauskassa yhden miehen komediassa kuulet ikääntymisestä ihan kaiken. Kaksikymppisen elämässä tapahtuu paljon, eikö vain. Menet naimisiin, saat lapsia, teet uraa, saat potkut, eroat, menet uudestaan naimisiin, harkitset eteisen maalaamista mintunvihreäksi… Maali loppuu, elämä jatkuu. Täytät 40 vuotta, 60 vuotta. Kunnes heräät 80-vuotiaana, keität kahvit ja otat sokerittoman, lastulevyltä maistuvan pullan. Pureskelet sitä – ja äkkiä onkin jo ilta. Maku muuttuu myös. Jos…",
-  "categories": [
-   "Pikkujoulut",
-   "Show&Dinner",
-   "Teatteri"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://paviljonki.fi/messut/jklkirjamessut",
   "title": "Jyväskylän Kirjamessut",
   "start": "2026-11-21",
