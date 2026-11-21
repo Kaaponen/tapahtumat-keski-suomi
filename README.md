@@ -2,6 +2,16 @@
 
 Jyväskylän seudun tapahtumat yhdessä listassa ilman tuplia. Tapahtuman voi lisätä Google-, Outlook- tai Apple-kalenteriin.
 
+## Asentaminen sovellukseksi
+
+Sivu on asennettava web-sovellus (PWA), joka toimii myös ilman verkkoa viimeksi haetuilla tiedoilla.
+
+- iPhone/iPad: Safari → Jaa → Lisää Koti-valikkoon
+- Android: Chrome → valikko → Asenna sovellus
+- Mac: Safari → Arkisto → Lisää Dockiin, tai Chrome → osoiterivin asennuskuvake
+
+Toteutus: `public/manifest.webmanifest`, `public/sw.js` ja kuvakkeet hakemistossa `public/icons/`.
+
 ## Lähteet
 
 keskisuomievents.fi (sisältää kalenteri.jyvaskyla.fi:n ja visitjyvaskyla.fi:n tapahtumat), paviljonki.fi, peurunka.fi, jelmu.net (Lutakko ja Musta kynnys), jklteatteri.fi (kaupunginteatteri) ja keikkalista.fi.
