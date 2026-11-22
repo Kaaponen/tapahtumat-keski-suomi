@@ -1,38 +1,6 @@
 [
  {
   "source": "jelmu",
-  "sourceId": "viikate-v30v",
-  "title": "Viikate, KantalaSyndrooma",
-  "start": "2026-11-21T19:00:00+02:00",
-  "allDay": false,
-  "venue": "Lutakko",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/viikate-v30v",
-  "ticketUrl": "https://www.jelmu.net/event/viikate-v30v",
-  "image": "https://www.jelmu.net/media/viikate-v30v-syksy-instagram-1080x1080-1-300x300.jpg",
-  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 27,00€ – 35,00€Hintaluokka: 27,00€ - 35,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
-  "sourceId": "live-is-life-modem-sokar",
-  "title": "Live is Life: Modem, Sokar",
-  "start": "2026-11-21T21:00:00+02:00",
-  "allDay": false,
-  "venue": "Musta kynnys",
-  "city": "Jyväskylä",
-  "url": "https://www.jelmu.net/event/live-is-life-modem-sokar",
-  "ticketUrl": "https://www.jelmu.net/event/live-is-life-modem-sokar",
-  "image": "https://www.jelmu.net/media/lutakko26_mustakynnys_ig_modem-300x300.jpg",
-  "description": "K18 · Ovet 21:00 · 15,00€ – 20,00€Hintaluokka: 15,00€ - 20,00€",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "jelmu",
   "sourceId": "melancholy-mass-jyvaskyla-2026",
   "title": "Melancholy Mass Jyväskylä 2026",
   "start": "2026-11-26T18:00:00+02:00",

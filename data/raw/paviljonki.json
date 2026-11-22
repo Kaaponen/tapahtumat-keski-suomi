@@ -1,22 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://paviljonki.fi/messut/jklviinimessut",
-  "title": "Jyväskylän Viinimessut",
-  "start": "2026-11-20",
-  "allDay": true,
-  "venue": "Paviljonki",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://paviljonki.fi/messut/jklviinimessut",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/viinimessut-somepohja-1080-x-1080--640x640.jpg",
-  "description": "Jyväskylän Viinimessut 20.-21.11.2026 Tunnelmalliset Viinimessut kutsuu viihtymään ja nauttimaan maahantuojien ja viiniasiantuntijoiden valitsemista laatutuotteista. Tuttu tapahtuma palaa suurempana kuin koskaan – meillä on ennätyksellinen määrä osastoja ja mukana olevia toimijoita, jotta viinin ystävät pääsevät todella tutustumaan tuotteisiin. Samana viikonloppuna Paviljongissa myös Jyväskylän Kirjamessut ja Joulumessut – Tervetuloa viihtymään koko viikonlopuksi Paviljonkiin! Jyväskylän Viinimessut ovat avoinna: Pe 20.11. klo 16-21 La 21.11. klo 12-21 Jyväskylän Kirjamessut ja Joulumessut ov…",
-  "categories": [
-   "Messut"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://paviljonki.fi/messut/jklkirjamessut",
   "title": "Jyväskylän Kirjamessut",
   "start": "2026-11-21",
@@ -45,26 +29,6 @@
   "description": "Jyväskylän Joulumessut 21.-22.11.2026 Joulumessut kutsuu nauttimaan joulutunnelmasta, tekemään ostoksia ja hankkimaan ideoita suurta juhlakautta varten! Joulun odotetuin tapahtuma kokoaa joulun ystävät viettämään koko perheen tunnelmallista viikonloppua. Yli 170 näytteilleasettajaa tarjoaa lahjaideoita, käsitöitä ja jouluisia herkkuja. Suomen käsityöyrittäjien alueella käsityöperinne ja osaaminen ovat näyttävästi esillä. Uutena Neulontakortteli by Lankakauppa Titityy: Lämminhenkinen kohtaamispaikka kutsuu löytämään uusia neuleideoita, vaihtamaan kuulumisia ja ihastumaan upeisiin lankoihin. Sa…",
   "categories": [
    "Messut"
-  ]
- },
- {
-  "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/paviljongin-pikkujoulu-stand-up-k18/",
-  "title": "Paviljongin pikkujoulu stand up K18",
-  "start": "2026-11-21T19:00:00+02:00",
-  "end": "2026-11-21T19:00:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/paviljongin-pikkujoulu-stand-up-k18/",
-  "ticketUrl": "https://www.lippu.fi/event/paviljongin-stand-up-show-paviljongin-pikkujoulu-stand-up-k18-paviljonki-21646965/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/paviljonki_stand_up_2026_feed-640x640.png",
-  "description": "Paviljongin pikkujoulu stand up Paviljonki täyttyy jälleen naurusta lauantaina 21. marraskuuta, kun stand up-koomikot MikkoVaismaa, Anna Rimpelä, Aatu Raitala, sekä taikuri Herra Koskinen saapuvat viihdyttämään pikkujoulukansaa! Luvassa on parin tunnin elämys loistavien koomikoiden ja huippuluokan taikuri-jonglöörin seurassa. Tervetuloa viettämään hulvattomat pikkujoulut Paviljonkiin! HUOM! Samalla lipulla pääset lauantaina vierailemaan maksutta Kirja-, Joulu- ja Viinimessuilla: https://www.paviljonki.fi/messut/jklkirjamessut/ Myynnissä myös Dinner&Show -paketti hintaan 79,00 € / hlö Paketti…",
-  "categories": [
-   "Pikkujoulut",
-   "Show&Dinner",
-   "Stand up"
   ]
  },
  {
