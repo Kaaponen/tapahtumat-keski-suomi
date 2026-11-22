@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Tietosuojaseloste – Tapahtumat</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f6f5f2; --text: #1d1d1f; --muted: #6b6b70; --accent: #d2452f; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #141416; --text: #f2f2f4; --muted: #a0a0a8; } }
+  body { margin: 0; background: var(--bg); color: var(--text); line-height: 1.6; }
+  main { max-width: 680px; margin: 0 auto; padding: 16px 16px 48px; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.1rem; margin-top: 28px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← Takaisin tapahtumiin</a></p>
+  <h1>Tietosuojaseloste</h1>
+  <p class="muted">Tapahtumat-sovellus, Jyväskylän seudun tapahtumat.</p>
+
+  <h2>Kuka ylläpitää</h2>
+  <p>Palvelua ylläpitää [YLLÄPITÄJÄN NIMI]. Yhteydenotot: [YHTEYSTIETO].</p>
+
+  <h2>Mitä tietoja tallennetaan</h2>
+  <p>Tietoja tallennetaan vain, jos kirjaudut sisään. Selailu ilman kirjautumista ei tallenna mitään palvelimelle.</p>
+  <ul>
+    <li>kirjautumistunniste, jonka Apple tai Google antaa kirjautuessasi</li>
+    <li>Applen tai Googlen antama sähköpostiosoite</li>
+    <li>valintasi: tähdellä merkityt tapahtumat, kotipaikkakunta, kiinnostavat kategoriat ja seuratut paikat</li>
+    <li>satunnainen osoite henkilökohtaista kalenterisyötettäsi varten</li>
+  </ul>
+
+  <h2>Missä tiedot säilytetään</h2>
+  <p>Tiedot tallennetaan Supabase-palveluun, jonka palvelimet sijaitsevat EU:ssa.</p>
+  <p>Kalenterisyötteen palvelin ([SYÖTEPALVELIMEN SIJAINTI]) käsittelee syötteen osoitteessa olevan tunnisteen ja syötettä hakevan laitteen IP-osoitteen. Ne näkyvät palvelimen lokeissa, joita säilytetään [LOKIEN SÄILYTYSAIKA].</p>
+
+  <h2>Mihin tietoja käytetään</h2>
+  <p>Tietoja käytetään vain henkilökohtaisen näkymän ("Sinulle") ja kalenterisyötteen tuottamiseen sinulle. Tietoja ei käytetä markkinointiin eikä profilointiin.</p>
+
+  <h2>Tietojen jakaminen</h2>
+  <p>Tietoja ei luovuteta eikä myydä eteenpäin.</p>
+
+  <h2>Tilin poistaminen</h2>
+  <p>Voit poistaa tilisi ja kaikki siihen liittyvät tiedot milloin tahansa sovelluksen asetuksista (Oma tili → Poista tili). Poisto on pysyvä.</p>
+
+  <h2>Yhteydenotto</h2>
+  <p>Kysymykset ja tietopyynnöt: [YHTEYSTIETO].</p>
+</main>
+</body>
+</html>

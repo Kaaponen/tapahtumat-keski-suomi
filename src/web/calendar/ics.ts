@@ -26,17 +26,12 @@ export function foldLine(line: string): string {
   return out.join('\r\n ');
 }
 
-export function buildIcs(e: Event, now = new Date()): string {
+export function veventLines(e: Event, now: Date): string[] {
   const t = eventTimes(e);
   const when = t.allDay
     ? [`DTSTART;VALUE=DATE:${compactDay(t.startDay)}`, `DTEND;VALUE=DATE:${compactDay(t.endDayExclusive)}`]
     : [`DTSTART:${utcStamp(t.start)}`, `DTEND:${utcStamp(t.end)}`];
-  const lines = [
-    'BEGIN:VCALENDAR',
-    'VERSION:2.0',
-    'PRODID:-//Tapahtumat//FI',
-    'CALSCALE:GREGORIAN',
-    'METHOD:PUBLISH',
+  return [
     'BEGIN:VEVENT',
     `UID:${e.id}@tapahtumat`,
     `DTSTAMP:${utcStamp(now)}`,
@@ -46,9 +41,28 @@ export function buildIcs(e: Event, now = new Date()): string {
     `LOCATION:${escapeIcs(eventLocation(e))}`,
     `URL:${e.url}`,
     'END:VEVENT',
+  ];
+}
+
+export function buildCalendar(events: Event[], opts: { now?: Date; name?: string } = {}): string {
+  const now = opts.now ?? new Date();
+  const lines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//Tapahtumat//FI',
+    'CALSCALE:GREGORIAN',
+    'METHOD:PUBLISH',
+    ...(opts.name !== undefined
+      ? [`X-WR-CALNAME:${escapeIcs(opts.name)}`, 'REFRESH-INTERVAL;VALUE=DURATION:PT6H', 'X-PUBLISHED-TTL:PT6H']
+      : []),
+    ...events.flatMap((e) => veventLines(e, now)),
     'END:VCALENDAR',
   ];
   return lines.map(foldLine).join('\r\n') + '\r\n';
+}
+
+export function buildIcs(e: Event, now = new Date()): string {
+  return buildCalendar([e], { now });
 }
 
 export function icsFileName(e: Event): string {

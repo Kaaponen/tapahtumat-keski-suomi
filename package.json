@@ -7,9 +7,11 @@
   "scripts": {
     "test": "vitest run",
     "scrape": "tsx src/scrape/cli.ts",
+    "feed": "tsx src/feed/server.ts",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "db:test": "vitest run test/db"
   },
   "keywords": [],
   "author": "",
@@ -18,13 +20,15 @@
   "type": "module",
   "private": "true",
   "dependencies": {
+    "@supabase/supabase-js": "^2.119.2",
     "cheerio": "^1.2.0",
-    "preact": "^11.0.1"
+    "preact": "^11.0.1",
+    "tsx": "^4.23.15"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.17",
     "@preact/preset-vite": "^2.10.6",
     "@types/node": "^26.6.5",
-    "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "vite": "^8.3.4",
     "vitest": "^5.0.3"

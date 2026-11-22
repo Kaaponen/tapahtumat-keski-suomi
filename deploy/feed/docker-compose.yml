@@ -1,0 +1,41 @@
+services:
+  feed:
+    build:
+      context: ../..
+      dockerfile: deploy/feed/Dockerfile
+    restart: unless-stopped
+    environment:
+      SUPABASE_URL: ${SUPABASE_URL:?aseta SUPABASE_URL}
+      SUPABASE_ANON_KEY: ${SUPABASE_ANON_KEY:?aseta SUPABASE_ANON_KEY}
+      EVENTS_BASE_URL: ${EVENTS_BASE_URL:?aseta EVENTS_BASE_URL}
+      PORT: "8787"
+    expose:
+      - "8787"
+    mem_limit: 256m
+    healthcheck:
+      # node:alpine sisältää busyboxin wgetin
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8787/health || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      feed:
+        condition: service_healthy
+    environment:
+      FEED_DOMAIN: ${FEED_DOMAIN:?aseta FEED_DOMAIN}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:

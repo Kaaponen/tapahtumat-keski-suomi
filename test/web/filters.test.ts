@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Event } from '../../src/shared/types';
-import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, rangeBounds } from '../../src/web/logic/filters';
+import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, mergeFilterSearch, rangeBounds } from '../../src/web/logic/filters';
 
 const ev = (p: Partial<Event> & Pick<Event, 'title' | 'start'>): Event => ({
   id: p.title, allDay: false, url: 'u', categories: ['Muut'], sources: [], ...p,
@@ -64,5 +64,40 @@ describe('venue-suodatin', () => {
   it('keskiyöhön päättyvä tapahtuma ei ole seuraavan päivän käynnissä', () => {
     const e = ev({ title: 'y', start: '2026-10-13T22:00:00+03:00', end: '2026-10-14T00:00:00+03:00' });
     expect(applyFilters([e], { range: 'all' }, TODAY)).toEqual([]);
+  });
+});
+
+describe('starred-suodatin', () => {
+  it('näyttää vain tähdellä merkityt', () => {
+    const a = ev({ id: 'a', title: 'a', start: '2026-10-15T19:00:00+03:00' });
+    const b = ev({ id: 'b', title: 'b', start: '2026-10-15T19:00:00+03:00' });
+    expect(applyFilters([a, b], { range: 'all', starred: '1' }, TODAY, new Set(['b'])).map((e) => e.title)).toEqual(['b']);
+    expect(applyFilters([a, b], { range: 'all' }, TODAY, new Set(['b'])).length).toBe(2);
+  });
+  it('starred säilyy osoiterivillä', () => {
+    const f = filtersFromSearch(filtersToSearch({ range: 'all', starred: '1' }));
+    expect(f.starred).toBe('1');
+    expect(filtersToSearch({ range: 'all' })).toBe('');
+  });
+});
+
+describe('mergeFilterSearch', () => {
+  it('säilyttää tuntemattomat parametrit', () => {
+    expect(mergeFilterSearch('?code=abc&x=1', { range: 'all' })).toBe('code=abc&x=1');
+    expect(mergeFilterSearch('?code=abc', { range: 'week', q: 'jazz' })).toBe('code=abc&range=week&q=jazz');
+  });
+  it('poistaa pois otetut suodatinavaimet', () => {
+    expect(mergeFilterSearch('?range=week&q=jazz&starred=1&code=abc', { range: 'all' })).toBe('code=abc');
+  });
+});
+
+describe('city-suodatin', () => {
+  it('city-suodatin ja osoiterivi', () => {
+    const a = ev({ id: 'a', title: 'a', start: '2026-10-15T19:00:00+03:00', city: 'Tampere' });
+    const b = ev({ id: 'b', title: 'b', start: '2026-10-15T19:00:00+03:00', city: 'Jyväskylä' });
+    expect(applyFilters([a, b], { range: 'all', city: 'Tampere' }, TODAY).map((e) => e.id)).toEqual(['a']);
+    expect(filtersFromSearch(filtersToSearch({ range: 'all', city: 'Tampere' })).city).toBe('Tampere');
+    expect(mergeFilterSearch('?code=x&city=Tampere', { range: 'all' })).toBe('code=x');
+    expect(mergeFilterSearch('?code=x', { range: 'all', city: 'Tampere' })).toBe('code=x&city=Tampere');
   });
 });

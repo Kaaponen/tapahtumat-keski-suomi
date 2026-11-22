@@ -2,14 +2,18 @@ import { useEffect, useMemo, useState } from 'preact/hooks';
 import { CATEGORY_ORDER } from '../dedupe/categories';
 import { dayKey } from '../shared/time';
 import type { EventsFile } from '../shared/types';
+import { AccountPanel } from './components/AccountPanel';
 import { EventCard } from './components/EventCard';
 import { EventDetail } from './components/EventDetail';
 import { FiltersBar } from './components/FiltersBar';
 import { SourceStatusFooter } from './components/SourceStatusFooter';
-import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, rangeBounds, type Filters } from './logic/filters';
+import { useAccount } from './account/useAccount';
+import { applyFilters, filtersFromSearch, mergeFilterSearch, mainVenue, rangeBounds, type Filters } from './logic/filters';
+import { forYou, hasForYouPrefs } from './logic/forYou';
 import { buildDayGroups, limitGroups, type ListItem } from './logic/grouping';
 
 const PAGE_SIZE = 60;
+const NO_ALIASES: Record<string, string> = {};
 
 export function App() {
   const [data, setData] = useState<EventsFile | null>(null);
@@ -18,6 +22,10 @@ export function App() {
   const [limit, setLimit] = useState(PAGE_SIZE);
   const [showOngoing, setShowOngoing] = useState(false);
   const [selected, setSelected] = useState<ListItem | null>(null);
+  const [accountOpen, setAccountOpen] = useState(false);
+  const [tab, setTab] = useState<'forYou' | 'all'>('forYou');
+  const account = useAccount(data?.aliases ?? NO_ALIASES, data !== null);
+  const { stars, toggleStar } = account;
   const today = dayKey(new Date().toISOString());
 
   useEffect(() => {
@@ -26,21 +34,35 @@ export function App() {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json() as Promise<EventsFile>;
       })
-      .then(setData)
+      .then((d) => {
+        // Vanhassa events.json:ssa ei ole aliaksia.
+        const loaded = { ...d, aliases: d.aliases ?? {} };
+        setData(loaded);
+      })
       .catch((e: unknown) => setError(e instanceof Error ? e.message : String(e)));
   }, []);
 
   useEffect(() => {
-    const qs = filtersToSearch(filters);
-    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+    // Säilytetään muut parametrit ja #-osa, jotta kirjautumisen paluuosoite ei katoa.
+    const qs = mergeFilterSearch(location.search, filters);
+    history.replaceState(history.state, '', location.pathname + (qs ? `?${qs}` : '') + location.hash);
     setLimit(PAGE_SIZE);
   }, [filters]);
 
+  const forYouActive = !!account.user && tab === 'forYou';
   const groups = useMemo(() => {
     if (!data) return [];
     const start = rangeBounds(filters, today)?.[0];
-    return buildDayGroups(applyFilters(data.events, filters, today), today, start && start > today ? start : today);
-  }, [data, filters, today]);
+    const first = start && start > today ? start : today;
+    if (forYouActive) {
+      // Sinulle-näkymä ei koskaan näytä koko listaa omien tietojen puuttuessa.
+      if (!account.data) return [];
+      const mine = forYou(data.events, account.data, stars, filters.city);
+      return buildDayGroups(applyFilters(mine, filters, today, stars, true), today, first);
+    }
+    return buildDayGroups(applyFilters(data.events, filters, today, stars), today, first);
+  }, [data, filters, today, stars, forYouActive, account.data]);
+  const hasPrefs = !!account.data && hasForYouPrefs(account.data, stars);
   const visible = useMemo(() => limitGroups(groups, limit), [groups, limit]);
   const categories = useMemo(() => {
     const present = new Set(data?.events.flatMap((e) => e.categories) ?? []);
@@ -54,6 +76,12 @@ export function App() {
     }
     return [...counts.entries()].filter(([, n]) => n >= 3).map(([v]) => v).sort((a, b) => a.localeCompare(b, 'fi'));
   }, [data]);
+  const cities = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const e of data?.events ?? []) if (e.city) counts.set(e.city, (counts.get(e.city) ?? 0) + 1);
+    return [...counts.entries()].filter(([, n]) => n >= 3).map(([c]) => c).sort((a, b) => a.localeCompare(b, 'fi'));
+  }, [data]);
+  const onOpenAccount = () => setAccountOpen(true);
   const sourceName = (id: string) => data?.sources[id]?.name ?? id;
 
   if (error) return <main class="app"><p class="message">Tapahtumien lataus epäonnistui ({error}).</p></main>;
@@ -62,16 +90,45 @@ export function App() {
   return (
     <main class="app">
       <header class="app-header">
-        <h1>Tapahtumat</h1>
+        <div class="app-header-row">
+          <h1>Tapahtumat</h1>
+          {account.available && (
+            <button type="button" class="account-button" onClick={onOpenAccount}>
+              {account.user ? 'Oma tili' : 'Kirjaudu'}
+            </button>
+          )}
+        </div>
         <p class="subtitle">Jyväskylän seudun tapahtumat yhdessä paikassa</p>
       </header>
-      <FiltersBar filters={filters} onChange={setFilters} categories={categories} venues={venues} />
-      {groups.length === 0 && <p class="message">Ei tapahtumia valituilla suodattimilla.</p>}
+      <FiltersBar filters={filters} onChange={setFilters} categories={categories} venues={venues} cities={cities} />
+      {account.user && (
+        <div class="chips tabs" role="tablist" aria-label="Näkymä">
+          {([['forYou', 'Sinulle'], ['all', 'Kaikki']] as const).map(([id, label]) => (
+            <button key={id} type="button" role="tab" aria-selected={tab === id} class={tab === id ? 'chip active' : 'chip'} onClick={() => setTab(id)}>
+              {label}
+            </button>
+          ))}
+        </div>
+      )}
+      {forYouActive && !account.data && !account.loadFailed && <p class="message">Ladataan…</p>}
+      {forYouActive && !account.data && account.loadFailed && (
+        <div class="message">
+          <p>Omien tietojen lataus epäonnistui.</p>
+          <button type="button" class="chip" onClick={() => void account.reload().catch(() => {})}>Yritä uudelleen</button>
+        </div>
+      )}
+      {forYouActive && account.data && groups.length === 0 && !hasPrefs && (
+        <div class="message empty-for-you">
+          <p>Valitse kotipaikkakunta ja kiinnostavat kategoriat, niin näet täällä sinulle sopivat tapahtumat.</p>
+          <button type="button" class="chip" onClick={onOpenAccount}>Avaa asetukset</button>
+        </div>
+      )}
+      {groups.length === 0 && (!forYouActive || (account.data && hasPrefs)) && <p class="message">Ei tapahtumia valituilla suodattimilla.</p>}
       {visible.groups.map((g) => (
         <section key={g.day} class="day">
           <h2 class="day-label">{g.label}</h2>
           {g.items.map((item) => (
-            <EventCard key={item.event.id} item={item} sourceName={sourceName} onOpen={() => setSelected(item)} />
+            <EventCard key={item.event.id} item={item} sourceName={sourceName} onOpen={() => setSelected(item)} starred={stars.has(item.event.id)} onToggleStar={() => toggleStar(item.event.id)} />
           ))}
           {g.ongoing.length > 0 && (
             <>
@@ -79,7 +136,7 @@ export function App() {
                 {showOngoing ? 'Piilota käynnissä olevat' : `Käynnissä myös ${g.ongoing.length} muuta (näyttelyt ym.)`}
               </button>
               {showOngoing && g.ongoing.map((item) => (
-                <EventCard key={item.event.id} item={item} sourceName={sourceName} onOpen={() => setSelected(item)} />
+                <EventCard key={item.event.id} item={item} sourceName={sourceName} onOpen={() => setSelected(item)} starred={stars.has(item.event.id)} onToggleStar={() => toggleStar(item.event.id)} />
               ))}
             </>
           )}
@@ -89,7 +146,8 @@ export function App() {
         <button type="button" class="more" onClick={() => setLimit((l) => l + PAGE_SIZE)}>Näytä lisää</button>
       )}
       <SourceStatusFooter sources={data.sources} generatedAt={data.generatedAt} />
-      {selected && <EventDetail item={selected} sourceName={sourceName} onClose={() => setSelected(null)} />}
+      {selected && <EventDetail item={selected} sourceName={sourceName} onClose={() => setSelected(null)} stars={stars} onToggleStar={toggleStar} account={account} />}
+      {accountOpen && <AccountPanel account={account} cities={cities} onClose={() => setAccountOpen(false)} />}
     </main>
   );
 }

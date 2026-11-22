@@ -1,0 +1,3 @@
+{$FEED_DOMAIN} {
+	reverse_proxy feed:8787
+}

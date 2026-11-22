@@ -1,6 +1,9 @@
-import { dedupe } from '../dedupe/merge';
+import { emptyRegistry, type IdRegistry } from '../dedupe/ids';
+import { dedupeWithIds } from '../dedupe/merge';
+import { resolveId } from '../shared/aliases';
+import { PAST_DAYS } from '../shared/retention';
 import { addDays, dayKey, lastDayKey } from '../shared/time';
-import type { EventsFile, FetchContext, RawEvent, Source, SourceStatus } from '../shared/types';
+import type { Event, EventsFile, FetchContext, RawEvent, RecentPastFile, Source, SourceStatus } from '../shared/types';
 
 export const WINDOW_DAYS = 183;
 const FAILURE_ALERT_THRESHOLD = 3;
@@ -11,6 +14,8 @@ export interface RunDeps {
   ctx: FetchContext;
   now: Date;
   previous: EventsFile | null;
+  previousIds: IdRegistry | null;
+  previousPast: RecentPastFile | null;
   readRaw(id: string): Promise<RawEvent[] | null>;
   writeRaw(id: string, events: RawEvent[]): Promise<void>;
 }
@@ -21,7 +26,29 @@ export function filterWindow(events: RawEvent[], now: Date, days = WINDOW_DAYS):
   return events.filter((e) => lastDayKey(e) >= today && dayKey(e.start) <= last);
 }
 
-export async function runScrape(d: RunDeps): Promise<EventsFile> {
+function buildRecentPast(d: RunDeps, today: string, current: Event[], aliases: Record<string, string>): RecentPastFile {
+  const cutoff = addDays(today, -PAST_DAYS);
+  // Menneisiin siirtyy edellisen ajon tapahtuma, joka on jo alkanut ja puuttuu tästä ajosta
+  // (päättynyt, tai lähde pudotti sen kesken päivän). Ennen alkuaan kadonnut ei siirry.
+  const currentIds = new Set(current.map((e) => e.id));
+  const ended = (d.previous?.events ?? []).filter(
+    (e) => Date.parse(e.start) < d.now.getTime() && !currentIds.has(resolveId(e.id, aliases)),
+  );
+  const byId = new Map<string, Event>();
+  // Myöhempi korvaa aiemman: tuoreimmat (edellisestä events.json:sta) voittavat.
+  for (const e of [...(d.previousPast?.events ?? []), ...ended]) {
+    const id = resolveId(e.id, aliases);
+    byId.set(id, { ...e, id });
+  }
+  const events = [...byId.values()]
+    .filter((e) => lastDayKey(e) >= cutoff)
+    .sort((a, b) => a.start.localeCompare(b.start));
+  return { generatedAt: d.now.toISOString(), events };
+}
+
+export async function runScrape(
+  d: RunDeps,
+): Promise<{ file: EventsFile; ids: IdRegistry; recentPast: RecentPastFile }> {
   const all: RawEvent[] = [];
   const sources: Record<string, SourceStatus> = {};
 
@@ -53,7 +80,10 @@ export async function runScrape(d: RunDeps): Promise<EventsFile> {
     }
   }
 
-  return { generatedAt: d.now.toISOString(), sources, events: dedupe(filterWindow(all, d.now)) };
+  const today = dayKey(d.now.toISOString());
+  const { events, registry } = dedupeWithIds(filterWindow(all, d.now), d.previousIds ?? emptyRegistry(), today);
+  const file: EventsFile = { generatedAt: d.now.toISOString(), sources, events, aliases: registry.aliases };
+  return { file, ids: registry, recentPast: buildRecentPast(d, today, events, registry.aliases) };
 }
 
 export function failingSources(file: EventsFile): string[] {
