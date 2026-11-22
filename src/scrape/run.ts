@@ -26,9 +26,14 @@ export function filterWindow(events: RawEvent[], now: Date, days = WINDOW_DAYS):
   return events.filter((e) => lastDayKey(e) >= today && dayKey(e.start) <= last);
 }
 
-function buildRecentPast(d: RunDeps, today: string, aliases: Record<string, string>): RecentPastFile {
+function buildRecentPast(d: RunDeps, today: string, current: Event[], aliases: Record<string, string>): RecentPastFile {
   const cutoff = addDays(today, -PAST_DAYS);
-  const ended = (d.previous?.events ?? []).filter((e) => lastDayKey(e) < today);
+  // Menneisiin siirtyy edellisen ajon tapahtuma, joka on jo alkanut ja puuttuu tästä ajosta
+  // (päättynyt, tai lähde pudotti sen kesken päivän). Ennen alkuaan kadonnut ei siirry.
+  const currentIds = new Set(current.map((e) => e.id));
+  const ended = (d.previous?.events ?? []).filter(
+    (e) => Date.parse(e.start) < d.now.getTime() && !currentIds.has(resolveId(e.id, aliases)),
+  );
   const byId = new Map<string, Event>();
   // Myöhempi korvaa aiemman: tuoreimmat (edellisestä events.json:sta) voittavat.
   for (const e of [...(d.previousPast?.events ?? []), ...ended]) {
@@ -78,7 +83,7 @@ export async function runScrape(
   const today = dayKey(d.now.toISOString());
   const { events, registry } = dedupeWithIds(filterWindow(all, d.now), d.previousIds ?? emptyRegistry(), today);
   const file: EventsFile = { generatedAt: d.now.toISOString(), sources, events, aliases: registry.aliases };
-  return { file, ids: registry, recentPast: buildRecentPast(d, today, registry.aliases) };
+  return { file, ids: registry, recentPast: buildRecentPast(d, today, events, registry.aliases) };
 }
 
 export function failingSources(file: EventsFile): string[] {

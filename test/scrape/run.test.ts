@@ -121,6 +121,29 @@ describe('runScrape', () => {
       expect(recentPast.events.map((e) => e.id)).toEqual(['rec']);
     });
 
+    it('siirtää menneisiin tänään alkaneen tapahtuman, jonka lähde pudotti', async () => {
+      const morning = ev('m1', 'Aamun tapahtuma', '2026-10-11T07:00:00+03:00');
+      const { d } = deps([source('a', [])], prevFile([morning]));
+      const { file, recentPast } = await runScrape(d);
+      expect(recentPast.events.map((e) => e.id)).toEqual(['m1']);
+      expect(file.events).toEqual([]);
+    });
+
+    it('ei siirrä menneisiin tänään alkanutta tapahtumaa, joka on yhä lähteessä', async () => {
+      const r = raw({ source: 'a', title: 'Käynnissä', start: '2026-10-11T07:00:00+03:00', end: '2026-10-11T20:00:00+03:00' });
+      const first = await runScrape(deps([source('a', [r])]).d);
+      const second = await runScrape(deps([source('a', [r])], first.file, {}, first.ids).d);
+      expect(second.file.events).toHaveLength(1);
+      expect(second.recentPast.events).toEqual([]);
+    });
+
+    it('ei siirrä menneisiin myöhemmin tänään alkavaa kadonnutta tapahtumaa', async () => {
+      const evening = ev('i1', 'Illan tapahtuma', '2026-10-11T19:00:00+03:00');
+      const { d } = deps([source('a', [])], prevFile([evening]));
+      const { recentPast } = await runScrape(d);
+      expect(recentPast.events).toEqual([]);
+    });
+
     it('ei siirrä ennen alkuaan kadonnutta tapahtumaa menneisiin', async () => {
       const tomorrow = ev('t1', 'Huominen', '2026-10-12T18:00:00+03:00');
       const { d } = deps([source('a', [])], prevFile([tomorrow]));
