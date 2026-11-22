@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { getLocalStars, setLocalStars } from '../../src/web/account/stars';
+import { clearAccountStars, getAccountStars, getLocalStars, setAccountStars, setLocalStars } from '../../src/web/account/stars';
 
 function memoryStorage(): Storage {
   const m = new Map<string, string>();
@@ -38,5 +38,24 @@ describe('tähdet laitteella', () => {
   it('ei kaadu kun localStorage heittää', () => {
     expect(getLocalStars(throwing)).toEqual([]);
     expect(() => setLocalStars(['a'], throwing)).not.toThrow();
+  });
+});
+
+describe('tilin tähtien varakopio', () => {
+  it('tallentaa, lukee ja tyhjentää erillisen avaimen', () => {
+    const s = memoryStorage();
+    expect(getAccountStars(s)).toEqual([]);
+    setAccountStars(['a', 'b'], s);
+    expect(getAccountStars(s)).toEqual(['a', 'b']);
+    expect(getLocalStars(s)).toEqual([]);
+    expect(s.getItem('tapahtumat.accountStars')).toBe('["a","b"]');
+    clearAccountStars(s);
+    expect(getAccountStars(s)).toEqual([]);
+    expect(s.getItem('tapahtumat.accountStars')).toBeNull();
+  });
+  it('ei kaadu kun localStorage heittää', () => {
+    expect(getAccountStars(throwing)).toEqual([]);
+    expect(() => setAccountStars(['a'], throwing)).not.toThrow();
+    expect(() => clearAccountStars(throwing)).not.toThrow();
   });
 });

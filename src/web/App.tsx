@@ -9,7 +9,7 @@ import { FiltersBar } from './components/FiltersBar';
 import { SourceStatusFooter } from './components/SourceStatusFooter';
 import { useAccount } from './account/useAccount';
 import { applyFilters, filtersFromSearch, mergeFilterSearch, mainVenue, rangeBounds, type Filters } from './logic/filters';
-import { forYou } from './logic/forYou';
+import { forYou, hasForYouPrefs } from './logic/forYou';
 import { buildDayGroups, limitGroups, type ListItem } from './logic/grouping';
 
 const PAGE_SIZE = 60;
@@ -54,12 +54,15 @@ export function App() {
     if (!data) return [];
     const start = rangeBounds(filters, today)?.[0];
     const first = start && start > today ? start : today;
-    if (forYouActive && account.data) {
+    if (forYouActive) {
+      // Sinulle-näkymä ei koskaan näytä koko listaa omien tietojen puuttuessa.
+      if (!account.data) return [];
       const mine = forYou(data.events, account.data, stars, filters.city);
       return buildDayGroups(applyFilters(mine, filters, today, stars, true), today, first);
     }
     return buildDayGroups(applyFilters(data.events, filters, today, stars), today, first);
   }, [data, filters, today, stars, forYouActive, account.data]);
+  const hasPrefs = !!account.data && hasForYouPrefs(account.data, stars);
   const visible = useMemo(() => limitGroups(groups, limit), [groups, limit]);
   const categories = useMemo(() => {
     const present = new Set(data?.events.flatMap((e) => e.categories) ?? []);
@@ -107,13 +110,20 @@ export function App() {
           ))}
         </div>
       )}
-      {forYouActive && groups.length === 0 && (
+      {forYouActive && !account.data && !account.loadFailed && <p class="message">Ladataan…</p>}
+      {forYouActive && !account.data && account.loadFailed && (
+        <div class="message">
+          <p>Omien tietojen lataus epäonnistui.</p>
+          <button type="button" class="chip" onClick={() => void account.reload().catch(() => {})}>Yritä uudelleen</button>
+        </div>
+      )}
+      {forYouActive && account.data && groups.length === 0 && !hasPrefs && (
         <div class="message empty-for-you">
           <p>Valitse kotipaikkakunta ja kiinnostavat kategoriat, niin näet täällä sinulle sopivat tapahtumat.</p>
           <button type="button" class="chip" onClick={onOpenAccount}>Avaa asetukset</button>
         </div>
       )}
-      {groups.length === 0 && !forYouActive && <p class="message">Ei tapahtumia valituilla suodattimilla.</p>}
+      {groups.length === 0 && (!forYouActive || (account.data && hasPrefs)) && <p class="message">Ei tapahtumia valituilla suodattimilla.</p>}
       {visible.groups.map((g) => (
         <section key={g.day} class="day">
           <h2 class="day-label">{g.label}</h2>

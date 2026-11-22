@@ -1,5 +1,6 @@
 import { createClient, type SupabaseClient, type User } from '@supabase/supabase-js';
 import type { AccountConfig } from './config';
+import { clearAccountStars } from './stars';
 import type { AccountUser, UserData } from './types';
 
 export interface AccountApi {
@@ -8,8 +9,8 @@ export interface AccountApi {
   signIn(provider: 'apple' | 'google'): Promise<void>;
   signOut(): Promise<void>;
   load(): Promise<UserData>;
-  setStar(eventId: string, on: boolean): Promise<void>;
   addStars(ids: string[]): Promise<void>;
+  removeStars(ids: string[]): Promise<void>;
   setHomeCity(city: string | null): Promise<void>;
   setFavoriteCategories(categories: string[]): Promise<void>;
   setFollowedVenue(venue: string, follow: { inCalendar: boolean } | null): Promise<void>;
@@ -42,7 +43,10 @@ export function createAccountApi(cfg: AccountConfig): AccountApi {
       return toUser(data.session?.user);
     },
     onAuthChange(cb) {
-      const { data } = sb.auth.onAuthStateChange((_event, session) => cb(toUser(session?.user)));
+      const { data } = sb.auth.onAuthStateChange((event, session) => {
+        if (event === 'SIGNED_OUT') clearAccountStars();
+        cb(toUser(session?.user));
+      });
       return () => data.subscription.unsubscribe();
     },
     async signIn(provider) {
@@ -50,6 +54,7 @@ export function createAccountApi(cfg: AccountConfig): AccountApi {
     },
     async signOut() {
       check(await sb.auth.signOut());
+      clearAccountStars();
     },
     async load() {
       const id = await uid();
@@ -68,18 +73,15 @@ export function createAccountApi(cfg: AccountConfig): AccountApi {
         starred: (check(stars).data ?? []).map((r) => r.event_id as string),
       };
     },
-    async setStar(eventId, on) {
-      const id = await uid();
-      if (on) {
-        check(await sb.from('starred_events').upsert({ user_id: id, event_id: eventId }, { onConflict: 'user_id,event_id', ignoreDuplicates: true }));
-      } else {
-        check(await sb.from('starred_events').delete().eq('user_id', id).eq('event_id', eventId));
-      }
-    },
     async addStars(ids) {
       if (ids.length === 0) return;
       const id = await uid();
       check(await sb.from('starred_events').upsert(ids.map((event_id) => ({ user_id: id, event_id })), { onConflict: 'user_id,event_id', ignoreDuplicates: true }));
+    },
+    async removeStars(ids) {
+      if (ids.length === 0) return;
+      const id = await uid();
+      check(await sb.from('starred_events').delete().eq('user_id', id).in('event_id', ids));
     },
     async setHomeCity(city) {
       const id = await uid();
@@ -100,7 +102,8 @@ export function createAccountApi(cfg: AccountConfig): AccountApi {
         check(await sb.from('followed_venues').delete().eq('user_id', id).eq('venue', venue));
         return;
       }
-      // Päivitys ensin: käyttäjä saa muuttaa vain in_calendar-saraketta, joten upsert ei kävisi.
+      // Päivitetään olemassa oleva rivi, muuten lisätään uusi. Käyttäjällä on taulun lisäys- ja
+      // päivitysoikeus kaikkiin sarakkeisiin; RLS rajaa molemmat omiin riveihin.
       const updated = check(await sb.from('followed_venues').update({ in_calendar: follow.inCalendar }).eq('user_id', id).eq('venue', venue).select('venue')).data ?? [];
       if (updated.length === 0) {
         check(await sb.from('followed_venues').insert({ user_id: id, venue, in_calendar: follow.inCalendar }));
@@ -114,6 +117,7 @@ export function createAccountApi(cfg: AccountConfig): AccountApi {
       check(await sb.rpc('delete_account'));
       // Käyttöoikeustunniste olisi muuten voimassa vanhenemiseensa asti.
       await sb.auth.signOut({ scope: 'local' });
+      clearAccountStars();
     },
   };
 }

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Event } from '../../src/shared/types';
-import { forYou } from '../../src/web/logic/forYou';
+import { forYou, hasForYouPrefs } from '../../src/web/logic/forYou';
 
 const ev = (p: Partial<Event> & Pick<Event, 'id'>): Event => ({
   title: p.id, start: '2026-10-15T19:00:00+03:00', allDay: false, url: 'u', categories: ['Muut'], sources: [], ...p,
@@ -36,5 +36,18 @@ describe('forYou', () => {
     const a = ev({ id: 'a', city: 'Jyväskylä', categories: ['Musiikki'] });
     const b = ev({ id: 'b', city: 'Tampere', categories: ['Musiikki'] });
     expect(ids(forYou([a, b], prefs({ homeCity: null, favoriteCategories: ['Musiikki'] }), new Set()))).toEqual(['a', 'b']);
+  });
+});
+
+describe('hasForYouPrefs', () => {
+  const none = prefs({ homeCity: null });
+  it('ei valintoja → false', () => {
+    expect(hasForYouPrefs(none, new Set())).toBe(false);
+  });
+  it('mikä tahansa valinta → true', () => {
+    expect(hasForYouPrefs(prefs(), new Set())).toBe(true);
+    expect(hasForYouPrefs({ ...none, favoriteCategories: ['Musiikki'] }, new Set())).toBe(true);
+    expect(hasForYouPrefs({ ...none, followedVenues: [{ venue: 'Lutakko', inCalendar: false }] }, new Set())).toBe(true);
+    expect(hasForYouPrefs(none, new Set(['a']))).toBe(true);
   });
 });

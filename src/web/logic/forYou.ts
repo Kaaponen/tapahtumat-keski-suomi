@@ -19,3 +19,11 @@ export function forYou(
     return e.categories.some((c) => categories.has(c)) && (!cityScope || e.city === cityScope);
   });
 }
+
+/** Onko käyttäjä valinnut Sinulle-näkymään mitään (kotipaikkakunta, kategoria, paikka tai tähti). */
+export function hasForYouPrefs(
+  prefs: Pick<UserData, 'homeCity' | 'favoriteCategories' | 'followedVenues'>,
+  stars: Set<string>,
+): boolean {
+  return prefs.homeCity !== null || prefs.favoriteCategories.length > 0 || prefs.followedVenues.length > 0 || stars.size > 0;
+}
