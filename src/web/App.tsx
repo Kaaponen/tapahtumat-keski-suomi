@@ -1,17 +1,17 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
 import { CATEGORY_ORDER } from '../dedupe/categories';
-import { resolveIds } from '../shared/aliases';
 import { dayKey } from '../shared/time';
 import type { EventsFile } from '../shared/types';
 import { EventCard } from './components/EventCard';
 import { EventDetail } from './components/EventDetail';
 import { FiltersBar } from './components/FiltersBar';
 import { SourceStatusFooter } from './components/SourceStatusFooter';
-import { getLocalStars, setLocalStars } from './account/stars';
+import { useAccount } from './account/useAccount';
 import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, rangeBounds, type Filters } from './logic/filters';
 import { buildDayGroups, limitGroups, type ListItem } from './logic/grouping';
 
 const PAGE_SIZE = 60;
+const NO_ALIASES: Record<string, string> = {};
 
 export function App() {
   const [data, setData] = useState<EventsFile | null>(null);
@@ -20,7 +20,8 @@ export function App() {
   const [limit, setLimit] = useState(PAGE_SIZE);
   const [showOngoing, setShowOngoing] = useState(false);
   const [selected, setSelected] = useState<ListItem | null>(null);
-  const [stars, setStars] = useState<Set<string>>(() => new Set(getLocalStars()));
+  const account = useAccount(data?.aliases ?? NO_ALIASES, data !== null);
+  const { stars, toggleStar } = account;
   const today = dayKey(new Date().toISOString());
 
   useEffect(() => {
@@ -32,9 +33,6 @@ export function App() {
       .then((d) => {
         // Vanhassa events.json:ssa ei ole aliaksia.
         const loaded = { ...d, aliases: d.aliases ?? {} };
-        const resolved = resolveIds(getLocalStars(), loaded.aliases);
-        setLocalStars(resolved);
-        setStars(new Set(resolved));
         setData(loaded);
       })
       .catch((e: unknown) => setError(e instanceof Error ? e.message : String(e)));
@@ -64,12 +62,6 @@ export function App() {
     }
     return [...counts.entries()].filter(([, n]) => n >= 3).map(([v]) => v).sort((a, b) => a.localeCompare(b, 'fi'));
   }, [data]);
-  const toggleStar = (id: string) => {
-    const next = new Set(stars);
-    if (!next.delete(id)) next.add(id);
-    setStars(next);
-    setLocalStars([...next]);
-  };
   const sourceName = (id: string) => data?.sources[id]?.name ?? id;
 
   if (error) return <main class="app"><p class="message">Tapahtumien lataus epäonnistui ({error}).</p></main>;
@@ -78,7 +70,15 @@ export function App() {
   return (
     <main class="app">
       <header class="app-header">
-        <h1>Tapahtumat</h1>
+        <div class="app-header-row">
+          <h1>Tapahtumat</h1>
+          {account.available && (
+            // Tilipaneeli rakennetaan tehtävässä 10; toistaiseksi painike ei avaa mitään.
+            <button type="button" class="account-button" onClick={() => {}}>
+              {account.user ? 'Oma tili' : 'Kirjaudu'}
+            </button>
+          )}
+        </div>
         <p class="subtitle">Jyväskylän seudun tapahtumat yhdessä paikassa</p>
       </header>
       <FiltersBar filters={filters} onChange={setFilters} categories={categories} venues={venues} />
