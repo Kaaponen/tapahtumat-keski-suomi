@@ -66,3 +66,17 @@ describe('venue-suodatin', () => {
     expect(applyFilters([e], { range: 'all' }, TODAY)).toEqual([]);
   });
 });
+
+describe('starred-suodatin', () => {
+  it('näyttää vain tähdellä merkityt', () => {
+    const a = ev({ id: 'a', title: 'a', start: '2026-10-15T19:00:00+03:00' });
+    const b = ev({ id: 'b', title: 'b', start: '2026-10-15T19:00:00+03:00' });
+    expect(applyFilters([a, b], { range: 'all', starred: '1' }, TODAY, new Set(['b'])).map((e) => e.title)).toEqual(['b']);
+    expect(applyFilters([a, b], { range: 'all' }, TODAY, new Set(['b'])).length).toBe(2);
+  });
+  it('starred säilyy osoiterivillä', () => {
+    const f = filtersFromSearch(filtersToSearch({ range: 'all', starred: '1' }));
+    expect(f.starred).toBe('1');
+    expect(filtersToSearch({ range: 'all' })).toBe('');
+  });
+});

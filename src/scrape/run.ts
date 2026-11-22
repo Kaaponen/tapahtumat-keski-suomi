@@ -1,5 +1,6 @@
 import { emptyRegistry, type IdRegistry } from '../dedupe/ids';
 import { dedupeWithIds } from '../dedupe/merge';
+import { resolveId } from '../shared/aliases';
 import { PAST_DAYS } from '../shared/retention';
 import { addDays, dayKey, lastDayKey } from '../shared/time';
 import type { Event, EventsFile, FetchContext, RawEvent, RecentPastFile, Source, SourceStatus } from '../shared/types';
@@ -25,22 +26,13 @@ export function filterWindow(events: RawEvent[], now: Date, days = WINDOW_DAYS):
   return events.filter((e) => lastDayKey(e) >= today && dayKey(e.start) <= last);
 }
 
-function resolveAlias(aliases: Record<string, string>, id: string): string {
-  const seen = new Set<string>();
-  while (aliases[id] && !seen.has(id)) {
-    seen.add(id);
-    id = aliases[id];
-  }
-  return id;
-}
-
 function buildRecentPast(d: RunDeps, today: string, aliases: Record<string, string>): RecentPastFile {
   const cutoff = addDays(today, -PAST_DAYS);
   const ended = (d.previous?.events ?? []).filter((e) => lastDayKey(e) < today);
   const byId = new Map<string, Event>();
   // Myöhempi korvaa aiemman: tuoreimmat (edellisestä events.json:sta) voittavat.
   for (const e of [...(d.previousPast?.events ?? []), ...ended]) {
-    const id = resolveAlias(aliases, e.id);
+    const id = resolveId(e.id, aliases);
     byId.set(id, { ...e, id });
   }
   const events = [...byId.values()]

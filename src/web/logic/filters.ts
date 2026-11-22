@@ -12,6 +12,7 @@ export interface Filters {
   category?: string;
   venue?: string;
   q?: string;
+  starred?: '1';
 }
 
 const KEYS = ['from', 'to', 'category', 'venue', 'q'] as const;
@@ -24,6 +25,7 @@ export function filtersFromSearch(search: string): Filters {
     const v = p.get(k);
     if (v) f[k] = v;
   }
+  if (p.get('starred') === '1') f.starred = '1';
   return f;
 }
 
@@ -31,6 +33,7 @@ export function filtersToSearch(f: Filters): string {
   const p = new URLSearchParams();
   if (f.range !== 'all') p.set('range', f.range);
   for (const k of KEYS) if (f[k]) p.set(k, f[k]!);
+  if (f.starred) p.set('starred', '1');
   return p.toString();
 }
 
@@ -59,7 +62,7 @@ export function mainVenue(venue?: string): string | undefined {
   return venue?.split(' – ')[0].trim();
 }
 
-export function applyFilters(events: Event[], f: Filters, today: string): Event[] {
+export function applyFilters(events: Event[], f: Filters, today: string, stars?: Set<string>): Event[] {
   const bounds = rangeBounds(f, today);
   const q = f.q?.trim().toLowerCase();
   return events.filter((e) => {
@@ -67,6 +70,7 @@ export function applyFilters(events: Event[], f: Filters, today: string): Event[
     const last = lastDayKey(e);
     if (last < today) return false;
     if (bounds && (last < bounds[0] || first > bounds[1])) return false;
+    if (f.starred && !stars?.has(e.id)) return false;
     if (f.category && !e.categories.includes(f.category)) return false;
     if (f.venue && mainVenue(e.venue) !== f.venue) return false;
     if (q && ![e.title, e.venue, e.description].some((s) => s?.toLowerCase().includes(q))) return false;

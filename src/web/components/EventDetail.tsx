@@ -4,6 +4,7 @@ import { dayKey } from '../../shared/time';
 import type { ListItem } from '../logic/grouping';
 import { formatTime, seriesHeading, shortDate } from '../logic/format';
 import { AddToCalendar } from './CalendarMenu';
+import { StarButton } from './StarButton';
 
 /** Estää taustasivun rullauksen; palauttaa funktion, joka purkaa eston. */
 function lockBodyScroll(): () => void {
@@ -22,10 +23,12 @@ function lockBodyScroll(): () => void {
  * Tapahtuman tiedot natiivissa <dialog>-elementissä: showModal() pitää fokuksen ikkunassa,
  * piilottaa taustan ruudunlukijalta ja sulkeutuu Escillä. Sulkiessa fokus palaa avanneeseen painikkeeseen.
  */
-export function EventDetail({ item, sourceName, onClose }: {
+export function EventDetail({ item, sourceName, onClose, stars, onToggleStar }: {
   item: ListItem;
   sourceName: (id: string) => string;
   onClose: () => void;
+  stars: Set<string>;
+  onToggleStar: (id: string) => void;
 }) {
   const [current, setCurrent] = useState<Event>(item.event);
   const [imageFailed, setImageFailed] = useState(false);
@@ -64,7 +67,10 @@ export function EventDetail({ item, sourceName, onClose }: {
         {(e.venue || e.address) && (
           <p class="detail-where">{[e.venue, e.address, e.city].filter(Boolean).join(', ')}</p>
         )}
-        <AddToCalendar event={e} />
+        <div class="detail-actions">
+          <AddToCalendar event={e} />
+          <StarButton starred={stars.has(e.id)} title={e.title} onToggle={() => onToggleStar(e.id)} />
+        </div>
         {e.ticketUrl && <p><a href={e.ticketUrl} target="_blank" rel="noopener">Liput →</a></p>}
         {e.description && <p class="detail-description">{e.description}</p>}
         {item.series.length > 1 && (

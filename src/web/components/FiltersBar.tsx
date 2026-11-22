@@ -36,6 +36,14 @@ export function FiltersBar({ filters, onChange, categories, venues }: {
             {label}
           </button>
         ))}
+        <button
+          type="button"
+          class={filters.starred ? 'chip active' : 'chip'}
+          aria-pressed={!!filters.starred}
+          onClick={() => set({ starred: filters.starred ? undefined : '1' })}
+        >
+          ★ Tähdet
+        </button>
       </div>
       {filters.range === 'custom' && (
         <div class="custom-range">

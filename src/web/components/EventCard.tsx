@@ -2,15 +2,18 @@ import type { ListItem } from '../logic/grouping';
 import { formatTime, seriesSummary } from '../logic/format';
 import { QuickAddButton } from './CalendarMenu';
 import { EventImage } from './EventImage';
+import { StarButton } from './StarButton';
 
 /**
  * Kortin nimi on oikea painike, jonka napautusalue venytetään koko kortin kokoiseksi (CSS ::after).
- * Näin 📅-painike ei ole toisen painikkeen sisällä.
+ * Näin tähti- ja 📅-painike eivät ole toisen painikkeen sisällä.
  */
-export function EventCard({ item, sourceName, onOpen }: {
+export function EventCard({ item, sourceName, onOpen, starred, onToggleStar }: {
   item: ListItem;
   sourceName: (id: string) => string;
   onOpen: () => void;
+  starred: boolean;
+  onToggleStar: () => void;
 }) {
   const e = item.event;
   return (
@@ -31,7 +34,10 @@ export function EventCard({ item, sourceName, onOpen }: {
           {e.sources.map((s) => <span key={s.source} class="source">{sourceName(s.source)}</span>)}
         </p>
       </div>
-      <QuickAddButton event={e} />
+      <div class="card-actions">
+        <StarButton starred={starred} title={e.title} onToggle={onToggleStar} />
+        <QuickAddButton event={e} />
+      </div>
     </article>
   );
 }

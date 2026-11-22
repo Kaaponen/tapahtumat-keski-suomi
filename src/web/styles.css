@@ -52,7 +52,12 @@ a { color: var(--accent); }
 .tag, .source { font-size: 0.75rem; padding: 2px 8px; border-radius: 999px; background: var(--bg); color: var(--muted); }
 .source { border: 1px solid var(--border); background: transparent; }
 
+.card-actions { position: relative; z-index: 1; display: flex; gap: 6px; }
 .quick-add { position: relative; z-index: 1; }
+.star-btn { width: 44px; height: 44px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg); font-size: 1.3rem; color: var(--muted); cursor: pointer; }
+.star-btn.starred { color: #d99a00; border-color: #d99a00; }
+.star-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.detail-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 8px 0; }
 .icon-button { width: 44px; height: 44px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg); font-size: 1.2rem; }
 .calendar-menu {
   position: absolute; right: 0; top: 48px; z-index: 10; display: grid; min-width: 200px;

@@ -1,11 +1,13 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
 import { CATEGORY_ORDER } from '../dedupe/categories';
+import { resolveIds } from '../shared/aliases';
 import { dayKey } from '../shared/time';
 import type { EventsFile } from '../shared/types';
 import { EventCard } from './components/EventCard';
 import { EventDetail } from './components/EventDetail';
 import { FiltersBar } from './components/FiltersBar';
 import { SourceStatusFooter } from './components/SourceStatusFooter';
+import { getLocalStars, setLocalStars } from './account/stars';
 import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, rangeBounds, type Filters } from './logic/filters';
 import { buildDayGroups, limitGroups, type ListItem } from './logic/grouping';
 
@@ -18,6 +20,7 @@ export function App() {
   const [limit, setLimit] = useState(PAGE_SIZE);
   const [showOngoing, setShowOngoing] = useState(false);
   const [selected, setSelected] = useState<ListItem | null>(null);
+  const [stars, setStars] = useState<Set<string>>(() => new Set(getLocalStars()));
   const today = dayKey(new Date().toISOString());
 
   useEffect(() => {
@@ -26,7 +29,14 @@ export function App() {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json() as Promise<EventsFile>;
       })
-      .then(setData)
+      .then((d) => {
+        // Vanhassa events.json:ssa ei ole aliaksia.
+        const loaded = { ...d, aliases: d.aliases ?? {} };
+        const resolved = resolveIds(getLocalStars(), loaded.aliases);
+        setLocalStars(resolved);
+        setStars(new Set(resolved));
+        setData(loaded);
+      })
       .catch((e: unknown) => setError(e instanceof Error ? e.message : String(e)));
   }, []);
 
@@ -39,8 +49,8 @@ export function App() {
   const groups = useMemo(() => {
     if (!data) return [];
     const start = rangeBounds(filters, today)?.[0];
-    return buildDayGroups(applyFilters(data.events, filters, today), today, start && start > today ? start : today);
-  }, [data, filters, today]);
+    return buildDayGroups(applyFilters(data.events, filters, today, stars), today, start && start > today ? start : today);
+  }, [data, filters, today, stars]);
   const visible = useMemo(() => limitGroups(groups, limit), [groups, limit]);
   const categories = useMemo(() => {
     const present = new Set(data?.events.flatMap((e) => e.categories) ?? []);
@@ -54,6 +64,12 @@ export function App() {
     }
     return [...counts.entries()].filter(([, n]) => n >= 3).map(([v]) => v).sort((a, b) => a.localeCompare(b, 'fi'));
   }, [data]);
+  const toggleStar = (id: string) => {
+    const next = new Set(stars);
+    if (!next.delete(id)) next.add(id);
+    setStars(next);
+    setLocalStars([...next]);
+  };
   const sourceName = (id: string) => data?.sources[id]?.name ?? id;
 
   if (error) return <main class="app"><p class="message">Tapahtumien lataus epäonnistui ({error}).</p></main>;
@@ -71,7 +87,7 @@ export function App() {
         <section key={g.day} class="day">
           <h2 class="day-label">{g.label}</h2>
           {g.items.map((item) => (
-            <EventCard key={item.event.id} item={item} sourceName={sourceName} onOpen={() => setSelected(item)} />
+            <EventCard key={item.event.id} item={item} sourceName={sourceName} onOpen={() => setSelected(item)} starred={stars.has(item.event.id)} onToggleStar={() => toggleStar(item.event.id)} />
           ))}
           {g.ongoing.length > 0 && (
             <>
@@ -79,7 +95,7 @@ export function App() {
                 {showOngoing ? 'Piilota käynnissä olevat' : `Käynnissä myös ${g.ongoing.length} muuta (näyttelyt ym.)`}
               </button>
               {showOngoing && g.ongoing.map((item) => (
-                <EventCard key={item.event.id} item={item} sourceName={sourceName} onOpen={() => setSelected(item)} />
+                <EventCard key={item.event.id} item={item} sourceName={sourceName} onOpen={() => setSelected(item)} starred={stars.has(item.event.id)} onToggleStar={() => toggleStar(item.event.id)} />
               ))}
             </>
           )}
@@ -89,7 +105,7 @@ export function App() {
         <button type="button" class="more" onClick={() => setLimit((l) => l + PAGE_SIZE)}>Näytä lisää</button>
       )}
       <SourceStatusFooter sources={data.sources} generatedAt={data.generatedAt} />
-      {selected && <EventDetail item={selected} sourceName={sourceName} onClose={() => setSelected(null)} />}
+      {selected && <EventDetail item={selected} sourceName={sourceName} onClose={() => setSelected(null)} stars={stars} onToggleStar={toggleStar} />}
     </main>
   );
 }
