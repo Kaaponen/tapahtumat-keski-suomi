@@ -1,0 +1,11 @@
+node_modules
+dist
+data
+test
+docs
+supabase
+public
+.git
+.github
+.superpowers
+deploy

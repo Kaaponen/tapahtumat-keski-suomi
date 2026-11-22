@@ -1,0 +1,32 @@
+services:
+  feed:
+    build:
+      context: ../..
+      dockerfile: deploy/feed/Dockerfile
+    restart: unless-stopped
+    environment:
+      SUPABASE_URL: ${SUPABASE_URL:?aseta SUPABASE_URL}
+      SUPABASE_ANON_KEY: ${SUPABASE_ANON_KEY:?aseta SUPABASE_ANON_KEY}
+      EVENTS_BASE_URL: ${EVENTS_BASE_URL:?aseta EVENTS_BASE_URL}
+      PORT: "8787"
+    expose:
+      - "8787"
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      - feed
+    environment:
+      FEED_DOMAIN: ${FEED_DOMAIN:?aseta FEED_DOMAIN}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
