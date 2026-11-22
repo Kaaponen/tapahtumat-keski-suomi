@@ -52,6 +52,13 @@ export interface EventsFile {
   generatedAt: string;
   sources: Record<string, SourceStatus>;
   events: Event[];
+  /** Yhdistymisessä hävinnyt tunniste -> elossa oleva tunniste. */
+  aliases: Record<string, string>;
+}
+
+export interface RecentPastFile {
+  generatedAt: string;
+  events: Event[];
 }
 
 export interface FetchContext {
