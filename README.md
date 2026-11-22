@@ -39,6 +39,17 @@ GitHubissa: Settings > Secrets and variables > Actions > Variables:
 
 Workflow välittää ne build-vaiheelle nimillä `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY` ja `VITE_FEED_BASE_URL`. Paikallisesti samat `VITE_`-muuttujat voi antaa `npm run dev`- tai `npm run build` -komennolle.
 
+### Tietokanta
+
+Skeema on hakemistossa `supabase/migrations/`. Supabase CLI:tä ei asenneta riippuvuudeksi; aja se `npx`:llä:
+
+```bash
+npx supabase@latest link --project-ref <projektin-tunnus>
+npx supabase@latest db push
+```
+
+Migraation testit (PGlite, ei vaadi Supabasea): `npm run db:test`.
+
 ## Syötepalvelun julkaisu
 
 Syötepalvelu (`npm run feed`, `src/feed/server.ts`) ajetaan VPS:llä Dockerilla. Tiedostot ovat hakemistossa `deploy/feed/`: `Dockerfile`, `docker-compose.yml` (palvelut `feed` ja `caddy`), `Caddyfile` ja `.env.example`. Syöte kuuntelee porttia 8787 vain Dockerin sisäverkossa, ja Caddy hoitaa HTTPS:n (Let's Encrypt).
@@ -82,7 +93,7 @@ docker compose up -d --build
 curl https://$FEED_DOMAIN/health   # -> ok
 ```
 
-Päivitys: `git pull && docker compose up -d --build`. Lokit: `docker compose logs -f feed`.
+Päivitys: `cd deploy/feed && git pull && docker compose up -d --build`. Lokit: `docker compose logs -f feed`.
 
 ## Uuden lähteen lisääminen
 

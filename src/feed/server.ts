@@ -37,7 +37,8 @@ export function createFeedHandler(deps: FeedDeps) {
       if (!prefs) return send(req, res, 404, text, 'Not Found');
       const bundle = await deps.getEvents();
       const ics = buildCalendar(selectFeedEvents(bundle, prefs), { now: now(), name: CALENDAR_NAME });
-      return send(req, res, 200, { 'Content-Type': 'text/calendar; charset=utf-8', 'Cache-Control': 'public, max-age=900' }, ics);
+      // private: osoitteessa on salainen token, joten jaetut välimuistit eivät saa tallentaa vastausta.
+      return send(req, res, 200, { 'Content-Type': 'text/calendar; charset=utf-8', 'Cache-Control': 'private, max-age=900' }, ics);
     } catch (err) {
       console.error('feed error:', err instanceof Error ? err.message : err);
       return send(req, res, 503, { ...text, 'Retry-After': '300' }, 'Service Unavailable');

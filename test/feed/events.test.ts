@@ -81,3 +81,32 @@ describe('fetchFeedPrefs', () => {
     await expect(fetchFeedPrefs('t', { url: 'https://s', anonKey: 'k' }, fn)).rejects.toThrow();
   });
 });
+
+describe('aikakatkaisu', () => {
+  // Ei koskaan vastaa, mutta noudattaa keskeytyssignaalia kuten oikea fetch.
+  const hanging = (async (_url: string, init?: RequestInit) =>
+    new Promise<Response>((_, reject) => {
+      const signal = init?.signal;
+      if (!signal) return; // ilman signaalia jäisi roikkumaan ikuisesti
+      signal.addEventListener('abort', () => reject(signal.reason));
+    })) as unknown as typeof fetch;
+
+  it('fetchFeedPrefs keskeytyy, jos Supabase ei vastaa', async () => {
+    await expect(fetchFeedPrefs('t', { url: 'https://s', anonKey: 'k' }, hanging, 20)).rejects.toThrow();
+  });
+  it('events.json-haku keskeytyy, jos palvelin ei vastaa', async () => {
+    const get = createEventsCache({ baseUrl: 'https://b', ttlMs: 1000, fetchFn: hanging, timeoutMs: 20 });
+    await expect(get()).rejects.toThrow();
+  });
+  it('oletuksena signaali on mukana', async () => {
+    const inits: (RequestInit | undefined)[] = [];
+    const spy = (async (url: string, init?: RequestInit) => {
+      inits.push(init);
+      return String(url).includes('rpc') ? json(null) : json({ generatedAt: 'x', sources: [], events: [] });
+    }) as unknown as typeof fetch;
+    await fetchFeedPrefs('t', { url: 'https://s', anonKey: 'k' }, spy);
+    await createEventsCache({ baseUrl: 'https://b', ttlMs: 1000, fetchFn: spy })();
+    expect(inits).toHaveLength(3);
+    for (const i of inits) expect(i?.signal).toBeInstanceOf(AbortSignal);
+  });
+});

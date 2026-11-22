@@ -30,7 +30,7 @@ describe('feed server', () => {
     const r = await fetch(`${base}/${TOKEN}.ics`);
     expect(r.status).toBe(200);
     expect(r.headers.get('content-type')).toBe('text/calendar; charset=utf-8');
-    expect(r.headers.get('cache-control')).toBe('public, max-age=900');
+    expect(r.headers.get('cache-control')).toBe('private, max-age=900');
     const body = await r.text();
     expect(body).toContain('SUMMARY:Tähtitapahtuma');
     expect(body).toContain('Tapahtumat – omat');
