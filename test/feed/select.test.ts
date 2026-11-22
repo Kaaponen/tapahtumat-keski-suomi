@@ -31,6 +31,10 @@ describe('selectFeedEvents', () => {
     const b = bundle({ upcoming: [ev('b', '2026-12-01T10:00')], past: [ev('a', '2026-11-01T10:00')] });
     expect(selectFeedEvents(b, { starred: ['a', 'b'], venues: [] }).map((e) => e.id)).toEqual(['a', 'b']);
   });
+  it('sama tunniste menneissä ja tulevissa → tuleva kopio voittaa', () => {
+    const b = bundle({ upcoming: [ev('a', '2026-12-09T10:00')], past: [ev('a', '2026-11-01T10:00')] });
+    expect(selectFeedEvents(b, { starred: ['a'], venues: [] }).map((e) => e.start)).toEqual(['2026-12-09T10:00']);
+  });
   it('ei ota muita tapahtumia', () => {
     const b = bundle({ upcoming: [ev('a', '2026-12-01T10:00', 'Muu')], past: [ev('c', '2026-11-01T10:00')] });
     expect(selectFeedEvents(b, { starred: ['x'], venues: ['Lutakko'] })).toEqual([]);

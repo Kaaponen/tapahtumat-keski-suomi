@@ -18,7 +18,8 @@ export function selectFeedEvents(bundle: EventsBundle, prefs: FeedPrefs): Event[
   const starred = new Set(resolveIds(prefs.starred, bundle.aliases));
   const venues = new Set(prefs.venues);
   const byId = new Map<string, Event>();
-  for (const e of [...bundle.upcoming, ...bundle.past]) {
+  // Menneet ensin, jotta saman tunnisteen tuleva kopio korvaa menneen.
+  for (const e of [...bundle.past, ...bundle.upcoming]) {
     const venue = mainVenue(e.venue);
     if (starred.has(e.id) || (venue !== undefined && venues.has(venue))) byId.set(e.id, e);
   }

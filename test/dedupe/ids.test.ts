@@ -47,6 +47,43 @@ describe('dedupeWithIds', () => {
     expect(new Set(ids).size).toBe(2);
     expect(run(evs, r1.registry).events.map((e) => e.id)).toEqual(ids);
   });
+
+  // Toistuvan esityksen päivät ja tunnisteet (lähde:sourceId@päivä)
+  const show = (day: string, time = '19:00') =>
+    raw({ source: 'jklteatteri', sourceId: 'x', title: 'Näytelmä', start: `2026-12-${day}T${time}:00+02:00` });
+
+  it('esitys kasvaa 1→2 päivään ja kutistuu takaisin: tunnisteet pysyvät päivillään (Repro A)', () => {
+    const r1 = run([show('05')], emptyRegistry());
+    const x = r1.events[0].id;
+    const r2 = run([show('05'), show('06')], r1.registry);
+    expect(r2.events[0].id).toBe(x);
+    const y = r2.events[1].id;
+    expect(y).not.toBe(x);
+    const r3 = run([show('06')], r2.registry, '2026-12-06');
+    expect(r3.events[0].id).toBe(y);
+    // Mennyt esitys X ei saa aliasta Y:hyn (muuten sen tähti ja menneiden kopio siirtyisivät).
+    expect(r3.registry.aliases[x]).toBeUndefined();
+  });
+
+  it('kahden päivän esitys säilyttää tunnisteen viimeisellä päivällään vaikka kellonaika muuttuu (Repro B)', () => {
+    const r1 = run([show('05'), show('06')], emptyRegistry());
+    const y = r1.events[1].id;
+    const r2 = run([show('06', '20:00')], r1.registry, '2026-12-06');
+    expect(r2.events[0].id).toBe(y);
+  });
+
+  it('yksittäinen tapahtuma siirtyy toiselle päivälle ja säilyttää tunnisteen', () => {
+    const r1 = run([show('05')], emptyRegistry());
+    const r2 = run([show('09')], r1.registry);
+    expect(r2.events[0].id).toBe(r1.events[0].id);
+  });
+
+  it('lukee vanhan muotoisen rekisterin (pelkkä lähde:sourceId) kun esitykselle tulee toinen päivä', () => {
+    const old: IdRegistry = { keys: { 'jklteatteri:x': { id: 'X', lastDay: '2026-12-05' } }, aliases: {} };
+    const r = run([show('05'), show('06')], old);
+    expect(r.events[0].id).toBe('X');
+    expect(r.events[1].id).not.toBe('X');
+  });
 });
 
 describe('assignIds', () => {
@@ -66,6 +103,14 @@ describe('assignIds', () => {
     expect(r2.registry.aliases[x]).toBe(y);
   });
 
+  it('litistää aliasketjun: vanha → hävinnyt → valittu', () => {
+    const r1 = assign([[K], [P]], emptyRegistry());
+    const [x, y] = r1.ids;
+    r1.registry.aliases['vanha'] = x;
+    const r2 = assign([[K, P]], r1.registry, '2026-12-01', ['f9']);
+    expect(r2.registry.aliases).toEqual({ vanha: y, [x]: y });
+  });
+
   it('jakautuminen: vanha tunniste jää ensisijaisimmalle lähteelle', () => {
     const r1 = assign([[K, P]], emptyRegistry());
     const y = r1.ids[0];
@@ -80,7 +125,7 @@ describe('assignIds', () => {
     const r1 = assign([[old], [fresh]], emptyRegistry(), '2026-12-02');
     r1.registry.aliases['kuollut'] = r1.ids[0];
     const r2 = assign([], r1.registry, '2026-12-31');
-    expect(Object.keys(r2.registry.keys)).toEqual(['paviljonki:new']);
+    expect(Object.keys(r2.registry.keys).sort()).toEqual(['paviljonki:new', 'paviljonki:new@2026-12-01']);
     expect(r2.registry.aliases).toEqual({});
   });
 

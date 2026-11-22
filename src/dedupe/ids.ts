@@ -3,7 +3,8 @@ import { addDays, dayKey, lastDayKey } from '../shared/time';
 import type { Normalized } from './normalize';
 
 /**
- * Pysyvien tunnisteiden rekisteri. `keys` yhdistää lähdeavaimen (`lähde:sourceId`) tunnisteeseen,
+ * Pysyvien tunnisteiden rekisteri. `keys` yhdistää lähdeavaimen (`lähde:sourceId@päivä`, ja
+ * yksipäiväiselle myös `lähde:sourceId`) tunnisteeseen,
  * `aliases` ohjaa yhdistymisessä hävinneen tunnisteen elossa olevaan.
  */
 export interface IdRegistry {
@@ -28,7 +29,10 @@ interface AssignOptions {
 export function assignIds(opts: AssignOptions): { ids: string[]; registry: IdRegistry } {
   const { groups, fallbackIds, registry, today, rank } = opts;
 
-  // Sama lähdeavain usealla päivällä (toistuva tapahtuma) eriytetään päivällä.
+  // Avain on aina `lähde:sourceId@päivä`, jotta toistuvan esityksen päivät pitävät tunnisteensa
+  // vaikka päivien määrä muuttuu. Pelkkä `lähde:sourceId` on varahaku: sitä käytetään, kun lähteellä
+  // on tällä ajolla vain yksi päivä (siirretty tapahtuma säilyttää tunnisteensa) tai kun vanhan
+  // muotoisen rekisterin avain päättyy samana päivänä kuin tapahtuma.
   const days = new Map<string, Set<string>>();
   for (const g of groups) {
     for (const e of g) {
@@ -37,17 +41,23 @@ export function assignIds(opts: AssignOptions): { ids: string[]; registry: IdReg
       days.get(base)!.add(dayKey(e.start));
     }
   }
-  const keyOf = (e: Normalized) => {
-    const base = `${e.source}:${e.sourceId}`;
-    return days.get(base)!.size > 1 ? `${base}@${dayKey(e.start)}` : base;
-  };
 
   const info = groups.map((g) => {
     const sorted = [...g].sort((a, b) => rank(a.source) - rank(b.source));
-    return {
-      keys: sorted.map((e) => ({ key: keyOf(e), lastDay: lastDayKey(e) })),
-      best: sorted.length ? rank(sorted[0].source) : Infinity,
-    };
+    const keys = sorted.map((e) => {
+      const base = `${e.source}:${e.sourceId}`;
+      return { base, key: `${base}@${dayKey(e.start)}`, single: days.get(base)!.size === 1, lastDay: lastDayKey(e) };
+    });
+    const exact = keys.map((k) => registry.keys[k.key]?.id);
+    const plain = keys.map((k) => {
+      const hit = registry.keys[k.base];
+      return hit && (k.single || hit.lastDay === k.lastDay) ? hit.id : undefined;
+    });
+    // Varahakua käytetään vain, jos yksikään päiväavain ei osu: muuten varahaun (esim. jo menneen
+    // esityksen) tunniste päätyisi aliakseksi tälle tapahtumalle.
+    const hits = (ids: (string | undefined)[]) => [...new Set(ids.filter((x): x is string => !!x))];
+    const candidates = hits(exact).length ? hits(exact) : hits(plain);
+    return { keys, candidates, best: sorted.length ? rank(sorted[0].source) : Infinity };
   });
   const order = groups.map((_, i) => i).sort((a, b) => info[a].best - info[b].best || a - b);
 
@@ -57,7 +67,7 @@ export function assignIds(opts: AssignOptions): { ids: string[]; registry: IdReg
 
   // Ensin rekisteristä löytyvät, jotta fallback ei vie niiden tunnistetta.
   for (const i of order) {
-    const candidates = [...new Set(info[i].keys.map((k) => registry.keys[k.key]?.id).filter((x): x is string => !!x))];
+    const { candidates } = info[i];
     const chosen = candidates.find((c) => !taken.has(c));
     if (chosen === undefined) continue;
     ids[i] = chosen;
@@ -74,7 +84,10 @@ export function assignIds(opts: AssignOptions): { ids: string[]; registry: IdReg
 
   const keys: IdRegistry['keys'] = { ...registry.keys };
   info.forEach((g, i) => {
-    for (const k of g.keys) keys[k.key] = { id: ids[i], lastDay: k.lastDay };
+    for (const k of g.keys) {
+      keys[k.key] = { id: ids[i], lastDay: k.lastDay };
+      if (k.single) keys[k.base] = { id: ids[i], lastDay: k.lastDay };
+    }
   });
 
   // Karsinta
