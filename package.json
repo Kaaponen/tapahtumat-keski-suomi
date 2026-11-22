@@ -9,7 +9,8 @@
     "scrape": "tsx src/scrape/cli.ts",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "db:test": "vitest run test/db"
   },
   "keywords": [],
   "author": "",
@@ -22,8 +23,10 @@
     "preact": "^11.0.1"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.17",
     "@preact/preset-vite": "^2.10.6",
     "@types/node": "^26.6.5",
+    "supabase": "^3.2.0",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "vite": "^8.3.4",
