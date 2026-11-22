@@ -1,5 +1,6 @@
 import { addDays, dayKey, lastDayKey } from '../../shared/time';
 import type { Event } from '../../shared/types';
+import { mainVenue } from '../../shared/venue';
 import { weekday } from './format';
 
 export type Range = 'all' | 'today' | 'weekend' | 'week' | 'custom';
@@ -57,10 +58,7 @@ export function rangeBounds(f: Filters, today: string): [string, string] | null 
   }
 }
 
-/** "Paviljonki – Encore-sali" -> "Paviljonki" */
-export function mainVenue(venue?: string): string | undefined {
-  return venue?.split(' – ')[0].trim();
-}
+export { mainVenue };
 
 export function applyFilters(events: Event[], f: Filters, today: string, stars?: Set<string>): Event[] {
   const bounds = rangeBounds(f, today);
