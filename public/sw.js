@@ -77,7 +77,7 @@ async function cacheFirst(req) {
 async function pruneAssets(cache, html) {
   let current;
   try {
-    current = await assetClosure(cache, html);
+    current = await assetClosure(cache, html, false);
   } catch {
     return; // Verkkovirhe: ei karsita, ettei mitään tarpeellista katoa.
   }
@@ -86,8 +86,10 @@ async function pruneAssets(cache, html) {
   }
 }
 
-// Sivun viittaamat assets/-tiedostot ja JS/CSS-tiedostojen omat viittaukset. Puuttuvat haetaan välimuistiin.
-async function assetClosure(cache, html) {
+// Sivun viittaamat assets/-tiedostot ja JS/CSS-tiedostojen omat viittaukset. Sivun omat puuttuvat
+// tiedostot haetaan aina välimuistiin; niiden viittaamat vain, jos fetchRefs (asennus). Karsinnassa
+// viittaukset säilytetään, jos ne ovat jo välimuistissa, mutta niitä ei ladata (sivu lataa tarvittaessa).
+async function assetClosure(cache, html, fetchRefs = true) {
   const scope = self.registration.scope;
   const found = new Set();
   let queue = assetUrls(html).map((u) => new URL(u, scope).href);
@@ -95,9 +97,9 @@ async function assetClosure(cache, html) {
     const next = [];
     for (const url of queue) {
       if (found.has(url) || !url.includes('/assets/')) continue;
-      const res = await cached(cache, url);
+      const res = round === 0 || fetchRefs ? await cached(cache, url) : await cache.match(url);
       // Sivun omat tiedostot ovat pakollisia; sisältä löytynyt merkkijono voi olla muukin kuin
-      // assets/-tiedosto (esim. './sw.js'), joten puuttuva ohitetaan.
+      // assets/-tiedosto (esim. './sw.js') tai lataamaton, joten puuttuva ohitetaan.
       if (!res) {
         if (round === 0) throw new Error(`Puuttuu ${url}`);
         continue;
