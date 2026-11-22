@@ -3,7 +3,7 @@
 // - Vite-buildin tiedostot (assets/, nimissä hash): välimuisti ensin.
 // - Muiden palvelimien kuvat jätetään selaimen hoidettaviksi.
 
-const CACHE = 'tapahtumat-v1';
+const CACHE = 'tapahtumat-v2';
 const SHELL = ['./', './events.json', './manifest.webmanifest', './icons/icon-192.png'];
 
 self.addEventListener('install', (event) => {
@@ -34,8 +34,12 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
+  // Vain sovelluksen pääsivu (scope-juuri tai index.html, kyselyparametrit sallitaan) on shell.
+  // Muut navigoinnit (esim. tietosuoja.html) menevät suoraan verkkoon eikä shell-välimuistiin kosketa.
+  const root = new URL(self.registration.scope).pathname;
+  const isShell = url.pathname === root || url.pathname === root + 'index.html';
   if (req.mode === 'navigate') {
-    event.respondWith(networkFirst(req, './', pruneAssets));
+    if (isShell) event.respondWith(networkFirst(req, './', pruneAssets));
   } else if (url.pathname.endsWith('/events.json')) {
     event.respondWith(networkFirst(req, './events.json'));
   } else if (url.pathname.includes('/assets/')) {
