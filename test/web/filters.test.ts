@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Event } from '../../src/shared/types';
-import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, rangeBounds } from '../../src/web/logic/filters';
+import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, mergeFilterSearch, rangeBounds } from '../../src/web/logic/filters';
 
 const ev = (p: Partial<Event> & Pick<Event, 'title' | 'start'>): Event => ({
   id: p.title, allDay: false, url: 'u', categories: ['Muut'], sources: [], ...p,
@@ -78,5 +78,15 @@ describe('starred-suodatin', () => {
     const f = filtersFromSearch(filtersToSearch({ range: 'all', starred: '1' }));
     expect(f.starred).toBe('1');
     expect(filtersToSearch({ range: 'all' })).toBe('');
+  });
+});
+
+describe('mergeFilterSearch', () => {
+  it('säilyttää tuntemattomat parametrit', () => {
+    expect(mergeFilterSearch('?code=abc&x=1', { range: 'all' })).toBe('code=abc&x=1');
+    expect(mergeFilterSearch('?code=abc', { range: 'week', q: 'jazz' })).toBe('code=abc&range=week&q=jazz');
+  });
+  it('poistaa pois otetut suodatinavaimet', () => {
+    expect(mergeFilterSearch('?range=week&q=jazz&starred=1&code=abc', { range: 'all' })).toBe('code=abc');
   });
 });

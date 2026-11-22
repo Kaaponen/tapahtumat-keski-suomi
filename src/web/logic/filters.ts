@@ -38,6 +38,16 @@ export function filtersToSearch(f: Filters): string {
   return p.toString();
 }
 
+const FILTER_PARAMS = ['range', 'starred', ...KEYS];
+
+/** Päivittää vain suodatinavaimet; muut kyselyparametrit (esim. kirjautumisen `code`) säilyvät. Palauttaa ilman "?"-merkkiä. */
+export function mergeFilterSearch(currentSearch: string, f: Filters): string {
+  const p = new URLSearchParams(currentSearch);
+  for (const k of FILTER_PARAMS) p.delete(k);
+  for (const [k, v] of new URLSearchParams(filtersToSearch(f))) p.set(k, v);
+  return p.toString();
+}
+
 export function rangeBounds(f: Filters, today: string): [string, string] | null {
   switch (f.range) {
     case 'today':

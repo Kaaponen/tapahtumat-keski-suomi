@@ -25,7 +25,9 @@ function check<T extends { error: { message: string } | null }>(res: T): T {
 }
 
 export function createAccountApi(cfg: AccountConfig): AccountApi {
-  const sb: SupabaseClient = createClient(cfg.supabaseUrl, cfg.anonKey);
+  const sb: SupabaseClient = createClient(cfg.supabaseUrl, cfg.anonKey, {
+    auth: { flowType: 'pkce', detectSessionInUrl: true, persistSession: true },
+  });
 
   async function uid(): Promise<string> {
     const { data } = await sb.auth.getSession();

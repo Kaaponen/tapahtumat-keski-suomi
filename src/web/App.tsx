@@ -7,7 +7,7 @@ import { EventDetail } from './components/EventDetail';
 import { FiltersBar } from './components/FiltersBar';
 import { SourceStatusFooter } from './components/SourceStatusFooter';
 import { useAccount } from './account/useAccount';
-import { applyFilters, filtersFromSearch, filtersToSearch, mainVenue, rangeBounds, type Filters } from './logic/filters';
+import { applyFilters, filtersFromSearch, mergeFilterSearch, mainVenue, rangeBounds, type Filters } from './logic/filters';
 import { buildDayGroups, limitGroups, type ListItem } from './logic/grouping';
 
 const PAGE_SIZE = 60;
@@ -39,8 +39,9 @@ export function App() {
   }, []);
 
   useEffect(() => {
-    const qs = filtersToSearch(filters);
-    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+    // Säilytetään muut parametrit ja #-osa, jotta kirjautumisen paluuosoite ei katoa.
+    const qs = mergeFilterSearch(location.search, filters);
+    history.replaceState(history.state, '', location.pathname + (qs ? `?${qs}` : '') + location.hash);
     setLimit(PAGE_SIZE);
   }, [filters]);
 
