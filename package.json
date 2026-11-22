@@ -7,6 +7,7 @@
   "scripts": {
     "test": "vitest run",
     "scrape": "tsx src/scrape/cli.ts",
+    "feed": "tsx src/feed/server.ts",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "typecheck": "tsc --noEmit",
