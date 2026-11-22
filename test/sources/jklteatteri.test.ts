@@ -55,7 +55,7 @@ describe('parseTeatteriShow', () => {
   it('tekee jokaisesta esityskerrasta oman tapahtuman', () => {
     expect(events()[0]).toEqual({
       source: 'jklteatteri',
-      sourceId: 'aino-2026-10-16-1830',
+      sourceId: 'aino-2026-10-16',
       title: 'Aino A.',
       start: '2026-10-16T18:30:00+03:00',
       allDay: false,
@@ -77,6 +77,11 @@ describe('parseTeatteriShow', () => {
       ['2027-01-13T10:00:00+02:00', '2027-01-13T12:00:00+02:00'],
       ['2026-11-21T18:00:00+02:00', undefined],
     ]);
+  });
+
+  it('saman päivän kaksi esitystä saavat eri sourceId:n', () => {
+    const ids = events().filter((e) => e.start.startsWith('2026-11-28')).map((e) => e.sourceId);
+    expect(ids).toEqual(['aino-2026-11-28', 'aino-2026-11-28-2']);
   });
 
   it('mennyt esitys tulkitaan viikonpäivän mukaan menneeksi, ei ensi vuodelle', () => {

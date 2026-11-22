@@ -65,12 +65,13 @@ export function parseTeatteriShow(html: string, url: string, today: string): Raw
       const hh = Number(t[1]);
       const mm = Number(t[2] ?? 0);
       if (hh > 23 || mm > 59) continue;
-      const sourceId = `${slug}-${isoDate(y, m, d)}-${String(hh).padStart(2, '0')}${String(mm).padStart(2, '0')}`;
-      if (seen.has(sourceId)) continue;
-      seen.add(sourceId);
+      const date = isoDate(y, m, d);
+      const showKey = `${date}-${String(hh).padStart(2, '0')}${String(mm).padStart(2, '0')}`;
+      if (seen.has(showKey)) continue;
+      seen.add(showKey);
       out.push({
         source: 'jklteatteri',
-        sourceId,
+        sourceId: `${slug}-${date}`,
         title,
         start: helsinkiIso(y, m, d, hh, mm),
         end: t[3] ? helsinkiIso(y, m, d, Number(t[3]), Number(t[4] ?? 0)) : undefined,
@@ -84,6 +85,14 @@ export function parseTeatteriShow(html: string, url: string, today: string): Raw
         categories: ['teatteri'],
       });
     }
+  }
+  // Pysyvä sourceId ei sisällä kellonaikaa: saman päivän esitykset numeroidaan aikajärjestyksessä (-2, -3).
+  const perDay = new Map<string, RawEvent[]>();
+  for (const e of out) perDay.set(e.sourceId, [...(perDay.get(e.sourceId) ?? []), e]);
+  for (const shows of perDay.values()) {
+    [...shows].sort((a, b) => Date.parse(a.start) - Date.parse(b.start)).forEach((e, i) => {
+      if (i > 0) e.sourceId = `${e.sourceId}-${i + 1}`;
+    });
   }
   return out;
 }

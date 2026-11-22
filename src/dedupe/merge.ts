@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { safeUrl } from '../shared/url';
 import type { Event, RawEvent, SourceLink } from '../shared/types';
 import { categorize } from './categories';
+import { assignIds, type IdRegistry } from './ids';
 import { groupDuplicates } from './match';
 import { normalizeEvent, type Normalized } from './normalize';
 
@@ -71,4 +72,26 @@ export function dedupe(events: RawEvent[]): Event[] {
     seen.set(e.id, n);
     return n === 1 ? e : { ...e, id: `${e.id}-${n}` };
   });
+}
+
+/** Kuten `dedupe`, mutta tunnisteet pysyvät lähdeavainten rekisterin avulla. */
+export function dedupeWithIds(
+  events: RawEvent[],
+  registry: IdRegistry,
+  today: string,
+): { events: Event[]; registry: IdRegistry } {
+  const pairs = groupDuplicates(events.map(normalizeEvent))
+    .map((group) => ({ group, event: mergeGroup(group) }))
+    .sort((a, b) => Date.parse(a.event.start) - Date.parse(b.event.start) || a.event.title.localeCompare(b.event.title, 'fi'));
+  const result = assignIds({
+    groups: pairs.map((p) => p.group),
+    fallbackIds: pairs.map((p) => p.event.id),
+    registry,
+    today,
+    rank,
+  });
+  return {
+    events: pairs.map((p, i) => ({ ...p.event, id: result.ids[i] })),
+    registry: result.registry,
+  };
 }
