@@ -73,4 +73,13 @@ describe('feed server', () => {
     expect(h.status).toBe(200);
     expect(await h.text()).toBe('ok');
   });
+  it('virheellinen pyyntöpolku (//) → 404 eikä palvelin kaadu', async () => {
+    const { base } = await start();
+    const port = Number(new URL(base).port);
+    const status = await new Promise<number>((resolve, reject) => {
+      http.get({ host: '127.0.0.1', port, path: '//' }, (r) => { r.resume(); resolve(r.statusCode ?? 0); }).on('error', reject);
+    });
+    expect(status).toBe(404);
+    expect((await fetch(`${base}/health`)).status).toBe(200);
+  });
 });

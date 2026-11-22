@@ -23,12 +23,12 @@ export function createFeedHandler(deps: FeedDeps) {
     res.end(req.method === 'HEAD' ? undefined : body);
   }
 
-  return async (req: IncomingMessage, res: ServerResponse): Promise<void> => {
+  const handle = async (req: IncomingMessage, res: ServerResponse): Promise<void> => {
     const text = { 'Content-Type': 'text/plain; charset=utf-8' };
     if (req.method !== 'GET' && req.method !== 'HEAD') {
       return send(req, res, 405, { ...text, Allow: 'GET, HEAD' }, 'Method Not Allowed');
     }
-    const path = new URL(req.url ?? '/', 'http://localhost').pathname;
+    const path = (req.url ?? '/').split('?')[0];
     if (path === '/health') return send(req, res, 200, text, 'ok');
     const m = TOKEN_PATH.exec(path);
     if (!m) return send(req, res, 404, text, 'Not Found');
@@ -41,6 +41,21 @@ export function createFeedHandler(deps: FeedDeps) {
     } catch (err) {
       console.error('feed error:', err instanceof Error ? err.message : err);
       return send(req, res, 503, { ...text, 'Retry-After': '300' }, 'Service Unavailable');
+    }
+  };
+
+  // Mikään odottamaton virhe ei saa hylätä handleria (se kaataisi prosessin).
+  return async (req: IncomingMessage, res: ServerResponse): Promise<void> => {
+    try {
+      await handle(req, res);
+    } catch (err) {
+      console.error('feed handler error:', err instanceof Error ? err.message : err);
+      if (!res.headersSent) {
+        res.writeHead(500, { 'Content-Type': 'text/plain; charset=utf-8' });
+        res.end('Internal Server Error');
+      } else {
+        res.destroy();
+      }
     }
   };
 }
@@ -58,7 +73,9 @@ function main(): void {
     getEvents: createEventsCache({ baseUrl, ttlMs: 5 * 60 * 1000 }),
   });
   const port = Number(process.env.PORT ?? 8787);
-  http.createServer(handler).listen(port, () => console.log(`feed listening on ${port}`));
+  http.createServer((req, res) => {
+    handler(req, res).catch((err) => console.error('feed fatal:', err));
+  }).listen(port, () => console.log(`feed listening on ${port}`));
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main();
