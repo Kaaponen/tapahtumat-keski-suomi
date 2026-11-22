@@ -8,11 +8,12 @@ const RANGES: [Range, string][] = [
   ['custom', 'Valitse päivät'],
 ];
 
-export function FiltersBar({ filters, onChange, categories, venues }: {
+export function FiltersBar({ filters, onChange, categories, venues, cities }: {
   filters: Filters;
   onChange: (f: Filters) => void;
   categories: string[];
   venues: string[];
+  cities: string[];
 }) {
   const set = (patch: Partial<Filters>) => onChange({ ...filters, ...patch });
   return (
@@ -53,6 +54,10 @@ export function FiltersBar({ filters, onChange, categories, venues }: {
         </div>
       )}
       <div class="selects">
+        <select aria-label="Paikkakunta" value={filters.city ?? ''} onChange={(e) => set({ city: e.currentTarget.value || undefined })}>
+          <option value="">Kaikki paikkakunnat</option>
+          {cities.map((c) => <option key={c} value={c}>{c}</option>)}
+        </select>
         <select aria-label="Kategoria" value={filters.category ?? ''} onChange={(e) => set({ category: e.currentTarget.value || undefined })}>
           <option value="">Kaikki kategoriat</option>
           {categories.map((c) => <option key={c} value={c}>{c}</option>)}

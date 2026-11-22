@@ -90,3 +90,14 @@ describe('mergeFilterSearch', () => {
     expect(mergeFilterSearch('?range=week&q=jazz&starred=1&code=abc', { range: 'all' })).toBe('code=abc');
   });
 });
+
+describe('city-suodatin', () => {
+  it('city-suodatin ja osoiterivi', () => {
+    const a = ev({ id: 'a', title: 'a', start: '2026-10-15T19:00:00+03:00', city: 'Tampere' });
+    const b = ev({ id: 'b', title: 'b', start: '2026-10-15T19:00:00+03:00', city: 'Jyväskylä' });
+    expect(applyFilters([a, b], { range: 'all', city: 'Tampere' }, TODAY).map((e) => e.id)).toEqual(['a']);
+    expect(filtersFromSearch(filtersToSearch({ range: 'all', city: 'Tampere' })).city).toBe('Tampere');
+    expect(mergeFilterSearch('?code=x&city=Tampere', { range: 'all' })).toBe('code=x');
+    expect(mergeFilterSearch('?code=x', { range: 'all', city: 'Tampere' })).toBe('code=x&city=Tampere');
+  });
+});

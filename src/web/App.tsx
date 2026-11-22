@@ -8,9 +8,12 @@ import { FiltersBar } from './components/FiltersBar';
 import { SourceStatusFooter } from './components/SourceStatusFooter';
 import { useAccount } from './account/useAccount';
 import { applyFilters, filtersFromSearch, mergeFilterSearch, mainVenue, rangeBounds, type Filters } from './logic/filters';
+import { forYou } from './logic/forYou';
 import { buildDayGroups, limitGroups, type ListItem } from './logic/grouping';
 
 const PAGE_SIZE = 60;
+// Tilipaneeli rakennetaan tehtävässä 10; toistaiseksi ei avaa mitään.
+const onOpenAccount = () => {};
 const NO_ALIASES: Record<string, string> = {};
 
 export function App() {
@@ -20,6 +23,7 @@ export function App() {
   const [limit, setLimit] = useState(PAGE_SIZE);
   const [showOngoing, setShowOngoing] = useState(false);
   const [selected, setSelected] = useState<ListItem | null>(null);
+  const [tab, setTab] = useState<'forYou' | 'all'>('forYou');
   const account = useAccount(data?.aliases ?? NO_ALIASES, data !== null);
   const { stars, toggleStar } = account;
   const today = dayKey(new Date().toISOString());
@@ -45,11 +49,17 @@ export function App() {
     setLimit(PAGE_SIZE);
   }, [filters]);
 
+  const forYouActive = !!account.user && tab === 'forYou';
   const groups = useMemo(() => {
     if (!data) return [];
     const start = rangeBounds(filters, today)?.[0];
-    return buildDayGroups(applyFilters(data.events, filters, today, stars), today, start && start > today ? start : today);
-  }, [data, filters, today, stars]);
+    const first = start && start > today ? start : today;
+    if (forYouActive && account.data) {
+      const mine = forYou(data.events, account.data, stars, filters.city);
+      return buildDayGroups(applyFilters(mine, filters, today, stars, true), today, first);
+    }
+    return buildDayGroups(applyFilters(data.events, filters, today, stars), today, first);
+  }, [data, filters, today, stars, forYouActive, account.data]);
   const visible = useMemo(() => limitGroups(groups, limit), [groups, limit]);
   const categories = useMemo(() => {
     const present = new Set(data?.events.flatMap((e) => e.categories) ?? []);
@@ -63,6 +73,11 @@ export function App() {
     }
     return [...counts.entries()].filter(([, n]) => n >= 3).map(([v]) => v).sort((a, b) => a.localeCompare(b, 'fi'));
   }, [data]);
+  const cities = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const e of data?.events ?? []) if (e.city) counts.set(e.city, (counts.get(e.city) ?? 0) + 1);
+    return [...counts.entries()].filter(([, n]) => n >= 3).map(([c]) => c).sort((a, b) => a.localeCompare(b, 'fi'));
+  }, [data]);
   const sourceName = (id: string) => data?.sources[id]?.name ?? id;
 
   if (error) return <main class="app"><p class="message">Tapahtumien lataus epäonnistui ({error}).</p></main>;
@@ -74,16 +89,30 @@ export function App() {
         <div class="app-header-row">
           <h1>Tapahtumat</h1>
           {account.available && (
-            // Tilipaneeli rakennetaan tehtävässä 10; toistaiseksi painike ei avaa mitään.
-            <button type="button" class="account-button" onClick={() => {}}>
+            <button type="button" class="account-button" onClick={onOpenAccount}>
               {account.user ? 'Oma tili' : 'Kirjaudu'}
             </button>
           )}
         </div>
         <p class="subtitle">Jyväskylän seudun tapahtumat yhdessä paikassa</p>
       </header>
-      <FiltersBar filters={filters} onChange={setFilters} categories={categories} venues={venues} />
-      {groups.length === 0 && <p class="message">Ei tapahtumia valituilla suodattimilla.</p>}
+      <FiltersBar filters={filters} onChange={setFilters} categories={categories} venues={venues} cities={cities} />
+      {account.user && (
+        <div class="chips tabs" role="tablist" aria-label="Näkymä">
+          {([['forYou', 'Sinulle'], ['all', 'Kaikki']] as const).map(([id, label]) => (
+            <button key={id} type="button" role="tab" aria-selected={tab === id} class={tab === id ? 'chip active' : 'chip'} onClick={() => setTab(id)}>
+              {label}
+            </button>
+          ))}
+        </div>
+      )}
+      {forYouActive && groups.length === 0 && (
+        <div class="message empty-for-you">
+          <p>Valitse kotipaikkakunta ja kiinnostavat kategoriat, niin näet täällä sinulle sopivat tapahtumat.</p>
+          <button type="button" class="chip" onClick={onOpenAccount}>Avaa asetukset</button>
+        </div>
+      )}
+      {groups.length === 0 && !forYouActive && <p class="message">Ei tapahtumia valituilla suodattimilla.</p>}
       {visible.groups.map((g) => (
         <section key={g.day} class="day">
           <h2 class="day-label">{g.label}</h2>

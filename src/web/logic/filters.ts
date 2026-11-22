@@ -12,11 +12,12 @@ export interface Filters {
   to?: string;
   category?: string;
   venue?: string;
+  city?: string;
   q?: string;
   starred?: '1';
 }
 
-const KEYS = ['from', 'to', 'category', 'venue', 'q'] as const;
+const KEYS = ['from', 'to', 'category', 'venue', 'city', 'q'] as const;
 
 export function filtersFromSearch(search: string): Filters {
   const p = new URLSearchParams(search);
@@ -70,7 +71,8 @@ export function rangeBounds(f: Filters, today: string): [string, string] | null 
 
 export { mainVenue };
 
-export function applyFilters(events: Event[], f: Filters, today: string, stars?: Set<string>): Event[] {
+/** `ignoreCity`: "Sinulle"-näkymässä paikkakunta ohjaa vain suosituksia eikä rajaa tuloksia. */
+export function applyFilters(events: Event[], f: Filters, today: string, stars?: Set<string>, ignoreCity = false): Event[] {
   const bounds = rangeBounds(f, today);
   const q = f.q?.trim().toLowerCase();
   return events.filter((e) => {
@@ -80,6 +82,7 @@ export function applyFilters(events: Event[], f: Filters, today: string, stars?:
     if (bounds && (last < bounds[0] || first > bounds[1])) return false;
     if (f.starred && !stars?.has(e.id)) return false;
     if (f.category && !e.categories.includes(f.category)) return false;
+    if (f.city && !ignoreCity && e.city !== f.city) return false;
     if (f.venue && mainVenue(e.venue) !== f.venue) return false;
     if (q && ![e.title, e.venue, e.description].some((s) => s?.toLowerCase().includes(q))) return false;
     return true;

@@ -95,3 +95,5 @@ dialog.detail::backdrop { background: rgb(0 0 0 / 0.45); }
 
 .app-header-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .account-button { padding: 8px 14px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
+.tabs { margin: 4px 0; }
+.empty-for-you { display: flex; flex-direction: column; align-items: center; gap: 8px; }
