@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import type { Event } from '../../src/shared/types';
 import { eventLocation, eventTimes } from '../../src/web/calendar/common';
 import { googleCalendarUrl } from '../../src/web/calendar/google';
-import { buildIcs, escapeIcs, foldLine, icsFileName } from '../../src/web/calendar/ics';
+import { buildCalendar, buildIcs, escapeIcs, foldLine, icsFileName } from '../../src/web/calendar/ics';
 import { outlookCalendarUrl } from '../../src/web/calendar/outlook';
 
 const base: Event = {
@@ -108,6 +108,29 @@ describe('ics', () => {
     const ics = buildIcs({ ...base, allDay: true, start: '2026-11-20', end: undefined });
     expect(ics).toContain('DTSTART;VALUE=DATE:20261120');
     expect(ics).toContain('DTEND;VALUE=DATE:20261121');
+  });
+
+  it('buildCalendar kokoaa tapahtumat yhteen kalenteriin', () => {
+    const ics = buildCalendar([base, { ...base, id: 'second000001' }], { now: new Date('2026-10-11T06:00:00Z') });
+    expect(ics.match(/BEGIN:VCALENDAR/g)).toHaveLength(1);
+    expect(ics.match(/BEGIN:VEVENT/g)).toHaveLength(2);
+    expect(ics).toContain('UID:abc123def456@tapahtumat');
+    expect(ics).toContain('UID:second000001@tapahtumat');
+  });
+
+  it('buildCalendar lisää nimen ja päivitysvälin', () => {
+    const ics = buildCalendar([base], { name: 'Omat tapahtumat' });
+    expect(ics).toContain('X-WR-CALNAME:Omat tapahtumat');
+    expect(ics).toContain('REFRESH-INTERVAL;VALUE=DURATION:PT6H');
+    expect(ics).toContain('X-PUBLISHED-TTL:PT6H');
+    expect(buildCalendar([base])).not.toContain('X-WR-CALNAME');
+  });
+
+  it('tyhjä lista tuottaa kelvollisen tyhjän kalenterin', () => {
+    const ics = buildCalendar([]);
+    expect(ics.startsWith('BEGIN:VCALENDAR\r\n')).toBe(true);
+    expect(ics.endsWith('END:VCALENDAR\r\n')).toBe(true);
+    expect(ics).not.toContain('BEGIN:VEVENT');
   });
 
   it('icsFileName', () => {
