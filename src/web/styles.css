@@ -97,3 +97,16 @@ dialog.detail::backdrop { background: rgb(0 0 0 / 0.45); }
 .account-button { padding: 8px 14px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
 .tabs { margin: 4px 0; }
 .empty-for-you { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+
+.panel-section { margin: 16px 0; }
+.panel-section h3 { margin: 0 0 8px; font-size: 0.95rem; }
+.panel-section select, .feed-row input { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--bg); color: var(--text); font: inherit; }
+.panel-buttons { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips.wrap { flex-wrap: wrap; overflow: visible; }
+.venue-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.venue-list li { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; }
+.venue-name { font-weight: 600; flex-basis: 100%; }
+.feed-row { display: flex; gap: 8px; align-items: center; }
+.feed-help { padding-left: 18px; font-size: 0.9rem; color: var(--muted); }
+.panel-error { color: var(--accent); margin: 8px 0; }
+.chip.danger { color: var(--accent); border-color: var(--accent); }

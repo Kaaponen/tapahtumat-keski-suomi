@@ -3,6 +3,8 @@ import type { Event } from '../../shared/types';
 import { dayKey } from '../../shared/time';
 import type { ListItem } from '../logic/grouping';
 import { formatTime, seriesHeading, shortDate } from '../logic/format';
+import type { Account } from '../account/useAccount';
+import { mainVenue } from '../../shared/venue';
 import { AddToCalendar } from './CalendarMenu';
 import { StarButton } from './StarButton';
 
@@ -23,12 +25,13 @@ function lockBodyScroll(): () => void {
  * Tapahtuman tiedot natiivissa <dialog>-elementissä: showModal() pitää fokuksen ikkunassa,
  * piilottaa taustan ruudunlukijalta ja sulkeutuu Escillä. Sulkiessa fokus palaa avanneeseen painikkeeseen.
  */
-export function EventDetail({ item, sourceName, onClose, stars, onToggleStar }: {
+export function EventDetail({ item, sourceName, onClose, stars, onToggleStar, account }: {
   item: ListItem;
   sourceName: (id: string) => string;
   onClose: () => void;
   stars: Set<string>;
   onToggleStar: (id: string) => void;
+  account?: Account;
 }) {
   const [current, setCurrent] = useState<Event>(item.event);
   const [imageFailed, setImageFailed] = useState(false);
@@ -49,6 +52,20 @@ export function EventDetail({ item, sourceName, onClose, stars, onToggleStar }: 
   useEffect(() => setImageFailed(false), [current.image]);
 
   const e = current;
+  const venue = mainVenue(e.venue);
+  const following = !!venue && !!account?.data?.followedVenues.some((v) => v.venue === venue);
+  const [followError, setFollowError] = useState(false);
+  const toggleFollow = async () => {
+    if (!venue || !account?.api) return;
+    setFollowError(false);
+    try {
+      await account.api.setFollowedVenue(venue, following ? null : { inCalendar: false });
+      await account.reload();
+    } catch (err) {
+      console.warn('Paikan seuraaminen epäonnistui', err);
+      setFollowError(true);
+    }
+  };
   return (
     <dialog
       ref={dialogRef}
@@ -71,6 +88,14 @@ export function EventDetail({ item, sourceName, onClose, stars, onToggleStar }: 
           <AddToCalendar event={e} />
           <StarButton starred={stars.has(e.id)} title={e.title} onToggle={() => onToggleStar(e.id)} />
         </div>
+        {account?.user && account.data && venue && (
+          <p>
+            <button type="button" class={following ? 'chip active' : 'chip'} aria-pressed={following} onClick={() => void toggleFollow()}>
+              {following ? `Seurataan: ${venue}` : `Seuraa: ${venue}`}
+            </button>
+            {followError && <span class="panel-error" role="alert"> Tallennus epäonnistui. Yritä uudelleen.</span>}
+          </p>
+        )}
         {e.ticketUrl && <p><a href={e.ticketUrl} target="_blank" rel="noopener">Liput →</a></p>}
         {e.description && <p class="detail-description">{e.description}</p>}
         {item.series.length > 1 && (

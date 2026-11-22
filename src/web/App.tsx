@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'preact/hooks';
 import { CATEGORY_ORDER } from '../dedupe/categories';
 import { dayKey } from '../shared/time';
 import type { EventsFile } from '../shared/types';
+import { AccountPanel } from './components/AccountPanel';
 import { EventCard } from './components/EventCard';
 import { EventDetail } from './components/EventDetail';
 import { FiltersBar } from './components/FiltersBar';
@@ -12,8 +13,6 @@ import { forYou } from './logic/forYou';
 import { buildDayGroups, limitGroups, type ListItem } from './logic/grouping';
 
 const PAGE_SIZE = 60;
-// Tilipaneeli rakennetaan tehtävässä 10; toistaiseksi ei avaa mitään.
-const onOpenAccount = () => {};
 const NO_ALIASES: Record<string, string> = {};
 
 export function App() {
@@ -23,6 +22,7 @@ export function App() {
   const [limit, setLimit] = useState(PAGE_SIZE);
   const [showOngoing, setShowOngoing] = useState(false);
   const [selected, setSelected] = useState<ListItem | null>(null);
+  const [accountOpen, setAccountOpen] = useState(false);
   const [tab, setTab] = useState<'forYou' | 'all'>('forYou');
   const account = useAccount(data?.aliases ?? NO_ALIASES, data !== null);
   const { stars, toggleStar } = account;
@@ -78,6 +78,7 @@ export function App() {
     for (const e of data?.events ?? []) if (e.city) counts.set(e.city, (counts.get(e.city) ?? 0) + 1);
     return [...counts.entries()].filter(([, n]) => n >= 3).map(([c]) => c).sort((a, b) => a.localeCompare(b, 'fi'));
   }, [data]);
+  const onOpenAccount = () => setAccountOpen(true);
   const sourceName = (id: string) => data?.sources[id]?.name ?? id;
 
   if (error) return <main class="app"><p class="message">Tapahtumien lataus epäonnistui ({error}).</p></main>;
@@ -135,7 +136,8 @@ export function App() {
         <button type="button" class="more" onClick={() => setLimit((l) => l + PAGE_SIZE)}>Näytä lisää</button>
       )}
       <SourceStatusFooter sources={data.sources} generatedAt={data.generatedAt} />
-      {selected && <EventDetail item={selected} sourceName={sourceName} onClose={() => setSelected(null)} stars={stars} onToggleStar={toggleStar} />}
+      {selected && <EventDetail item={selected} sourceName={sourceName} onClose={() => setSelected(null)} stars={stars} onToggleStar={toggleStar} account={account} />}
+      {accountOpen && <AccountPanel account={account} cities={cities} onClose={() => setAccountOpen(false)} />}
     </main>
   );
 }
