@@ -1,38 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://paviljonki.fi/messut/jklkirjamessut",
-  "title": "Jyväskylän Kirjamessut",
-  "start": "2026-11-21",
-  "allDay": true,
-  "venue": "Paviljonki",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://paviljonki.fi/messut/jklkirjamessut",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/viinimessut-somepohja-1080-x-1080-1-640x640.jpg",
-  "description": "Jyväskylän Kirjamessut 21.-22.11.2026 Suomen toiseksi suurin kirjallisuudenalan tapahtuma järjestetään jälleen Paviljongissa marraskuussa. Viikonlopun aikana pääset nauttimaan upeista kirjailijahaastatteluista, uutuuskirjallisuudesta, kulttuurista ja hyvästä tunnelmasta! Samalla hankit kätevästi lukuelämykset niin itselle kuin pukinkonttiin. Katso Kirjamessujen ohjelma Oman lisänsä tuovat samaan aikaan auki olevat Jyväskylän Joulumessut – lahjaideoita, käsitöitä, jouluherkkuja ja inspiraatiota joulun valmisteluun! Viinin ystäville herkkua on luvassa jo perjantaina avoinna olevilla Jyväskylän…",
-  "categories": [
-   "Messut"
-  ]
- },
- {
-  "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/messut/jkljoulumessut/",
-  "title": "Jyväskylän Joulumessut",
-  "start": "2026-11-21",
-  "allDay": true,
-  "venue": "Paviljonki",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/messut/jkljoulumessut/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/viinimessut-somepohja-1080-x-1080-2-640x640.jpg",
-  "description": "Jyväskylän Joulumessut 21.-22.11.2026 Joulumessut kutsuu nauttimaan joulutunnelmasta, tekemään ostoksia ja hankkimaan ideoita suurta juhlakautta varten! Joulun odotetuin tapahtuma kokoaa joulun ystävät viettämään koko perheen tunnelmallista viikonloppua. Yli 170 näytteilleasettajaa tarjoaa lahjaideoita, käsitöitä ja jouluisia herkkuja. Suomen käsityöyrittäjien alueella käsityöperinne ja osaaminen ovat näyttävästi esillä. Uutena Neulontakortteli by Lankakauppa Titityy: Lämminhenkinen kohtaamispaikka kutsuu löytämään uusia neuleideoita, vaihtamaan kuulumisia ja ihastumaan upeisiin lankoihin. Sa…",
-  "categories": [
-   "Messut"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-ihme-ja-kumma-lauletaan-yhdessa/",
   "title": "Jyväskylä Sinfonia: Ihme ja kumma – lauletaan yhdessä!",
   "start": "2026-11-26T18:00:00+02:00",

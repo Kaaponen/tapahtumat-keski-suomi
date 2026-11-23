@@ -1,37 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/jba-n-vs-team-lemkem-gradia-viitaniemi-d-sali-2026-11-22",
-  "title": "JBA N vs Team Lemkem",
-  "start": "2026-11-22T12:00:00+03:00",
-  "allDay": false,
-  "venue": "Gradia Viitaniemi D-sali",
-  "address": "40720 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/jba-n-vs-team-lemkem-gradia-viitaniemi-d-sali-2026-11-22",
-  "ticketUrl": "https://events.liveto.io/events/jba-n-vs-team-lemkem-3",
-  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/2ef682c94bb7b4bd9b821b1f07a576086d8168e2bae354b87a39b0a4be226699.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/monna-kamu-eero-ojanen-vakiopaine-2026-11-22",
-  "title": "Monna Kamu, Eero Ojanen",
-  "start": "2026-11-22T15:00:00+03:00",
-  "allDay": false,
-  "venue": "Vakiopaine",
-  "address": "Kauppakatu 6, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/monna-kamu-eero-ojanen-vakiopaine-2026-11-22",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0lXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a773a0cd8d5dc387b8db40b2d71bb66f236e68f/logo-jyvaskyla-vakiopaine.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-23",
   "title": "Maanantaijamit",
   "start": "2026-11-23T19:00:00+03:00",
@@ -451,6 +420,37 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/sauli-heikkila-30-1-vuotta-kurkkulaulua-alakulttuuritalo-kramsu-2026-11-29",
   "image": "https://www.ylakulttuuri.fi/wp-content/uploads/2026/10/2026-11-29-tapahtuma-2-768x512.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/ensikasityksia-22-sanoista-saveliksi-siltasali-2026-11-29",
+  "title": "Ensikäsityksiä 22: Sanoista säveliksi",
+  "start": "2026-11-29T16:00:00+03:00",
+  "allDay": false,
+  "venue": "Siltasali",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/ensikasityksia-22-sanoista-saveliksi-siltasali-2026-11-29",
+  "ticketUrl": "https://www.tiketti.fi/ensikasityksia-22-sanoista-saveliksi-siltasali-jyvaskyla-lippuja/121952",
+  "image": "https://www.tiketti.fi/kuvat/EV121952_7_768x470_JBBEKKE22TikettiCover.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/kohtaamisia-alma-solina-hale-heikkila-pk5-2026-11-29",
+  "title": "Kohtaamisia – Alma Solina & Hale Heikkilä",
+  "start": "2026-11-29T17:00:00+03:00",
+  "allDay": false,
+  "venue": "PK5",
+  "address": "Kankaanaukio 3b",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/kohtaamisia-alma-solina-hale-heikkila-pk5-2026-11-29",
+  "ticketUrl": "https://ticketmaster.evyy.net/c/7612088/2038755/23892?u=https%3A%2F%2Fwww.ticketmaster.fi%2Fevent%2Fkohtaamisia--alma-solina--hale-heikkila-lippuja%2F1050905678&utm_medium=affiliate",
+  "image": "https://s1.ticketm.net/dam/a/94c/995d5a2b-4cee-483b-8951-e8ec45c2b94c_RETINA_PORTRAIT_16_9.jpg",
   "categories": [
    "keikat"
   ]
