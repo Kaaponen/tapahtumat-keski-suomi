@@ -657,6 +657,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "miljoonasade-sateentekijat-klubikiertue",
+  "title": "Miljoonasade",
+  "start": "2027-04-09T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/miljoonasade-sateentekijat-klubikiertue",
+  "ticketUrl": "https://www.jelmu.net/event/miljoonasade-sateentekijat-klubikiertue",
+  "image": "https://www.jelmu.net/media/1080-x-1350-px-300x300.png",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 29,00€ – 35,00€Hintaluokka: 29,00€ - 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "j-karjalainen-juhlakevat-2027",
   "title": "J.Karjalainen",
   "start": "2027-04-10T19:00:00+03:00",
