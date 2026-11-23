@@ -689,6 +689,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "vesta-niin-etta-korvet-soi-2027",
+  "title": "Vesta",
+  "start": "2027-04-15T18:00:00+03:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/vesta-niin-etta-korvet-soi-2027",
+  "ticketUrl": "https://www.jelmu.net/event/vesta-niin-etta-korvet-soi-2027",
+  "image": "https://www.jelmu.net/media/whatsapp-image-2026-11-20-at-10.29.22-300x300.jpeg",
+  "description": "S · Ovet 18:00 · Keikka alkaa 19:00 · 24,00€ – 30,00€Hintaluokka: 24,00€ - 30,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "mariska-2",
   "title": "Mariska",
   "start": "2027-05-01T19:00:00+03:00",

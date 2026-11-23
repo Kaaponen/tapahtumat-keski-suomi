@@ -628,6 +628,25 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/tomi-haustola-tyyppivika-stand-up-show-k18/",
+  "title": "Tomi Haustola: Tyyppivika -stand up show K18",
+  "start": "2027-02-26T19:00:00+02:00",
+  "end": "2027-02-26T19:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Paviljonki Klubi",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/tomi-haustola-tyyppivika-stand-up-show-k18/",
+  "ticketUrl": "https://www.lippu.fi/event/tomi-haustola-tyyppivika-stand-up-show-k18-jyvaskylan-paviljonki-paviljonki-klubi-22432020/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/haustola_jyvaskyla_1080x1080-640x640.png",
+  "description": "Tomi Haustola: Tyyppivika -stand up show K18 Kestääkö aamulla käynnistyminen koko ajan pidempään? Kuuluuko outoja ääniä paikoista, joista niitä ei ennen kuulunut? Ilmoittaako sisäinen koneisto vikakoodista, jonka merkitystä ei uskalla – eikä ehkä kannatakaan – googlata? TV:stä, somesta ja keikkalavoilta tuttu Tomi Haustola palaa lavoille uuden stand up -shown kanssa. Tyyppivika käsittelee sitä vaihetta elämässä, kun kilometrejä on kertynyt sen verran, että kone alkaa yskiä – eikä kojelaudan varoitusvaloja enää saa sammumaan pelkällä kahvilla. Showssa tutkitaan, mitä tapahtuu, kun nelikymppise…",
+  "categories": [
+   "Paviljonki Klubi",
+   "Stand up"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/the-69-eyes-tour-acustica-2027/",
   "title": "The 69 Eyes – Tour Acustica 2027",
   "start": "2027-03-06T19:00:00+02:00",
