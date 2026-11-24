@@ -739,6 +739,22 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jehovan-todistajien-konventti/",
+  "title": "Jehovan todistajien konventti",
+  "start": "2027-03-27T09:40:00+02:00",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jehovan-todistajien-konventti/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/jw_logo-640x640.jpg",
+  "description": "Konventin Teema: ”Tee Jehovasta suurin ilonaiheesi” (Psalmit 37:4) Katso täältä tarkempi ohjelma Tervetuloa!",
+  "categories": [
+   "Muut tapahtumat"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://paviljonki.fi/messut/jyvaskylan-rakennusmessut/",
   "title": "Rakennusmessut",
   "start": "2027-04-02",
