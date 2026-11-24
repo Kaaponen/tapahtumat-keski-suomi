@@ -346,6 +346,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-jazzinfonia/",
+  "title": "Jyväskylä Sinfonia: JAZZinfonia",
+  "start": "2027-01-06T15:00:00+02:00",
+  "end": "2027-01-06T14:45:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-jazzinfonia/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-jazzinfonia-paviljonki-22413110/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/6.1-640x640.jpg",
+  "description": "Jyväskylä Sinfonia & Jyväskylä Big Band Lorenzo Passerini, kapellimestari Gil Agababa Shaked, klarinetti June Binnie, lyömäsoittimet Dmitri Šostakovitš: Jazz-sarja nro 1 Duke Ellington: Night Creature Suite Artie Shaw: Klarinettikonsertto Dmitri Šostakovitš: Jazz-sarja nro 2 Uusi vuosi, uudet kujeet – kirjaimellisesti. Tämä konsertti on liian jazzahtava ollakseen klassinen sekä liian ”klassahtava” ollakseen jazzia! Jazzin syntymisestä alkaen ovat muusikot ja säveltäjät tyylillisen raja-aidan molemmin puolin käyneet tiivistä silmäpeliä. Yhteistyön kestävimpiä tuloksia on saatu aikaan, kun jomm…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskylan-rompepaiva/",
   "title": "Jyväskylän Rompepäivä 2027",
   "start": "2027-01-09T08:00:00+02:00",
@@ -358,6 +376,24 @@
   "description": "Moottoripyöräilyyn liittyvä erikoistapahtuma! Perinteinen moottoripyörien, mopojen ja osien myynti- ja ostotapahtuma. Alue myös harrasteautojen osille. Jyväskylän Rompepäivä avaa taas totuttuun tapaan moottoripyöräilyvuoden lauantaina 9.1.2027 Paviljongissa.",
   "categories": [
    "Muut tapahtumat"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-buoasera-ilta-italiassa/",
+  "title": "Jyväskylä Sinfonia: Buoasera – Ilta italiassa",
+  "start": "2027-01-14T18:00:00+02:00",
+  "end": "2027-01-14T18:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-buoasera-ilta-italiassa/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-buonasera-ilta-italiassa-paviljonki-22413111/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/14.1-640x640.jpg",
+  "description": "Lorenzo Passerini, kapellimestari Tommaso Benciolini, huilu Marco Enrico Bossi: Intermezzi Goldoniani, osia Andrea Portera: Panin paluu – huilukonsertto (kantaesitys) Riccardo Zandonai: Sinfonietta Settecentesca Alfredo Casella: Serenadi Bella Italia! Rakas ylikapellimestarimme Lorenzo on pitänyt kotimaansa musiikillisen aarreaitan ovia kiitettävän avoinna, ja esimerkiksi maan nykysäveltäjien ykkösketjun väritaikuri Andrea Portera on tullut jyväskyläläisillekin jo tutuksi. Nyt yhteistyö jatkuu kevääseen 2028 ulottuvalla residenssisäveltäjyydellä! Perfetto! Uuden lehden orkesterin historiassa…",
+  "categories": [
+   "Konsertit"
   ]
  },
  {
@@ -442,6 +478,24 @@
   "ticketUrl": "https://www.lippu.fi/event/arttu-wiskari-suomi-finland-prkl-paviljonki-22321882/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/1080x1080_arttu-wiskari-nelio-jyvaskyla-640x640.jpg",
   "description": "ARTTU WISKARI – Suomi Finland PRKL -konserttisalikiertue Viime vuodet klubeilla ja festivaaleilla keikkaillut Arttu Wiskari suuntaa tammikuussa pitkän tauon jälkeen konserttisalikiertueelle. Suomi Finland prkl -konserttisalikiertue juhlistaa Wiskarin 27.11.2026 ilmestyvää samannimistä albumia. Levy sisältää vahvan nimikappakeeln lisäksi ennen julkaisemattomia biisejä sekä jo kultaa ja platinaa striimanneet hitit Elämän kova koulu, Monaco ja AAAA. Suomi Finland prkl -kiertueen konserteissa on luvassa poikkeuksellisen kattava valikoima lauluja Wiskarin uran varrelta. – Vaikka kiertue kantaakin…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-kuvia-suomesta/",
+  "title": "Jyväskylä Sinfonia: Kuvia Suomesta",
+  "start": "2027-01-28T18:00:00+02:00",
+  "end": "2027-01-28T18:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-kuvia-suomesta/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-kuvia-suomesta-paviljonki-22413112/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/28.1-640x640.jpg",
+  "description": "Jan Söderblom, kapellimestari Emma Kajander, sopraano Lotta Wennäkoski: Verdigris Jean Sibelius: lauluja Magnus Lindberg: Absence Toivo Kuula, Aarre Merikanto, Leevi Madetoja: lauluja Selim Palmgren: Kuvia Suomesta (sov. Jukka-Pekka Lehto) Oma maa mansikka! Siihen nähden, kuinka runsaasti Suomessa on luotu kestävää, persoonallista ja edelleen iskevää musiikkitaidetta, on hämmentävää, kuinka vähän sitä lopulta konserteissa itsenäisyyspäivän ulkopuolella kuulee. Ujosteleeko itsetuntomme edelleen savupirttien pimeissä nurkissa? Sibelius toki ottelee aivan omassa sarjassaan, mutta käsi sydämelle:…",
   "categories": [
    "Konsertit"
   ]
@@ -591,6 +645,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-romantiikan-kynnyksella/",
+  "title": "Jyväskylä Sinfonia: Romantiikan kynnyksellä",
+  "start": "2027-02-18T18:00:00+02:00",
+  "end": "2027-02-18T18:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-romantiikan-kynnyksella/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-romantiikan-kynnyksella-paviljonki-22413113/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/18.2-640x640.jpg",
+  "description": "Bas Wiegers, kapellimestari Jonathan Roozeman, sello Ludwig van Beethoven: Coriolan-alkusoitto Robert Schumann: Sellokonsertto Ludwig van Beethoven: Sinfonia nro 4 Kenraali Coriolanus nousee Rooman konsuliksi, mutta taipumattomana luonteena ajautuu syöksykierteeseen, karkotukseen ja lopulta liittoon pahimman vihamiehensä kanssa. Mutta pystyykö rauhansopimus tai äidinrakkauskaan estämään väistämätöntä tuhoa? Beethovenin Coriolan-alkusoitto näytelmään tästä traagisesta legendasta on osoittanut olevansa jo enemmän kuin romantiikan kynnyksellä. Se on nimittäin täynnä sotaisaa melskettä, suurta tu…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/timo-kotipelto-jarkko-ahola-voices-unleashed/",
   "title": "Timo Kotipelto & Jarkko Ahola – Voices Unleashed",
   "start": "2027-02-20T19:00:00+02:00",
@@ -624,6 +696,24 @@
   "categories": [
    "Konsertit",
    "Paviljonki Klubi"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-diandra-bond/",
+  "title": "Jyväskylä Sinfonia: Diandra & Bond",
+  "start": "2027-02-24T18:00:00+02:00",
+  "end": "2027-02-24T18:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-diandra-bond/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-diandra-bond-paviljonki-22413120/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/24.2-640x640.jpg",
+  "description": "Jyväskylä Sinfonia Antti Rissanen, kapellimestari Diandra, laulu Mikä James Bond -elokuvan tunnussävelmä on tehnyt sinuun suurimman vaikutuksen? Ne ovat kokonaiselämyksen kannalta vähintään yhtä tärkeitä kuin agentti 007:n esittäjät. Bond-elokuvien tunnusmelodiat ovat etupäässä vahvaäänisten naisten laji ja suurille orkestereille sävellettyä musiikkia. Shirley Basseyn, Nancy Sinatran, Tina Turnerin, Adelen ja Billie Eilishin kaltaiset tähdet ovat antaneet äänen elokuville, joiden alkutahdit tunnistaa muutamasta sävelestä. Nyt pääset kokemaan ikoniset Bond-tunnarit yhdessä Diandran, kapellimes…",
+  "categories": [
+   "Konsertit"
   ]
  },
  {
@@ -680,6 +770,24 @@
   "categories": [
    "Konsertit",
    "Paviljonki Klubi"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-nuoret-tarinankertojat/",
+  "title": "Jyväskylä Sinfonia: Nuoret tarinankertojat",
+  "start": "2027-03-11T18:00:00+02:00",
+  "end": "2027-03-11T18:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-nuoret-tarinankertojat/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-nuoret-tarinankertojat-paviljonki-22413114/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/11.3-640x640.jpg",
+  "description": "Jyväskylä Sinfonia & Sinfoniaorkesteri Vivo Elisar Riddelin, kapellimestari Ella Griinari, viulu Jean Sibelius: Pohjolan tytär Sergei Prokofjev: Viulukonsertto nro 1 Florence Price: Sinfonia nro 3 Jyväskylä Sinfonialla ja nuorten sinfoniaorkesteri Vivolla oli kunnia esiintyä yhdessä ensi kertaa toissakesäisillä Mikkelin musiikkijuhlilla, ja nyt yhteistyö jatkuu edellisen kotipesässä! Vivo on kokoluokassaan Suomen ainoa valtakunnallisesti toimiva nuoriso-orkesteri, jonka ohjelmistot eivät kalpene ammattiorkesterien rinnalla ja josta tulevaisuuden musiikintekijät saavat korvaamatonta kokemusta.…",
+  "categories": [
+   "Konsertit"
   ]
  },
  {
@@ -771,6 +879,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-musikaalikonsertti-do-it-like-liza/",
+  "title": "Jyväskylä Sinfonia: Musikaalikonsertti: Do It Like Liza",
+  "start": "2027-04-02T18:00:00+03:00",
+  "end": "2027-04-02T17:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-musikaalikonsertti-do-it-like-liza/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-musikaalikonsertti-do-it-like-liza-paviljonki-22413123/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/2.4-640x640.jpg",
+  "description": "Eeva Kontu, kapellimestari Anna-Maija Tuokko, laulu Maria Ylipää, laulu Reija Wäre, koreografia ja ohjaus Niina Lahtinen, käsikirjoitus Broadwayn kirkkaimmat tähdet Liza Minelli, Julie Andrews ja Card Burnett näyttivät mallia, ja nyt on Anna-Maija Tuokon ja Maria Ylipään vuoro häikäistä! Suurten estradien voimakaksikko on luonut laulun ja tanssin juhlan. Tämä sädehtivä esitys vie musikaalin kultakausien ja uraauurtavan popmusiikin maailmaan, missä mikään ei ole mahdotonta. Anna-Maija ja Maria tulkitsevat sävelmiä musikaaleista Kristina från Duvemåla, Sunset Boulevard, Chicago, Sound of Music,…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/maustetytot-mt-unplugged-k18/",
   "title": "Maustetytöt: MT Unplugged K18",
   "start": "2027-04-03T19:00:00+03:00",
@@ -858,6 +984,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-tukholmasta-pariisiin/",
+  "title": "Jyväskylä Sinfonia: Tukholmasta Pariisiin",
+  "start": "2027-04-15T18:00:00+03:00",
+  "end": "2027-04-15T17:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-tukholmasta-pariisiin/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-tukholmasta-pariisiin-paviljonki-22413115/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/15.4-640x640.jpg",
+  "description": "Lorenzo Passerini, kapellimestari Massimo La Rosa, pasuuna Lars-Erik Larsson: Concertino pasuunalle ja jousille Joseph Martin Kraus: Sinfonia Es-duuri Henri Tomasi: Pasuunakonsertto Francis Poulenc: Sinfonietta Kuten tiedämme, pasuuna on ylikapellimestari Lorenzon oma soitin, mutta oletko koskaan kuullut pasuunaa solistin pallilla? Tuota orkesterin takarivin juhlavaa julistajaa ja merkinantajaa, jota ei itse asiassa Jyväskylä Sinfoniasta edes vakituisesti löydy? Aika korjata tilanne! Annamme Lorenzon keskittyä johtamiseen, mutta päästämme sisilialaisen pasuunataituri Massimo La Rosan näyttämä…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/haloo-helsinki-20-vuotisjuhlakiertue-2027/",
   "title": "Haloo Helsinki! 20-vuotisjuhlakiertue 2027",
   "start": "2027-04-16T19:00:00+03:00",
@@ -930,6 +1074,42 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-vappu-a-la-rantala-suosalo/",
+  "title": "Jyväskylä Sinfonia: Vappu á la Rantala & Suosalo",
+  "start": "2027-04-30T18:00:00+03:00",
+  "end": "2027-04-30T16:15:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-vappu-a-la-rantala-suosalo/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-vappu-a-la-rantala-suosalo-paviljonki-22413124/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/30.4-1-640x640.jpg",
+  "description": "Teemu Takanen, kapellimestari Iiro Rantala, piano Martti Suosalo, näyttelijä Vappu saa hulvattoman alun, kun vastustamattomat Iiro Rantala, Martti Suosalo ja Jyväskylä Sinfonia yhdistävät voimansa. Kapellimestari Teemu Takanen poksauttaa kokonaisuuden vappukuplien lailla soimaan ja johdattaa yleisön juhlatunnelmaan. Ilta käynnistyy Arvo Savelan (Suosalo) taloyhtiökokouksella: asukasyhdistysasiaa, järjestyssääntöjen läpikäyntiä ja lopulta intohimoinen sukellus Nummisuutareiden maailmaan. Iiro Rantala johdattaa yleisön 1700-luvun Italiaan Veneziana-sarjansa tunnelmissa, joissa romantiikka ja hu…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-vauva-ja-taaperokonsertti-savelia-pienille-korville/",
+  "title": "Jyväskylä Sinfonia: Vauva ja taaperokonsertti – Säveliä pienille korville",
+  "start": "2027-05-04T10:00:00+03:00",
+  "end": "2027-05-04T07:50:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-vauva-ja-taaperokonsertti-savelia-pienille-korville/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/4.5-640x640.jpg",
+  "description": "Ensimmäinen konserttielämys voi olla yhtä aikaa inspiroiva ja rentouttava. Vauva- ja taaperokonsertissa koko perhe pääsee tutustumaan orkesterimusiikin maailmaan rennosti ja mutkattomasti. Tässä konsertissa mennään lasten ehdoilla: salissa saa liikkua, ihmetellä ja jutellakin. Samalla vanhemmille tarjoutuu mahdollisuus hengähtää hetkeksi lapsiperhearjen keskellä kauniiden klassisen musiikin helmien parissa. Jyväskylä Sinfonia soittaa helposti lähestyttäviä, tuttuja ja tunnelmallisia klassisen musiikin suosikkikappaleita. Orkesteria johtaa konserttimestari Elias Lassfolk, joka kertoo myös soit…",
+  "categories": [
+   "Konsertit",
+   "Muut tapahtumat"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/ilta-kummelin-kanssa-k18/",
   "title": "Ilta Kummelin kanssa K18",
   "start": "2027-05-05T19:00:00+03:00",
@@ -981,6 +1161,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-sibeliuksen-paivakirjoista/",
+  "title": "Jyväskylä Sinfonia: Sibeliuksen päiväkirjoista",
+  "start": "2027-05-20T18:00:00+03:00",
+  "end": "2027-05-20T17:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskyla-sinfonia-sibeliuksen-paivakirjoista/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskyla-sinfonia-sibeliuksen-paivakirjoista-paviljonki-22413116/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/20.5-640x640.jpg",
+  "description": "Tomas Djupsjöbacka, kapellimestari Nicke Lignell, lukija Jean Sibelius: Musiikkia näytelmään Myrsky (osia) Jean Sibelius: Kolme fragmenttia sinfoniaan nro 8 Jean Sibelius: Sinfonia nro 4 Tuppaammeko me suomalaiset mystifioimaan Sibeliusta liikaa – hänen lyömätöntä nerouttaan, jylhää isänmaallisuuttaan ja ehtymätöntä luovuuttaan? Ei ehkä kannattaisi, sillä Sibelius oli aivan samanlainen kuolevainen kuin me kaikki: kipujen täyttämä, arka ja epäileväinen itseään kohtaan. Noin kuusikymppisenä Sibelius sai vielä sävellettyä häikäisevän rikasta musiikkia Shakespearen ajattomaan Myrsky-näytelmään, m…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/semmarit-dosetit-sekasin-konserttisaleissa/",
   "title": "Semmarit – Dosetit sekasin konserttisaleissa",
   "start": "2027-05-21T19:00:00+03:00",
@@ -993,6 +1191,24 @@
   "ticketUrl": "https://www.lippu.fi/event/semmarit-dosetit-sekasin-konserttisaleissa-paviljonki-22393150/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/semmarit_dosetit_sekasin_21052027_1080x1080-640x640.jpg",
   "description": "Dosetit sekasin konserttisaleissa – Semmareilta lääkkeet keväthuuman lietsomiseen Syksyn -26 riehakkaalla klubisetillään yleisönsä valloittanut Semmarit siirtyy keväällä konserttisaleihin. Lavalle nousee mieskuoro, joka ei ole koskaan oikein osannut olla vain mieskuoro. Maailma tuntuu olevan sekasin ja Semmareillakin on dosetit sekasin. Onneksi semmaridosetti on täynnä paitsi ilopillereitä, myös ajattelua ja tunteita vahvistavia tabletteja sekä luonnollisesti hyvää tarkoittavia placebo-voiteita. Dosetit sekasin konserttisaleissa -kiertueella päästään maistelemaan täysin upouusia herkkuja, sek…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/jyvaskylan-kesan-avajaiskonsertti-ilta-jyvaskyla-sinfonia/",
+  "title": "Jyväskylän Kesän avajaiskonsertti – Ilta & Jyväskylä Sinfonia",
+  "start": "2027-07-07T18:00:00+03:00",
+  "end": "2027-07-07T17:00:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/jyvaskylan-kesan-avajaiskonsertti-ilta-jyvaskyla-sinfonia/",
+  "ticketUrl": "https://www.lippu.fi/event/jyvaskylan-kesan-avajaiskonsertti-ilta-jyvaskyla-sinfonia-paviljonki-22413125/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/7.7-640x640.jpg",
+  "description": "Jyväskylän Kesän 2027 avaa lapsuutensa kotikaupunkiin palaava valovoimainen Ilta, joka nousee ensimmäistä kertaa lavalle sinfoniaorkesterin kanssa. Jyväskylä Sinfonian rinnalla soittaa Iltan oma yhtye. Jyväskylän Kesän teema vuonna 2027 on perintö. Avajaiskonsertissa kuullaan Iltan tunnetuimpia kappaleita ja festivaalin teemaan liittyviä poimintoja uusina sinfonisina sovituksina. Sovitukset ovat Jyväskylän Kesän tilaustyö. Ilta nousi 2020-luvulla suomalaisen popin eturiviin. Hänen kaksi ensimmäistä albumiaan, Näitä hetkiä varten (2020) ja Mä oon vaan ihminen (2023), ovat kultalevyjä. Kolmanne…",
   "categories": [
    "Konsertit"
   ]
