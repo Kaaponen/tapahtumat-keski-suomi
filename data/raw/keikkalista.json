@@ -1,21 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-23",
-  "title": "Maanantaijamit",
-  "start": "2026-11-23T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/maanantaijamit-ravintola-poppari-2026-11-23",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/timetiistai-freetime-freetime-2026-11-24",
   "title": "TimeTiistai@ Freetime",
   "start": "2026-11-24",
@@ -451,6 +436,22 @@
   "url": "https://www.keikkalista.fi/keikat/kohtaamisia-alma-solina-hale-heikkila-pk5-2026-11-29",
   "ticketUrl": "https://ticketmaster.evyy.net/c/7612088/2038755/23892?u=https%3A%2F%2Fwww.ticketmaster.fi%2Fevent%2Fkohtaamisia--alma-solina--hale-heikkila-lippuja%2F1050905678&utm_medium=affiliate",
   "image": "https://s1.ticketm.net/dam/a/94c/995d5a2b-4cee-483b-8951-e8ec45c2b94c_RETINA_PORTRAIT_16_9.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/konstan-joulu-2026-taulumaen-kirkko-2026-11-30",
+  "title": "Konstan joulu 2026",
+  "start": "2026-11-30T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Taulumäen kirkko",
+  "address": "Lohikoskentie 2",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/konstan-joulu-2026-taulumaen-kirkko-2026-11-30",
+  "ticketUrl": "https://ticketmaster.evyy.net/c/7612088/2038755/23892?u=https%3A%2F%2Fwww.ticketmaster.fi%2Fevent%2Fkonstan-joulu-2026-lippuja%2F1039750323&utm_medium=affiliate",
+  "image": "https://s1.ticketm.net/dam/e/046/15938952-4525-40cf-ac6a-1a53b8f28046_RETINA_PORTRAIT_16_9.jpg",
   "categories": [
    "keikat"
   ]

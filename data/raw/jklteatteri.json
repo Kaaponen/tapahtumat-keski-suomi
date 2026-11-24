@@ -2945,38 +2945,6 @@
  },
  {
   "source": "jklteatteri",
-  "sourceId": "vierailu-luolamies-2026-11-16-1830",
-  "title": "Luolamies",
-  "start": "2026-11-16T18:30:00+02:00",
-  "allDay": false,
-  "venue": "Jyväskylän kaupunginteatteri",
-  "city": "Jyväskylä",
-  "url": "https://www.jklteatteri.fi/kaupunginteatteri/ohjelmisto/vierailu-luolamies",
-  "ticketUrl": "https://www.lippu.fi/artist/jyvaeskylaen-kaupunginteatteri/luolamies-4160338/",
-  "image": "https://www.jklteatteri.fi/sites/default/files/2026-08/suosalo_Luolamies.jpg",
-  "description": "Luolamies (alkup. Defending the Caveman) on yhdysvaltalaisen Rob Beckerin kirjoittama hulvaton monologinäytelmä. Komedia pureutuu parisuhde-elämän kiemuroihin, väärinkäsityksiin ja sukupuolten välisiin eroihin tavalla, joka lähestyy vahvasti stand up -komiikkaa. Esitys on ollut maailmanluokan menestys; sen kantaesitys oli San Franciscossa vuonna 1991, minkä jälkeen se on rikkonut yleisöennätyksiä muun muassa Broadwaylla. Näytelmän suomennos on näyttelijä-kirjailija Ville Virtasen käsialaa.",
-  "categories": [
-   "teatteri"
-  ]
- },
- {
-  "source": "jklteatteri",
-  "sourceId": "vierailu-luolamies-2026-11-23-1830",
-  "title": "Luolamies",
-  "start": "2026-11-23T18:30:00+02:00",
-  "allDay": false,
-  "venue": "Jyväskylän kaupunginteatteri",
-  "city": "Jyväskylä",
-  "url": "https://www.jklteatteri.fi/kaupunginteatteri/ohjelmisto/vierailu-luolamies",
-  "ticketUrl": "https://www.lippu.fi/artist/jyvaeskylaen-kaupunginteatteri/luolamies-4160338/",
-  "image": "https://www.jklteatteri.fi/sites/default/files/2026-08/suosalo_Luolamies.jpg",
-  "description": "Luolamies (alkup. Defending the Caveman) on yhdysvaltalaisen Rob Beckerin kirjoittama hulvaton monologinäytelmä. Komedia pureutuu parisuhde-elämän kiemuroihin, väärinkäsityksiin ja sukupuolten välisiin eroihin tavalla, joka lähestyy vahvasti stand up -komiikkaa. Esitys on ollut maailmanluokan menestys; sen kantaesitys oli San Franciscossa vuonna 1991, minkä jälkeen se on rikkonut yleisöennätyksiä muun muassa Broadwaylla. Näytelmän suomennos on näyttelijä-kirjailija Ville Virtasen käsialaa.",
-  "categories": [
-   "teatteri"
-  ]
- },
- {
-  "source": "jklteatteri",
   "sourceId": "yhteistyo-maija-poppanen-tanssisatu-2026-11-28-1300",
   "title": "Maija Poppanen -tanssisatu",
   "start": "2026-11-28T13:00:00+02:00",
