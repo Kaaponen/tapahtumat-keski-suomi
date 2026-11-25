@@ -100,6 +100,24 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "23426",
+  "title": "Sauna + talvipulahdus",
+  "start": "2026-11-28T17:00:00+02:00",
+  "end": "2026-11-28T20:15:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Rantasauna",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-3/",
+  "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
+  "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
+  "categories": [
+   "Liikunta"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "21261",
   "title": "Popeda ja Dingo",
   "start": "2026-11-28T20:00:00+02:00",
@@ -118,15 +136,15 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "23426",
+  "sourceId": "23428",
   "title": "Sauna + talvipulahdus",
-  "start": "2026-11-28T17:00:00+02:00",
-  "end": "2026-11-28T20:15:00+02:00",
+  "start": "2026-12-02T17:00:00+02:00",
+  "end": "2026-12-02T20:15:00+02:00",
   "allDay": false,
   "venue": "Peurunka – Rantasauna",
   "address": "Peurungantie 85",
   "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-3/",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-4/",
   "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
   "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
   "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
@@ -148,24 +166,6 @@
   "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
   "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
   "categories": []
- },
- {
-  "source": "peurunka",
-  "sourceId": "23428",
-  "title": "Sauna + talvipulahdus",
-  "start": "2026-12-02T17:00:00+02:00",
-  "end": "2026-12-02T20:15:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Rantasauna",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-4/",
-  "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
-  "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
-  "categories": [
-   "Liikunta"
-  ]
  },
  {
   "source": "peurunka",
@@ -219,6 +219,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22683",
+  "title": "Karaokeillat",
+  "start": "2026-12-09",
+  "end": "2026-12-12",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-91/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "22877",
   "title": "Tanssit: Helena & Duo Sami Soininen",
   "start": "2026-12-09T20:00:00+02:00",
@@ -231,6 +246,24 @@
   "description": "Tanssit ravintolassa klo 20.00 alkaen Pääsolistina Helena Lerkkanen säestäjänään duo Sami Soininen. Vapaa pääsy! Tanssimme tuttujen sävelmien tahtiin: valssia, humppaa, tangoa ja muita suosikkirytmejä. Tanssittamassa meillä on Helena, jonka lämmin ääni ja välitön esiintyminen saavat yleisössä tanssijalat vipattamaan. Helena on nouseva tanssi-iskelmän tulkitsija, joka on hurmannut yleisönsä ympäri Suomen iloisella otteellaan. Helena esittää aitoa perinteistä suomalaista tanssimusiikkia, joka takaa viihtymisen tanssilattialla.",
   "categories": [
    "Tanssit"
+  ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "23431",
+  "title": "Sauna + talvipulahdus",
+  "start": "2026-12-09T17:00:00+02:00",
+  "end": "2026-12-09T20:15:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Rantasauna",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-5/",
+  "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
+  "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
+  "categories": [
+   "Liikunta"
   ]
  },
  {
@@ -253,39 +286,6 @@
    "Työhyvinvointi",
    "Työkyky",
    "Yrityksille"
-  ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22683",
-  "title": "Karaokeillat",
-  "start": "2026-12-09",
-  "end": "2026-12-12",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-91/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
- },
- {
-  "source": "peurunka",
-  "sourceId": "23431",
-  "title": "Sauna + talvipulahdus",
-  "start": "2026-12-09T17:00:00+02:00",
-  "end": "2026-12-09T20:15:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Rantasauna",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-5/",
-  "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
-  "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
-  "categories": [
-   "Liikunta"
   ]
  },
  {
@@ -409,23 +409,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "17308",
-  "title": "Touhu & Temmellys",
-  "start": "2026-12-26",
-  "end": "2027-01-06",
-  "allDay": true,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/touhu-temmellys-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/01/Lapst-Touhu-ja-temmellys.png",
-  "description": "Suuri leikkitila perheen pienimmille. Perheen pienimmille suunnattu Touhu ja Temmellys avoinna välipäivinä! Avoinna: Touhu&Temmellys avoinna hotellissa majoittuville 26.12.2026-6.1.2027 klo 12.00-18.00. Paikka: Peurunka Areena Pomppulinna Tasapainorata Värityskuvia Heittopiste Keppihevoset Lapset ovat vanhempien vastuulla, emme vastaa tapaturmista! Huomioithan myös pienet touhuajat: isompi väistää pienempää! Lapsia ei saa jättää yksin.",
-  "categories": [
-   "Perheille"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "23458",
   "title": "Savusauna, rantasauna & talvipulahdus",
   "start": "2026-12-26T16:00:00+02:00",
@@ -440,6 +423,23 @@
   "description": "Savusauna, rantasauna & talvipulahdus Koe virkistävä, perinteinen sauna- ja avantoelämys — talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sisältää ranta- ja savusaunan käytön sekä mahdollisuuden käydä avannossa. 🕔 valittuina lauantaina klo 16–20.15 💶 15 € / 2 h, jäsenille –20 % 🧖 Sekasauna, yhteiset pesutilat, omat pukeutumistilat miehille ja naisille 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yksin! Varaa vuoro! Huom! Keskiviikko…",
   "categories": [
    "Liikunta"
+  ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "17308",
+  "title": "Touhu & Temmellys",
+  "start": "2026-12-26",
+  "end": "2027-01-06",
+  "allDay": true,
+  "venue": "Peurunka – Peurunka Areena",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/touhu-temmellys-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/01/Lapst-Touhu-ja-temmellys.png",
+  "description": "Suuri leikkitila perheen pienimmille. Perheen pienimmille suunnattu Touhu ja Temmellys avoinna välipäivinä! Avoinna: Touhu&Temmellys avoinna hotellissa majoittuville 26.12.2026-6.1.2027 klo 12.00-18.00. Paikka: Peurunka Areena Pomppulinna Tasapainorata Värityskuvia Heittopiste Keppihevoset Lapset ovat vanhempien vastuulla, emme vastaa tapaturmista! Huomioithan myös pienet touhuajat: isompi väistää pienempää! Lapsia ei saa jättää yksin.",
+  "categories": [
+   "Perheille"
   ]
  },
  {
@@ -546,6 +546,23 @@
   "image": "https://peurunka.fi/wp-content/uploads/2026/06/Pipolatka-banneri-1920x10805-1.png",
   "description": "Siirry tälle sivulle: https://peurunka.fi/pipolatka/",
   "categories": []
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "23932",
+  "title": "Petri Nygård + Pasi ja Anssi",
+  "start": "2027-02-20T20:00:00+02:00",
+  "allDay": false,
+  "venue": "Peurunka – Peurunka Areena",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/petri-nygard-pasi-ja-anssi/",
+  "ticketUrl": "https://events.liveto.io/events/petri-nygard-pasi-anssi",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/11/Petri-Nygard-Pasi-ja-Anssi4.jpg",
+  "description": "PETRI NYGÅRD + PASI JA ANSSI PEURUNKA AREENALLA LA 20.2.2027! Kevään 2027 keikkakattaukseen saadaan meininkiä, kun helmikuussa lavalle nousevat Petri Nygård sekä Pasi ja Anssi – bileet on taattu! LIPUT MYYNNISSÄ NYT! Liput 35 € Livetosta Osta liput täältä! Keikka on K18! BILEET JA KYLPYLÄYÖ! Jää yöksi! Etkoile ja jatkoile rauhassa, poreile kylpylässä ja rentoudu! Varaa majoitus, ja lisää kätevästi keikkaliput varaukselle lisäpalveluna. Huone- ja hintatyypistä riippuen myös kylpylän ja kuntosalien käyttö sekä aamiainen sisältyvät hintaan. Katso lisää peurunka.fi/kampanja/kylpylayo-ja-bileet/",
+  "categories": [
+   "Keikat"
+  ]
  },
  {
   "source": "peurunka",

@@ -401,6 +401,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "dingo",
+  "title": "Dingo",
+  "start": "2027-02-05T19:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/dingo",
+  "ticketUrl": "https://www.jelmu.net/event/dingo",
+  "image": "https://www.jelmu.net/media/dingo-9562-tero-ahonen-laaja-01-300x300.jpg",
+  "description": "K18 · Ovet 19:00 · Keikka alkaa 21:00 · 27,00€ – 35,00€Hintaluokka: 27,00€ - 35,00€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "sara",
   "title": "Sara",
   "start": "2027-02-06T19:00:00+02:00",
