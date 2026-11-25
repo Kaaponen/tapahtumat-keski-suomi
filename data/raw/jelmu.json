@@ -593,6 +593,22 @@
  },
  {
   "source": "jelmu",
+  "sourceId": "vesterinen-yhtyeineen-paluu-lutakkoon-to",
+  "title": "Vesterinen Yhtyeineen",
+  "start": "2027-03-18T18:00:00+02:00",
+  "allDay": false,
+  "venue": "Lutakko",
+  "city": "Jyväskylä",
+  "url": "https://www.jelmu.net/event/vesterinen-yhtyeineen-paluu-lutakkoon-to",
+  "ticketUrl": "https://www.jelmu.net/event/vesterinen-yhtyeineen-paluu-lutakkoon-to",
+  "image": "https://www.jelmu.net/media/lutakko_torstai_vy_kevat_2027_1080x1080-300x300.jpg",
+  "description": "K18 · Ovet 18:00 · Keikka alkaa 20:00 · 35,40€ – 37,40€Hintaluokka: 35,40€ - 37,40€",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "jelmu",
   "sourceId": "vesterinen-yhtyeineen-paluu-lutakkoon-pe",
   "title": "Vesterinen Yhtyeineen",
   "start": "2027-03-19T19:00:00+02:00",
@@ -714,7 +730,7 @@
   "url": "https://www.jelmu.net/event/vesta-niin-etta-korvet-soi-2027",
   "ticketUrl": "https://www.jelmu.net/event/vesta-niin-etta-korvet-soi-2027",
   "image": "https://www.jelmu.net/media/whatsapp-image-2026-11-20-at-10.29.22-300x300.jpeg",
-  "description": "S · Ovet 18:00 · Keikka alkaa 19:00 · 24,00€ – 30,00€Hintaluokka: 24,00€ - 30,00€",
+  "description": "S · Ovet 18:00 · Keikka alkaa 20:00 · 24,00€ – 30,00€Hintaluokka: 24,00€ - 30,00€",
   "categories": [
    "keikat"
   ]

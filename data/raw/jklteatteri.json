@@ -2945,6 +2945,38 @@
  },
  {
   "source": "jklteatteri",
+  "sourceId": "kurkistus-kulisseihin-teatterikierros-2027-02-06-1100",
+  "title": "Kurkistus kulisseihin -teatterikierros",
+  "start": "2027-02-06T11:00:00+02:00",
+  "allDay": false,
+  "venue": "Jyväskylän kaupunginteatteri",
+  "city": "Jyväskylä",
+  "url": "https://www.jklteatteri.fi/kaupunginteatteri/ohjelmisto/kurkistus-kulisseihin-teatterikierros",
+  "ticketUrl": "https://jyvaskyla.lippu.fi/webshop/webticket/shop?production=344",
+  "image": "https://www.jklteatteri.fi/sites/default/files/2021-06/jklteatteri_kenkavarasto.jpg",
+  "description": "Kurkistus kulisseihinItse esitys on vain jäävuoren huippu sen eteen tehdystä työstä. Kulissikierroksella pääset sukeltamaan merenpinnan alle mm. näyttämöihin, lavastamoon, ompelimoon ja varastoihin. Lisäksi kuulet hyviä teatterijuttuja!Lähtö kierrokselle ala-aulasta. Kierros on esteinen, eli sisältää portaita ja ahtaita paikkoja.",
+  "categories": [
+   "teatteri"
+  ]
+ },
+ {
+  "source": "jklteatteri",
+  "sourceId": "kurkistus-kulisseihin-teatterikierros-2027-05-12-1400",
+  "title": "Kurkistus kulisseihin -teatterikierros",
+  "start": "2027-05-12T14:00:00+03:00",
+  "allDay": false,
+  "venue": "Jyväskylän kaupunginteatteri",
+  "city": "Jyväskylä",
+  "url": "https://www.jklteatteri.fi/kaupunginteatteri/ohjelmisto/kurkistus-kulisseihin-teatterikierros",
+  "ticketUrl": "https://jyvaskyla.lippu.fi/webshop/webticket/shop?production=344",
+  "image": "https://www.jklteatteri.fi/sites/default/files/2021-06/jklteatteri_kenkavarasto.jpg",
+  "description": "Kurkistus kulisseihinItse esitys on vain jäävuoren huippu sen eteen tehdystä työstä. Kulissikierroksella pääset sukeltamaan merenpinnan alle mm. näyttämöihin, lavastamoon, ompelimoon ja varastoihin. Lisäksi kuulet hyviä teatterijuttuja!Lähtö kierrokselle ala-aulasta. Kierros on esteinen, eli sisältää portaita ja ahtaita paikkoja.",
+  "categories": [
+   "teatteri"
+  ]
+ },
+ {
+  "source": "jklteatteri",
   "sourceId": "yhteistyo-maija-poppanen-tanssisatu-2026-11-28-1300",
   "title": "Maija Poppanen -tanssisatu",
   "start": "2026-11-28T13:00:00+02:00",
