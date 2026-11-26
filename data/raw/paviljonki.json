@@ -847,6 +847,24 @@
  },
  {
   "source": "paviljonki",
+  "sourceId": "https://www.paviljonki.fi/tapahtuma/saimaa-kevat-2027/",
+  "title": "Saimaa – Kevät 2027",
+  "start": "2027-03-25T19:00:00+02:00",
+  "end": "2027-03-25T19:15:00.000Z",
+  "allDay": false,
+  "venue": "Paviljonki – Encore-sali",
+  "address": "Lutakonaukio 12",
+  "city": "Jyväskylä",
+  "url": "https://www.paviljonki.fi/tapahtuma/saimaa-kevat-2027/",
+  "ticketUrl": "https://www.lippu.fi/event/saimaa-kevaet-2027-paviljonki-22451489/",
+  "image": "https://www.paviljonki.fi/wp-content/uploads/saimaa-27-jyvaskyla-1080x1080px-640x640.jpg",
+  "description": "Saimaa – Kevät 2027 Hurmoksellisista live-esiintymisistään tunnetta Saimaa suuntaa konserttisalikiertueelle keväällä 2027! Yhtye saapuu Jyväskylän Paviljonkiin torstaina 25. maaliskuuta. Huippumuusikoista koostuvan Saimaan seikkailu musiikin parissa on vapautunutta ja rajoittamatonta. Vaikka yhtye ottaa vaikutteita niin classic rockista, progesta, folkista kuin iskelmästäkin, on lopputulos helposti lähestyttävä ja tarttuva kokonaisuus. Matti Mikkolan kipparoima yhtye julkaisi vuonna 2024 kaksi viiden tähden albumia (Vol. 6 & Vol 7) puolen vuoden sisään. Saimaan Vol. 6- ja Vol. 7-albumit saiva…",
+  "categories": [
+   "Konsertit"
+  ]
+ },
+ {
+  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/jehovan-todistajien-konventti/",
   "title": "Jehovan todistajien konventti",
   "start": "2027-03-27T09:40:00+02:00",
