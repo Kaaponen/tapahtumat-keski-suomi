@@ -1,36 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/rapneck-lady-manhatta-kuntopiiri-mc-juge-jokeri-mi-rockneck-jyvaskyla-2026-11-25",
-  "title": "RapNeck: Lady Manhatta, Kuntopiiri, Mc Juge, Jokeri, Mikko Mato",
-  "start": "2026-11-25",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/rapneck-lady-manhatta-kuntopiiri-mc-juge-jokeri-mi-rockneck-jyvaskyla-2026-11-25",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/keskiviikkojamit-ravintola-poppari-2026-11-25",
-  "title": "Keskiviikkojamit",
-  "start": "2026-11-25T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/keskiviikkojamit-ravintola-poppari-2026-11-25",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70246d531d05fcc10c30c2795376e05c7bc6ddeb/logo-jyvaskyla-poppari.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/younghearted-joulukiertue-taulumaen-kirkko-2026-11-26",
   "title": "Younghearted - Joulukiertue",
   "start": "2026-11-26T17:30:00+03:00",
@@ -453,6 +423,37 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/anvil-ca-killer-be-lutakko-2026-12-02",
   "image": "https://www.jelmu.net/media/square-3-300x300.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/jazz-jkl-live-riitta-paakki-quartet-ravintola-poppari-2026-12-02",
+  "title": "Jazz Jkl Live: Riitta Paakki Quartet",
+  "start": "2026-12-02T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/jazz-jkl-live-riitta-paakki-quartet-ravintola-poppari-2026-12-02",
+  "image": "http://ravintolapoppari.fi/wp-content/uploads/jazz-paakk.png.jpeg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/jsan-talvinaytos-jyvaskylan-monitoimitalo-2026-12-03",
+  "title": "JSAn Talvinäytös",
+  "start": "2026-12-03T17:00:00+03:00",
+  "allDay": false,
+  "venue": "Jyväskylän monitoimitalo",
+  "address": "Kuntoportti 3, 40700 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/jsan-talvinaytos-jyvaskylan-monitoimitalo-2026-12-03",
+  "ticketUrl": "https://events.liveto.io/events/jsan-talvinaytos-1",
+  "image": "https://storage.googleapis.com/liveto-api/uploads/event_images/e734e04c7509fae8682df4f330c86724744d61f9b246cb1e056c6cd8b74e7935.png",
   "categories": [
    "keikat"
   ]

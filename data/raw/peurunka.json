@@ -33,24 +33,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "23424",
-  "title": "Sauna + talvipulahdus",
-  "start": "2026-11-25T17:00:00+02:00",
-  "end": "2026-11-25T20:15:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Rantasauna",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/sauna-talvipulahdus-2/",
-  "ticketUrl": "https://shop.peurunka.fi/courses/category/1654/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/12/Peurunka-talvimaisemat9.jpg",
-  "description": "Sauna & Talvipulahdus – Tervetuloa rentoutumaan! Koe virkistävä sauna- ja avantoelämys ympäri talven. Talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sauna + talvipulahdus Sisältää rantasaunan käytön & mahdollisuuden pulahtaa järveen virkistäytymään. Varaa vuoro 🕔 keskiviikkoisin ja valittuina lauantaina klo 17–20.15 💶 8 € / kerta (1,5h) – jäsenille -20 % 🧖 Sekasauna, yhteiset pesutilat 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yk…",
-  "categories": [
-   "Liikunta"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "18777",
   "title": "Jarkko Yli-Sikkilä & Soiva Orkesteri",
   "start": "2026-11-26T19:30:00+02:00",
@@ -219,33 +201,24 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "22683",
-  "title": "Karaokeillat",
-  "start": "2026-12-09",
-  "end": "2026-12-12",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-91/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
- },
- {
-  "source": "peurunka",
-  "sourceId": "22877",
-  "title": "Tanssit: Helena & Duo Sami Soininen",
-  "start": "2026-12-09T20:00:00+02:00",
+  "sourceId": "23915",
+  "title": "Webinaari: Työhyvinvointi ei synny sattumalta – miten rakennetaan vaikuttava työhyvinvointikulttuuri?",
+  "start": "2026-12-09T08:30:00+02:00",
+  "end": "2026-12-09T09:30:00+02:00",
   "allDay": false,
-  "venue": "Peurunka – Ravintola",
+  "venue": "Peurunka – Teams",
   "address": "Peurungantie 85",
   "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/tanssit-helena-duo-sami-soininen/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/02/Helena-vaaka.jpg",
-  "description": "Tanssit ravintolassa klo 20.00 alkaen Pääsolistina Helena Lerkkanen säestäjänään duo Sami Soininen. Vapaa pääsy! Tanssimme tuttujen sävelmien tahtiin: valssia, humppaa, tangoa ja muita suosikkirytmejä. Tanssittamassa meillä on Helena, jonka lämmin ääni ja välitön esiintyminen saavat yleisössä tanssijalat vipattamaan. Helena on nouseva tanssi-iskelmän tulkitsija, joka on hurmannut yleisönsä ympäri Suomen iloisella otteellaan. Helena esittää aitoa perinteistä suomalaista tanssimusiikkia, joka takaa viihtymisen tanssilattialla.",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/webinaari-tyohyvinvointi-ei-synny-sattumalta-miten-rakennetaan-vaikuttava-tyohyvinvointikulttuuri/",
+  "image": "https://peurunka.fi/wp-content/uploads/2026/11/Mediasisalto-6.jpg",
+  "description": "Peurunka Worklife – tutkimuksesta käytännön työhyvinvoinnin johtamiseen Miten tutkimusperustaisella työhyvinvoinnin johtamisella rakennetaan hyvinvoivaa ja toimintakykyistä työyhteisöä? Organisaatioiden työhyvinvoinnin edistämisen toimet ovat usein pistemäisiä. Järjestetään henkilöstöpäiviä, tarjotaan liikunta- ja kulttuuriseteitä, tehdään kyselyitä ja käynnistetään erilaisia kampanjoita. Silti yksi kysymys jää usein liian vähälle huomiolle: Vaikuttavatko tekemämme toimenpiteet todella niihin asioihin, joilla on merkitystä henkilöstön työkyvylle, organisaation toimintakyvylle ja pitkäjänteise…",
   "categories": [
-   "Tanssit"
+   "Esihenkilöt",
+   "Johtaminen",
+   "Kuntoutus",
+   "Työhyvinvointi",
+   "Työkyky",
+   "Yrityksille"
   ]
  },
  {
@@ -268,25 +241,34 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "23915",
-  "title": "Webinaari: Työhyvinvointi ei synny sattumalta – miten rakennetaan vaikuttava työhyvinvointikulttuuri?",
-  "start": "2026-12-09T08:30:00+02:00",
-  "end": "2026-12-09T09:30:00+02:00",
+  "sourceId": "22877",
+  "title": "Tanssit: Helena & Duo Sami Soininen",
+  "start": "2026-12-09T20:00:00+02:00",
   "allDay": false,
-  "venue": "Peurunka – Teams",
+  "venue": "Peurunka – Ravintola",
   "address": "Peurungantie 85",
   "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/webinaari-tyohyvinvointi-ei-synny-sattumalta-miten-rakennetaan-vaikuttava-tyohyvinvointikulttuuri/",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/11/Mediasisalto-6.jpg",
-  "description": "Peurunka Worklife – tutkimuksesta käytännön työhyvinvoinnin johtamiseen Miten tutkimusperustaisella työhyvinvoinnin johtamisella rakennetaan hyvinvoivaa ja toimintakykyistä työyhteisöä? Organisaatioiden työhyvinvoinnin edistämisen toimet ovat usein pistemäisiä. Järjestetään henkilöstöpäiviä, tarjotaan liikunta- ja kulttuuriseteitä, tehdään kyselyitä ja käynnistetään erilaisia kampanjoita. Silti yksi kysymys jää usein liian vähälle huomiolle: Vaikuttavatko tekemämme toimenpiteet todella niihin asioihin, joilla on merkitystä henkilöstön työkyvylle, organisaation toimintakyvylle ja pitkäjänteise…",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/tanssit-helena-duo-sami-soininen/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/02/Helena-vaaka.jpg",
+  "description": "Tanssit ravintolassa klo 20.00 alkaen Pääsolistina Helena Lerkkanen säestäjänään duo Sami Soininen. Vapaa pääsy! Tanssimme tuttujen sävelmien tahtiin: valssia, humppaa, tangoa ja muita suosikkirytmejä. Tanssittamassa meillä on Helena, jonka lämmin ääni ja välitön esiintyminen saavat yleisössä tanssijalat vipattamaan. Helena on nouseva tanssi-iskelmän tulkitsija, joka on hurmannut yleisönsä ympäri Suomen iloisella otteellaan. Helena esittää aitoa perinteistä suomalaista tanssimusiikkia, joka takaa viihtymisen tanssilattialla.",
   "categories": [
-   "Esihenkilöt",
-   "Johtaminen",
-   "Kuntoutus",
-   "Työhyvinvointi",
-   "Työkyky",
-   "Yrityksille"
+   "Tanssit"
   ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "22683",
+  "title": "Karaokeillat",
+  "start": "2026-12-09",
+  "end": "2026-12-12",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-91/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
  },
  {
   "source": "peurunka",
@@ -409,6 +391,23 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "17308",
+  "title": "Touhu & Temmellys",
+  "start": "2026-12-26",
+  "end": "2027-01-06",
+  "allDay": true,
+  "venue": "Peurunka – Peurunka Areena",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/touhu-temmellys-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/01/Lapst-Touhu-ja-temmellys.png",
+  "description": "Suuri leikkitila perheen pienimmille. Perheen pienimmille suunnattu Touhu ja Temmellys avoinna välipäivinä! Avoinna: Touhu&Temmellys avoinna hotellissa majoittuville 26.12.2026-6.1.2027 klo 12.00-18.00. Paikka: Peurunka Areena Pomppulinna Tasapainorata Värityskuvia Heittopiste Keppihevoset Lapset ovat vanhempien vastuulla, emme vastaa tapaturmista! Huomioithan myös pienet touhuajat: isompi väistää pienempää! Lapsia ei saa jättää yksin.",
+  "categories": [
+   "Perheille"
+  ]
+ },
+ {
+  "source": "peurunka",
   "sourceId": "23458",
   "title": "Savusauna, rantasauna & talvipulahdus",
   "start": "2026-12-26T16:00:00+02:00",
@@ -423,23 +422,6 @@
   "description": "Savusauna, rantasauna & talvipulahdus Koe virkistävä, perinteinen sauna- ja avantoelämys — talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sisältää ranta- ja savusaunan käytön sekä mahdollisuuden käydä avannossa. 🕔 valittuina lauantaina klo 16–20.15 💶 15 € / 2 h, jäsenille –20 % 🧖 Sekasauna, yhteiset pesutilat, omat pukeutumistilat miehille ja naisille 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yksin! Varaa vuoro! Huom! Keskiviikko…",
   "categories": [
    "Liikunta"
-  ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "17308",
-  "title": "Touhu & Temmellys",
-  "start": "2026-12-26",
-  "end": "2027-01-06",
-  "allDay": true,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/touhu-temmellys-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/01/Lapst-Touhu-ja-temmellys.png",
-  "description": "Suuri leikkitila perheen pienimmille. Perheen pienimmille suunnattu Touhu ja Temmellys avoinna välipäivinä! Avoinna: Touhu&Temmellys avoinna hotellissa majoittuville 26.12.2026-6.1.2027 klo 12.00-18.00. Paikka: Peurunka Areena Pomppulinna Tasapainorata Värityskuvia Heittopiste Keppihevoset Lapset ovat vanhempien vastuulla, emme vastaa tapaturmista! Huomioithan myös pienet touhuajat: isompi väistää pienempää! Lapsia ei saa jättää yksin.",
-  "categories": [
-   "Perheille"
   ]
  },
  {
