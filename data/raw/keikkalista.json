@@ -62,6 +62,22 @@
  },
  {
   "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/john-smith-rock-frozen-perjantai-paviljonki-jyvaskyla-2026-11-27",
+  "title": "John Smith Rock Frozen perjantai",
+  "start": "2026-11-27",
+  "allDay": true,
+  "venue": "Paviljonki Jyväskylä",
+  "address": "Lutakonaukio 12, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/john-smith-rock-frozen-perjantai-paviljonki-jyvaskyla-2026-11-27",
+  "ticketUrl": "https://www.lippu.fi/artist/john-smith/",
+  "image": "https://i.scdn.co/image/ab6761610000e5eb51ba2c239e9b90d417f1d23e",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/hamarat-unet-lintudisko-kosmiset-exat-alakulttuuritalo-kramsu-2026-11-27",
   "title": "Hämärät unet, Lintudisko & Kosmiset exät",
   "start": "2026-11-27",
@@ -152,14 +168,14 @@
  },
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/john-smith-rock-frozen-k18-paviljonki-jyvaskyla-2026-11-28",
-  "title": "John Smith Rock Frozen K18",
+  "sourceId": "https://www.keikkalista.fi/keikat/john-smith-rock-frozen-lauantai-paviljonki-jyvaskyla-2026-11-28",
+  "title": "John Smith Rock Frozen lauantai",
   "start": "2026-11-28",
   "allDay": true,
   "venue": "Paviljonki Jyväskylä",
   "address": "Lutakonaukio 12, 40100 Jyväskylä",
   "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/john-smith-rock-frozen-k18-paviljonki-jyvaskyla-2026-11-28",
+  "url": "https://www.keikkalista.fi/keikat/john-smith-rock-frozen-lauantai-paviljonki-jyvaskyla-2026-11-28",
   "ticketUrl": "https://www.lippu.fi/artist/john-smith/",
   "image": "https://www.paviljonki.fi/wp-content/uploads/js-frozen-2026-set-2-europe-2-1080x1080-1.jpg",
   "categories": [
@@ -438,21 +454,6 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/turmion-katilot-the-ghoulstars-lutakko-2026-12-03",
   "image": "https://www.jelmu.net/media/tk_eventplanssi-300x300.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/back-to-the-90-s-freetime-freetime-2026-12-04",
-  "title": "Back to the 90's @ Freetime",
-  "start": "2026-12-04",
-  "allDay": true,
-  "venue": "Freetime",
-  "address": "Kauppakatu 30, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/back-to-the-90-s-freetime-freetime-2026-12-04",
-  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/FdGkXwyAKyC9s_yWOn6aZj?clientId=5574",
   "categories": [
    "keikat"
   ]
