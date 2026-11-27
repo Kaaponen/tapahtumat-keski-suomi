@@ -33,23 +33,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "18777",
-  "title": "Jarkko Yli-Sikkilä & Soiva Orkesteri",
-  "start": "2026-11-26T19:30:00+02:00",
-  "allDay": false,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/jarkko-ylisikkila-ja-soiva-orkesteri-2/",
-  "ticketUrl": "https://www.ticketmaster.fi/event/726368513",
-  "image": "https://peurunka.fi/wp-content/uploads/2026/03/jarkko-ja-soiva.jpg",
-  "description": "TORSTAITANSSIT PEURUNKA AREENALLA Torstaitanssit : Jarkko Yli-Sikkilä & Soiva Orkesteri Tanssit Peurunka Areenalla to 26.11.2026 Ovet auki klo 19.30 Tanssit alkaa klo 20.00 Tanssit K18 Liput 20 € ja majoittuville asiakkaille 15 €. MAJOITUS & TANSSILIPUT Jää yöksi! Nauti hotelliyöstä, kylpylästä ja kuntosaleista, aamiaisesta sekä tietenkin tansseista. Varaa majoitus, ja lisää tanssiliput kätevästi varaukselle lisäpalveluna. Huone- ja hintatyypistä riippuen myös kylpylän ja kuntosalien käyttö sekä aamiainen sisältyvät hintaan. Tutustu lisää: peurunka.fi/ravintolat/peurungan-tanssit/",
-  "categories": [
-   "Tanssit"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "19859",
   "title": "Yö + Olli Halonen + Jonna Tervomaa Duo",
   "start": "2026-11-27T20:00:00+02:00",
@@ -201,6 +184,21 @@
  },
  {
   "source": "peurunka",
+  "sourceId": "22683",
+  "title": "Karaokeillat",
+  "start": "2026-12-09",
+  "end": "2026-12-12",
+  "allDay": true,
+  "venue": "Peurunka – Pub",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-91/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
+  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
+  "categories": []
+ },
+ {
+  "source": "peurunka",
   "sourceId": "23915",
   "title": "Webinaari: Työhyvinvointi ei synny sattumalta – miten rakennetaan vaikuttava työhyvinvointikulttuuri?",
   "start": "2026-12-09T08:30:00+02:00",
@@ -254,21 +252,6 @@
   "categories": [
    "Tanssit"
   ]
- },
- {
-  "source": "peurunka",
-  "sourceId": "22683",
-  "title": "Karaokeillat",
-  "start": "2026-12-09",
-  "end": "2026-12-12",
-  "allDay": true,
-  "venue": "Peurunka – Pub",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/karaokeillat-91/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/04/Apollo-karaoke-e1714463310796.jpg",
-  "description": "Karaokeillat Pubissa keskiviikosta lauantaihin, tervetuloa! Karaokea ke-la klo 20.00 alkaen. Pidätämme oikeudet muutoksiin.",
-  "categories": []
  },
  {
   "source": "peurunka",
@@ -391,23 +374,6 @@
  },
  {
   "source": "peurunka",
-  "sourceId": "17308",
-  "title": "Touhu & Temmellys",
-  "start": "2026-12-26",
-  "end": "2027-01-06",
-  "allDay": true,
-  "venue": "Peurunka – Peurunka Areena",
-  "address": "Peurungantie 85",
-  "city": "Laukaa",
-  "url": "https://peurunka.fi/kaikki-tapahtumat/touhu-temmellys-2/",
-  "image": "https://peurunka.fi/wp-content/uploads/2024/01/Lapst-Touhu-ja-temmellys.png",
-  "description": "Suuri leikkitila perheen pienimmille. Perheen pienimmille suunnattu Touhu ja Temmellys avoinna välipäivinä! Avoinna: Touhu&Temmellys avoinna hotellissa majoittuville 26.12.2026-6.1.2027 klo 12.00-18.00. Paikka: Peurunka Areena Pomppulinna Tasapainorata Värityskuvia Heittopiste Keppihevoset Lapset ovat vanhempien vastuulla, emme vastaa tapaturmista! Huomioithan myös pienet touhuajat: isompi väistää pienempää! Lapsia ei saa jättää yksin.",
-  "categories": [
-   "Perheille"
-  ]
- },
- {
-  "source": "peurunka",
   "sourceId": "23458",
   "title": "Savusauna, rantasauna & talvipulahdus",
   "start": "2026-12-26T16:00:00+02:00",
@@ -422,6 +388,23 @@
   "description": "Savusauna, rantasauna & talvipulahdus Koe virkistävä, perinteinen sauna- ja avantoelämys — talviuinnilla on monia hyvinvointivaikutuksia: kylmä vesi aktivoi hermostoa ja immuunijärjestelmää, edistää verenkiertoa ja voi auttaa kehoa sietämään kylmää paremmin. Sisältää ranta- ja savusaunan käytön sekä mahdollisuuden käydä avannossa. 🕔 valittuina lauantaina klo 16–20.15 💶 15 € / 2 h, jäsenille –20 % 🧖 Sekasauna, yhteiset pesutilat, omat pukeutumistilat miehille ja naisille 💧 Avannon kohdalla matala veden syvyys ⚠️ Turvallisuus ennen kaikkea – avantoon ei yksin! Varaa vuoro! Huom! Keskiviikko…",
   "categories": [
    "Liikunta"
+  ]
+ },
+ {
+  "source": "peurunka",
+  "sourceId": "17308",
+  "title": "Touhu & Temmellys",
+  "start": "2026-12-26",
+  "end": "2027-01-06",
+  "allDay": true,
+  "venue": "Peurunka – Peurunka Areena",
+  "address": "Peurungantie 85",
+  "city": "Laukaa",
+  "url": "https://peurunka.fi/kaikki-tapahtumat/touhu-temmellys-2/",
+  "image": "https://peurunka.fi/wp-content/uploads/2024/01/Lapst-Touhu-ja-temmellys.png",
+  "description": "Suuri leikkitila perheen pienimmille. Perheen pienimmille suunnattu Touhu ja Temmellys avoinna välipäivinä! Avoinna: Touhu&Temmellys avoinna hotellissa majoittuville 26.12.2026-6.1.2027 klo 12.00-18.00. Paikka: Peurunka Areena Pomppulinna Tasapainorata Värityskuvia Heittopiste Keppihevoset Lapset ovat vanhempien vastuulla, emme vastaa tapaturmista! Huomioithan myös pienet touhuajat: isompi väistää pienempää! Lapsia ei saa jättää yksin.",
+  "categories": [
+   "Perheille"
   ]
  },
  {
