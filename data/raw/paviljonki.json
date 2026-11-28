@@ -1,26 +1,6 @@
 [
  {
   "source": "paviljonki",
-  "sourceId": "https://www.paviljonki.fi/tapahtuma/jarkko-tamminen-stars-show/",
-  "title": "Jarkko Tamminen – Stars Show",
-  "start": "2026-11-27T19:00:00+02:00",
-  "end": "2026-11-27T19:30:00.000Z",
-  "allDay": false,
-  "venue": "Paviljonki – Encore-sali",
-  "address": "Lutakonaukio 12",
-  "city": "Jyväskylä",
-  "url": "https://www.paviljonki.fi/tapahtuma/jarkko-tamminen-stars-show/",
-  "ticketUrl": "https://www.lippu.fi/event/name-21372680",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/starsshow_1080x1080-1-640x640.jpg",
-  "description": "Jarkko Tamminen – Stars Show Yleisömenestys Stars Show tekee paluun! Revyymäinen lauluimitaatioshow säihkyy, hämmästyttää, hurmaa, naurattaa ja valloittaa! Show’ssa näyttelijä-imitaattori Jarkko Tamminen imitoi ja parodioi yli 40 tunnettua tähteä: kotimaisia ja ulkomaisia persoonia viihteen, urheilun, politiikan ja musiikin huipulta. Jarkon lisäksi iltaa tähdittää Laura Voutilainen, joka esiintyy Stars Show’ssa myös imitaattorina! Vilkkuvien värivalojen ja kirkkaan jättiscreenin loisteessa nähdään myös Suomen taitavimmista muusikoista koostuva nelihenkinen livebändi sekä eri viihdeohjelmista…",
-  "categories": [
-   "Muu viihde",
-   "Pikkujoulut",
-   "Show&Dinner"
-  ]
- },
- {
-  "source": "paviljonki",
   "sourceId": "https://www.paviljonki.fi/tapahtuma/john-smith-rock-frozen-k18/",
   "title": "John Smith Rock Frozen K18",
   "start": "2026-11-27",

@@ -1,173 +1,6 @@
 [
  {
   "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/bubble-pop-club-freetime-freetime-2026-11-27",
-  "title": "Bubble Pop Club @ Freetime",
-  "start": "2026-11-27",
-  "allDay": true,
-  "venue": "Freetime",
-  "address": "Kauppakatu 30, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/bubble-pop-club-freetime-freetime-2026-11-27",
-  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/4Ad3R6YBqR39eLF7OGOar_?clientId=5574",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/revolution-iholla-paka-27-11-2026-revolution-2026-11-27",
-  "title": "Revolution Iholla Päkä 27.11.2026",
-  "start": "2026-11-27",
-  "allDay": true,
-  "venue": "Revolution",
-  "address": "Kauppakatu 30, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/revolution-iholla-paka-27-11-2026-revolution-2026-11-27",
-  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/Fk0Tq9V2KbsApGUcxs_9xW?clientId=5574",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/paka-revolution-2026-11-27",
-  "title": "Päkä",
-  "start": "2026-11-27",
-  "allDay": true,
-  "venue": "Revolution",
-  "address": "Kauppakatu 30, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/paka-revolution-2026-11-27",
-  "image": "https://i.scdn.co/image/ab6761610000e5ebe70064d373426208bd1fa5c6",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/arttu-wiskari-suomi-finland-prkl-konserttisalikier-paviljonki-jyvaskyla-2026-11-27",
-  "title": "ARTTU WISKARI – Suomi Finland PRKL -konserttisalikiertue",
-  "start": "2026-11-27",
-  "allDay": true,
-  "venue": "Paviljonki Jyväskylä",
-  "address": "Lutakonaukio 12, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/arttu-wiskari-suomi-finland-prkl-konserttisalikier-paviljonki-jyvaskyla-2026-11-27",
-  "ticketUrl": "https://www.lippu.fi/event/arttu-wiskari-suomi-finland-prkl-paviljonki-22321882/",
-  "image": "https://www.paviljonki.fi/wp-content/uploads/1080x1080_arttu-wiskari-nelio-jyvaskyla.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/john-smith-rock-frozen-perjantai-paviljonki-jyvaskyla-2026-11-27",
-  "title": "John Smith Rock Frozen perjantai",
-  "start": "2026-11-27",
-  "allDay": true,
-  "venue": "Paviljonki Jyväskylä",
-  "address": "Lutakonaukio 12, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/john-smith-rock-frozen-perjantai-paviljonki-jyvaskyla-2026-11-27",
-  "ticketUrl": "https://www.lippu.fi/artist/john-smith/",
-  "image": "https://i.scdn.co/image/ab6761610000e5eb51ba2c239e9b90d417f1d23e",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/hamarat-unet-lintudisko-kosmiset-exat-alakulttuuritalo-kramsu-2026-11-27",
-  "title": "Hämärät unet, Lintudisko & Kosmiset exät",
-  "start": "2026-11-27",
-  "allDay": true,
-  "venue": "Alakulttuuritalo Kramsu",
-  "address": "Kramsunkatu 5, päärakennus, 40600 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/hamarat-unet-lintudisko-kosmiset-exat-alakulttuuritalo-kramsu-2026-11-27",
-  "image": "https://www.ylakulttuuri.fi/wp-content/uploads/2026/11/2026-11-27-tapahtuma-768x432.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/bilejuna-london-2026-11-27",
-  "title": "Bilejuna",
-  "start": "2026-11-27",
-  "allDay": true,
-  "venue": "London",
-  "address": "Puistokatu 2, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/bilejuna-london-2026-11-27",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/trio-leka-rockneck-jyvaskyla-2026-11-27",
-  "title": "Trio Leka",
-  "start": "2026-11-27",
-  "allDay": true,
-  "venue": "RockNeck Jyväskylä",
-  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/trio-leka-rockneck-jyvaskyla-2026-11-27",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/d1vari-tour-jyvaskyla-lutakko-2026-11-27",
-  "title": "D1VARI TOUR – Jyväskylä",
-  "start": "2026-11-27T19:00:00+03:00",
-  "allDay": false,
-  "venue": "Tanssisali Lutakko",
-  "address": "Lutakonaukio 3",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/d1vari-tour-jyvaskyla-lutakko-2026-11-27",
-  "image": "https://www.jelmu.net/media/d1vari_jyvaskyla-300x300.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/c-wave-pitkavirta-delfoi-road-ravintola-poppari-2026-11-27",
-  "title": "C-Wave + Pitkävirta + Delfoi Road",
-  "start": "2026-11-27T20:30:00+03:00",
-  "allDay": false,
-  "venue": "Poppari",
-  "address": "Puistokatu 2-4",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/c-wave-pitkavirta-delfoi-road-ravintola-poppari-2026-11-27",
-  "image": "http://ravintolapoppari.fi/wp-content/uploads/C-WAVE_promo_Kuvaaja-Johannes-Myllymaki.jpg",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
-  "sourceId": "https://www.keikkalista.fi/keikat/moonshine-gold-harry-s-jyvaskyla-2026-11-27",
-  "title": "Moonshine Gold",
-  "start": "2026-11-27T23:00:00+03:00",
-  "allDay": false,
-  "venue": "Harry's Jyväskylä",
-  "address": "Kauppakatu 41, 40100 Jyväskylä",
-  "city": "Jyväskylä",
-  "url": "https://www.keikkalista.fi/keikat/moonshine-gold-harry-s-jyvaskyla-2026-11-27",
-  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b151ee1368eadbdc35bd1fa02a795102840f150/logo-jyvaskyla-harrys.png",
-  "categories": [
-   "keikat"
-  ]
- },
- {
-  "source": "keikkalista",
   "sourceId": "https://www.keikkalista.fi/keikat/john-smith-rock-frozen-lauantai-paviljonki-jyvaskyla-2026-11-28",
   "title": "John Smith Rock Frozen lauantai",
   "start": "2026-11-28",
@@ -454,6 +287,172 @@
   "city": "Jyväskylä",
   "url": "https://www.keikkalista.fi/keikat/turmion-katilot-the-ghoulstars-lutakko-2026-12-03",
   "image": "https://www.jelmu.net/media/tk_eventplanssi-300x300.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/back-to-the-90-s-freetime-freetime-2026-12-04",
+  "title": "Back to the 90's @ Freetime",
+  "start": "2026-12-04",
+  "allDay": true,
+  "venue": "Freetime",
+  "address": "Kauppakatu 30, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/back-to-the-90-s-freetime-freetime-2026-12-04",
+  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/FdGkXwyAKyC9s_yWOn6aZj?clientId=5574",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/revolution-iholla-axel-kala-4-12-2026-revolution-2026-12-04",
+  "title": "Revolution Iholla Axel Kala 4.12.2026",
+  "start": "2026-12-04",
+  "allDay": true,
+  "venue": "Revolution",
+  "address": "Kauppakatu 30, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/revolution-iholla-axel-kala-4-12-2026-revolution-2026-12-04",
+  "image": "https://cdn.s-cloud.fi/v1/assets/dam-id/B-ZqOtOUaAB8VdRQt8BS38?clientId=5574",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/jimmy-cola-london-2026-12-04",
+  "title": "Jimmy Cola",
+  "start": "2026-12-04",
+  "allDay": true,
+  "venue": "London",
+  "address": "Puistokatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/jimmy-cola-london-2026-12-04",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/dirty-deeds-indeed-ac-dc-super-show-rockneck-jyvaskyla-2026-12-04",
+  "title": "Dirty Deeds Indeed – AC/DC Super Show",
+  "start": "2026-12-04",
+  "allDay": true,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/dirty-deeds-indeed-ac-dc-super-show-rockneck-jyvaskyla-2026-12-04",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/linda-lampenius-perttu-kivilaakso-joulukonsertti-taulumaen-kirkko-2026-12-04",
+  "title": "Linda Lampenius & Perttu Kivilaakso: Joulukonsertti",
+  "start": "2026-12-04T17:00:00+03:00",
+  "allDay": false,
+  "venue": "Taulumäen kirkko",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/linda-lampenius-perttu-kivilaakso-joulukonsertti-taulumaen-kirkko-2026-12-04",
+  "ticketUrl": "https://www.tiketti.fi/linda-lampenius-perttu-kivilaakso-taulumaen-kirkko-jyvaskyla-lippuja/118694",
+  "image": "https://www.tiketti.fi/kuvat/EV118694_7_768x470_TKT_lindaperttu_joulukonsertti_768x470px_1.jpg",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/joulun-valopilkku-palokan-koulukeskus-2026-12-04",
+  "title": "Joulun valopilkku",
+  "start": "2026-12-04T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Palokan koulukeskus",
+  "address": "Koivutie 5, 40270 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/joulun-valopilkku-palokan-koulukeskus-2026-12-04",
+  "ticketUrl": "https://www.netticket.fi/joulun-valopilkku",
+  "image": "https://www.netticket.fi/images/webkuvat/VaputJoulu26.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/turmion-katilot-the-ghoulstars-lutakko-2026-12-04",
+  "title": "Turmion Kätilöt + The Ghoulstars",
+  "start": "2026-12-04T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Tanssisali Lutakko",
+  "address": "Lutakonaukio 3",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/turmion-katilot-the-ghoulstars-lutakko-2026-12-04",
+  "image": "https://www.jelmu.net/media/tk_eventplanssi-300x300.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/musaklubi-ravintola-poppari-2026-12-04",
+  "title": "Musaklubi",
+  "start": "2026-12-04T19:00:00+03:00",
+  "allDay": false,
+  "venue": "Poppari",
+  "address": "Puistokatu 2-4",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/musaklubi-ravintola-poppari-2026-12-04",
+  "image": "http://ravintolapoppari.fi/wp-content/uploads/Vaaleanpunaiset-bleiserit-ja-iloiset-ilmeet.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/shut-the-funk-up-london-2026-12-05",
+  "title": "Shut the Funk Up",
+  "start": "2026-12-05",
+  "allDay": true,
+  "venue": "London",
+  "address": "Puistokatu 2, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/shut-the-funk-up-london-2026-12-05",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89320bcfc6c8c86f080c346c445c43dfcbbe7a37/logo-jyvaskyla-london.png",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/jaakko-kulta-aaro630-pihalla-la-musta-kynnys-2026-12-05",
+  "title": "JAAKKO KULTA, AARO630, PIHALLA (la)",
+  "start": "2026-12-05",
+  "allDay": true,
+  "venue": "Musta Kynnys",
+  "address": "Hannikaisenkatu 16, 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/jaakko-kulta-aaro630-pihalla-la-musta-kynnys-2026-12-05",
+  "image": "https://i.scdn.co/image/ab6761610000e5ebb9f9c9eb8842d6bc7f2b2881",
+  "categories": [
+   "keikat"
+  ]
+ },
+ {
+  "source": "keikkalista",
+  "sourceId": "https://www.keikkalista.fi/keikat/hautajaisyo-trauma-field-kituma-rockneck-jyvaskyla-2026-12-05",
+  "title": "Hautajaisyö / Trauma Field / Kituma",
+  "start": "2026-12-05",
+  "allDay": true,
+  "venue": "RockNeck Jyväskylä",
+  "address": "Asemakatu 7 (Forum), 40100 Jyväskylä",
+  "city": "Jyväskylä",
+  "url": "https://www.keikkalista.fi/keikat/hautajaisyo-trauma-field-kituma-rockneck-jyvaskyla-2026-12-05",
+  "image": "https://www.keikkalista.fi/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e01f862d33606db06cb93accc661921eaca4b914/logo-jyvaskyla-rockneck.png",
   "categories": [
    "keikat"
   ]
